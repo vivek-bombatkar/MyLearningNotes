@@ -1,3 +1,4 @@
+#Because its never late to start taking notes and 'public' it...
 
 ## 01/29/2018 
 ###get HDFS file size 
