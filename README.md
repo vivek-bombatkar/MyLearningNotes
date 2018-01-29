@@ -1,7 +1,7 @@
-#Because its never late to start taking notes and 'public' it...
+# Because its never late to start taking notes and 'public' it...
 
 ## 01/29/2018 
-###get HDFS file size 
+### get HDFS file size 
 ```shell
 $ hdfs dfs -du -s -h  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
 655.2 M  1.9 G  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
