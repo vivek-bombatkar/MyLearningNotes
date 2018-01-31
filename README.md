@@ -17,3 +17,12 @@ beeline -u $BEELINE_URL --showHeader=false --outputformat=tsv2 -e "show tables f
 
 xargs - reads data from standard input (stdin) and executes the command (supplied to it as argument) one or more times based on the input read. Any blanks and spaces in input are treated as delimiters, while blank lines are ignored. 
 ```
+
+### hdfs dfs -checksum
+
+```
+hdfs dfs -checksum <hdfs url>
+<hdfs url>        MD5-of-0MD5-of-512CRC32C        00000200000000000000000024c3cf9f64d08eaafeb25bb9776f793c
+
+
+```
