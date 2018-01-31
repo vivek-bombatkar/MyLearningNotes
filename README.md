@@ -19,10 +19,15 @@ xargs - reads data from standard input (stdin) and executes the command (supplie
 ```
 
 ### hdfs dfs -checksum
+https://community.hortonworks.com/questions/19239/hadoop-checksum-calculation-doubts.html
 
 ```
 hdfs dfs -checksum <hdfs url>
 <hdfs url>        MD5-of-0MD5-of-512CRC32C        00000200000000000000000024c3cf9f64d08eaafeb25bb9776f793c
 
-
+- Datanodes are responsible for verifying the data they receive before storing the data and its checksum
+- When clients read data from datanodes, they verify checksums as well, comparing them with the ones stored at the datanodes
+- 'get' command : HDFS computes a checksum for each block of each file. The checksums for a file are stored separately in a hidden file. When a file is read from HDFS, the checksums in that hidden file are used to verify the file’s integrity. For the get command, the -crc option will copy that hidden checksum file. The -ignorecrc option will skip the checksum checking when copying
+- A separate checksum is created for every dfs.bytes-perchecksum bytes of data. The default is 512 bytes3
+- Each datanode keeps a persistent log of checksum verifications, so it knows the last time each of its blocks was verified.
 ```
