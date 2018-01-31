@@ -30,4 +30,5 @@ hdfs dfs -checksum <hdfs url>
 - 'get' command : HDFS computes a checksum for each block of each file. The checksums for a file are stored separately in a hidden file. When a file is read from HDFS, the checksums in that hidden file are used to verify the file’s integrity. For the get command, the -crc option will copy that hidden checksum file. The -ignorecrc option will skip the checksum checking when copying
 - A separate checksum is created for every dfs.bytes-perchecksum bytes of data. The default is 512 bytes3
 - Each datanode keeps a persistent log of checksum verifications, so it knows the last time each of its blocks was verified.
+- "MD5-of-0MD5-of-512CRC32C" : http://mail-archives.apache.org/mod_mbox/hadoop-hdfs-user/201508.mbox/%3CCAMm20=5K+f3ArVtoo9qMSesjgd_opdcvnGiDTkd3jpn7SHkysg@mail.gmail.com%3E
 ```
