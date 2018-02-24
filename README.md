@@ -33,6 +33,29 @@ hdfs dfs -checksum <hdfs url>
 - "MD5-of-0MD5-of-512CRC32C" : http://mail-archives.apache.org/mod_mbox/hadoop-hdfs-user/201508.mbox/%3CCAMm20=5K+f3ArVtoo9qMSesjgd_opdcvnGiDTkd3jpn7SHkysg@mail.gmail.com%3E
 ```
 
+### installing jupyter on windows
+
+```
+# On command prompt
+C:\> python -m pip install jupyter
+
+# It creats entry in C:\Python36\Scripts
+C:\Python36\Scripts\jupyter.exe
+
+C:\>jupyter notebook
+[I 12:36:39.808 NotebookApp] Serving notebooks from local directory: C:\
+[I 12:36:39.808 NotebookApp] 0 active kernels
+[I 12:36:39.808 NotebookApp] The Jupyter Notebook is running at:
+[I 12:36:39.808 NotebookApp] http://localhost:8888/?token=1d3293c485f32b492a93cf6dae1088d51d6d4635dff7630d
+[I 12:36:39.808 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:36:39.808 NotebookApp]
+
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=1d3293c485f32b492a93cf6dae1088d51d6d4635dff7630d
+[I 12:36:39.976 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+```
+
 
 ### Test your Knowledge with Stack Overflow
 https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955
