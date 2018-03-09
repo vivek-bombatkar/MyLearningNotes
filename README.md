@@ -65,7 +65,7 @@ If you have never answered a question on Stack Overflow, I would recommend looki
 
 
 ### Alter HIVE table name 
-
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-Create/Drop/Alter/UseDatabase
 ```
 ALTER TABLE old_table RENAME TO new_table;
 This statement lets you change the name of a table to a different name.
