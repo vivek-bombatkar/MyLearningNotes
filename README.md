@@ -62,3 +62,15 @@ https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955
 You don’t really know a Python library if you cannot answer the majority of questions on it that are asked on Stack Overflow. This statement might be a little too strong, but in general, Stack Overflow provides a great testing ground for your knowledge of a particular library. There are over 50,000 questions tagged as pandas, so you have an endless test bank to build your pandas knowledge.
 
 If you have never answered a question on Stack Overflow, I would recommend looking at older questions that already have answers and attempting to answer them by only using the documentation. After you feel like you can put together high-quality answers, I would suggest making attempts at unanswered questions. Nothing improved my pandas skills more than answering questions on Stack Overflow.
+
+
+### Alter HIVE table name 
+
+```
+ALTER TABLE old_table RENAME TO new_table;
+This statement lets you change the name of a table to a different name.
+As of version 0.6, a rename on a managed table moves its HDFS location. 
+Rename has been changed as of version 2.2.0 (HIVE-14909) so that a managed table's HDFS location is moved only if the table is created without a LOCATION clause and under its database directory.
+Hive versions prior to 0.6 just renamed the table in the metastore without moving the HDFS location.
+
+```
