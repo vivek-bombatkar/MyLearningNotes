@@ -74,3 +74,18 @@ Rename has been changed as of version 2.2.0 (HIVE-14909) so that a managed table
 Hive versions prior to 0.6 just renamed the table in the metastore without moving the HDFS location.
 
 ```
+
+### git commonly used commands
+```
+git init
+git pull
+git clone <git dir path>
+git add .
+git status
+git commit -m "comments"
+git push origin <branch name>
+
+git rm file1.txt
+#But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+git rm --cached ipmvp-nifi-custom.iml
+```
