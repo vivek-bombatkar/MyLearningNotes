@@ -112,4 +112,8 @@ Download data from buckte
 ```
 C:\Users>aws s3 cp s3://bucket_name/folder1/test_file.txt --profile test .
 download: s3://bucket_name/folder1/test_file.txt to .\test_file.txt
+
+#to download entire bucket  
+C:\Users>aws s3 sync s3://bucket_name/folder1 --profile test .
 ```
+
