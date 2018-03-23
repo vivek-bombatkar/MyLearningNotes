@@ -93,6 +93,7 @@ git rm --cached ipmvp-nifi-custom.iml
 
 ### AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
+
 Create a profile 
 ```
 C:\Users\vkbomb>aws configure --profile test
