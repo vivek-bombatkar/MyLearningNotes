@@ -89,3 +89,26 @@ git rm file1.txt
 #But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
 git rm --cached ipmvp-nifi-custom.iml
 ```
+
+
+### AWS CLI
+Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
+Create a profile 
+```
+C:\Users\vkbomb>aws configure --profile test
+AWS Access Key ID []: XXX
+AWS Secret Access Key []: YY
+Default region name []: eu-central-1
+Default output format [None]:
+```
+
+List S3 objects
+```
+C:\Users>aws s3 ls s3://bucket_name/folder1/ --profile test
+```
+
+Download data from buckte
+```
+C:\Users>aws s3 cp s3://bucket_name/folder1/test_file.txt --profile test .
+download: s3://bucket_name/folder1/test_file.txt to .\test_file.txt
+```
