@@ -117,3 +117,6 @@ download: s3://bucket_name/folder1/test_file.txt to .\test_file.txt
 C:\Users>aws s3 sync s3://bucket_name/folder1 --profile test .
 ```
 
+### Python Decorator and Java annotation
+http://supercoderz.in/how-python-decorators-are-better-than-java-annotations/
+https://stackoverflow.com/questions/15347136/is-a-python-decorator-the-same-as-java-annotation-or-java-with-aspects
