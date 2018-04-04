@@ -137,5 +137,11 @@ The recommended way to execute any Gradle build is with the help of the Gradle W
 │       └── gradle-wrapper.properties
 ├── gradlew
 └── gradlew.bat
+
+- build.gradle
+mainClassName = 'com.gfk.nifi.Main'
+// this tells the build to run the code from class Main
+// so when we build the project, it actually call the code .  
+
 ```
 
