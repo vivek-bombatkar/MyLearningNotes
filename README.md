@@ -120,3 +120,22 @@ C:\Users>aws s3 sync s3://bucket_name/folder1 --profile test .
 ### Python Decorator and Java annotation
 http://supercoderz.in/how-python-decorators-are-better-than-java-annotations/
 https://stackoverflow.com/questions/15347136/is-a-python-decorator-the-same-as-java-annotation-or-java-with-aspects
+
+
+### The Gradle Wrapper
+https://docs.gradle.org/current/userguide/gradle_wrapper.html
+
+The recommended way to execute any Gradle build is with the help of the Gradle Wrapper (in short just “Wrapper”). The Wrapper is a script that invokes a declared version of Gradle, downloading it beforehand if necessary. As a result, developers can get up and running with a Gradle project quickly without having to follow manual installation processes saving your company time and money.
+
+```
+.
+├── build.gradle
+├── settings.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradlew
+└── gradlew.bat
+```
+
