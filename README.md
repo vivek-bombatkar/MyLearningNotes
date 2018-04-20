@@ -145,3 +145,17 @@ mainClassName = 'com.gfk.nifi.Main'
 
 ```
 
+
+### remove zero byte files from HDFS
+
+```
+#List the zero byte files
+hdfs dfs -ls hdfs://<path> | awk '{ if ($5 == 0) print $8 }'
+
+#delete all zero byte files
+hdfs dfs -ls hdfs://<path> | awk '{ if ($5 == 0) print $8 }' | xargs hadoop fs -rm
+
+# delete zero byte files from subfolders 
+hdfs dfs -lsr hdfs://<path> | awk '{ if ($5 == 0) print $8 }' | xargs hadoop fs -rm
+
+```
