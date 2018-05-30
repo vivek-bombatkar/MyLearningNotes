@@ -9,6 +9,20 @@ Divide it into 4 parts
 
 
 Collect CheatSheets
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/CrackingTheCodingInterview.pdf
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/PythonCheatSheet.pdf
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/Python_2_7.pdf
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/big-o-cheat-sheet-poster.png
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/main-qimg-420e994dba8284996618d7922be544d2.png
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/mementopython3-english.pdf
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/python_cheat_sheet.pdf
+
 
 Random link
 > https://www.qt.io/qt-for-application-development/
@@ -45,7 +59,7 @@ Practice SQL Interview questions and Answers
 ## Data Structure
 > https://www.tutorialspoint.com/python/python_data_structure.htm
 
-'''
+```
 i=[[1,2,4,7],[21,22,24,'a']]
 print(id(i))
 j=i
@@ -60,9 +74,9 @@ j=i
 i=i+1
 print (id(i))
 print (id(j))
-'''
+```
 
-'''
+```
 def changeValue(thisObject,thisValue):
     thisObject += thisValue
 
@@ -77,8 +91,9 @@ print (id(int_n))
 changeValue(int_n,30)
 print (int_n)
 print (id(int_n))
-'''
-'''
+```
+
+```
 class Node:
     def __init__(self,val):
       self.val = val
@@ -92,12 +107,13 @@ node1.next = node2
 node2.next = node3
 
 print node1
-'''
-'''
+```
+
+```
 dictOne = dict(one=1,two=2)
 dictTwo = dict(zip(['one','two'],[10,20]))
 print (dictTwo['one'])
-'''
+```
 
 > https://www.programiz.com/python-programming/set
 A set is an unordered collection of items. Every element is unique (no duplicates) and must be immutable (which cannot be changed).	
