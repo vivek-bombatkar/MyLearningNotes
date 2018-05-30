@@ -12,10 +12,15 @@ Collect CheatSheets
 
 Random link
 > https://www.qt.io/qt-for-application-development/
+
 > https://www.geeksforgeeks.org/
+
 > http://highscalability.com/
+
 > https://projecteuler.net/index.php
+
 > https://www.codechef.com/
+
 > https://www.careercup.com/page
 
 
@@ -23,13 +28,17 @@ Random link
 Practice SQL Interview questions and Answers
 
 > http://sqlzoo.net/ 
+
 > https://www.hackerrank.com/ 
+
 > https://leetcode.com/problemset/database/ 
+
 > https://www.tutorialspoint.com/dwh/dwh_schemas.htm
 
 ### windowing function
-https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions101.htm
-https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics
+> https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions101.htm
+
+> https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics
 
 
 
@@ -346,6 +355,7 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 
 ## Algorithms
 > https://www.tutorialspoint.com/python/python_big_o_notation.htm
+
 > https://leetcode.com/problemset/algorithms/
 
 ## Complexity 
