@@ -8,12 +8,29 @@ Divide it into 4 parts
 - Complexity calculations
 
 
+Collect CheatSheets
+
+Random link
+> https://www.qt.io/qt-for-application-development/
+> https://www.geeksforgeeks.org/
+> http://highscalability.com/
+> https://projecteuler.net/index.php
+> https://www.codechef.com/
+> https://www.careercup.com/page
+
 
 ## SQL
+Practice SQL Interview questions and Answers
+
+> http://sqlzoo.net/ 
+> https://www.hackerrank.com/ 
+> https://leetcode.com/problemset/database/ 
+> https://www.tutorialspoint.com/dwh/dwh_schemas.htm
 
 ### windowing function
 https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions101.htm
 https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics
+
 
 
 ## Data Structure
@@ -279,6 +296,7 @@ BS=BinarySearch()
 print(BS.findValue(array,40))
 ```
 
+```
 def reverse_numbers(int_this):
     this_reverse=''
     str_this=str(int_this)
@@ -287,7 +305,9 @@ def reverse_numbers(int_this):
     return this_reverse
 
 print(reverse_numbers(123456))
+```
 
+```
 def checkIfSubstring(str_this,substr_this):
     for str in str_this.split(" "):
         if str == substr_this:
@@ -295,7 +315,9 @@ def checkIfSubstring(str_this,substr_this):
     return "False"
 
 print(checkIfSubstring("this is my code","code"))
-            
+```
+
+```         
 def maxOfList(lst_this):
     maxElement=0
     for element in lst_this:
@@ -304,7 +326,9 @@ def maxOfList(lst_this):
     return maxElement
 
 print(maxOfList([1,4,2,5,7,2,1,7]))
+```
 
+```
 def medianOfList(a_list):
     sumElements=0
     for element in a_list:
@@ -312,7 +336,7 @@ def medianOfList(a_list):
     return (sumElements / len(a_list)-1)
 
 print(medianOfList([1,2,3,4,5,6,7,8,9]))
-
+```
 
 
 ### Binary Search using recursion
@@ -321,9 +345,8 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 ```
 
 ## Algorithms
-https://www.tutorialspoint.com/python/python_big_o_notation.htm
+> https://www.tutorialspoint.com/python/python_big_o_notation.htm
+> https://leetcode.com/problemset/algorithms/
 
 ## Complexity 
-
-## 
 
