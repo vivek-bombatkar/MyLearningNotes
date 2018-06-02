@@ -1,5 +1,9 @@
 # Because its never late to start taking notes and 'public' it...
 
+## This file contains random technical notes, please follow individual folders for specific technology. 
+
+
+
 ### get HDFS file size 
 ```
 $ hdfs dfs -du -s -h  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
