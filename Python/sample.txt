@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Product",
+  "type": "object",
+  "required": ["id", "name", "price"],
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Product identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the product"
+    },
+    "price": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stock": {
+      "type": "object",
+      "properties": {
+        "warehouse": {
+          "type": "number"
+        },
+        "retail": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}
+The JSON Schema above can be used to test the validity of the JSON code below:
+{
+  "id": 1,
+  "name": "Foo",
+  "price": 123,
+  "tags": [
+    "Bar",
+    "Eek"
+  ],
+  "stock": {
+    "warehouse": 300,
+    "retail": 20
+  }
+}
+
+
+###DDL
+1. stg table
+
+create table stg(
+data array<f1:String,f2:String,f3:array<f4:String,f5:int,f6:Number>>
+)
+PARTITIONED BY (trip_id int,driver_id int)
+ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe'
+LOCATION '/data/XXX'
+;
+
+###2. final table
+
+create table final(
+f1 String,
+f2 String,
+trip_id int,
+...
+)
+PARTITIONED BY  (driver_id int)
+CLUSTERED BY (trip_id) into 32 buckets
+stored as avro;
+
+
+######
+
+set hive.enforce.bucketing = true;
+
+load data local inpath '' into table stg partition(trip_id = XXX, driver_id = XXX);
+
+insert into final
+partition (driver_id)
+select res.f1, res.f2,res.trip_id, res.driver_id 
+from stg
+lateral view explode(data) r as res;
+
+TRUNCATE TABLE stg ;
+
+#TODO 
+1. should I partition on driver ? partition by year/month
+
+
+

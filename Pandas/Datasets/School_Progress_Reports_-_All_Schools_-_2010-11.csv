@@ -1,0 +1,1220 @@
+DBN,DISTRICT,SCHOOL,PRINCIPAL,PROGRESS REPORT TYPE,SCHOOL LEVEL*,PEER INDEX*,2010-2011 OVERALL GRADE,2010-2011 OVERALL SCORE,2010-2011 ENVIRONMENT CATEGORY SCORE,2010-2011 ENVIRONMENT GRADE,2010-2011 PERFORMANCE CATEGORY SCORE,2010-2011 PERFORMANCE GRADE,2010-2011 PROGRESS CATEGORY SCORE,2010-2011 PROGRESS GRADE,2010-2011 ADDITIONAL CREDIT,2009-10 PROGRESS REPORT GRADE
+01M015,1,P.S. 015 Roberto Clemente,Irene Sanchez,EMS,Elementary,63.61,C ,27,6.4,B ,2.1,D ,18,C ,0.5,C
+01M019,1,P.S. 019 Asher Levy,Jacqueline Flanagan,EMS,Elementary,49.48,B ,48.7,7.8,B ,5.2,D ,35.1,A ,0.5,C
+01M020,1,P.S. 020 Anna Silver,James Lee,EMS,Elementary,56.65,B ,48.2,7.7,B ,7.4,C ,31.1,B ,2,A
+01M034,1,P.S. 034 Franklin D. Roosevelt,Joyce Stallings Harte,EMS,K-8,67.97,C ,39.8,7.5,B ,11.3,B ,18.5,C ,2.5,B
+01M063,1,P.S. 063 William McKinley,Darlene Despeignes,EMS,Elementary,58.85,B ,49,8.1,B ,10.4,B ,29,B ,1.5,B
+01M064,1,P.S. 064 Robert Simon,Marlon L. Hosang,EMS,Elementary,60.73,C ,25.8,9.7,A ,4.5,D ,11.6,D ,0,C
+01M110,1,P.S. 110 Florence Nightingale,Karen Feuer,EMS,Elementary,40.85,C ,38.1,4.1,C ,10.9,B ,22.1,C ,1,D
+01M134,1,P.S. 134 Henrietta Szold,Loretta Caputo,EMS,Elementary,54.33,C ,34.6,4.2,C ,5.9,C ,24,C ,0.5,B
+01M137,1,P.S. 137 John L. Bernstein,Melissa Rodriguez,EMS,Elementary,57.88,F ,17.6,5.1,C ,4.8,D ,6.7,F ,1,C
+01M140,1,P.S. 140 Nathan Straus,Esteban Barrientos,EMS,K-8,61.28,D ,23.6,8.4,B ,5.1,D ,9.6,D ,0.5,B
+01M142,1,P.S. 142 Amalia Castro,Rhonda Levy,EMS,Elementary,63.39,C ,29.2,10,A ,7.1,C ,10.6,F ,1.5,B
+01M184,1,P.S. 184m Shuang Wen,Ling Ling Chou,EMS,K-8,28.13,A ,86.8,9.8,A ,20.9,A ,50.6,A ,5.5,A
+01M188,1,P.S. 188 The Island School,Mary Pree,EMS,K-8,64.17,A ,60.7,4.1,C ,7.9,C ,41.7,A ,7,C
+01M292,1,Henry Street School for International Studies,Erin Balet,EMS,Middle,1.95,C ,32.4,5.1,C ,4.1,D ,18.7,C ,4.5,C
+01M301,1,"Technology, Arts, and Sciences Studio",George Morgan,EMS,Middle,1.9,B ,47.6,7,B ,8.9,C ,28.7,B ,3,C
+01M315,1,The East Village Community School,Robin Williams,EMS,Elementary,35.33,C ,38.2,8.6,A ,12.2,B ,16.4,C ,1,C
+01M332,1,University Neighborhood Middle School,Laura Peynado,EMS,Middle,1.78,C ,39.3,10.6,A ,5.3,D ,22.4,C ,1,B
+01M345,1,"Collaborative Academy of Science, Technology, & La",Judith De Los Santos,EMS,Middle,2.29,B ,41.7,6.8,B ,10.4,B ,23.5,C ,1,B
+01M361,1,The Children's Workshop School,Maria Velez Clarke,EMS,Elementary,32.99,B ,42,7.7,B ,4.4,D ,27.9,B ,2,C
+01M363,1,Neighborhood School,Milo Novelo,EMS,Elementary,31.12,C ,27,5.1,C ,6.2,C ,13.2,D ,2.5,C
+01M364,1,Earth School,Alison Gail Hazut,EMS,Elementary,31.6,C ,31.4,11.1,A ,3.8,D ,13.5,D ,3,D
+01M378,1,School for Global Leaders,Carry Chan,EMS,Middle,2.23,B ,53.8,8.6,B ,12.9,B ,27.3,B ,5,B
+01M450,1,East Side Community School,Mark Federman,EMS,Middle,1.99,A ,63.5,12.5,A ,14.6,A ,27.9,B ,8.5,A
+01M539,1,"New Explorations into Science, Technology and Math",Dr. Olga Livanis,EMS,K-8,13.51,A ,73.5,6.8,B ,22.4,A ,44.3,A ,0,A
+01M839,1,Tompkins Square Middle School,Sonhando Estwick,EMS,Middle,2.54,B ,52.6,12.9,A ,14,B ,22.7,C ,3,A
+02M001,2,P.S. 001 Alfred E. Smith,Amy Hom,EMS,Elementary,40.95,B ,42.9,4.6,C ,8.8,C ,26.5,B ,3,B
+02M002,2,P.S. 002 Meyer London,Brett Gustafson,EMS,Elementary,41.72,A ,83.8,8.9,A ,13.3,B ,54.6,A ,7,A
+02M003,2,P.S. 003 Charrette School,Lisa Siegman,EMS,Elementary,18.3,C ,30,8.9,A ,10.4,B ,5.7,F ,5,B
+02M006,2,P.S. 006 Lillie D. Blake,Lauren Fontana,EMS,Elementary,11.23,A ,61.6,5.8,C ,13.9,B ,38.4,A ,3.5,B
+02M011,2,P.S. 011 William T. Harris,Robert Bender,EMS,Elementary,31.97,A ,57.1,11.3,A ,12.6,B ,28.2,B ,5,A
+02M033,2,P.S. 033 Chelsea Prep,Linore Lindy,EMS,Elementary,46.31,B ,54.8,13.3,A ,11,B ,29.5,B ,1,A
+02M040,2,P.S. 040 Augustus Saint-Gaudens,Susan Felder,EMS,Elementary,15.61,A ,59.7,9.6,A ,12.1,B ,34.5,A ,3.5,A
+02M041,2,P.S. 041 Greenwich Village,Kelly Shannon,EMS,Elementary,12.16,A ,58.6,11.9,A ,12.6,B ,28.6,B ,5.5,B
+02M042,2,P.S. 042 Benjamin Altman,Rosa Casiello O'Day,EMS,Elementary,35.81,A ,79.2,10.1,A ,14.9,A ,49.6,A ,4.5,A
+02M051,2,P.S. 051 Elias Howe,Nancy Sing Bock,EMS,Elementary,48.03,B ,53.3,11,A ,10.9,B ,28.9,B ,2.5,B
+02M059,2,P.S. 059 Beekman Hill International,Adele Schroeter,EMS,Elementary,17.76,A ,66.5,9.6,A ,12.9,B ,40,A ,4,B
+02M077,2,P.S. 77 Lower Lab School,Mara Ratesic Koetke,EMS,Elementary,9.89,A ,79.2,9.2,A ,18.8,A ,50.2,A ,1,A
+02M089,2,P.S. 89,Veronica Najjar,EMS,Elementary,12.56,B ,42.6,8.8,A ,12.9,B ,18.9,C ,2,B
+02M104,2,J.H.S. 104 Simon Baruch,Rosemarie Gaetani,EMS,Middle,3.02,B ,50.2,6.9,B ,11.2,B ,26.1,B ,6,B
+02M111,2,P.S. 111 Adolph S. Ochs,Irma Medina,EMS,K-8,53.29,C ,27.5,5,C ,4.4,D ,17.1,C ,1,B
+02M114,2,East Side Middle School,David Getz,EMS,Middle,3.54,A ,80.3,13.1,A ,20.6,A ,42.6,A ,4,A
+02M116,2,P.S. 116 Mary Lindley Murray,Jane Hsu,EMS,Elementary,20.92,C ,40.3,8.8,A ,13.7,B ,15.3,D ,2.5,B
+02M124,2,P.S. 124 Yung Wing,Alice Hom,EMS,Elementary,25.77,A ,59.9,7.4,B ,14.4,A ,33.1,B ,5,A
+02M126,2,P.S. 126 Jacob August Riis,Jacqueline Getz,EMS,K-8,38.71,A ,67.8,6,C ,13.7,B ,41.1,A ,7,A
+02M130,2,P.S. 130 Hernando De Soto,Lily Woo,EMS,Elementary,27.53,A ,69.8,12,A ,14.1,A ,37.7,A ,6,A
+02M131,2,M.S. 131,Phyllis Tam,EMS,Middle,2.59,A ,68.3,8.7,A ,8,C ,44.6,A ,7,B
+02M150,2,P.S. 150,Maggie Siena,EMS,Elementary,15.04,C ,32.4,10.4,A ,11.6,B ,10.4,F ,0,B
+02M158,2,P.S. 158 Bayard Taylor,Darryl Alhadeff,EMS,Elementary,16.48,B ,50.9,3.9,C ,16,A ,28.9,B ,2,A
+02M167,2,J.H.S. 167 Robert F. Wagner,Jennifer Rehn,EMS,Middle,2.96,A ,62.2,7,B ,12.9,B ,33.8,B ,8.5,B
+02M183,2,P.S. 183 Robert L. Stevenson,Tara Napoleoni,EMS,Elementary,14.98,B ,43.5,6,B ,9.6,C ,22.9,C ,5,B
+02M198,2,P.S. 198 Isador E. Ida Straus,Sharon Jeffrey Roebuck,EMS,Elementary,46.21,C ,26.7,1.9,F ,7.4,C ,15.4,C ,2,B
+02M212,2,P.S. 212 Midtown West,Dean Ketchum,EMS,Elementary,21.28,B ,53.6,10.6,A ,14.1,A ,22.9,C ,6,A
+02M217,2,P.S./I.S. 217 Roosevelt Island,Mandana Beckman,EMS,K-8,32.42,D ,23.8,4.8,C ,6.1,C ,10.4,D ,2.5,B
+02M225,2,Ella Baker School,Laura Garcia,EMS,K-8,41.46,C ,39.2,7.7,B ,7.1,C ,23.4,C ,1,B
+02M234,2,P.S. 234 Independence School,Lisa Ripperger,EMS,Elementary,9.76,A ,59.4,9.2,A ,12.9,B ,33.3,B ,4,B
+02M255,2,M.S. 255 Salk School of Science,Rhonda Perry,EMS,Middle,3.6,A ,80.1,11.4,A ,18.6,A ,46.6,A ,3.5,B
+02M260,2,M.S. 260 Clinton School Writers & Artists,Joseph Anderson,EMS,Middle,2.92,B ,55,6.7,B ,16.2,A ,26.6,B ,5.5,A
+02M276,2,BATTERY PARK CITY SCHOOL,Theresa Ruyter,EMS,Middle,3.01,A ,78.3,10,A ,19.2,A ,49.1,A ,0,
+02M289,2,I.S. 289,Ellen Foote,EMS,Middle,3.26,B ,57,9.1,A ,14.8,A ,29,B ,4,B
+02M290,2,P.S. 290 Manhattan New School,Sharon Hill,EMS,Elementary,12.01,A ,73.6,11.5,A ,14.9,A ,42.1,A ,5,A
+02M312,2,New York City Lab Middle School for Collaborative,Megan Adams,EMS,Middle,3.6,A ,84.6,10.7,A ,20,A ,47.4,A ,6.5,A
+02M347,2,The 47 American Sign Language & English Lower Scho,David Bowell,EMS,K-8,63.45,A ,75,10,A ,7.7,C ,50.3,A ,7,B
+02M407,2,Institute for Collaborative Education,John Pettinato,EMS,Middle,3.44,B ,44.1,10.9,A ,9.8,C ,21.9,C ,1.5,C
+02M408,2,Professional Performing Arts High School,Keith Ryan,EMS,Middle,3.63,B ,50.5,5.1,C ,16.1,A ,29.3,B ,0,A
+02M413,2,School of the Future High School,Stacy Paige Goldstein,EMS,Middle,3.09,A ,63.2,8.8,A ,16,A ,33.9,B ,4.5,B
+02M422,2,Quest to Learn,Elisa Aragon,EMS,Middle,2.74,B ,42.8,8.3,B ,12,B ,19,C ,3.5,
+02M442,2,"Ballet Tech, NYC Public School for Dance",Roy Oneill,EMS,K-8,34.06,B ,56.2,10.8,A ,14.3,A ,28.6,B ,2.5,C
+02M655,2,Life Sciences Secondary School,Genevieve Stanislaus,EMS,Middle,2.19,C ,35.5,6,C ,5.8,D ,22.2,C ,1.5,C
+02M896,2,Lower Manhattan Community Middle School,Kelly Mcguire,EMS,Middle,2.3,B ,50.4,9.9,A ,12.8,B ,24.2,C ,3.5,C
+03M009,3,P.S. 009 Sarah Anderson,Diane Brady,EMS,Elementary,19.13,A ,59.4,10.2,A ,16.9,A ,30.8,B ,1.5,B
+03M044,3,J.H.S. M044 William J. O'Shea,Liza Ortiz,EMS,Middle,1.89,,,,,,,,,,
+03M054,3,J.H.S. 054 Booker T. Washington,Elana Elster,EMS,Middle,3.42,B ,55.9,8.2,B ,13.1,B ,31.1,B ,3.5,B
+03M075,3,P.S. 075 Emily Dickinson,Robert O'Brien,EMS,Elementary,48.36,C ,34.7,6.7,B ,7.1,C ,20.9,C ,0,C
+03M076,3,P.S. 076 A. Philip Randolph,Charles Deberry,EMS,K-8,60.79,B ,48.8,11.1,A ,6.6,C ,26.6,B ,4.5,C
+03M084,3,P.S. 084 Lillian Weber,Robin Sundick,EMS,Elementary,43.74,F ,14.3,3.5,D ,2.6,D ,8.2,F ,0,C
+03M087,3,P.S. 087 William Sherman,Monica Berry,EMS,Elementary,16.84,B ,45,3.5,D ,12.1,B ,23.9,C ,5.5,B
+03M145,3,"P.S. 145, The Bloomingdale School",Ivelisse Alvarez,EMS,Elementary,60.76,C ,36.3,5.2,C ,5.5,D ,24.6,B ,1,B
+03M149,3,P.S. 149 Sojourner Truth,Kayrol Burgess Harper,EMS,K-8,60.24,C ,29.7,4.4,C ,3.4,D ,21.4,C ,0.5,B
+03M163,3,P.S. 163 Alfred E. Smith,Virginia Pepe,EMS,Elementary,40.54,C ,27.1,7.1,B ,10.2,B ,9.8,F ,0,C
+03M165,3,P.S. 165 Robert E. Simon,Brett Gallini,EMS,K-8,57.58,A ,71.6,10.2,A ,8.4,C ,46,A ,7,B
+03M166,3,P.S. 166 The Richard Rodgers School of The Arts an,Debbie J. Hand,EMS,Elementary,25.62,B ,41,6.7,B ,6.8,C ,24,C ,3.5,D
+03M180,3,P.S. 180 Hugo Newman,Peter Mcfarlane,EMS,K-8,53.15,B ,47.3,9.7,A ,9.4,C ,26.1,B ,2,C
+03M185,3,P.S. 185 John M. Langston,Jane Murphy,EC,K-2,59.28,C ,20.2,8.8,B ,4.5,C ,6.9,C ,0,C
+03M191,3,P.S. 191 Amsterdam,Maria Verdesoto,EMS,K-8,53.37,C ,31.7,3.6,D ,5.8,D ,18.8,C ,3.5,C
+03M199,3,P.S. 199 Jessie Isador Straus,Katy Rosen,EMS,Elementary,12.93,A ,62.6,8.2,B ,14.4,A ,36.5,A ,3.5,A
+03M208,3,P.S. 208 Alain L. Locke,Susan M. Green,EMS,Elementary,63.75,D ,19.2,7.8,B ,3.6,D ,7.8,F ,0,C
+03M241,3,P.S. 241 Family Academy,Diana Diaz,EMS,K-8,65.26,B ,50.2,9.8,A ,5.2,D ,31.2,B ,4,C
+03M242,3,PS M242-Gwendolyn Powell Brown Computer School,Denise Gomez,EMS,Elementary,60.06,B ,56.3,5.9,C ,6,C ,40.9,A ,3.5,C
+03M243,3,M.S. 243 Center School,Elaine Schwartz,EMS,Middle,3.59,B ,42.4,13.3,A ,15.5,A ,13.6,D ,0,B
+03M245,3,M.S. M245 The Computer School,Henry Zymeck,EMS,Middle,3.15,B ,48.6,12.6,A ,12.2,B ,20.3,C ,3.5,B
+03M247,3,M.S. M247 Dual Language Middle School,Claudia Aguirre,EMS,Middle,2.19,A ,79.2,14.3,A ,13.7,B ,42.7,A ,8.5,A
+03M250,3,M.S. 250 West Side Collaborative Middle School,Jeanne Rotunda,EMS,Middle,2.09,B ,45.6,13.5,A ,11.5,B ,19.1,C ,1.5,A
+03M256,3,M.S. 256 Academic & Athletic Excellence,Jeffrey S. Perl,EMS,Middle,1.9,B ,50.8,8,B ,6.4,D ,33.4,B ,3,C
+03M258,3,Community Action School - MS 258,John Curry,EMS,Middle,2.05,A ,66.9,11.9,A ,14.2,B ,34.7,B ,6,A
+03M333,3,P.S. 333 Manhattan School for Children,Susan Rappaport,EMS,K-8,24.17,B ,41.6,6.9,B ,8.2,C ,22,C ,4.5,C
+03M334,3,The Anderson School,Jodi Hyde,EMS,K-8,6.65,A ,85.1,11.5,A ,23.8,A ,49.8,A ,0,A
+03M415,3,Wadleigh Secondary School for the Performing & Vis,Herma Hall,EMS,Middle,2.03,D ,16.3,1.3,F ,6,D ,8,F ,1,C
+03M421,3,WEST PREP ACADEMY,Roberto Padilla,EMS,Middle,1.96,C ,36.7,2.8,D ,6.3,D ,24.1,C ,3.5,
+03M859,3,Special Music School,Katherine Banucci-Smith,EMS,K-8,6.78,A ,82,8,B ,23,A ,51,A ,0,A
+03M860,3,Frederick Douglass Academy II Secondary School,Osei Owusu-Afriyie,EMS,Middle,2.01,F ,13.9,2,F ,3.1,F ,8.3,F ,0.5,C
+03M862,3,Mott Hall II,Ana De Los Santos,EMS,Middle,2.88,A ,78.7,10.1,A ,16,A ,42.6,A ,10,A
+04M007,4,P.S. 007 Samuel Stern,Racquel Jones,EMS,K-8,58.36,C ,34.4,5.1,C ,7,C ,20.8,C ,1.5,A
+04M012,4,Tag Young Scholars,Janette Cesar,EMS,K-8,38.81,B ,56.4,10.6,A ,20.5,A ,25.3,B ,0,A
+04M013,4,J.H.S. 013 Jackie Robinson,Jacob Michelman,EMS,Middle,1.94,C ,32.2,3.1,D ,4.6,D ,21.5,C ,3,C
+04M037,4,River East Elementary,Alison Mckenzie,EMS,Elementary,59.46,C ,37.4,12.5,A ,8.5,C ,16.4,C ,0,B
+04M038,4,P.S. 38 Roberto Clemente,Norma Caraballo,EMS,Elementary,62.06,B ,46.3,3.4,D ,5.5,D ,34.4,A ,3,C
+04M045,4,M.S. 45/S.T.A.R.S. Prep Academy,Tomasz Grabski,EMS,Middle,1.87,C ,33.7,4.8,C ,4.4,D ,24.4,C ,0,C
+04M050,4,P.S. 050 Vito Marcantonio,Cynthia Rochez,EMS,K-8,66.27,C ,32.5,2.9,D ,4.7,D ,23.9,C ,1,C
+04M057,4,James Weldon Johnson,Israel Soto,EMS,K-8,63.19,A ,72.4,12.7,A ,15.1,A ,33.6,B ,11,A
+04M072,4,The Lexington Academy,Antonio Hernandez,EMS,Elementary,66.16,D ,20.9,10.4,A ,7.8,C ,2.7,F ,0,A
+04M083,4,P.S. 083 Luis Munoz Rivera,Frances Castillo,EMS,Elementary,55.24,A ,77.8,11,A ,18,A ,44.8,A ,4,A
+04M096,4,P.S. 096 Joseph Lanzetta,Noel Rios,EMS,K-8,63.1,B ,46.2,3.9,C ,5.6,D ,33.1,B ,3.5,C
+04M102,4,P.S. 102 Jacques Cartier,Sandra Gittens,EMS,Elementary,71.08,B ,45.1,10.2,A ,9.1,C ,22.7,C ,3,A
+04M108,4,P.S. 108 Assemblyman Angelo Del Toro Educational C,Lourdes Arroyo,EMS,K-8,61.75,A ,77.2,9.8,A ,13.5,B ,44.3,A ,9.5,B
+04M112,4,P.S. 112 Jose Celso Barbosa,Eileen Reiter,EC,K-2,64.2,A ,43.9,10.1,A ,9.6,B ,15.2,B ,9,B
+04M146,4,P.S. 146 Ann M. Short,Mona Silfen,EMS,Elementary,72.58,A ,57.7,5.3,C ,3.6,D ,42.3,A ,6.5,C
+04M155,4,P.S. 155 William Paca,Lillian Raimundi Ortiz,EMS,Elementary,69.25,B ,44.5,8.3,B ,5,D ,27.7,B ,3.5,B
+04M171,4,P.S. 171 Patrick Henry,Dimitres Pantelidis,EMS,K-8,57.56,B ,54.6,10.3,A ,13.8,B ,23.5,C ,7,A
+04M182,4,The Bilingual Bicultural School,Andrea Hernandez,EMS,Elementary,65.31,B ,41.6,9.2,A ,13.6,B ,18.3,C ,0.5,A
+04M206,4,P.S. 206 Jose Celso Barbosa,Myrna Rodriguez,EMS,Elementary,65.51,D ,24.9,8.4,B ,10.1,B ,3.9,F ,2.5,C
+04M224,4,M.S. 224 Manhattan East School for Arts & Academic,Liliana Sarro,EMS,Middle,3.23,C ,29.6,5.6,C ,8.6,C ,15.3,C ,0,C
+04M372,4,ESPERANZA PREPARATORY ACADEMY,Alex Estrella,EMS,Middle,1.91,A ,69.9,13.2,A ,9.9,C ,39.8,A ,7,A
+04M375,4,Mosaic Preparatory Academy,Lisette Caesar,EMS,Elementary,62.12,D ,18.5,9.3,A ,2.3,D ,5.9,F ,1,B
+04M377,4,Renaissance School of the Arts,Tammy Pate,EMS,Middle,1.91,D ,20.4,8,B ,6,D ,5.3,F ,1,A
+04M381,4,Global Neighborhood Secondary School,Luis Genao,EMS,Middle,1.72,B ,43.4,7.6,B ,3.7,D ,28.6,B ,3.5,C
+04M406,4,GLOBAL TECHNOLOGY PREPARATORY,Chrystina Russell,EMS,Middle,1.94,A ,75.1,13.9,A ,13.1,B ,40.6,A ,7.5,
+04M497,4,Central Park East I,Julie Zuckerman,EMS,Elementary,40.3,C ,31.3,10.7,A ,6.9,C ,13.7,D ,0,C
+04M610,4,Young Women's Leadership School,Althea Bradshaw-Tyson,EMS,Middle,3.15,B ,41.5,11.3,A ,8.6,C ,20.6,C ,1,C
+04M825,4,Isaac Newton Middle School for Math & Science,Lisa Nelson,EMS,Middle,2.59,D ,22.8,8.1,B ,5.1,D ,8.6,D ,1,C
+04M964,4,Central Park East II,Naomi Smith,EMS,Elementary,48.14,A ,65,12.3,A ,9,C ,41.7,A ,2,B
+05M030,5,P.S. 030 Hernandez/Hughes,Teri Stinson,EMS,Elementary,64.81,D ,19.5,4.4,C ,1.4,F ,12.7,D ,1,A
+05M036,5,P.S. 036 Margaret Douglas,Cynthia Mullins-Simmons,EMS,Elementary,59.37,C ,34.8,4.7,C ,5.1,D ,22.9,C ,2,B
+05M046,5,P.S. 046 Arthur Tappan,George Young,EMS,K-8,64.3,B ,43.9,10,A ,7.3,C ,25.1,B ,1.5,C
+05M092,5,P.S. 092 Mary McLeod Bethune,Rosa Davila,EMS,Elementary,63.94,B ,42.9,8.3,B ,6.1,C ,25.9,B ,2.5,B
+05M123,5,P.S. 123 Mahalia Jackson,Beverly Lewis,EMS,K-8,61.43,D ,24.3,5.2,C ,2.9,F ,15.7,C ,0.5,C
+05M125,5,P.S. 125 Ralph Bunche,Rafaela Espinal Pacheco,EMS,Elementary,61.11,C ,31.6,4.9,C ,3.7,D ,23,C ,0,B
+05M129,5,P.S. 129 John H. Finley,Odelphia Pierre,EMS,K-8,60.9,C ,39.2,7.6,B ,6.3,C ,22.8,C ,2.5,B
+05M133,5,P.S. 133 Fred R Moore,Susan M. Vairo,EMS,Elementary,62.31,C ,31.5,1.2,F ,4.9,D ,22.4,C ,3,C
+05M154,5,P.S. 154 Harriet Tubman,Elizabeth Jarrett,EMS,Elementary,65.41,D ,25.6,7.5,B ,4,D ,13.1,D ,1,C
+05M161,5,P.S. 161 Pedro Albizu Campos,Barbara Freeman,EMS,K-8,67.92,B ,46.4,10.3,A ,8.5,C ,23.1,C ,4.5,B
+05M175,5,P.S. 175 Henry H Garnet,Cheryl Mcclendon,EMS,Elementary,59.34,B ,44.4,4.8,C ,8.4,C ,31.2,B ,0,B
+05M194,5,P.S. 194 Countee Cullen,Charyn Koppelson Cleary,EMS,Elementary,67.77,D ,19.5,1.2,F ,0.8,F ,16,C ,1.5,C
+05M195,5,I.S. 195 Roberto Clemente,Rosarie Jean,EMS,Middle,1.86,,,,,,,,,,D
+05M197,5,P.S. 197 John B. Russwurm,Renardo Wright,EMS,Elementary,60.13,F ,11.9,7.3,B ,2.6,D ,0,F ,2,B
+05M200,5,P.S. 200- The James Mccune Smith School,Renee Y. Belton,EMS,Elementary,60.74,C ,28.8,4.7,C ,5.9,C ,16.1,C ,2,B
+05M286,5,I.S. M286 Renaissance Military Leadership Academy,Qadir Ben Dixon,EMS,Middle,2.26,C ,37.9,9.6,A ,7.8,C ,19.4,C ,1,C
+05M302,5,KAPPA IV,Briony Carr,EMS,Middle,2.3,A ,59.6,10.3,A ,10.6,B ,34.7,B ,4,B
+05M317,5,Kappa II,Sean Dunning,EMS,Middle,1.6,,,,,,,,,,D
+05M318,5,Thurgood Marshall Academy Lower School,Sean Davenport,EMS,Elementary,48.73,B ,52.8,8,B ,9.1,C ,34.7,A ,1,C
+05M344,5,Academy of Collaborative Education,Rashaunda Shaw,EMS,Middle,1.94,,,,,,,,,,F
+05M362,5,Columbia Secondary School,Gary Biester,EMS,Middle,3.87,A ,60,7,B ,18,A ,35,A ,0,C
+05M367,5,Academy for Social Action: A College Board School,Rhokeisha Ford,EMS,Middle,1.98,D ,17.7,3.2,D ,6.2,D ,7.8,F ,0.5,B
+05M410,5,THE URBAN ASSEMBLY INSTITUTE FOR NEW TECHNOLOGIES,Travis Brown,EMS,Middle,1.96,B ,45.9,6.4,B ,7.2,C ,31.3,B ,1,
+05M469,5,Choir Academy of Harlem,Dr. A. Ellen Parris,EMS,Middle,2.22,B ,51.8,7.4,B ,7.1,C ,34.3,B ,3,C
+05M499,5,Frederick Douglass Academy,Gregory Hodge,EMS,Middle,2.78,B ,47.6,3.3,D ,9.3,C ,28,B ,7,C
+05M670,5,Thurgood Marshall Academy for Learning and Social,Sandye Johnson,EMS,Middle,2.72,D ,17,8.2,B ,5.8,D ,2,F ,1,D
+06M004,6,P.S. 004 Duke Ellington,Delois White,EMS,Elementary,64.66,B ,50,7.5,B ,5.3,D ,33.2,B ,4,B
+06M005,6,P.S. 005 Ellen Lurie,Wanda Soto,EMS,Elementary,65.62,C ,39.5,7.1,B ,6.5,C ,24.4,B ,1.5,B
+06M008,6,P.S. 008 Luis Belliard,Rafaela Landin,EMS,Elementary,67.11,B ,50.6,10.8,A ,8.5,C ,30.8,B ,0.5,A
+06M018,6,P.S. 018 Park Terrace,Connie Mejia,EMS,K-8,63.95,A ,57.1,11.8,A ,7.9,C ,32.9,B ,4.5,B
+06M028,6,P.S. 028 Wright Brothers,Elsa Nunez,EMS,Elementary,64.68,B ,52.5,9.9,A ,7.2,C ,30.9,B ,4.5,A
+06M048,6,P.S. 048 P.O. Michael J. Buczek,Tracy Walsh,EMS,Elementary,66.13,A ,74,9.5,A ,10.6,B ,44.4,A ,9.5,B
+06M052,6,J.H.S. 052 Inwood,Salvador Fernandez,EMS,Middle,2.28,B ,48.8,11.8,A ,6.9,C ,28.6,B ,1.5,A
+06M098,6,P.S. 098 Shorac Kappock,Maritza Rodriguez,EMS,Elementary,67.12,C ,34.6,6.4,B ,5.7,D ,20.9,C ,1.5,B
+06M115,6,P.S. 115 Alexander Humboldt,Angela Rodriguez,EMS,Elementary,67.63,C ,29,4.7,C ,5.3,D ,19,C ,0,C
+06M128,6,P.S. 128 Audubon,Rosa Argelia Arredondo,EMS,Elementary,65.39,B ,43,8.7,A ,6.4,C ,23.3,C ,4.5,B
+06M132,6,P.S. 132 Juan Pablo Duarte,Xiomara Nova,EMS,Elementary,66.98,D ,22.8,7.9,B ,4.4,D ,8,F ,2.5,B
+06M143,6,J.H.S. 143 Eleanor Roosevelt,Ourania Pappas,EMS,Middle,2.03,B ,53.2,7.6,B ,7.3,C ,34.7,B ,3.5,B
+06M152,6,P.S. 152 Dyckman Valley,Julia Pietri,EMS,Elementary,63.62,C ,31.3,3,D ,7.3,C ,21,C ,0,B
+06M153,6,P.S. 153 Adam Clayton Powell,Karen Bailey,EMS,Elementary,63.7,A ,68.2,9.6,A ,12.4,B ,40.1,A ,6,A
+06M173,6,P.S. 173,Dawn Boursiquot,EMS,Elementary,60.09,B ,51.8,4.6,C ,8.2,C ,35,A ,4,B
+06M178,6,Professor Juan Bosch Public School,Deirdre Budd,EC,K-2,52.68,B ,29.9,10.9,A ,4.5,C ,8.5,C ,6,B
+06M187,6,P.S./I.S. 187 Hudson Cliffs,Ms. Cynthia Chory,EMS,K-8,41.43,B ,47.6,7.3,B ,10.2,C ,28.6,B ,1.5,A
+06M189,6,P.S. 189,Theresa Luger,EMS,Elementary,66.29,A ,57.8,8.9,A ,9.9,C ,33,B ,6,A
+06M192,6,P.S. 192 Jacob H. Schiff,Deborah Schaefer,EMS,Elementary,65.71,B ,46.1,10.2,A ,6.5,C ,27.4,B ,2,C
+06M210,6,P.S./I.S. 210 - Twenty-first Century Academy for,Evelyn Linares,EMS,K-8,64.56,C ,32.1,11.9,A ,8.8,C ,10.9,D ,0.5,B
+06M218,6,I.S. 218 Salome Urena,June Barnett,EMS,Middle,2.02,C ,40.1,6.5,B ,6,D ,25.1,B ,2.5,B
+06M223,6,The Mott Hall School,Cynthia Arndt,EMS,Middle,3.58,B ,57.6,7.9,B ,17,A ,32.7,B ,0,A
+06M278,6,Paula Hedbavny School,Maureen Guido,EMS,K-8,53.87,A ,73.4,8.8,A ,10.8,B ,44.2,A ,9.5,B
+06M293,6,City College Academy of the Arts,Bernadette Drysdale,EMS,Middle,2.48,A ,76.7,11.4,A ,14.3,B ,41.5,A ,9.5,A
+06M311,6,Amistad Dual Language School,Miriam Pedraja,EMS,K-8,51.87,A ,60.3,11.6,A ,12.1,B ,32.1,B ,4.5,A
+06M314,6,Muscota,Camille Wallin,EMS,Elementary,41.92,C ,37.5,8,B ,4,D ,22,C ,3.5,B
+06M319,6,M.S. 319 - Maria Teresa,Ysidro Abreu,EMS,Middle,2.25,A ,65.4,11.7,A ,11,B ,36.7,A ,6,A
+06M321,6,M.S. 321 - Minerva,Pamela Russell-Glover,EMS,Middle,2.22,,,,,,,,,,
+06M322,6,Middle School 322,Erica Zigelman,EMS,Middle,2.22,C ,33,8,B ,6.2,D ,18.3,C ,0.5,B
+06M324,6,M.S. 324 - Patria Mirabal,Janet Heller,EMS,Middle,2.11,A ,79.4,13.5,A ,11.7,B ,44.2,A ,10,A
+06M325,6,P.S. 325,Gary H. Cruz,EMS,Elementary,68.78,C ,32.2,9.3,A ,6,C ,16.9,C ,0,C
+06M326,6,M.S. 326 - Writers Today & Leaders Tomorrow,Sharon Weissbrot,EMS,Middle,2.06,A ,67.8,9.7,A ,9.6,C ,42,A ,6.5,A
+06M328,6,M.S. 328 - Manhattan Middle School for Scientific,Jorge Estrella,EMS,Middle,2.06,B ,45.3,12.3,A ,5.3,D ,26.2,B ,1.5,B
+06M346,6,Community Health Academy of the Heights,Stephania Vu,EMS,Middle,2.05,C ,38.9,5.1,C ,4.2,D ,27.1,B ,2.5,C
+06M348,6,Washington Heights Expeditionary Learning School,Brett Kimmel,EMS,Middle,2.16,A ,63.5,11.6,A ,10.9,B ,36.5,A ,4.5,B
+06M349,6,Harbor Heights,Monica Klehr,EMS,Middle,1.92,A ,71.7,14.1,A ,5.7,D ,47.4,A ,4.5,A
+06M366,6,Washington Heights Academy,Crystal M. Felix,EMS,Elementary,51.39,B ,41.5,3.6,D ,7.8,C ,29.1,B ,1,B
+06M368,6,Hamilton Heights School,Alva Buxenbaum,EMS,Elementary,50.08,A ,58.6,10.1,A ,5.9,C ,39.6,A ,3,C
+06M528,6,I.S. 528 Bea Fuller Rodgers School,Kristy Dela Cruz,EMS,Middle,2.43,D ,23.4,8.9,A ,5.3,D ,9.2,D ,0,C
+07X001,7,P.S. 001 Courtlandt School,Jorge Perdomo,EMS,Elementary,67.67,D ,20.7,5,C ,4.7,D ,11,D ,0,C
+07X005,7,P.S. 005 Port Morris,Mary Padilla,EMS,Elementary,67.54,B ,48.8,10.7,A ,8,C ,27,B ,3,C
+07X018,7,P.S. 018 John Peter Zenger,Jasmin Varela,EMS,Elementary,64.06,A ,57.3,2.3,F ,7.2,C ,41.3,A ,6.5,C
+07X025,7,P.S. 025 Bilingual School,Carmen Toledo,EMS,Elementary,70.41,B ,49.3,9.6,A ,11.5,B ,25.7,B ,2.5,A
+07X029,7,P.S./M.S. 029 Melrose School,Meredith Gotlin,EMS,K-8,60.35,D ,21.1,5.3,C ,4,D ,11.3,D ,0.5,C
+07X030,7,P.S. 030 Wilton,,EMS,Elementary,66.7,A ,68.4,8,B ,6.5,C ,47.4,A ,6.5,A
+07X031,7,P.S./M.S. 031 The William Lloyd Garrison,Liza Diaz,EMS,K-8,63.77,C ,38.1,7.2,B ,7.3,C ,23,C ,0.5,C
+07X043,7,P.S. 043 Jonas Bronck,Giovanna Delucchi,EMS,Elementary,64.58,A ,56.7,8.1,B ,9.1,C ,34.4,A ,5,A
+07X049,7,P.S. 049 Willis Avenue,Laura Galloway,EMS,Elementary,65.52,B ,45.1,6.8,B ,8.2,C ,25.6,B ,4.5,C
+07X065,7,P.S. 065 Mother Hale Academy,Jasmine Gonzalez,EMS,Elementary,68.59,B ,41.2,5.2,C ,3.2,D ,29.2,B ,3.5,C
+07X151,7,J.H.S. 151 Lou Gehrig,Socorro Rivera,EMS,Middle,1.94,A ,62.2,10.6,A ,6.4,D ,37.1,A ,8,A
+07X154,7,P.S. 154 Jonathan D. Hyatt,Marsha Elliott,EMS,Elementary,66.83,C ,30.5,3.6,D ,5.4,D ,20,C ,1.5,C
+07X157,7,P.S. 157 Grove Hill,Ramona Duran,EMS,Elementary,62.76,C ,35.6,4.5,C ,9.4,C ,19.2,C ,2.5,B
+07X161,7,P.S. 161 Ponce De Leon,Mark Weisman,EMS,Elementary,68.93,B ,43.2,6.1,B ,5.1,D ,29.5,B ,2.5,C
+07X162,7,J.H.S. 162 Lola Rodriguez De Tio,Maryann Manzolillo,EMS,Middle,2.03,C ,27.1,2.9,D ,7,C ,17.2,C ,0,B
+07X179,7,P.S. 179,Sherry Font Williams,EMS,Elementary,66.48,F ,13.4,7.7,B ,5.1,D ,0.1,F ,0.5,C
+07X203,7,M.S. 203,William Hewlett Jr,EMS,Middle,1.78,C ,23.8,3.8,C ,2.9,F ,16.6,C ,0.5,C
+07X221,7,South Bronx Preparatory: A College Board School,Ellen Reddon Flanagan,EMS,Middle,2.18,C ,34.3,7,B ,5.7,D ,20.6,C ,1,C
+07X223,7,M.S. 223 The Laboratory School of Finance and Tech,Ramon Gonzalez,EMS,Middle,2.55,B ,50.7,10.5,A ,8.7,C ,28,B ,3.5,A
+07X224,7,P.S. / I.S. 224,Sojourner Welch,EMS,Middle,2.05,D ,20.1,0.4,F ,3.2,F ,15,C ,1.5,B
+07X277,7,P.S. 277,Cheryl Tyler,EMS,Elementary,65.68,F ,15.7,8.7,A ,2,D ,5,F ,0,C
+07X296,7,South Bronx Academy for Applied Media,Roshone Ault,EMS,Middle,1.96,A ,59.8,9.5,A ,9.2,C ,35.1,A ,6,A
+07X298,7,Academy of Public Relations,Barry Marks,EMS,Middle,2.04,A ,61.9,6.2,B ,8.4,C ,42.8,A ,4.5,A
+07X343,7,Academy of Applied Mathematics and Technology,Vincent Gassetto,EMS,Middle,1.96,A ,60.8,11.5,A ,9.4,C ,32.9,B ,7,A
+07X369,7,Young Leaders Elementary School,Karen Collins,EMS,Elementary,67.35,D ,20.7,6,B ,1.4,F ,11.8,D ,1.5,D
+07X385,7,Performance School,Lourdes Estrella,EMS,Elementary,66.64,C ,26.8,5.3,C ,0.3,F ,20.2,C ,1,C
+07X500,7,Hostos-Lincoln Academy of Science,Nicholas Paarlberg,EMS,Middle,2.53,C ,34.2,7.2,B ,8,C ,17.5,C ,1.5,A
+07X551,7,Bronx Academy of Letters,Anna Hall,EMS,Middle,2.15,C ,34.3,6.7,B ,9,C ,17.1,C ,1.5,B
+08X014,8,P.S. X014 Senator John Calandra,Ira Schulman,EMS,Elementary,39.93,D ,21.1,5.3,C ,4.7,D ,8.1,F ,3,C
+08X036,8,P.S. 036 Unionport,Elvira Maresca,EMS,Elementary,54.63,B ,41.1,8.5,A ,10,C ,21.1,C ,1.5,B
+08X048,8,P.S. 048 Joseph R. Drake,Roxanne Cardona,EMS,Elementary,64.11,A ,57.3,5.3,C ,8,C ,39,A ,5,B
+08X062,8,P.S. 062 Inocensio Casanova,Lisa Manfredonia,EMS,Elementary,64.26,A ,61,5.6,C ,6.7,C ,42.7,A ,6,B
+08X069,8,P.S. 069 The New Vision School,Sheila Durant,EMS,Elementary,61.49,A ,73.6,9.2,A ,14.5,A ,41.4,A ,8.5,A
+08X071,8,P.S. 071 Rose E. Scala,Lance Cooper,EMS,K-8,42.11,C ,39.6,4.6,C ,9,C ,23,C ,3,C
+08X072,8,P.S. 072 Dr. William Dorney,Margarita Colon,EMS,Elementary,54.41,C ,29.5,6,B ,2.4,D ,21.1,C ,0,C
+08X075,8,P.S. 075,Marines Arrieta-Cruz,EMS,Elementary,64.21,A ,56.9,5.7,C ,8.7,C ,37,A ,5.5,B
+08X093,8,P.S. 093 Albert G. Oliver,Donald Mattson,EMS,Elementary,62.53,A ,59.5,7.5,B ,8.7,C ,37.8,A ,5.5,B
+08X100,8,P.S. 100 Isaac Clason,Chad Adam Altman,EMS,Elementary,59.97,B ,46.2,4.7,C ,8.4,C ,28.6,B ,4.5,C
+08X101,8,M.S. X101 Edward R. Byrne,Kim Hampton Hewitt,EMS,Middle,3.29,B ,43.8,8.5,B ,10.1,C ,23.7,C ,1.5,C
+08X107,8,P.S. 107,Katherine Hamm,EMS,Elementary,61.3,C ,30.9,2.7,D ,0.7,F ,26.5,B ,1,D
+08X119,8,P.S. 119,Lydia Tyner,EMS,Elementary,48.85,B ,47.5,5.8,C ,7.1,C ,31.6,B ,3,C
+08X123,8,J.H.S. 123 James M. Kieran,Tyra Williams,EMS,Middle,2.21,B ,50.8,5.3,C ,7.9,C ,33.1,B ,4.5,A
+08X125,8,J.H.S. 125 Henry Hudson,Hilda Bairan,EMS,Middle,2.43,C ,28.6,4.4,C ,5.3,D ,16.9,C ,2,B
+08X130,8,P.S. 130 Abram Stevens Hewitt,Lourdes Velazquez,EMS,Elementary,65.11,C ,35,7.3,B ,4,D ,21.2,C ,2.5,C
+08X131,8,J.H.S. 131 Albert Einstein,Edward C. Leotta,EMS,Middle,2.4,C ,31,4,C ,5.6,D ,19.9,C ,1.5,C
+08X138,8,P.S. 138 Samuel Randall,Lorraine Carrol-Dawkins,EMS,Elementary,59.86,C ,38.9,7.4,B ,8.6,C ,22.4,C ,0.5,C
+08X140,8,P.S. X140 The Eagle School,Paul Cannon,EMS,Elementary,61.83,C ,36.2,5.2,C ,6.1,C ,23.9,C ,1,C
+08X146,8,P.S. 146 Edward Collins,Janet Sanderson-Brown,EMS,Elementary,63.45,B ,41.5,8.9,A ,6.9,C ,23.6,C ,2,C
+08X152,8,P.S. 152 Evergreen,Frances Lynch,EMS,Elementary,62.71,A ,62.3,8.1,B ,10.5,B ,36.7,A ,7,A
+08X182,8,P.S. 182,Anne O'Grady,EMS,Elementary,55.72,B ,42.5,6.3,B ,9.5,C ,23.7,C ,3,B
+08X269,8,Bronx Studio School for Writers and Artists,David Vazquez,EMS,Middle,2.27,C ,35.8,4.9,C ,7.1,C ,20.2,C ,3.5,C
+08X301,8,M.S. 301 Paul L. Dunbar,Benjamin Basile,EMS,Middle,2.11,C ,30.5,5,C ,5.9,D ,18.1,C ,1.5,C
+08X302,8,M.S. 302 Luisa Dessus Cruz,Angel Rodriguez,EMS,Middle,2.02,A ,77.7,8.6,B ,11.2,B ,48.9,A ,9,A
+08X304,8,P.S. 304 Early Childhood School,Joseph Nobile,EMS,Elementary,39.39,B ,46.4,10.3,A ,12.2,B ,20.9,C ,3,B
+08X333,8,P.S. 333 - The Museum School,Arthur Brown,EMS,Elementary,63.54,C ,28.7,6,B ,7.1,C ,15,D ,0.5,C
+08X335,8,The Academy of the Arts,Erik Wright,EMS,Elementary,66.56,B ,45.1,7.3,B ,8.3,C ,27.5,B ,2,B
+08X337,8,The School for Inquiry and Social Justice,Andrea Cyprys,EMS,Middle,2.21,A ,71.8,7.8,B ,12.7,B ,42.8,A ,8.5,A
+08X366,8,Urban Assembly Academy of Civic Engagement,Cameron Berube,EMS,Middle,2.12,C ,30.7,5.2,C ,7.5,C ,13.9,D ,4,C
+08X367,8,"Archimedes Academy for Math, Science and Technolog",Miriam Lazar,EMS,Middle,2.42,B ,47.6,4.4,C ,7.1,C ,30.1,B ,6,C
+08X371,8,Urban Institute of Mathematics,Jennifer Joynt,EMS,Middle,2.47,B ,50.7,7,B ,10.8,B ,29.4,B ,3.5,B
+08X375,8,The Bronx Mathematics Preparatory School,Mark D. Clarke,EMS,Middle,2.26,C ,25.1,4.8,C ,4.6,D ,13.7,D ,2,C
+08X376,8,"Antonia Pantoja Preparatory Academy, A College Boa",Nancy Jacqueline Diaz,EMS,Middle,2.36,B ,47.7,2.5,D ,9.8,C ,30.9,B ,4.5,C
+08X424,8,The Hunts Point School,John Hughes,EMS,Middle,2.08,C ,38.6,6.1,C ,6.5,C ,22,C ,4,B
+08X448,8,SOUNDVIEW ACADEMY FOR CULTURE AND SCHOLARSHIP,William Frackelton,EMS,Middle,2.38,D ,18.8,4.9,C ,4.8,D ,8.6,D ,0.5,
+08X467,8,MOTT HALL COMMUNITY SCHOOL,Geovanti Steward,EMS,Middle,2.34,B ,50.4,9.9,A ,10,C ,28,B ,2.5,
+09X002,9,P.S. 002 Morrisania,Lisa Debonis,EMS,Elementary,76.52,,,,,,,,,,
+09X004,9,P.S./M.S. 004 Crotona Park West,Vincent Resto,EMS,K-8,65.53,C ,36.8,6.7,B ,7.1,C ,22.5,C ,0.5,B
+09X011,9,P.S. 011 Highbridge,Elizabeth Hachar,EMS,Elementary,64.69,D ,21.2,2.9,D ,3.8,D ,14,D ,0.5,B
+09X022,9,J.H.S. 022 Jordan L. Mott,Linda Rosenbury,EMS,Middle,2.29,C ,29.9,7.6,B ,2.7,F ,19.5,C ,0,C
+09X028,9,P.S. 028 Mount Hope,Marie Barresi,EMS,Elementary,67.24,B ,42.8,9.1,A ,8,C ,23.2,C ,2.5,B
+09X035,9,P.S. 035 Franz Siegel,Graciela Navarro,EMS,Elementary,61.38,B ,48.8,8.1,B ,12.4,B ,23.8,C ,4.5,C
+09X042,9,P.S. 042 Claremont,Patricia Rigot Kulow,EMS,Elementary,66.65,C ,31.8,6,B ,7,C ,15.3,D ,3.5,A
+09X053,9,P.S. 053 Basheer Quisim,Collin Wolfe,EMS,Elementary,62.55,B ,47.5,3.8,C ,11.2,B ,26,B ,6.5,C
+09X055,9,P.S. 055 Benjamin Franklin,Luis Torres,EMS,Elementary,63.48,B ,41,4,C ,3.3,D ,29.7,B ,4,C
+09X058,9,P.S. 058,Velma Gunn,EMS,Elementary,66.87,D ,23.3,1.4,F ,4,D ,16.8,C ,1,C
+09X063,9,P.S. 063 Author's Academy,Reinaldo Diaz-Lens,EMS,Elementary,67.32,C ,37.9,7.3,B ,15.9,A ,11.7,D ,3,B
+09X064,9,P.S. 064 Pura Belpre,Tara Obrien,EMS,Elementary,69.92,D ,18.8,6.6,B ,1.9,D ,10.3,F ,0,C
+09X070,9,P.S. 070 Max Schoenfeld,Kerry Castellano,EMS,Elementary,62.72,C ,31.4,5.5,C ,3.9,D ,21,C ,1,C
+09X073,9,P.S. 073 Bronx,Jean Mirvil,EMS,Elementary,64.58,A ,57.6,6.7,B ,3.8,D ,40.1,A ,7,B
+09X088,9,P.S. X088 - S. Silverstein Little Sparrow School,Melinda Hyer,EC,K-3,64.27,B ,38.2,8.3,B ,13.2,A ,12.7,B ,4,B
+09X090,9,P.S. 090 George Meany,Joan Kong,EMS,Elementary,61.31,,,,,,,,,,
+09X109,9,P.S. 109 Sedgwick,Amanda Blatter,EMS,Elementary,65.96,B ,44.7,9,A ,10.3,B ,22.9,C ,2.5,A
+09X110,9,P.S. 110 Theodore Schoenfeld,Daisy Perez,EMS,Elementary,64.27,B ,42.6,8.3,B ,11.1,B ,18.1,C ,5,B
+09X114,9,P.S. X114 - Luis Llorens Torres Schools,Olivia Francis-Webber,EMS,Elementary,64.79,F ,17.5,6.7,B ,1.9,D ,8.3,F ,0.5,B
+09X117,9,I.S. 117 Joseph H. Wade,Delise Jones,EMS,Middle,2.09,C ,39.3,6.4,B ,6.3,D ,25.1,B ,1.5,B
+09X126,9,P.S. 126 Dr Marjorie H Dunbar,Nadine Kee-Foster,EMS,Elementary,64.36,A ,60.5,3.7,D ,6.5,C ,41.2,A ,9,B
+09X128,9,Mott Hall III,Jorisis Stupart,EMS,Middle,2.82,A ,65.7,7,B ,12.6,B ,39.6,A ,6.5,A
+09X132,9,P.S. 132 Garret A. Morgan,Anissa Chalmers,EMS,Elementary,67.08,C ,37.4,4.2,C ,2.9,D ,27.8,B ,2.5,B
+09X145,9,J.H.S. 145 Arturo Toscanini,Robert Hannibal,EMS,Middle,2.04,B ,53.3,11.4,A ,5.9,D ,32,B ,4,B
+09X163,9,P.S. 163 Arthur A. Schomburg,Dilsia Martinez,EMS,Elementary,67.41,C ,27.2,5.1,C ,6,C ,15.5,C ,0.5,C
+09X166,9,J.H.S. 166 Roberto Clemente,Lauren Reiss,EMS,Middle,2.24,,,,,,,,,,
+09X170,9,P.S. 170,Nancy Ramos,EC,K-2,61.09,B ,29.9,13.1,A ,9,B ,7.7,C ,0,B
+09X199,9,P.S. 199X - The Shakespeare School,Lilia Navarrete,EMS,Elementary,67.52,A ,79.5,6.6,B ,12.7,B ,51.7,A ,8.5,A
+09X204,9,P.S. 204 Morris Heights,Marcy Glattstein,EMS,Elementary,63.49,B ,44.3,13.4,A ,14,B ,14.8,D ,2,A
+09X215,9,Kappa,Sheri Warren,EMS,Middle,2.88,B ,55,8.8,A ,7.9,C ,33.3,B ,5,B
+09X218,9,P.S./I.S. 218 Rafael Hernandez Dual Language Magne,Leticia Rosario,EMS,K-8,61.21,C ,41,10.8,A ,11.4,B ,18.3,C ,0.5,A
+09X219,9,I.S. 219 New Venture School,Dominic Cipollone,EMS,Middle,2.01,C ,30.4,3.9,C ,5.1,D ,20.9,C ,0.5,B
+09X229,9,I.S. 229 Roland Patterson,Ezra Matthias,EMS,Middle,1.85,B ,56.9,5.5,C ,6.3,D ,37.1,A ,8,B
+09X230,9,P.S. 230 Dr Roland N. Patterson,Rowena Penn-Jackson,EMS,Elementary,68.04,C ,27.3,3.5,D ,3.8,D ,17.5,C ,2.5,C
+09X232,9,I.S. 232,Neifi Acosta,EMS,Middle,2.14,A ,59.9,7.6,B ,8.1,C ,38.7,A ,5.5,A
+09X236,9,P.S. 236 Langston Hughes,Beverly Ellis,EC,K-2,67.56,C ,22.1,8.6,B ,5.3,C ,7.2,C ,1,B
+09X241,9,Urban Assembly School for Applied Math and Science,Kenneth Baum,EMS,Middle,2.49,B ,44.2,7.8,B ,10.2,C ,23.7,C ,2.5,B
+09X250,9,Eximius College Preparatory Academy: A College Boa,Tammy Smith,EMS,Middle,2.44,,,,,,,,,,
+09X303,9,I.S. X303 Leadership & Community Service,Patricia Bentley,EMS,Middle,2.55,C ,29.6,8.8,A ,2.9,F ,16.4,C ,1.5,C
+09X313,9,I.S. 313 School of Leadership Development,Lauren Wilkins,EMS,Middle,2.08,C ,30.7,4.6,C ,6.1,D ,18.5,C ,1.5,B
+09X323,9,Bronx Writing Academy,Kamar Samuels,EMS,Middle,2.29,C ,30.5,3.5,C ,6.4,D ,19.6,C ,1,A
+09X324,9,Bronx Early College Academy for Teaching & Learnin,John Barnes,EMS,Middle,2.3,C ,26.6,7.5,B ,6.5,C ,12.6,D ,0,B
+09X325,9,Urban Science Academy,Patrick Kelly,EMS,Middle,2.2,C ,33.8,4.9,C ,4.3,D ,23.1,C ,1.5,B
+09X327,9,Comprehensive Model School Project M.S. 327,Manuel Ramirez,EMS,Middle,2.41,B ,56.5,7.6,B ,12,B ,30.9,B ,6,A
+09X328,9,New Millennium Business Academy Middle School,Dorald Bastian,EMS,Middle,2.05,D ,15.6,3.8,C ,5.2,D ,5.6,F ,1,C
+09X339,9,I.S. 339,Jason Levy,EMS,Middle,2.03,D ,19.2,3.9,C ,3.7,D ,11.6,D ,0,B
+09X413,9,Bronx High School for Medical Science,William Quintana,EMS,Middle,2.57,B ,45.2,9.4,A ,8.4,C ,24.4,C ,3,B
+09X443,9,THE FAMILY SCHOOL,Pamela Lee,EC,K-3,65.97,D ,14.7,6.3,C ,1.2,F ,4.1,F ,3,
+09X454,9,SCIENCE AND TECHNOLOGY ACADEMY: A MOTT HALL SCHOOL,Dr. Patrick Awosogba,EMS,Middle,2.22,A ,71.7,9.8,A ,9.5,C ,44.9,A ,7.5,
+09X457,9,SHERIDAN ACADEMY FOR YOUNG LEADERS,Lisette Febus,EC,K-3,62.95,C ,18.3,10.1,A ,2.9,F ,5.3,C ,0,
+09X505,9,"Bronx School for Law, Government and Justice",Meisha Ross-Porter,EMS,Middle,2.67,C ,40.3,8.1,B ,7.7,C ,18.5,C ,6,C
+09X517,9,Frederick Douglass Academy III Secondary School,Rahesha Amon,EMS,Middle,2.51,,,,,,,,,,C
+10X003,10,P.S. 3 Raul Julia Micro Society,Denise Brown,EMS,K-8,62.92,B ,48.6,3.4,D ,9.9,C ,29.8,B ,5.5,A
+10X007,10,P.S. 007 Kingsbridge,Frank Patterson,EMS,Elementary,57.65,A ,66.8,11.4,A ,8.3,C ,42.1,A ,5,C
+10X008,10,P.S. 008 Issac Varian,Rosa Maria Peralta,EMS,Elementary,58.75,B ,42.6,4.5,C ,9.8,C ,27.8,B ,0.5,B
+10X009,10,P.S. 9 Ryer Avenue Elementary School,Jacqueline Bailey,EMS,Elementary,64.76,C ,35,5.6,C ,7,C ,20.3,C ,2,C
+10X015,10,P.S. X015 Institute for Environmental Learning,Tara Edmonds,EMS,K-8,60.32,A ,64.3,13,A ,14.4,A ,32.4,B ,4.5,A
+10X020,10,P.S. 20 P.O.George J. Werdan III,Carol Carlsen,EMS,K-8,59.31,C ,37.5,6.4,B ,9.4,C ,21.2,C ,0.5,B
+10X023,10,P.S. 023 The New Children's School,Shirley Torres,EC,K-2,69.16,B ,29.9,7.6,B ,6.7,C ,10.5,B ,5,C
+10X024,10,P.S. 024 Spuyten Duyvil,Donna Connelly,EMS,Elementary,24.77,B ,45,3,D ,10,C ,27,B ,5,C
+10X032,10,P.S. 032 Belmont,Esther Schwartz,EMS,Elementary,65.11,B ,43.2,9.4,A ,14.2,A ,10.6,F ,9,A
+10X033,10,P.S. 033 Timothy Dwight,Lynette Santos,EMS,Elementary,64.27,C ,40,7.9,B ,5.9,C ,23.7,C ,2.5,A
+10X037,10,P.S. X037 - Multiple Intelligence School,Kenneth Petriccione,EMS,K-8,60.73,C ,31.6,5.3,C ,8.4,C ,15.9,C ,2,B
+10X045,10,Thomas C. Giordano Middle School 45,Annamaria Giordano,EMS,Middle,2.5,C ,40.4,5.7,C ,7,C ,24.2,C ,3.5,C
+10X046,10,P.S. 046 Edgar Allan Poe,Jennifer Alexander-Ade,EMS,Elementary,64.55,C ,35.1,4.9,C ,5.3,D ,23.9,C ,1,C
+10X051,10,P.S. 051 Bronx New School,Paul Smith,EMS,Elementary,56.43,A ,72,10.5,A ,9.7,C ,47.8,A ,4,B
+10X054,10,P.S. / I.S. 54,Maribelle Nunez-Pardo,EMS,Elementary,66.74,D ,22.6,2.1,F ,5.2,D ,14.3,D ,1,C
+10X056,10,P.S. 056 Norwood Heights,Priscilla Sheeran,EMS,Elementary,50.49,A ,67.1,10.1,A ,8.5,C ,42.5,A ,6,A
+10X059,10,P.S. 059 The Community School of Technology,Christine Mchugh,EMS,Elementary,66.27,B ,41.6,6.8,B ,7.7,C ,23.1,C ,4,B
+10X079,10,P.S. 079 Creston,Angelyn Donald,EMS,Middle,2.07,,,,,,,,,,
+10X080,10,J.H.S. 080 The Mosholu Parkway,Lovey Mazique-Rivera,EMS,Middle,2.1,C ,31.2,2.5,D ,5.6,D ,21.6,C ,1.5,B
+10X081,10,P.S. 081 Robert J. Christen,Melodie Mashel,EMS,Elementary,34.92,C ,36,7.9,B ,8.5,C ,17.1,C ,2.5,C
+10X085,10,P.S. 085 Great Expectations,Ted Husted,EMS,Elementary,67.25,C ,26.3,4.4,C ,2.1,D ,19.8,C ,0,C
+10X086,10,P.S. 086 Kingsbridge Heights,Sheldon Benardo,EMS,Elementary,62.16,A ,61.7,12.5,A ,10.7,B ,31.5,B ,7,A
+10X091,10,P.S. 091 Bronx,Meridith Struhl Nasjlett,EMS,Elementary,63.55,C ,40.2,2.5,F ,7,C ,30.7,B ,0,B
+10X094,10,P.S. 094 Kings College School,Diane Daprocida,EMS,Elementary,59.42,C ,39.9,4.8,C ,5.2,D ,27.4,B ,2.5,C
+10X095,10,P.S. 095 Sheila Mencher,Serge Marshall Davis,EMS,K-8,54.73,C ,38.2,1.5,F ,7.7,C ,24,C ,5,B
+10X118,10,J.H.S. 118 William W. Niles,Elizabeth Lawrence,EMS,Middle,2.84,C ,28.9,4.9,C ,8,C ,16,C ,0,C
+10X141,10,Riverdale / Kingsbridge Academy (Middle School / H,Lori O'Mara,EMS,Middle,2.78,C ,35.5,2.9,D ,9.9,C ,20.7,C ,2,D
+10X159,10,P.S. 159 Luis Munoz Marin Biling,Luis Liz,EMS,Elementary,69.46,C ,31.6,9.5,A ,8.9,C ,13.2,D ,0,B
+10X205,10,P.S. 205 Fiorello Laguardia,Carol Rosado,EMS,Elementary,61.78,B ,46,9.5,A ,13.9,B ,17.1,C ,5.5,A
+10X206,10,I.S. 206 Ann Mersereau,David Neering,EMS,Middle,2.37,C ,41.1,7.8,B ,7.1,C ,22.7,C ,3.5,B
+10X207,10,P.S. 207,Maria Rosado,EC,K-2,59.62,C ,26.7,8.7,B ,7.8,B ,8.1,C ,2,C
+10X209,10,P.S. 209,Anne Keegan,EC,K-2,66.93,B ,37.9,14.3,A ,10.1,B ,10.4,B ,3,A
+10X225,10,Theatre Arts Production Company School,Lynn Passarella,EMS,Middle,2.49,C ,29.6,6.6,B ,7.1,C ,15.9,C ,0,B
+10X226,10,P.S. 226,Gloria Darden,EMS,Elementary,67.99,C ,39.9,8.1,B ,5,D ,25.3,B ,1.5,D
+10X228,10,Jonas Bronck Academy,Donalda Chumney,EMS,Middle,2.42,B ,47.2,12.7,A ,11.2,B ,21.3,C ,2,A
+10X243,10,West Bronx Academy for the Future,Wilper Morales,EMS,Middle,2.34,C ,39.7,9.6,A ,9.2,C ,18.9,C ,2,C
+10X244,10,The New School for Leadership and Journalism,Dolores Peterson,EMS,Middle,2.15,A ,69.5,11.2,A ,11.9,B ,38.9,A ,7.5,B
+10X246,10,P.S. 246 Poe Center,Beverly Miller,EMS,Elementary,65.57,B ,40.8,7.8,B ,6,C ,24.5,B ,2.5,C
+10X254,10,I.S. 254,Wilford Hemans,EMS,Middle,2.06,C ,36.6,3.6,C ,8.6,C ,21.4,C ,3,A
+10X279,10,"P.S. 279 Captain Manuel Rivera, Jr.",James Waslawski,EMS,K-8,64.33,B ,47.6,8.8,A ,7,C ,28.8,B ,3,B
+10X280,10,P.S./M.S. 280 Mosholu Parkway,James Weeks,EMS,K-8,56.89,B ,44.3,8.6,A ,12,B ,22.7,C ,1,A
+10X291,10,P.S. 291,Carlos Velez,EMS,Elementary,67.27,B ,41.2,11.8,A ,13.4,B ,16,C ,0,B
+10X306,10,P.S. 306,Darryl Harrington,EMS,Elementary,61,D ,24.9,5.5,C ,4,D ,14.9,D ,0.5,C
+10X307,10,P.S. X307 - Eames Place,Luisa Fuentes,EMS,Elementary,59.62,A ,57.5,13.8,A ,18.6,A ,24.6,B ,0.5,A
+10X308,10,Bronx Dance Academy School,Sandra Sanchez,EMS,Middle,2.22,B ,48.5,8.9,A ,8.6,C ,25.5,B ,5.5,B
+10X310,10,P.S. 310 Marble Hill,Elizabeth Cardona,EMS,Elementary,59.51,D ,25.2,6.1,B ,6.6,C ,12,D ,0.5,A
+10X315,10,P.S. 315 Lab School,Elsie Cardona-Berardinelli,EMS,K-8,61.52,A ,64.2,11.2,A ,14.6,A ,33.4,B ,5,A
+10X331,10,The Bronx School of Science Inquiry and Investigat,Serapha Cruz,EMS,Middle,2.16,B ,43.3,9.5,A ,6.4,D ,24.4,C ,3,B
+10X340,10,P.S. 340,Nelly Maldonado,EMS,Elementary,61.26,C ,31.7,11.5,A ,6.5,C ,13.7,D ,0,B
+10X342,10,International School for Liberal Arts,Migdalia Carrillo,EMS,Middle,2.15,A ,73.6,10.4,A ,4.5,D ,51.7,A ,7,B
+10X344,10,Ampark Neighborhood,Elizabeth Lopez-Towey,EMS,Elementary,29.86,C ,22.1,4.9,C ,7.3,C ,9.9,F ,0,
+10X360,10,P.S. 360,Nancy Rodriguez-Lewis,EMS,Elementary,62.69,C ,33.1,5.5,C ,6.2,C ,19.4,C ,2,B
+10X363,10,ACADEMY FOR PERSONAL LEADERSHIP AND EXCELLENCE,Angelo Ledda,EMS,Middle,2.07,,,,,,,,,,
+10X368,10,In-Tech Academy (M.S. / High School 368),Yvette Allen,EMS,Middle,2.38,B ,48.7,7.8,B ,9.6,C ,27.3,B ,4,B
+10X382,10,"Elementary School for Math, Science, and Technolog",Avon Connell-Cowell,EMS,Elementary,63.68,B ,46.5,9.7,A ,4,D ,29.3,B ,3.5,C
+10X386,10,School for Environmental Citizenship,Heather Dawe,EMS,Elementary,64.67,F ,16.6,6,B ,4.4,D ,3.6,F ,2.5,F
+10X390,10,M.S. 390,Robert Mercedes,EMS,Middle,2.29,B ,45.9,8.8,A ,7.2,C ,27.4,B ,2.5,C
+10X391,10,The Angelo Patri Middle School,Graciela Abadia,EMS,Middle,1.96,C ,40.7,7.7,B ,5,D ,27,B ,1,B
+10X396,10,P.S. 396,Nicole Tine,EMS,Elementary,62.52,B ,41.2,8.3,B ,11.2,B ,21.2,C ,0.5,B
+10X399,10,M.S. 399,"Outerbridge, Kim",EMS,Middle,2.02,,,,,,,,,,
+10X447,10,CRESTON ACADEMY,Pamela Edwards,EMS,Middle,2.09,C ,38.4,9.7,A ,7.5,C ,17.7,C ,3.5,
+10X459,10,EAST FORDHAM ACADEMY FOR THE ARTS,Tanicia Williams,EMS,Middle,2.1,A ,60.8,8.1,B ,8.2,C ,37.5,A ,7,
+11X016,11,P.S. 016 Wakefield,Yvonne Williams,EMS,Elementary,56.76,B ,40.7,3.1,D ,5.3,D ,30.8,B ,1.5,C
+11X019,11,P.S. 019 Judith K. Weiss,Timothy P. Sullivan,EMS,K-8,24.8,B ,53,7.5,B ,8.1,C ,32.4,B ,5,C
+11X021,11,P.S. 021 Philip H. Sheridan,Joyce Coleman,EMS,Elementary,58.08,C ,27.1,3.4,D ,3.6,D ,18.1,C ,2,C
+11X041,11,P.S. 041 Gun Hill Road,Erika Tobia,EMS,Elementary,61.49,A ,77.6,8.3,B ,10.9,B ,46.9,A ,11.5,A
+11X068,11,P.S. 068 Bronx,Catherine Helfrich,EMS,Elementary,61.72,B ,48,5.9,C ,9,C ,27,B ,6,B
+11X076,11,P.S. 076 The Bennington School,Louise Sedotto,EMS,Elementary,54.28,B ,44.9,5,C ,7.8,C ,27.6,B ,4.5,A
+11X078,11,P.S. 078 Anne Hutchinson,Claudina Skerritt,EMS,Elementary,58.84,B ,49.3,5.3,C ,5.8,C ,33.2,B ,5,C
+11X083,11,P.S. 083 Donald Hertz,Benjamin Soccodato,EMS,K-8,42.99,B ,48.4,7.6,B ,9.3,C ,29,B ,2.5,C
+11X087,11,P.S. 087 Bronx,Donna Anaman,EMS,Elementary,55.57,C ,29.7,2.7,D ,4,D ,23,C ,0,C
+11X089,11,P.S. 089 Bronx,Ralph Martinez,EMS,K-8,53.7,C ,35.9,2.5,D ,5,D ,25.9,B ,2.5,C
+11X096,11,P.S. 096 Richard Rodgers,Marta Garcia,EMS,Elementary,50.84,B ,47.7,7,B ,12.7,B ,25,B ,3,B
+11X097,11,P.S. 097 Bronx,Katheleen Bornkamp,EMS,Elementary,49.19,A ,70.1,5.1,C ,9.6,C ,46.4,A ,9,B
+11X103,11,P.S. 103 Hector Fontanez,Farid Reyes,EMS,Elementary,57.41,B ,49.2,5.5,C ,6,C ,32.7,B ,5,B
+11X105,11,P.S. 105 Sen Abraham Bernstein,Mr. Christopher Eustace,EMS,Elementary,55.65,C ,32.8,6.4,B ,6.9,C ,17,C ,2.5,B
+11X106,11,P.S. 106 Parkchester,Eugenia Montalvo,EMS,Elementary,46.48,B ,46.9,7.4,B ,9.4,C ,26.1,B ,4,B
+11X108,11,P.S. 108 Philip J. Abinanti,Charles Sperrazza,EMS,Elementary,35.15,C ,38.6,3.9,C ,8.3,C ,22.9,C ,3.5,C
+11X111,11,P.S. 111 Seton Falls,Ava Fullenweider,EMS,Elementary,61.86,C ,26,1.8,F ,3.5,D ,19.1,C ,1.5,C
+11X112,11,P.S. 112 Bronxwood,Susan Barnes,EMS,Elementary,63.21,D ,18.3,5.7,C ,2.6,D ,8.5,F ,1.5,A
+11X121,11,P.S. 121 Throop,Rachel Donnelly,EMS,Elementary,50.52,C ,31.2,10,A ,7.1,C ,13.5,D ,0.5,B
+11X127,11,J.H.S. 127 The Castle Hill,Harry Sherman,EMS,Middle,2.58,C ,31.3,5.7,C ,5.4,D ,17.1,C ,3,B
+11X142,11,MS 142 John Philip Sousa,Casimiro Cibelli,EMS,Middle,2.25,C ,35.7,3.3,D ,4.8,D ,25.6,B ,2,C
+11X144,11,J.H.S. 144 Michelangelo,Pauline Mattis,EMS,Middle,2.33,C ,33.5,2.5,D ,6.4,D ,24,C ,0.5,C
+11X153,11,P.S. 153 Helen Keller,Veronica Goka,EMS,Elementary,47.32,A ,71.6,7.6,B ,12.8,B ,43.2,A ,8,B
+11X160,11,P.S. 160 Walt Disney,Lori Baker,EMS,Elementary,52.49,C ,35,3.8,C ,6.4,C ,24.8,B ,0,C
+11X175,11,P.S. 175 City Island,Amy Lipson,EMS,K-8,21.56,C ,27.8,5.4,C ,8.7,C ,13.2,D ,0.5,C
+11X178,11,P.S. 178 - Dr. Selman Waksman,Evelyn Fulton,EMS,Elementary,51.82,B ,54.3,4.9,C ,5,D ,39.9,A ,4.5,C
+11X180,11,M.S. 180 Dr. Daniel Hale Williams,Frank Uzzo,EMS,Middle,2.69,C ,39.2,11,A ,8.9,C ,17.2,C ,2,B
+11X181,11,I.S. 181 Pablo Casals,Christopher Warnock,EMS,Middle,2.7,B ,51.2,8.5,B ,11,B ,26.2,B ,5.5,B
+11X189,11,Cornerstone Academy for Social Action,Malissa Mootoo,EMS,Elementary,59.14,C ,40.1,2.3,F ,6.1,C ,28.7,B ,3,F
+11X194,11,PS/MS 194,Rosa Sifuentes-Rosado,EMS,K-8,50.9,C ,37.8,7,B ,7.5,C ,22.3,C ,1,B
+11X270,11,Academy for Scholarship and Entrepreneurship: A Co,Zenobia White,EMS,Middle,2.49,D ,18.7,4,C ,3.7,D ,9.5,D ,1.5,C
+11X272,11,Globe School for Environmental Research,Matthew Angell,EMS,Middle,2.25,C ,33.8,2.2,D ,6.5,C ,24,C ,1,D
+11X287,11,The Forward School,Adrienne Phifer,EMS,Middle,2.03,B ,43.8,5.3,C ,8.1,C ,27.8,B ,2.5,B
+11X289,11,The Young Scholars Academy of The Bronx,Jeanette Vargas,EMS,Middle,2.32,C ,33.6,3.5,C ,7.8,C ,21.8,C ,0.5,C
+11X322,11,Aspire Preparatory Middle School,Steven Cobb,EMS,Middle,2.55,F ,13.6,1.2,F ,4.3,D ,7,F ,1,C
+11X326,11,Bronx Green Middle School,Charles Johnson,EMS,Middle,2.36,B ,48.1,6.6,B ,8,C ,31,B ,2.5,C
+11X370,11,School of Diplomacy,John Scalice,EMS,Middle,2.26,F ,12.8,1.1,F ,4.6,D ,6.6,F ,0.5,C
+11X462,11,CORNERSTONE ACADEMY FOR SOCIAL ACTION MIDDLE SCHOO,Jamaal Bowman,EMS,Middle,2.36,B ,41.5,9.8,A ,7.7,C ,21.5,C ,2.5,
+11X468,11,PELHAM ACADEMY OF ACADEMICS AND COMMUNITY ENGAGEME,Anthony Rivera,EMS,Middle,2.37,B ,51,10.1,A ,9.9,C ,26.5,B ,4.5,
+11X498,11,PS/MS 11X498 - VAN NEST ACADEMY,Carol Gilligan,EMS,Middle,2.69,,,,,,,,,,
+12X006,12,P.S. 006 West Farms,Darlene Mcwhales,EMS,Elementary,65.52,C ,28.3,1.5,F ,3.4,D ,22.4,C ,1,C
+12X044,12,P.S. 044 David C. Farragut,Donna Ferguson,EMS,Elementary,66.62,C ,34.4,6.3,B ,8.7,C ,16.9,C ,2.5,B
+12X047,12,P.S. 047 John Randolph,Thomas Guarnieri,EMS,Elementary,59.16,B ,48.3,11.7,A ,7.4,C ,24.7,B ,4.5,C
+12X050,12,P.S. 050 Clara Barton,Lori Ferguson,EMS,Elementary,67.37,C ,36.4,2.5,F ,3.6,D ,26.8,B ,3.5,D
+12X057,12,P.S. 057 Crescent,Edsel Philip,EMS,Elementary,62.98,C ,37.9,5,C ,10.3,B ,20.1,C ,2.5,B
+12X061,12,P.S. 061 Francisco Oller,Patricia Quigley,EMS,Elementary,61.48,D ,19.1,11.9,A ,5.1,D ,2,F ,0,C
+12X066,12,P.S. 066 School of Higher Expectations,Thomas Degrazia,EMS,Elementary,65.41,B ,49.8,8.5,A ,9,C ,28.3,B ,4,B
+12X067,12,P.S. 067 Mohegan School,Emily Grimball,EMS,Elementary,64.09,B ,55.3,4.5,C ,7.8,C ,37.5,A ,5.5,C
+12X092,12,P.S. 092 Bronx,Manuel Estrella,EMS,Elementary,64.94,C ,28.5,2.3,F ,2.3,D ,23.9,C ,0,B
+12X098,12,J.H.S. 098 Herman Ridder,Claralee Irobunda,EMS,Middle,2.09,C ,39.3,6.2,B ,7.6,C ,20.9,C ,4.5,A
+12X102,12,P.S. 102 Joseph O. Loretan,Tanyua Trezevantte,EMS,Elementary,63.04,,,,,,,,,,C
+12X129,12,P.S. 129 Twin Parks Upper,Yvette Beasley,EMS,Middle,2.2,B ,53.7,7.1,B ,10.3,B ,29.7,B ,6.5,B
+12X134,12,P.S. 134 George F. Bristow,Kenneth Thomas,EMS,Elementary,62.7,C ,34.6,4.8,C ,6.5,C ,21.7,C ,1.5,B
+12X150,12,P.S. 150 Charles James Fox,Edwin Irizarry,EMS,Elementary,66.51,B ,41.7,7.9,B ,8.3,C ,22.5,C ,3,A
+12X190,12,E.S.M.T- I.S. 190,Dianajade Santiago,EMS,Middle,2.36,C ,30.7,8.4,B ,5.7,D ,13.6,D ,3,B
+12X195,12,P.S. 195,Andrew Kavanagh,EMS,Elementary,61.45,C ,39.7,4.5,C ,5.4,D ,26.3,B ,3.5,C
+12X196,12,P.S. 196,Lizzette Rivera,EMS,Elementary,62.56,C ,30.1,8.9,A ,8.5,C ,10.7,F ,2,B
+12X198,12,P.S. 198,Judy Hunt-Hutchings,EMS,Elementary,68.74,,,,,,,,,,
+12X211,12,P.S. 211,Betty Gonzalez-Soto,EMS,K-8,69.73,B ,57,8.1,B ,6.3,C ,38.6,A ,4,A
+12X212,12,P.S. 212,Yohan Lim,EMS,K-8,64.7,B ,56.1,6.2,B ,7.9,C ,37.5,A ,4.5,C
+12X214,12,P.S. 214,David Cintron,EMS,K-8,61.26,B ,56.5,8.9,A ,9.8,C ,33.8,B ,4,B
+12X217,12,School of Performing Arts,Seth Litt,EMS,Middle,2.08,C ,34.8,4.5,C ,6.7,C ,22.1,C ,1.5,A
+12X242,12,Mott Hall V,Peter Oroszlany,EMS,Middle,2.46,B ,53.9,8.5,B ,11.2,B ,31.7,B ,2.5,A
+12X245,12,New Day Academy,Mara Ganeles,EMS,Middle,2.05,,,,,,,,,,C
+12X267,12,Bronx Latin,Leticia Pineiro,EMS,Middle,2.14,A ,79.6,11.3,A ,12.4,B ,47.9,A ,8,A
+12X271,12,East Bronx Academy for the Future,Sarah Scrogin,EMS,Middle,2.23,C ,38.3,6.7,B ,7.2,C ,22.9,C ,1.5,B
+12X273,12,Frederick Douglass Academy V. Middle School,Deborah Cimini,EMS,Middle,2.32,B ,53.4,9.2,A ,10.6,B ,30.1,B ,3.5,B
+12X286,12,Fannie Lou Hamer Middle School,Lorraine Chanon,EMS,Middle,2.17,C ,30.3,9.2,A ,6.4,D ,12.2,D ,2.5,A
+12X300,12,The School of Science and Applied Learning,Venessa Singleton,EMS,Elementary,63.8,D ,24.3,8.8,A ,0.4,F ,15.1,D ,0,C
+12X316,12,Kappa III,Elisa Alvarez,EMS,Middle,2.46,A ,60.5,11.6,A ,10.4,B ,35.5,A ,3,A
+12X318,12,"I.S. X318 Math, Science & Technology Through Arts",Maria Lopez,EMS,Middle,2.11,B ,53.7,7.3,B ,8,C ,31.4,B ,7,C
+12X341,12,Accion Academy,Adrian Manuel,EMS,Middle,2.01,C ,38.8,5.5,C ,6.9,C ,22.4,C ,4,A
+12X372,12,Urban Assembly School for Wildlife Conservation,Mark Ossenheimer,EMS,Middle,2.43,D ,20.2,2.6,D ,5.3,D ,10.8,D ,1.5,C
+12X383,12,Emolior Academy,Derick Spaulding,EMS,Middle,2.09,C ,36,9.5,A ,6.7,C ,17.8,C ,2,B
+12X384,12,Entrada Academy,Socorro Diaz,EMS,Middle,2.17,C ,31.8,9.2,A ,4,D ,17.6,C ,1,A
+12X463,12,URBAN SCHOLARS COMMUNITY SCHOOL,Debra Clarke-Jones,EC,K-3,65.95,F ,12.9,6.8,C ,1.7,F ,2.4,F ,2,
+12X691,12,Bronx Little School,Janice Gordon,EMS,Elementary,58.13,A ,63.5,7,B ,7.9,C ,46.6,A ,2,C
+13K003,13,P.S. 003 The Bedford Village,Kristina Beecher,EMS,Elementary,53.74,C ,33.4,5.6,C ,6.4,C ,20.3,C ,1,C
+13K008,13,P.S. 008 Robert Fulton,Seth Phillips,EMS,Elementary,20.21,C ,33.3,5.2,C ,11.5,B ,14.6,D ,2,C
+13K009,13,P.S. 009 Teunis G. Bergen,Sandra D'Avilar,EMS,Elementary,47.93,C ,34.2,6.8,B ,7.6,C ,19.3,C ,0.5,C
+13K011,13,P.S. 011 Purvis J. Behan,Alonta Wrighton,EMS,Elementary,47.18,B ,46.9,7.7,B ,9.6,C ,27.1,B ,2.5,B
+13K020,13,P.S. 020 Clinton Hill,L Barbera,EMS,Elementary,49.84,B ,46.1,7.2,B ,7.1,C ,29.8,B ,2,C
+13K044,13,P.S. 044 Marcus Garvey,Valerie Taylor,EMS,Elementary,59.08,B ,44.5,5.9,C ,8.8,C ,26.7,B ,3,B
+13K046,13,P.S. 046 Edward C. Blum,Karyn Nicholson,EMS,Elementary,63.34,A ,70.3,3.6,D ,8.8,C ,48.4,A ,9.5,A
+13K054,13,P.S. 054 Samuel C. Barnes,Lorna Khan,EMS,Elementary,64.58,C ,35.9,6,B ,4.9,D ,23.5,C ,1.5,C
+13K056,13,P.S. 056 Lewis H. Latimer,Deborah Clark-Johnson,EMS,Elementary,60.86,A ,57,9.2,A ,11.4,B ,34.4,A ,2,B
+13K067,13,P.S. 067 Charles A. Dorsey,Corinne Seabrook,EMS,Elementary,60.29,D ,25.2,9.8,A ,5.8,C ,8.6,F ,1,C
+13K093,13,P.S. 093 William H. Prescott,Sandra Philip,EMS,Elementary,55.52,B ,43.4,5.4,C ,2.5,D ,31.5,B ,4,C
+13K103,13,Satellite Three,Beatrice Thompson,EMS,Middle,2.5,D ,16.9,2.3,D ,3.4,D ,11.2,D ,0,C
+13K113,13,M.S. 113 Ronald Edmonds Learning Center,Dawnique Daughtry,EMS,Middle,2.61,D ,22.4,4.4,C ,6,D ,11,D ,1,C
+13K133,13,P.S. 133 William A. Butler,Heather Foster-Mann,EMS,Elementary,59.58,B ,43.9,7.6,B ,6.8,C ,27.5,B ,2,C
+13K256,13,P.S. 256 Benjamin Banneker,Sharyn Hemphill,EMS,Elementary,60.25,F ,16.6,2.7,D ,4.8,D ,8,F ,1,C
+13K265,13,Dr. Susan S. McKinney Secondary School of the Arts,Paula Holmes,EMS,Middle,1.98,B ,47.1,5,C ,8.2,C ,29.8,B ,4,C
+13K266,13,M.S. K266 - Park Place Community Middle School,Michele Robinson,EMS,Middle,2.68,C ,28.1,6.9,B ,5.9,D ,15.3,C ,0,C
+13K270,13,P.S. 270 Johann DeKalb,Mitra Lutchman,EMS,Elementary,61.35,C ,39.4,7,B ,16.9,A ,15,D ,0.5,A
+13K282,13,P.S. 282 Park Slope,Magalie Alexis,EMS,K-8,46.75,C ,28,3.2,D ,8.6,C ,15.2,C ,1,B
+13K287,13,P.S. 287 Bailey K. Ashford,Ms. Michele Rawlins,EMS,Elementary,62.04,B ,45.2,7.8,B ,3.8,D ,31.1,B ,2.5,B
+13K301,13,Satellite East Middle School,Kim Mcpherson,EMS,Middle,2.38,B ,48.8,4,C ,6.6,C ,35.7,A ,2.5,D
+13K305,13,P.S. 305 Dr. Peter Ray,Dr. Julia Mortley,EMS,Elementary,58.19,C ,37.4,3.4,D ,4.9,D ,26.5,B ,2.5,C
+13K307,13,P.S. 307 Daniel Hale Williams,Roberta Davenport,EMS,Elementary,62.68,C ,33,6.7,B ,5.1,D ,20.2,C ,1,C
+13K313,13,Satellite West Middle School,Suzane Joseph,EMS,Middle,1.94,A ,65,5.4,C ,11.7,B ,40.9,A ,7,B
+13K336,13,Academy of Business and Community Development,Simone A. Mcintosh,EMS,Middle,2.17,D ,21.4,1.3,F ,6.1,D ,12,D ,2,D
+13K492,13,Urban Assembly Academy of Arts and Letters,Allison Gaines Pell,EMS,Middle,2.77,B ,45.5,9.7,A ,9.8,C ,23,C ,3,B
+13K527,13,Urban Assembly Institute of Math and Science for Y,Kiri Soares,EMS,Middle,3,B ,49.6,6,C ,5.6,D ,35.5,A ,2.5,D
+13K571,13,M.S. 571,Santosha Troutman,EMS,Middle,1.95,,,,,,,,,,D
+13K592,13,Khalil Gibran International Academy,Beshir Abdellatif,EMS,Middle,2.48,,,,,,,,,,C
+13K596,13,Knowledge and Power Preparatory Academy VII Middle,Beatrice Thompson,EMS,Middle,2.27,F ,7.5,4,C ,2.4,F ,1.1,F ,0,D
+13K691,13,FORT GREENE PREPARATORY ACADEMY,Paula Lettiere,EMS,Middle,2.51,,,,,,,,,,
+14K016,14,P.S. 016 Leonard Dunkly,Mary Renny,EMS,Elementary,61.45,C ,30.6,7.4,B ,5.8,C ,17.4,C ,0,C
+14K017,14,P.S. 017 Henry D. Woodworth,Dr. Robert Marchi,EMS,Elementary,61.2,C ,38.8,4.6,C ,9.6,C ,21.1,C ,3.5,A
+14K018,14,P.S. 018 Edward Bush,Karen Ford,EMS,Elementary,61.57,C ,29.9,7.7,B ,9,C ,13.2,D ,0,B
+14K019,14,P.S. 019 Roberto Clemente,Maria Witherspoon,EMS,Elementary,63.06,F ,9,6.6,B ,0.7,F ,0.7,F ,1,D
+14K023,14,P.S. 023 Carter G. Woodson,Sharon Meade,EMS,Elementary,63.89,B ,45.4,12.3,A ,4.5,D ,23.6,C ,5,A
+14K031,14,P.S. 031 Samuel F. Dupont,Mary J. Scarlato,EMS,Elementary,40.44,A ,91.5,12.3,A ,22.4,A ,51.8,A ,5,A
+14K034,14,P.S. 034 Oliver H. Perry,Alicja Winnicki,EMS,Elementary,29.81,A ,70,11,A ,16.2,A ,39.8,A ,3,B
+14K050,14,J.H.S. 050 John D. Wells,Denise Jamison,EMS,Middle,1.97,C ,41,4.1,C ,4.9,D ,31,B ,1,B
+14K059,14,P.S. 059 William Floyd,Dawn Best,EMS,Elementary,61.85,C ,37.1,5.4,C ,1.9,D ,28.3,B ,1.5,C
+14K071,14,Juan Morel Campos Secondary School,Howard Fineman,EMS,Middle,1.93,C ,24,6.5,B ,3.5,D ,13.5,D ,0.5,B
+14K084,14,P.S. 084 Jose De Diego,Sereida Rodriguez,EMS,Elementary,58.95,B ,49.5,7.7,B ,2.5,D ,33.3,B ,6,C
+14K110,14,P.S. 110 The Monitor,Anna Cano Amato,EMS,Elementary,34.91,C ,32.4,9.2,A ,6.3,C ,15.9,C ,1,C
+14K120,14,P.S. 120 Carlos Tapia,Liza Caraballo,EMS,Elementary,63.89,A ,66.9,12.4,A ,7.4,C ,39.6,A ,7.5,C
+14K126,14,John Ericsson Middle School 126,Rosemary Ochoa,EMS,Middle,1.85,D ,20.9,2.8,D ,3.6,D ,14,D ,0.5,B
+14K132,14,P.S. 132 The Conselyea School,Beth Lubeck,EMS,Elementary,44.52,C ,25.8,10.6,A ,10.2,B ,4,F ,1,B
+14K147,14,P.S. 147 Isaac Remsen,Julia Drake,EMS,Elementary,64.61,B ,45.1,10.8,A ,8.6,C ,22.2,C ,3.5,A
+14K157,14,P.S. 157 Benjamin Franklin,Maribel Torres,EMS,Elementary,64.86,B ,40.8,12,A ,7.1,C ,20.2,C ,1.5,B
+14K196,14,P.S. 196 Ten Eyck,Janine Colon,EMS,Elementary,64.07,C ,31.8,11.3,A ,13.7,B ,2.8,F ,4,A
+14K250,14,P.S. 250 George H. Lindsay,Nora Barnes,EMS,Elementary,50.97,B ,42.8,7.5,B ,8,C ,26.8,B ,0.5,B
+14K257,14,P.S. 257 John F. Hylan,Brian Leavy-Devale,EMS,Elementary,64.82,A ,91.4,13.3,A ,14.3,A ,52.8,A ,11,A
+14K297,14,P.S. 297 Abraham Stockton,James Brown,EMS,Elementary,61.62,B ,45.1,6.2,B ,5.5,D ,29.4,B ,4,C
+14K318,14,I.S. 318 Eugenio Maria De Hostos,Fortunato Rubino,EMS,Middle,3.06,C ,31.5,10.2,A ,5.6,D ,14.7,C ,1,C
+14K330,14,The Urban Assembly School for the Urban Environmen,Kourtney Boyd,EMS,Middle,1.93,B ,46.1,2.9,D ,6.6,C ,32.6,B ,4,C
+14K380,14,P.S. 380 John Wayne Elementary,Diane Vitolo,EMS,Elementary,58.9,A ,83.3,14.5,A ,19.9,A ,42.3,A ,6.5,A
+14K577,14,Conselyea Preparatory School,Maria Masullo,EMS,Middle,2.82,B ,42.5,10.1,A ,8.6,C ,18.8,C ,5,B
+14K582,14,M.S. 582,Brian Walsh,EMS,Middle,2.3,D ,19.8,5.1,C ,7,C ,6.7,F ,1,B
+14K586,14,Lyons Community School,Taeko Onishi,EMS,Middle,2.13,B ,46.3,8,B ,4.8,D ,29,B ,4.5,C
+14K614,14,Young Women's Leadership School of Brooklyn,Talana Bradley,EMS,Middle,2.39,A ,72.4,11,A ,11.2,B ,45.2,A ,5,C
+15K001,15,P.S. 001 The Bergen,Jennifer Eusanio,EMS,Elementary,61.04,B ,47.2,8.7,A ,11.6,B ,26.4,B ,0.5,C
+15K010,15,"Magnet School of Math, Science and Design Technolo",Laura Scott,EMS,Elementary,44.4,B ,45.5,10.7,A ,11.2,B ,19.6,C ,4,A
+15K015,15,P.S. 015 Patrick F. Daly,Peggy Wyns-Madison,EMS,Elementary,65.63,B ,55.7,10,A ,12.9,B ,25.3,B ,7.5,A
+15K024,15,P.S. 024,Christina Fuentes,EMS,Elementary,65.85,B ,43.6,9.4,A ,4.9,D ,24.8,B ,4.5,C
+15K027,15,Agnes Y. Humphrey School for Leadership,Winston Hamann,EMS,Middle,1.41,,,,,,,,,,
+15K029,15,P.S. 029 John M. Harrigan,Melanie Raneri Woods,EMS,Elementary,18.64,C ,30.7,9.2,A ,13,B ,7,F ,1.5,A
+15K032,15,P.S. 032 Samuels Mills Sprole,Deborah Ann Florio,EMS,Elementary,58.77,C ,27,8.3,B ,8.4,C ,7.7,F ,2.5,A
+15K038,15,P.S. 038 The Pacific,Yolanda Ramirez,EMS,Elementary,52.11,C ,40.4,4.9,C ,7.9,C ,24.6,B ,3,C
+15K039,15,P.S. 039 Henry Bristow,Anita De Paz,EMS,Elementary,24.84,B ,45,11.4,A ,9.3,C ,22.8,C ,1.5,B
+15K051,15,M.S. 51 William Alexander,Lenore Berner,EMS,Middle,3.37,A ,66.5,9.4,A ,14.9,A ,35.7,A ,6.5,A
+15K058,15,P.S. 058 The Carroll,Giselle Mcgee,EMS,Elementary,18.61,B ,47.9,8.3,B ,7.9,C ,29.2,B ,2.5,A
+15K088,15,J.H.S. 088 Peter Rouget,Ailene Altman Mitchell,EMS,Middle,2.26,A ,70.3,8.6,B ,12.9,B ,40.3,A ,8.5,B
+15K094,15,P.S. 094 The Henry Longfellow,Janette Caban,EMS,Elementary,49.25,B ,43.7,5.2,C ,8.2,C ,28.3,B ,2,B
+15K107,15,P.S. 107 John W. Kimball,Cynthia Holton,EMS,Elementary,16.77,B ,54.8,9.4,A ,12.6,B ,30.3,B ,2.5,A
+15K124,15,P.S. 124 Silas B. Dutcher,Annabelle Martinez,EMS,Elementary,54.87,B ,43.5,7.5,B ,5.6,D ,27.9,B ,2.5,A
+15K130,15,P.S. 130 The Parkside,Maria Nunziata,EMS,Elementary,49.88,A ,61.6,8.2,B ,13.1,B ,36.8,A ,3.5,B
+15K131,15,P.S. 131 Brooklyn,Ruth Quiles,EMS,Elementary,53.24,A ,57.3,10.2,A ,9.4,C ,32.7,B ,5,A
+15K136,15,I.S. 136 Charles O. Dewey,Eric Sackler,EMS,Middle,2.07,B ,48.1,7.3,B ,5.6,D ,33.7,B ,1.5,C
+15K146,15,P.S. 146,Anna Allanbrook,EMS,Elementary,32.68,A ,61.3,10.4,A ,10.9,B ,32,B ,8,B
+15K154,15,Magnet School for Science & Technology,Samuel Ortiz,EMS,Elementary,22.31,A ,72,7.7,B ,14,B ,47.3,A ,3,C
+15K169,15,P.S. 169 Sunset Park,Josephine Santiago,EMS,Elementary,48.89,C ,29.7,7.8,B ,6.5,C ,14.4,D ,1,B
+15K172,15,P.S. 172 Beacon School of Excellence,Jack Spatola,EMS,Elementary,61.9,A ,88.3,14.4,A ,23.5,A ,44.4,A ,6,A
+15K230,15,P.S. 230 Doris L. Cohen,Sharon Fiden,EMS,Elementary,37.87,C ,35.8,9.7,A ,6.5,C ,18.6,C ,1,C
+15K261,15,P.S. 261 Philip Livingston,Zipporiah Mills,EMS,Elementary,36.68,C ,26.1,6.9,B ,6.7,C ,9,F ,3.5,B
+15K295,15,P.S. 295,Deanna Marco,EMS,Elementary,47.65,A ,64.7,10.8,A ,11.5,B ,38.9,A ,3.5,A
+15K321,15,P.S. 321 William Penn,Elizabeth Phillips,EMS,Elementary,14.03,A ,60.4,10.4,A ,15.3,A ,31.7,B ,3,A
+15K418,15,The Children's School,,EMS,Elementary,15.65,A ,71.6,9.2,A ,16.8,A ,41.1,A ,4.5,A
+15K429,15,Brooklyn School for Global Studies,Joseph O'Brien,EMS,Middle,2,B ,45.7,2.8,D ,11.6,B ,28.3,B ,3,B
+15K442,15,New Horizons School,Deanna Sinito,EMS,Middle,1.53,B ,48.7,9.6,A ,7.7,C ,29.4,B ,2,B
+15K443,15,New Voices School of Academic & Creative Arts,Frank Giordano,EMS,Middle,2.77,A ,58.7,10.3,A ,15.2,A ,26.7,B ,6.5,A
+15K447,15,The Math & Science Exploratory School,Lisa Gioe,EMS,Middle,3.11,A ,76.4,7.4,B ,17.9,A ,42.1,A ,9,A
+15K448,15,Brooklyn Secondary School for Collaborative Studi,Alyce Barr,EMS,Middle,2.21,A ,62.5,8.1,B ,11,B ,36.9,A ,6.5,B
+15K462,15,Secondary School for Law,Oneatha Swinton,EMS,Middle,1.82,,,,,,,,,,C
+15K463,15,Secondary School for Journalism,Abbie Reif,EMS,Middle,2.2,,,,,,,,,,C
+15K464,15,Park Slope Collegiate,Jill Bloomberg,EMS,Middle,1.87,C ,37.7,6.8,B ,6.8,C ,20.1,C ,4,B
+15K497,15,School for International Studies,Fred Walsh,EMS,Middle,2.19,C ,39.8,6,C ,10.4,B ,21.9,C ,1.5,A
+15K676,15,RED HOOK NEIGHBORHOOD SCHOOL,Rochel Brown,EMS,Elementary,66.22,C ,36.3,6.1,B ,5.1,D ,25.1,B ,0,
+15K821,15,Sunset Park Prep,Lola Padin,EMS,Middle,2.68,A ,60.1,8.5,B ,11.5,B ,33.1,B ,7,A
+16K005,16,P.S. 005 Dr. Ronald Mcnair,Lena Gates,EMS,Elementary,59.52,C ,30.7,3.5,D ,6.7,C ,16.5,C ,4,B
+16K021,16,P.S. 021 Crispus Attucks,Harold Anderson,EMS,Elementary,54.39,A ,69.7,8.8,A ,13,B ,41.9,A ,6,A
+16K025,16,P.S. 025 Eubie Blake School,Anita Coley,EMS,Elementary,64.01,C ,35.8,5.8,C ,7.4,C ,22.6,C ,0,C
+16K026,16,P.S. 026 Jesse Owens,Michele Ashley,EMS,Elementary,59.52,A ,70.8,6.7,B ,11.4,B ,46.2,A ,6.5,C
+16K028,16,P.S. 028 The Warren Prep Academy,Sadie Silver,EMS,Elementary,59.31,D ,23.4,10.7,A ,4.8,D ,6.9,F ,1,B
+16K035,16,M.S. 035 Stephen Decatur,Jacklyn Charles-Marcus,EMS,Middle,2.2,A ,70.3,11.7,A ,10.6,B ,41,A ,7,A
+16K040,16,P.S. 040 George W. Carver,Leonie Hibbert,EMS,Elementary,58.57,A ,80.3,7.9,B ,9,C ,56.4,A ,7,A
+16K057,16,J.H.S. 057 Whitelaw Reid,Celeste Douglas,EMS,Middle,2.21,C ,36.3,9.2,A ,6.4,D ,20.1,C ,0.5,C
+16K081,16,P.S. 081 Thaddeus Stevens,Cheryl Ault- Baker,EMS,Elementary,64.55,B ,41,6.1,B ,6,C ,24.9,B ,4,B
+16K243,16,P.S. 243K- The Weeksville School,Karen Hambright-Glove,EMS,Elementary,64.92,C ,37.5,7.1,B ,5.5,D ,23.9,C ,1,C
+16K262,16,P.S. 262 El Hajj Malik El Shabazz Elementary Schoo,Joeletha Ferguson,EMS,Elementary,61.91,A ,68.1,6.8,B ,16.4,A ,38.8,A ,6,A
+16K267,16,"M.S. 267 Math, Science & Technology",Patricia King,EMS,Middle,2.15,A ,64.4,10.3,A ,11.4,B ,34.7,B ,8,B
+16K308,16,P.S. 308 Clara Cardwell,Renata Clement,EMS,K-8,58.83,D ,18.3,4.8,C ,5.3,D ,7.2,F ,1,C
+16K309,16,P.S. 309 The George E. Wibecan Preparatory Academy,Emily Zucal,EMS,Elementary,60.66,C ,35.7,8,B ,4,D ,21.6,C ,2,C
+16K335,16,P.S. 335 Granville T. Woods,Dr. Laverne Nimmons,EMS,Elementary,65.93,A ,64.9,6.7,B ,13.7,B ,36.5,A ,8,B
+16K385,16,"School of Business, Finance and Entrepreneurship",Glyn Marryshow,EMS,Middle,1.85,B ,57.9,4.7,C ,12.9,B ,31.8,B ,8.5,A
+16K393,16,Frederick Douglass Academy IV Secondary School,Elvin Crespo,EMS,Middle,2.48,F ,12.3,3.5,C ,4.4,D ,2.9,F ,1.5,F
+16K534,16,Upper School @ P.S. 25,William Cooper,EMS,Middle,2.09,B ,45.7,5.2,C ,6.5,C ,30.5,B ,3.5,C
+16K584,16,M.S. 584,Gilleyan J. Hargrove,EMS,Middle,2.07,C ,35.4,5.1,C ,4.6,D ,25.2,B ,0.5,C
+16K627,16,Brighter Choice Community School,Fabayo Mcintosh,EMS,Elementary,58.49,,,,,,,,,,D
+16K628,16,Brooklyn Brownstone School,Nakia Haskins,EC,K-3,53.01,,,,,,,,,,
+16K636,16,Young Scholars' Academy for Discovery and Explorat,Danika Lacroix,EMS,Elementary,64.53,A ,88.6,10.2,A ,12,B ,57.9,A ,8.5,A
+17K002,17,M.S. 002,Adrienne Spencer,EMS,Middle,2.33,B ,55.2,11.7,A ,8.5,C ,30.5,B ,4.5,B
+17K006,17,P.S. 006,Ellen Carlisle,EMS,Elementary,61.64,B ,44.2,7.5,B ,9.2,C ,25.9,B ,1.5,B
+17K012,17,P.S. 012,Nyree Dixon,EMS,Elementary,56.34,C ,32.7,4,C ,4.9,D ,21.2,C ,2.5,B
+17K022,17,P.S. 022,Carlen Padmore-Gateau,EMS,Elementary,65.27,F ,17.3,2.2,F ,4,D ,9.5,F ,1.5,C
+17K061,17,M.S. 061 Dr. Gladstone H. Atwell,Sandra Taylor,EMS,Middle,2.79,C ,35.9,5.4,C ,4.6,D ,19.4,C ,6.5,C
+17K091,17,P.S. 091 The Albany Avenue School,Tessa Alleyne,EMS,Elementary,67.08,D ,21.4,4.2,C ,7.3,C ,8.4,F ,1.5,C
+17K092,17,P.S. 092 Adrian Hegeman,Ms. Diana Rahmaan,EMS,Elementary,61.7,C ,36.1,8.5,A ,7.6,C ,19.5,C ,0.5,C
+17K138,17,P.S. 138 Brooklyn,Ms. Marie Chauvet-Monchik,EMS,K-8,61,B ,50.9,8.5,A ,9.2,C ,27.7,B ,5.5,A
+17K161,17,P.S. 161 The Crown,Ms. Deborah Barrett,EMS,K-8,51.9,D ,20.4,4.6,C ,5,D ,10.8,D ,0,C
+17K167,17,P.S. 167 The Parkway,Marc Mardy,EMS,Elementary,65.37,C ,33.5,3,D ,3.7,D ,23.8,C ,3,C
+17K181,17,P.S. 181 Brooklyn,Lowell Coleman,EMS,K-8,56.64,B ,47,3.4,D ,8,C ,31.6,B ,4,C
+17K189,17,P.S. 189 Lincoln Terrace,Ms. Berthe G. Faustin,EMS,K-8,57.77,A ,89.4,9.9,A ,14.4,A ,53.1,A ,12,B
+17K191,17,P.S. 191 Paul Robeson,Mrs. Elsi Capolongo,EMS,Elementary,63.8,B ,53.7,7.8,B ,5.6,D ,34.8,A ,5.5,C
+17K221,17,P.S. 221 Toussaint L'Ouverture,Clara Moodie-Kirkland,EMS,Elementary,61.29,A ,59,9.3,A ,8.5,C ,37.1,A ,4,C
+17K241,17,P.S. 241 Emma L. Johnston,Frantz Lucius,EMS,Elementary,62.35,A ,64.6,7.6,B ,15.6,A ,36.4,A ,5,C
+17K246,17,M.S. 246 Walt Whitman,Bently Warrington,EMS,Middle,1.98,B ,47.8,6.2,B ,7.1,C ,31,B ,3.5,B
+17K249,17,P.S. 249 The Caton,Ms. Elisa Brown,EC,K-3,60.54,A ,65.7,13.4,A ,17.5,A ,22.8,A ,12,A
+17K289,17,P.S. 289 George V. Brower,Mr. Dennis O. Jeffers,EMS,Elementary,59.1,C ,38.7,5,C ,7.7,C ,25,B ,1,B
+17K316,17,P.S. 316 Elijah Stroud,Elif Gure,EMS,Elementary,59.64,C ,34.3,6.3,B ,8.3,C ,18.2,C ,1.5,A
+17K334,17,Middle School for Academic and Social Excellence,Andrea Whitehurst,EMS,Middle,1.94,C ,41.4,3.7,C ,6.5,C ,28.2,B ,3,B
+17K340,17,I.S. 340,Mrs. Jean Williams,EMS,Middle,3.31,C ,14,4.3,C ,3.4,D ,4.3,F ,2,B
+17K352,17,Ebbets Field Middle School,Margie Baker,EMS,Middle,2.19,B ,52.9,6.5,B ,6.6,C ,34.7,B ,5,B
+17K353,17,Elijah Stroud Middle School,Claudette Essor,EMS,Middle,1.91,B ,45.2,10.5,A ,8.1,C ,25.6,B ,1,A
+17K354,17,The School of Integrated Learning,Monique Campbell,EMS,Middle,1.88,B ,58.1,8.2,B ,11,B ,30.9,B ,8,A
+17K375,17,P.S. 375 Jackie-Robinson School,Ms. Marion Wilson,EMS,Elementary,61.15,A ,89.2,9.8,A ,13.3,B ,55.6,A ,10.5,B
+17K382,17,Academy for College Preparation and Career Explora,Doris Unger,EMS,Middle,2.55,B ,47.7,4.9,C ,7.9,C ,29.8,B ,5,D
+17K394,17,M.S. K394,Ms. Claudette Murray,EMS,K-8,58.81,B ,46.7,11.9,A ,8.4,C ,20.8,C ,5.5,C
+17K397,17,P.S. 397 Foster-Laurie,Nancy Colon,EMS,Elementary,60.82,B ,50.2,9.5,A ,6.9,C ,32.3,B ,1.5,B
+17K398,17,P.S. 398 Walter Weaver,Diane Danay-Caban,EMS,Elementary,67,B ,43.8,3.8,C ,10.1,B ,25.9,B ,4,B
+17K399,17,P.S. 399 Stanley Eugene Clark,Marion J. Brown,EMS,Elementary,58.55,B ,54.3,10.9,A ,15.8,A ,26.1,B ,1.5,A
+17K484,17,Ronald Edmonds Learning Center II,Herbert Daughtry,EMS,Middle,1.99,A ,65.8,6.5,B ,11.3,B ,42.5,A ,5.5,C
+17K531,17,"School for Human Rights, The",Michael Alexander,EMS,Middle,2.36,C ,38.2,14,A ,7.3,C ,16.4,C ,0.5,B
+17K533,17,School for Democracy and Leadership,Rebecca Ostro,EMS,Middle,2.3,D ,16.8,3.9,C ,5.1,D ,7.7,F ,0,C
+17K543,17,"Science, Technology and Research Early College Hig",Dr. Eric L. Blake,EMS,Middle,3.18,B ,44,9,A ,8.8,C ,25.2,B ,1,C
+17K587,17,Middle School for the Arts,Susan Hobson-Ransom,EMS,Middle,2.11,D ,14.6,4.4,C ,2.9,F ,4.8,F ,2.5,C
+17K590,17,Medgar Evers College Preparatory School,Dr. Michael A. Wiltshire,EMS,Middle,3.77,C ,40.5,9.3,A ,12.1,B ,19.1,C ,0,B
+18K066,18,P.S. 66,Lucille Jackson,EMS,K-8,51.32,B ,49.1,9.1,A ,11.5,B ,24.4,C ,4,A
+18K068,18,I.S. 068 Isaac Bildersee,Merve Williams,EMS,Middle,2.25,B ,44,5,C ,6.6,C ,28.9,B ,3.5,C
+18K114,18,P.S. 114 Ryder Elementary,Darwin Smith,EMS,Elementary,53.89,C ,34.8,2.7,D ,4.1,D ,26,B ,2,D
+18K115,18,P.S. 115 Daniel Mucatel School,Denis Guerin,EMS,Elementary,52.45,B ,44,6.6,B ,10.1,B ,24.2,C ,3,B
+18K135,18,P.S. 135 Sheldon A. Brookner,Trevlyn Mcrae,EMS,Elementary,58.72,B ,49.5,8.9,A ,9.1,C ,30,B ,1.5,B
+18K208,18,P.S. 208 Elsa Ebeling,Ms. Kristy Parris,EMS,Elementary,54.27,B ,44.1,10,A ,8.6,C ,25,B ,0.5,B
+18K211,18,I.S. 211 John Wilson,Buffie Simmons-Peart,EMS,Middle,2.43,A ,61.8,8.5,B ,10.8,B ,37,A ,5.5,B
+18K219,18,P.S. 219 Kennedy-King,Ms. Winsome Smith,EMS,Elementary,60.32,B ,53,6.3,B ,9,C ,34.2,A ,3.5,C
+18K233,18,P.S. 233 Langston Hughes,Denean Stephens-Spellman,EMS,Elementary,58.54,C ,26.8,7.1,B ,6.7,C ,13,D ,0,C
+18K235,18,P.S. 235 Lenox School,Lisa Solitario,EMS,K-8,49.73,A ,66.6,9.2,A ,15.3,A ,39.6,A ,2.5,B
+18K244,18,P.S. 244 Richard R. Green,Ms. Grace Alesia,EMS,Elementary,57.88,A ,63.7,11,A ,10,C ,36.2,A ,6.5,B
+18K268,18,P.S. 268 Emma Lazarus,Vangela Kirton,EMS,Elementary,60.53,B ,56,9.7,A ,6.2,C ,37.1,A ,3,C
+18K272,18,P.S. 272 Curtis Estabrook,Dakota Keyes,EMS,Elementary,62.58,F ,14.2,4.1,C ,4.2,D ,5.4,F ,0.5,C
+18K276,18,P.S. 276 Louis Marshall,Yasmine Fidelia,EMS,Elementary,55.12,B ,56.3,8.1,B ,6.8,C ,37.4,A ,4,C
+18K279,18,P.S. 279 Herman Schreiber,Lorenzo Chambers,EMS,Elementary,56.24,C ,32.8,3.6,D ,8.4,C ,20.2,C ,0.5,C
+18K285,18,I.S. 285 Meyer Levin,Mr. Frederick A. Underwood,EMS,Middle,2.68,B ,44.7,4.8,C ,7.7,C ,28.2,B ,4,C
+18K366,18,THE SCIENCE AND MEDICINE MIDDLE SCHOOL,Ingrid Thomas-Clark,EMS,Middle,2.42,B ,51,11.7,A ,8.2,C ,28.1,B ,3,
+18K581,18,East Flatbush Community Research School,David Manning,EMS,Middle,2.04,D ,21.4,6.8,B ,2.8,F ,10.3,D ,1.5,C
+18K588,18,Middle School for Art and Philosophy,Andrew Buck,EMS,Middle,2.28,C ,29.5,1.2,F ,6,D ,19.3,C ,3,C
+18K598,18,Middle School of Marketing and Legal Studies,Jameela Horton-Ball,EMS,Middle,2.35,B ,53.7,9.8,A ,10.1,C ,29.8,B ,4,C
+19K007,19,P.S. 007 Abraham Lincoln,Nydia Acevedo,EMS,Elementary,59.77,A ,60.6,8,B ,11.7,B ,36.4,A ,4.5,B
+19K013,19,P.S. 013 Roberto Clemente,Barbara Ashby,EMS,Elementary,61.59,C ,30.8,4.6,C ,6.2,C ,19,C ,1,C
+19K065,19,P.S. 065,Daysi Garcia,EMS,Elementary,57.47,B ,47.8,12.1,A ,13.8,B ,20.4,C ,1.5,A
+19K072,19,P.S./I.S. 072 Annette P Goldman,Valena Welch Woodley,EMS,Middle,1.87,,,,,,,,,,
+19K089,19,P.S. 089 Cypress Hills,Irene Leon,EMS,K-8,64.68,B ,48.1,10.1,A ,4.7,D ,31.8,B ,1.5,B
+19K108,19,P.S. 108 Sal Abbracciamento,Constance Hahn,EMS,Elementary,58.33,B ,47.4,8.6,A ,9.6,C ,24.7,B ,4.5,B
+19K149,19,P.S. 149 Danny Kaye,Enid Silvera,EMS,Elementary,62.83,C ,38,5.2,C ,8.6,C ,22.7,C ,1.5,C
+19K158,19,P.S. 158 Warwick,Audrey Wilson,EMS,Elementary,62.14,B ,44.2,7.2,B ,7.1,C ,27.9,B ,2,C
+19K159,19,P.S. 159 Isaac Pitkin,Monica Duncan,EMS,Elementary,49.44,B ,44.8,6.4,B ,4.6,D ,30.8,B ,3,C
+19K166,19,J.H.S. 166 George Gershwin,Maria Ortega,EMS,Middle,1.84,C ,35.4,3.1,D ,5.1,D ,24.2,C ,3,C
+19K171,19,I.S. 171 Abraham Lincoln,Yolanda Fustanio,EMS,Middle,2.64,F ,8.5,4.4,C ,2.5,F ,1.6,F ,0,C
+19K174,19,P.S. 174 Dumont,Ingrid Mason,EMS,K-8,59.09,C ,29.8,3.9,C ,3.9,D ,19.5,C ,2.5,C
+19K190,19,P.S. 190 Sheffield,Stephaun Hill,EMS,Elementary,62.89,B ,42.3,5.4,C ,10.2,B ,22.7,C ,4,A
+19K202,19,P.S. 202 Ernest S. Jenkyns,Pauline Smith-Gayle,EMS,K-8,59.5,D ,14.5,4.1,C ,5,D ,5.4,F ,0,C
+19K213,19,P.S. 213 New Lots,Anne Lee Bernard,EMS,Elementary,62.56,D ,19.4,4.3,C ,7.5,C ,7,F ,0.5,C
+19K214,19,P.S. 214 Michael Friedsam,Patricia Tubridy,EMS,Elementary,47.89,B ,50.4,8,B ,7.2,C ,30.7,B ,4.5,B
+19K218,19,J.H.S. 218 James P. Sinnott,Alison Breedy,EMS,Middle,2.31,B ,50,3.5,C ,9.7,C ,33.8,B ,3,B
+19K224,19,P.S. 224 Hale A. Woodruff,George Andrews,EMS,Elementary,59.58,C ,29.8,4.9,C ,5.1,D ,17.8,C ,2,B
+19K260,19,P.S. 260 Breuckelen,Pierre Raymond,EMS,Elementary,60.07,,,,,,,,,,D
+19K273,19,P.S. 273 Wortman,Melessa Avery,EMS,Elementary,55.96,C ,32.6,9.1,A ,7.2,C ,16.3,C ,0,C
+19K290,19,P.S. 290 Juan Morel Campos,Willena George,EMS,Elementary,60.53,B ,52.2,9.8,A ,11,B ,27.9,B ,3.5,B
+19K292,19,J.H.S. 292 Margaret S. Douglas,Everett Hughes,EMS,Middle,2.46,B ,54,4.8,C ,9.7,C ,33,B ,6.5,C
+19K302,19,J.H.S. 302 Rafael Cordero,Lisa Linder,EMS,Middle,2.47,C ,31.6,2.9,D ,4.5,D ,23.2,C ,1,D
+19K306,19,P.S. 306 Ethan Allen,Lawrence Burroughs,EMS,K-8,60.79,F ,7.1,2.4,D ,2.8,F ,1.9,F ,0,B
+19K311,19,Essence School,Claudy Makelele,EMS,Middle,2.57,C ,34.4,3.6,C ,4.8,D ,22.5,C ,3.5,B
+19K328,19,P.S. 328 Phyllis Wheatley,Douglas Avila,EMS,K-8,65.93,D ,19.9,6.6,B ,3.4,D ,9.4,D ,0.5,B
+19K345,19,P.S. 345 Patrolman Robert Bolden,Wanda Holt,EMS,Elementary,61.22,C ,39.8,4.5,C ,5.6,D ,28.2,B ,1.5,B
+19K346,19,P.S. 346 Abe Stark,Kevin Caifa,EMS,Elementary,52.72,C ,37.2,3.2,D ,6.5,C ,24.5,B ,3,C
+19K364,19,I.S. 364 Gateway,Dale Kelly,EMS,Middle,2.68,C ,39.1,4.9,C ,9,C ,24.2,C ,1,B
+19K409,19,East New York Family Academy,Sheila Richards,EMS,Middle,3.32,A ,71.8,7.6,B ,16.5,A ,47.6,A ,0,B
+19K452,19,Frederick Douglass Academy VIII Middle School,Yolanda Martin,EMS,Middle,2.97,B ,49.9,11.3,A ,8.5,C ,28.1,B ,2,B
+19K677,19,EAST NEW YORK ELEMENTARY SCHOOL OF EXCELLENCE,Judy Touzin,EMS,Elementary,58.61,C ,28.1,6.3,B ,3.2,D ,18.6,C ,0,
+19K678,19,EAST NEW YORK MIDDLE SCHOOL OF EXCELLENCE,Rose Anne Gonzalez,EMS,Middle,2.02,B ,54.1,11.8,A ,7.4,C ,30.4,B ,4.5,
+20K030,20,I.S. 30 Mary White Ovington,Carol Heeraman,EMS,Middle,2.88,B ,43.5,6.9,B ,11,B ,23.6,C ,2,A
+20K048,20,P.S. 048 Mapleton,Diane Picucci,EMS,Elementary,36.53,A ,60.8,5.4,C ,9.6,C ,39.3,A ,6.5,B
+20K062,20,J.H.S. 062 Ditmas,Barry Kevorkian,EMS,Middle,2.29,B ,54,10.2,A ,8.8,C ,33.5,B ,1.5,A
+20K069,20,P.S. 69 Vincent D. Grippo School,Jaynemarie Capetanakis,EMS,Elementary,37.82,A ,63,11.1,A ,7.3,C ,39.6,A ,5,A
+20K102,20,P.S. 102 The Bayview,Ms. Theresa Dovi,EMS,Elementary,32.72,B ,50.7,6.7,B ,12.3,B ,27.2,B ,4.5,B
+20K104,20,P.S./I.S. 104 The Fort Hamilton School,Ms. Marie Dibella,EMS,K-8,27.36,B ,56.5,8.1,B ,11.3,B ,29.6,B ,7.5,A
+20K105,20,P.S. 105 The Blythebourne,Johanna Castronovo,EMS,Elementary,33.76,A ,58.6,9.4,A ,9.1,C ,36.1,A ,4,A
+20K112,20,P.S. 112 Lefferts Park,Louise Verdemare (Alfano),EMS,Elementary,33.25,A ,71.1,9.9,A ,11.3,B ,43.4,A ,6.5,B
+20K127,20,P.S. 127 Mckinley Park,Agatha Alicandro,EMS,Elementary,35.97,B ,55.2,6.7,B ,8.1,C ,33.4,B ,7,D
+20K160,20,P.S. 160 William T. Sampson,Margaret Russo,EMS,Elementary,39.64,C ,31.1,8.3,B ,6.7,C ,16.1,C ,0,B
+20K163,20,P.S. 163 Bath Beach,Maryann Wasmuth,EMS,Elementary,37.45,A ,65.3,9.6,A ,9,C ,41.2,A ,5.5,A
+20K164,20,P.S. 164 Caesar Rodney,Margaret Choy-Shan,EMS,Elementary,53.11,A ,72.2,12.8,A ,12.8,B ,38.5,A ,8,A
+20K170,20,Ralph A. Fabrizio School,Zhen (Tony) Wu,EMS,Elementary,36.92,B ,49,8.3,B ,9.7,C ,27.5,B ,3.5,B
+20K176,20,P.S. 176 Ovington,Elizabeth Culkin,EMS,Elementary,31.38,A ,70.1,9.4,A ,13.3,B ,41.4,A ,6,A
+20K179,20,P.S. 179 Kensington,Valerie Joseph,EMS,Elementary,44.62,C ,30.1,5.6,C ,4.3,D ,19.2,C ,1,C
+20K180,20,The SEEALL Academy,Gary Williams,EMS,K-8,31.82,B ,42.3,9.5,A ,7.1,C ,22.7,C ,3,B
+20K185,20,P.S. 185 Walter Kassenbrock,Kenneth Llinas,EMS,Elementary,21.54,C ,39.8,8.2,B ,9,C ,21.6,C ,1,C
+20K186,20,P.S. 186 Dr. Irving A Gladstone,Bayan (Ebeid) Cadotte,EMS,Elementary,33.05,B ,50.5,8.9,A ,7.3,C ,30.8,B ,3.5,B
+20K187,20,The Christa McAuliffe School\I.S. 187,Justin Berman,EMS,Middle,3.92,A ,84.5,11.1,A ,22.6,A ,49.2,A ,1.5,A
+20K192,20,P.S. 192 - The Magnet School for Math and Science,Liset Isaac,EMS,K-8,52,A ,60.4,9.2,A ,4.8,D ,41.4,A ,5,A
+20K200,20,P.S. 200 Benson School,Javier Muniz,EMS,Elementary,29.35,A ,58.7,4.4,C ,9.8,C ,39,A ,5.5,B
+20K201,20,J.H.S. 201 The Dyker Heights,Ms. Madeleine Brennan,EMS,Middle,3.09,A ,75,7.5,B ,11.5,B ,44,A ,12,A
+20K204,20,P.S. 204 Vince Lombardi,Mrs. Marie Reilly,EMS,Elementary,26.62,B ,55.4,10.8,A ,10.8,B ,32.3,B ,1.5,A
+20K205,20,P.S. 205 Clarion,Beth Grater,EMS,Elementary,39.83,A ,61,5.3,C ,9.1,C ,40.6,A ,6,B
+20K220,20,J.H.S. 220 John J. Pershing,Loretta Witek,EMS,Middle,2.55,C ,39.8,7.9,B ,6.3,D ,24.6,C ,1,B
+20K223,20,J.H.S. 223 The Montauk,Andrew Frank,EMS,Middle,2.49,A ,62.8,8.4,B ,8.1,C ,39.3,A ,7,B
+20K227,20,J.H.S. 227 Edward B. Shallow,Brenda D. Champion,EMS,Middle,2.62,A ,62.5,6.4,B ,9.4,C ,40.7,A ,6,B
+20K229,20,P.S. 229 Dyker,Robert Zappulla,EMS,K-8,21.14,B ,46.7,4.2,C ,12.5,B ,26.5,B ,3.5,B
+20K247,20,P.S. 247 Brooklyn,Christopher E. Ogno,EMS,Elementary,31.03,A ,75.8,6,B ,16.3,A ,47.9,A ,5.5,A
+20K259,20,J.H.S. 259 William Mckinley,Janice Geary,EMS,Middle,2.88,A ,69.8,10.8,A ,10.6,B ,37.9,A ,10.5,A
+20K503,20,PS 503: The School of Discovery,Bernadette Fitzgerald,EMS,Elementary,61.38,B ,43.7,10.8,A ,6.6,C ,25.2,B ,1,B
+20K506,20,P.S. 506: The School of Journalism & Technology,Elizabeth Waters,EMS,Elementary,55.76,B ,55.5,10.9,A ,5.1,D ,35.5,A ,4,B
+20K609,20,Urban Assembly School for Criminal Justice,Mariela Graham,EMS,Middle,2.46,A ,60.6,10.4,A ,9.7,C ,36.5,A ,4,B
+21K090,21,P.S. 90 Edna Cohen School,Greta Hawkins,EMS,Elementary,53.89,A ,60.1,4.4,C ,7.2,C ,40.5,A ,8,B
+21K095,21,P.S. 095 The Gravesend,Janet Ndzibah,EMS,K-8,38.84,C ,30.5,3.2,D ,3.5,D ,19.8,C ,4,C
+21K096,21,I.S. 096 Seth Low,Denise Sandra Levinsky,EMS,Middle,2.52,B ,57.8,6.6,B ,8.6,C ,37.1,A ,5.5,B
+21K097,21,P.S. 97 The Highlawn,Kristine Mustillo,EMS,Elementary,29.48,A ,59.7,8.6,A ,8.9,C ,37.2,A ,5,A
+21K098,21,I.S. 98 Bay Academy,Maria Timo,EMS,Middle,3.48,A ,70.6,8.1,B ,15.8,A ,36.1,A ,10.5,A
+21K099,21,P.S. 099 Isaac Asimov,Gregory Pirraglia,EMS,K-8,41.34,A ,63.3,8.9,A ,9.8,C ,37.6,A ,7,A
+21K100,21,P.S. 100 The Coney Island School,Katherine A. Moloney,EMS,Elementary,22.78,C ,36.2,5.3,C ,9.8,C ,18,C ,3,B
+21K101,21,P.S. 101 The Verrazano,Gregg Korrol,EMS,Elementary,29.91,B ,46.2,10.7,A ,11.7,B ,20.3,C ,3.5,B
+21K121,21,P.S. 121 Nelson A. Rockefeller,Lillian Catalano,EMS,K-8,44.85,A ,68.7,11.2,A ,12.3,B ,40.2,A ,5,A
+21K128,21,P.S. 128 Bensonhurst,Marcia Robins,EMS,Elementary,36.59,B ,43.1,11.6,A ,4.2,D ,24.3,B ,3,B
+21K153,21,P.S. 153 Homecrest,Carl Santamaria,EMS,Elementary,38.15,C ,40.2,5.1,C ,9.6,C ,24,C ,1.5,B
+21K177,21,P.S. 177 The Marlboro,Shoshana Singer,EMS,Elementary,37.6,B ,53.3,7.7,B ,11.3,B ,30.7,B ,3.5,A
+21K188,21,P.S. 188 Michael E. Berdy,Frederick M. Tudda,EMS,Elementary,55.32,A ,76.7,9.5,A ,8.5,C ,48.2,A ,10.5,C
+21K199,21,P.S. 199 Frederick Wachtel,Rosalia Bacarella,EMS,Elementary,36.34,B ,52.9,4.4,C ,10.3,B ,34.2,A ,4,B
+21K209,21,P.S. 209 Margaret Mead,Frances Locurcio,EMS,K-8,35.03,B ,46.2,8,B ,6.4,C ,27.8,B ,4,C
+21K212,21,P.S. 212 Lady Deborah Moody,Josephine Marsella,EMS,Elementary,45.46,B ,50.5,9.7,A ,8.2,C ,28.6,B ,4,B
+21K215,21,P.S. 215 Morris H. Weiss,Antonella Bove,EMS,Elementary,30.09,A ,67.8,6.6,B ,10.4,B ,42.8,A ,8,C
+21K216,21,P.S. 216 Arturo Toscanini,Celia Kaplinsky,EMS,Elementary,33.12,C ,34.5,7.7,B ,9.3,C ,17,C ,0.5,B
+21K225,21,P.S. K225 - The Eileen E. Zaglin,Joseph Montebello,EMS,K-8,40.72,B ,53.6,8.8,A ,7.4,C ,27.9,B ,9.5,A
+21K226,21,P.S. 226 Alfred De B.Mason,Sherry Tannenbaum,EMS,K-8,42.38,B ,53.4,9.2,A ,8.7,C ,31,B ,4.5,A
+21K228,21,I.S. 228 David A. Boody,Dominick D'Angelo,EMS,Middle,2.81,C ,34.7,8.4,B ,8,C ,16.3,C ,2,C
+21K238,21,P.S. 238 Anne Sullivan,Harla Joy Musoff-Weiss,EMS,K-8,51.42,B ,41.3,11.1,A ,6.3,C ,21.9,C ,2,B
+21K239,21,Mark Twain I.S. 239 for the Gifted & Talented,Carol Moore,EMS,Middle,3.76,A ,75.6,10.7,A ,19.4,A ,40.5,A ,5,A
+21K253,21,P.S. 253,Lisa Speroni,EMS,Elementary,46.73,A ,72.5,13.6,A ,10.6,B ,40.8,A ,7.5,A
+21K281,21,I.S. 281 Joseph B Cavallaro,Stephen Rosenblum,EMS,Middle,2.76,A ,58.2,6.9,B ,11.7,B ,33.1,B ,6.5,B
+21K288,21,P.S. 288 The Shirley Tanyhill,Joelene-Lynette Kinard,EMS,K-8,62.21,B ,43.2,3.6,D ,5,D ,31.1,B ,3.5,A
+21K303,21,I.S. 303 Herbert S. Eisenberg,Mr. Gary Ingrassia,EMS,Middle,2.62,A ,62.3,11.5,A ,13.8,B ,30.5,B ,6.5,B
+21K329,21,P.S. 329 Surfside,Salema Marbury,EMS,Elementary,58.95,B ,53.3,9.6,A ,9.5,C ,30.2,B ,4,C
+21K468,21,Kingsborough Early College School,Connie Hamilton,EMS,Middle,2.7,B ,57.3,8.4,B ,12.2,B ,33.2,B ,3.5,B
+21K690,21,Brooklyn Studio Secondary School,Andrea Ciliotta,EMS,Middle,2.51,B ,53.4,5.4,C ,15.2,A ,28.8,B ,4,A
+22K014,22,J.H.S. 014 Shell Bank,Anne Tully,EMS,Middle,2.06,A ,61.1,9.4,A ,10.7,B ,34,B ,7,C
+22K052,22,P.S. 052 Sheepshead Bay,Ilene Altschul,EMS,Elementary,36.98,C ,38,7.7,B ,7.1,C ,20.2,C ,3,B
+22K078,22,J.H.S. 078 Roy H. Mann,Jacek Polubiec,EMS,Middle,2.54,C ,33.9,6.5,B ,7,C ,18.4,C ,2,C
+22K109,22,P.S. 109,Joan Thomas,EMS,K-8,60.86,C ,26.1,5.8,C ,5.4,D ,13.4,D ,1.5,B
+22K119,22,P.S. 119 Amersfort,Lisa Fernandez,EMS,Elementary,50.38,B ,46.9,12.5,A ,8,C ,25.3,B ,1,B
+22K134,22,P.S. K134,Debra Ramsaran,EMS,Elementary,52.01,A ,72.5,9.2,A ,16.4,A ,40.9,A ,6,A
+22K139,22,P.S. 139 Alexine A. Fenty,Mary Mcdonald,EMS,Elementary,52.05,B ,47.6,4.7,C ,9.2,C ,31.1,B ,2.5,C
+22K152,22,School of Science & Technology,Dr. Rhonda D. Farkas,EMS,Elementary,53.6,B ,41,9.7,A ,7,C ,23.8,C ,0.5,C
+22K193,22,P.S. 193 Gil Hodges,Frank A. Cimino,EMS,Elementary,44.79,C ,38.3,7.9,B ,11.4,B ,18.5,C ,0.5,B
+22K194,22,P.S. 194 Raoul Wallenberg,Mary Zissler-Lynch,EMS,Elementary,56.21,C ,33.7,6.8,B ,6.4,C ,19,C ,1.5,C
+22K195,22,P.S. 195 Manhattan Beach,Arthur Forman,EMS,Elementary,10.97,B ,42.2,8.1,B ,12.6,B ,20,C ,1.5,A
+22K197,22,P.S. 197 Brooklyn,Rosemarie Barbiere Nicoletti,EMS,Elementary,41.35,B ,50.4,9.1,A ,9.2,C ,26.6,B ,5.5,A
+22K198,22,P.S. 198 Brooklyn,Joy-Ann Morgan,EMS,Elementary,52.51,B ,56.5,7,B ,7,C ,38.5,A ,4,C
+22K203,22,P.S. 203 Floyd Bennett,Lisa Esposito,EMS,Elementary,55.69,B ,46.4,5.9,C ,7.4,C ,30,B ,3,C
+22K206,22,P.S. 206 Joseph F Lamb,Deirdre Keyes,EMS,K-8,27.1,C ,41.2,6.6,B ,11.7,B ,19.4,C ,3.5,A
+22K207,22,P.S. 207 Elizabeth G. Leary,Mary Bosco,EMS,K-8,28.55,B ,46.3,7.7,B ,11.3,B ,22.8,C ,4.5,C
+22K217,22,P.S. 217 Colonel David Marcus School,Franca Conti,EMS,Elementary,40.33,B ,47,9.4,A ,8.6,C ,26,B ,3,B
+22K222,22,P.S. 222 Katherine R. Snyder,Louise Blake,EMS,Elementary,29.49,B ,52.9,9.9,A ,14.8,A ,25.1,B ,3,A
+22K234,22,J.H.S. 234 Arthur W. Cunningham,Susan Schaeffer,EMS,Middle,3.35,B ,52.2,8,B ,10.8,B ,26.9,B ,6.5,B
+22K236,22,P.S. 236 Mill Basin,Mary Theresa Nelson,EMS,Elementary,25.25,C ,40.5,6.3,B ,11,B ,18.2,C ,5,B
+22K240,22,Andries Hudde,Elena S. O'Sullivan,EMS,Middle,2.7,C ,37.4,3.5,C ,7.3,C ,22.6,C ,4,B
+22K245,22,P.S. 245,Pat Kannengieser,EMS,Elementary,61.79,B ,51.6,12.7,A ,13,B ,25.4,B ,0.5,A
+22K251,22,P.S. 251 Paerdegat,Steven Boyer,EMS,Elementary,56.81,B ,49,6.1,B ,7.6,C ,32.3,B ,3,C
+22K254,22,P.S. 254 Dag Hammarskjold,Linda Alhonote,EMS,Elementary,29.08,A ,73.4,7.9,B ,15.6,A ,45.4,A ,4.5,A
+22K255,22,P.S. 255 Barbara Reing School,Linda L. Singer,EMS,Elementary,32.34,A ,67.9,9.8,A ,11.3,B ,41.8,A ,5,A
+22K269,22,P.S. 269 Nostrand,Phyllis Corbin,EMS,Elementary,60.35,C ,35.3,7.9,B ,5.3,D ,21.6,C ,0.5,C
+22K277,22,P.S. 277 Gerritsen Beach,Jeanne M. Fish,EMS,Elementary,19.96,C ,35.6,8.5,A ,10.6,B ,15,D ,1.5,A
+22K278,22,J.H.S. 278 Marine Park,Debra Garofalo,EMS,Middle,2.91,D ,21.5,9.3,A ,4.1,D ,6.6,F ,1.5,D
+22K312,22,P.S. 312 Bergen Beach,Linda Beal Benigno,EMS,Elementary,30.79,C ,37.8,9.3,A ,12,B ,13.5,D ,3,C
+22K315,22,P.S. K315,Judith Ranft,EMS,Elementary,54.15,B ,40.8,7.8,B ,9.6,C ,20.4,C ,3,B
+22K361,22,P.S. 361 East Flatbush Early Childhood School,Dianne S. Martin,EC,K-2,58.76,C ,22.3,5.6,D ,7.7,B ,7,C ,2,C
+22K381,22,I. S. 381,Mary Harrington,EMS,Middle,2.84,C ,21.9,5.8,C ,7,C ,8.6,D ,0.5,C
+22K555,22,Brooklyn College Academy,Nicholas Mazzarella,EMS,Middle,3.07,A ,60.7,12.4,A ,12.3,B ,36,A ,0,B
+23K041,23,P.S. 041 Francis White,Theresa Siegel,EMS,K-8,64.67,A ,57.9,5.5,C ,6,D ,39.4,A ,7,C
+23K073,23,P.S. 073 Thomas S. Boyland,Joelle Mcken,EMS,K-8,62.27,C ,29,5.2,C ,4,D ,18.8,C ,1,C
+23K137,23,P.S./I.S. 137 Rachel Jean Mitchell,Winston Riley,EMS,K-8,65.46,C ,31.9,7.1,B ,5,D ,18.8,C ,1,D
+23K150,23,P.S. 150 Christopher,Pamela Bradley Muchere,EMS,K-8,66.75,C ,32.2,5.6,C ,4.7,D ,19.9,C ,2,C
+23K155,23,P.S./ I.S. 155 Nicholas Herkimer,Nelly Cortes,EMS,K-8,64.71,A ,61.5,8.2,B ,8.5,C ,39.3,A ,5.5,B
+23K156,23,P.S. 156 Waverly,Beverly Logan,EMS,Elementary,57.53,C ,32.3,7.2,B ,4.8,D ,17.7,C ,2.5,C
+23K165,23,P.S. 165 Ida Posner,Fran Ellers,EMS,K-8,58.58,C ,28.1,5.4,C ,1.4,F ,19.3,C ,2,C
+23K178,23,P.S. 178 Saint Clair Mckelway,Joseph Frantz Henry,EMS,K-8,59.57,C ,28.1,6,C ,8.1,C ,12.5,D ,1.5,B
+23K184,23,P.S. 184 Newport,Lamson Lam,EMS,K-8,63.64,B ,45.2,3.6,D ,6.3,C ,29.8,B ,5.5,C
+23K284,23,P.S. 284 Lew Wallace,Shenean Lindsay,EMS,K-8,64.26,B ,48.5,6.2,B ,5.3,D ,32.5,B ,4.5,C
+23K298,23,P.S. 298 Dr. Betty Shabazz,Antoinette Martin,EMS,K-8,61.54,F ,13.6,1.7,F ,1,F ,9.9,D ,1,C
+23K323,23,P.S./I.S. 323,Linda Harris,EMS,K-8,58.97,A ,69.5,10.5,A ,6.4,C ,45.5,A ,7,B
+23K327,23,P.S. 327 Dr. Rose B. English,Stephen Appea,EMS,K-8,58.7,C ,39.1,4.6,C ,6.8,C ,23.2,C ,4.5,C
+23K332,23,P.S. 332 Charles H. Houston,Mickisha Goss,EMS,K-8,62.57,,,,,,,,,,F
+23K392,23,I.S. 392,Shirley Wheeler,EMS,Middle,3.5,A ,73.6,7.3,B ,17.8,A ,48.5,A ,0,B
+23K493,23,Brooklyn Collegiate: A College Board School,Amote Sias,EMS,Middle,2.78,F ,10.3,6.5,B ,2.3,F ,1.5,F ,0,D
+23K518,23,Kappa V,Dellie Edwards,EMS,Middle,2.28,A ,59.2,6.9,B ,9.4,C ,38.9,A ,4,C
+23K522,23,Mott Hall IV,Thomas Mcbryde Jr,EMS,Middle,2.98,F ,13.4,5.6,C ,2.2,F ,4.6,F ,1,C
+23K631,23,General D. Chappie James Elementary School of Scie,Margaret V. Mcauley,EMS,Elementary,62.12,F ,18,3.5,D ,4,D ,9.5,F ,1,D
+23K634,23,General D. Chappie James Middle School of Science,Willis Perry,EMS,Middle,2.01,D ,19,6.8,B ,3,F ,8.7,D ,0.5,D
+23K644,23,Eagle Academy for Young Men II,Rashad Meade,EMS,Middle,2.51,B ,44.5,13.5,A ,7,C ,19,C ,5,A
+23K671,23,MOTT HALL BRIDGES MIDDLE SCHOOL,Nadia Lopez,EMS,Middle,2.4,,,,,,,,,,
+23K697,23,Teachers Preparatory High School,Carmen Simon,EMS,Middle,2.87,B ,47.6,6.4,B ,9.2,C ,31,B ,1,C
+24Q005,24,I.S. 5 - The Walter Crowley Intermediate School,Michael Dantona,EMS,Middle,2.7,B ,55,8.9,A ,11.7,B ,31.4,B ,3,A
+24Q007,24,P.S. 007 Louis F. Simeone,Sara Tucci,EC,K-3,44.59,B ,28.2,8.2,B ,8.3,B ,8.7,C ,3,B
+24Q012,24,P.S. 012 James B. Colgate,Patricia Perry,EMS,Elementary,42.72,B ,55.6,12.1,A ,13.6,B ,26.9,B ,3,A
+24Q013,24,P.S. 013 Clement C. Moore,Dr. Yvonne Angelastro,EMS,Elementary,45.71,A ,57.7,8.1,B ,11.9,B ,33.7,B ,4,B
+24Q014,24,P.S. 014 Fairview,Rosemary Sklar,EMS,Elementary,55.69,B ,50,11.5,A ,9.9,C ,25.1,B ,3.5,A
+24Q016,24,P.S. Q016,Elaine Iodice,EMS,Elementary,57.34,B ,49.9,12.7,A ,11.8,B ,22.9,C ,2.5,B
+24Q019,24,P.S. 019 Marino Jeantet,Genie Calibar,EMS,Elementary,58.81,A ,59.5,11.4,A ,12.2,B ,31.4,B ,4.5,B
+24Q028,24,P.S. 28 - The Thomas Emanuel Early Childhood Cente,Laura Pessutti,EC,K-2,62.98,B ,42.3,14.7,A ,10.6,B ,11.9,B ,5,A
+24Q049,24,P.S. 049 Dorothy Bonawit Kole,Anthony Lombardi,EMS,K-8,24.4,A ,58.3,6.7,B ,12.6,B ,32,B ,7,C
+24Q058,24,P.S. 58 - School of Heroes,Adelina V. Tripoli,EMS,Elementary,33.92,B ,46.3,6.4,B ,9.7,C ,24.2,C ,6,A
+24Q061,24,I.S. 061 Leonardo Da Vinci,Joseph J Lisa,EMS,Middle,2.63,B ,45.1,7.2,B ,6.1,D ,28.8,B ,3,B
+24Q068,24,P.S. 068 Cambridge,Anne Marie Snadecky-Scalfaro,EMS,Elementary,54.78,B ,54.4,8.6,A ,9.4,C ,32.9,B ,3.5,B
+24Q071,24,P.S. 071 Forest,Walkydia Olivella,EMS,Elementary,39.76,C ,38.2,3.1,D ,5.8,C ,26.8,B ,2.5,C
+24Q073,24,I.S. 73 - The Frank Sansivieri Intermediate School,Camillo Turriciano,EMS,Middle,2.73,B ,53.1,5.7,C ,11.3,B ,29,B ,7,A
+24Q077,24,I.S. 077,Joseph Miller,EMS,Middle,2.51,B ,44.4,6.9,B ,9.2,C ,25.8,B ,2.5,B
+24Q081,24,P.S. 81Q Jean Paul Richter,Genevieve Ventura,EMS,Elementary,56.53,A ,64.7,10.6,A ,9.6,C ,35,A ,9.5,A
+24Q087,24,P.S. 087 Middle Village,Caryn Michaeli,EMS,K-8,40.76,A ,66.2,9.5,A ,7.4,C ,38.8,A ,10.5,A
+24Q088,24,P.S. 088 Seneca,David Bishop,EMS,Elementary,42.4,B ,41.2,4,C ,6,C ,28.2,B ,3,C
+24Q089,24,P.S. 089 Elmhurst,Casper Cacioppo,EMS,Elementary,55.76,A ,61.7,10.7,A ,12.3,B ,35.2,A ,3.5,A
+24Q091,24,P.S. 091 Richard Arkwright,Victoria Catalano,EMS,Elementary,42.19,C ,36.9,4.8,C ,7.3,C ,23.3,C ,1.5,B
+24Q093,24,I.S. 093 Ridgewood,Edward Santos,EMS,Middle,2.59,C ,38.4,6.3,B ,9.7,C ,20.4,C ,2,B
+24Q102,24,P.S. 102 Bayview,Anthony Pisacano,EMS,K-8,38.15,A ,60.3,11.1,A ,10.6,B ,32.1,B ,6.5,A
+24Q113,24,P.S. 113 Isaac Chauncey,Anthony Pranzo,EMS,K-8,32.23,B ,42.5,13,A ,14.2,A ,10.7,D ,4.5,A
+24Q119,24,I.S. 119 The Glendale,Dr. Jeanne Fagan,EMS,Middle,3,A ,59.4,5.7,C ,10.6,B ,34.1,B ,9,C
+24Q125,24,I.S. 125 Thom J. McCann Woodside,Judy Mittler,EMS,Middle,2.83,A ,60.8,9.8,A ,10.6,B ,31.4,B ,9,B
+24Q128,24,P.S. 128 Juniper Valley,John Lavelle,EMS,K-8,16.66,B ,46.2,12.7,A ,13.3,B ,17.2,C ,3,A
+24Q143,24,P.S. 143 Louis Armstrong,Sheila Gorski,EMS,Elementary,62.53,C ,36.3,9.2,A ,10.4,B ,14.2,D ,2.5,C
+24Q153,24,P.S. 153 Maspeth Elem,Susan Bauer,EMS,Elementary,36.44,B ,53.2,6.7,B ,9.9,C ,32.6,B ,4,A
+24Q199,24,P.S. 199 Maurice A. Fitzgerald,Anthony Inzerillo,EMS,Elementary,48.28,A ,63.1,8.5,A ,11.7,B ,39.9,A ,3,B
+24Q229,24,P.S. 229 Emanuel Kaplan,Dr. Sibylle Ajwani,EMS,Elementary,33.76,A ,77.7,9.7,A ,12.3,B ,44.7,A ,11,A
+24Q239,24,P.S. 239,Robin Connolly,EMS,Elementary,58.32,C ,34.9,8.2,B ,7,C ,18.7,C ,1,B
+24Q305,24,Learners and Leaders,Lynn Botfeld,EC,K-3,55.41,C ,27.5,9,B ,9.3,B ,9.2,C ,0,
+24Q307,24,Pioneer Academy,Cecilia Jackson,EC,K-3,63.53,B ,43.1,10.7,A ,13.5,A ,13.9,B ,5,
+24Q560,24,"Robert F. Wagner, Jr. Secondary School for Arts an",Ann Seifullah,EMS,Middle,3.71,B ,49.5,6.7,B ,15.4,A ,27.3,B ,0,A
+24Q877,24,The 51 Avenue Academy (The Path To Academic Excell,Digna Erstejn,EMS,Elementary,41.44,A ,77.2,11.4,A ,14.2,A ,42.6,A ,9,A
+25Q020,25,P.S. 020 John Bowne,Victoria Hart,EMS,Elementary,40.79,B ,49.4,8,B ,10.6,B ,25.8,B ,5,B
+25Q021,25,P.S. 021 Edward Hart,Debra Buszko,EMS,Elementary,35.03,A ,69.5,6.8,B ,14.2,A ,39.5,A ,9,B
+25Q022,25,P.S. 022 Thomas Jefferson,Priscilla Milito,EMS,Elementary,38.94,A ,66.5,5.9,C ,13,B ,41.6,A ,6,A
+25Q024,25,P.S. 024 Andrew Jackson,Lori Golan,EMS,Elementary,32.74,A ,78,10.6,A ,13.3,B ,45.6,A ,8.5,A
+25Q025,25,I.S. 025 Adrien Block,Maryellen Beirne,EMS,Middle,3.09,B ,42.8,6.8,B ,10.3,B ,21.2,C ,4.5,B
+25Q029,25,P.S. 029 Queens,Jennifer Jones,EMS,Elementary,41.88,A ,78.2,7.8,B ,14.1,A ,47.8,A ,8.5,B
+25Q032,25,P.S. 032 State Street,Debra Errico,EMS,Elementary,23.88,C ,39.7,11.1,A ,10.1,B ,15.5,C ,3,A
+25Q079,25,P.S. 079 Francis Lewis,Paula Marron,EMS,Elementary,21.71,A ,71.7,4.5,C ,10.4,B ,49.3,A ,7.5,C
+25Q107,25,P.S. 107 Thomas A Dooley,James Phair,EMS,Elementary,28.32,A ,57.6,10.3,A ,11.3,B ,31,B ,5,B
+25Q120,25,P.S. 120 Queens,Joan Monroe,EMS,Elementary,31.56,C ,40.3,4.2,C ,8.4,C ,25.2,B ,2.5,A
+25Q129,25,P.S. 129 Patricia Larkin,Marilyn Alesi,EMS,Elementary,37.23,B ,40.9,10.5,A ,12.3,B ,14.6,D ,3.5,B
+25Q130,25,P.S. 130,Michelle Contratti,EC,K-3,20.62,A ,62.1,8.6,B ,19.5,A ,30,A ,4,A
+25Q154,25,P.S. 154 Queens,Danielle Giunta,EMS,Elementary,35.32,B ,56.1,6.3,B ,11.8,B ,34,A ,4,C
+25Q163,25,P.S. 163 Flushing Heights,Nicole Bullen,EMS,Elementary,32.94,A ,56.8,6.6,B ,11.6,B ,34.1,A ,4.5,B
+25Q164,25,P.S. 164 Queens Valley,Anne Alfonso,EMS,K-8,36.78,B ,56.7,6.5,B ,12.3,B ,28.9,B ,9,A
+25Q165,25,P.S. 165 Edith K. Bergtraum,Raquel Victoria Demillio,EMS,Elementary,36.53,B ,43.5,2.8,D ,9,C ,28.1,B ,3.5,B
+25Q169,25,P.S. 169 Bay Terrace,Vanessa Rosa,EMS,Elementary,18.79,B ,51.7,11.5,A ,9.2,C ,29,B ,2,C
+25Q184,25,P.S. 184 Flushing Manor,Dora Pantelis,EMS,Elementary,21.92,A ,59,10.3,A ,12.7,B ,31.5,B ,4.5,A
+25Q185,25,J.H.S. 185 Edward Bleeker,Valerie Sawinski,EMS,Middle,3.07,B ,53.2,5.8,C ,10.3,B ,29.1,B ,8,A
+25Q189,25,J.H.S. 189 Daniel Carter Beard,Cindy Diaz-Burgos,EMS,Middle,2.95,C ,40.1,11,A ,6.2,D ,19.4,C ,3.5,B
+25Q193,25,P.S. 193 Alfred J. Kennedy,Joyce E. Bush,EMS,Elementary,19.07,B ,43.8,5.9,C ,5.7,D ,27.7,B ,4.5,C
+25Q194,25,J.H.S. 194 William Carr,Richard Garino,EMS,Middle,3.08,B ,51.5,1.7,F ,13.2,B ,29.5,B ,7,A
+25Q200,25,PS/MS 200 - The Pomonok School & STAR Academy,Farrah Mckenna,EMS,K-8,41.9,A ,65.9,4.3,C ,7.9,C ,43.1,A ,10.5,B
+25Q201,25,P.S. 201 The Discovery School for Inquiry and Rese,Rebecca Lozada,EMS,Elementary,53.38,B ,49.5,4,C ,6.2,C ,32.2,B ,7,A
+25Q209,25,P.S. 209 Clearview Gardens,Mary Mcdonnell,EMS,Elementary,17.76,A ,60.6,9.8,A ,12.2,B ,37.6,A ,1,A
+25Q214,25,P.S. 214 Cadwallader Colden,Denise Fuccillo,EMS,Elementary,37.65,A ,58.6,10.7,A ,13.5,B ,32.9,B ,1.5,A
+25Q219,25,P.S. 219 Paul Klapper,Frederick Wright,EMS,K-8,44.3,A ,83.4,6.5,B ,13.9,B ,48.5,A ,14.5,A
+25Q237,25,I.S. 237,Judith Friedman,EMS,Middle,2.9,B ,54.1,6.4,B ,8.8,C ,31.4,B ,7.5,A
+25Q242,25,P.S. 242 Leonard P. Stavisky Early Childhood Schoo,Patricia Costa,EC,K-3,30.93,A ,51.2,7.5,B ,18.6,A ,22.1,A ,3,A
+25Q244,25,The Active Learning Elementary School,Ivan Tolentino,EC,K-3,31.04,,,,,,,,,,
+25Q250,25,I.S. 250 The Robert F. Kennedy Community Middle Sc,Marc Rosenberg,EMS,Middle,2.6,C ,31.7,2.8,D ,8.6,C ,19.8,C ,0.5,C
+25Q252,25,"Queens School of Inquiry, The",Meredith Rosenblatt,EMS,Middle,3.03,C ,40.7,9.5,A ,11.7,B ,17,C ,2.5,A
+25Q281,25,East-West School of International Studies,Ben Sherman,EMS,Middle,3.33,B ,54.3,3.7,C ,12.4,B ,32.7,B ,5.5,A
+25Q285,25,World Journalism Preparatory: A College Board Scho,Cynthia Schneider,EMS,Middle,2.95,B ,48.1,9.7,A ,13.5,B ,20.4,C ,4.5,C
+25Q294,25,BELL Academy,Cheryl Hatzidimitriou,EMS,Middle,2.98,A ,65.7,10.2,A ,12.9,B ,35.1,A ,7.5,A
+25Q499,25,"The Queens College School for Math, Science and Te",Helene Jacob,EMS,K-8,29.12,A ,64.6,8.1,B ,13.7,B ,35.8,A ,7,A
+26Q018,26,P.S. 018 Winchester,Kathleen Peknic,EMS,Elementary,22.69,A ,57.9,10.6,A ,16,A ,28.8,B ,2.5,A
+26Q026,26,P.S. 026 Rufus King,Dina Koski,EMS,Elementary,25.68,A ,63.4,7.5,B ,13.3,B ,34.6,A ,8,A
+26Q031,26,P.S. 031 Bayside,Terri Graybow,EMS,Elementary,27.11,B ,42.7,6.8,B ,13.9,B ,17.5,C ,4.5,A
+26Q041,26,P.S. 041 Crocheron,Sari Latto,EMS,Elementary,15.31,A ,80.1,12.8,A ,18.7,A ,45.6,A ,3,A
+26Q046,26,P.S. 046 Alley Pond,Marsha Goldberg,EMS,Elementary,25.16,A ,83.7,11.8,A ,17.4,A ,46.9,A ,7.5,A
+26Q067,26,J.H.S. 067 Louis Pasteur,Zoi Mcgrath,EMS,Middle,3.57,A ,64.8,7.4,B ,17.1,A ,34.8,B ,5.5,B
+26Q074,26,J.H.S. 074 Nathaniel Hawthorne,Andrea Dapolito,EMS,Middle,3.43,A ,64.2,9.1,A ,15.3,A ,29.8,B ,10,A
+26Q094,26,P.S. 094 David D. Porter,Joann Barbeosch,EMS,Elementary,17.09,B ,54.1,11.9,A ,13.6,B ,26.1,B ,2.5,B
+26Q098,26,P.S. 098 The Douglaston School,Sheila Huggins,EMS,Elementary,8.92,B ,48.8,7,B ,15.3,A ,26.4,B ,0,B
+26Q115,26,P.S. 115 Glen Oaks,James Ambrose,EMS,Elementary,22.75,C ,26.1,6.8,B ,7.4,C ,9.4,F ,2.5,B
+26Q133,26,P.S. 133 Queens,Shelley Steppel,EMS,Elementary,28.83,A ,79.1,9.9,A ,15.1,A ,44.6,A ,9.5,A
+26Q158,26,M.S. 158 Marie Curie,Marie Nappi,EMS,Middle,3.3,B ,50.4,6,C ,12.3,B ,23.1,C ,9,B
+26Q159,26,P.S. 159,Marlene Zucker,EMS,Elementary,22.52,A ,63.1,11.6,A ,16.3,A ,28.1,B ,7,A
+26Q162,26,P.S. 162 John Golden,Joan Casale,EMS,Elementary,17.98,B ,54.5,9.8,A ,12.9,B ,28.8,B ,3,B
+26Q172,26,Irwin Altman Middle School 172,Jeffrey Slivko,EMS,Middle,3.18,A ,63.1,4.3,C ,13.6,B ,34.2,B ,11,B
+26Q173,26,P.S. 173 Fresh Meadows,Molly Wang,EMS,Elementary,20.82,A ,70.3,8.5,A ,16.3,A ,39,A ,6.5,A
+26Q178,26,P.S./ IS 178 Holliswood,Jennifer Ambert,EMS,K-8,19.98,A ,60.8,7.9,B ,11,B ,34.8,A ,7,B
+26Q186,26,P.S. 186 Castlewood,Dolores Troy-Quinn,EMS,Elementary,24.1,A ,69.1,11.1,A ,14.1,A ,40.4,A ,3.5,B
+26Q188,26,P.S. 188 Kingsbury,Janet Caraisco,EMS,Elementary,10.61,A ,79.1,9.6,A ,19.7,A ,48.3,A ,1.5,A
+26Q191,26,P.S. 191 Mayflower,Michael Ranieri,EMS,Elementary,19.28,A ,74.6,13.2,A ,16.1,A ,43.3,A ,2,A
+26Q203,26,P.S. 203 Oakland Gardens,Carole Nussbaum,EMS,Elementary,16.43,A ,69.1,11.2,A ,16.3,A ,35.6,A ,6,A
+26Q205,26,P.S. 205 Alexander Graham Bell,Karen Scott-Piazza,EMS,Elementary,20.11,A ,77.7,9.1,A ,18.4,A ,49.2,A ,1,A
+26Q213,26,P.S. 213 The Carl Ullman School,Kathleen Driscoll,EMS,Elementary,20.7,A ,60.3,10.6,A ,13.7,B ,29.5,B ,6.5,A
+26Q216,26,J.H.S. 216 George J. Ryan,Reginald Landeau,EMS,Middle,3.26,B ,47.9,3.6,C ,12,B ,23.8,C ,8.5,A
+26Q221,26,P.S. 221 The North Hills School,Sheelia Twomey,EMS,Elementary,16.02,B ,49.2,12.4,A ,16.9,A ,16.9,C ,3,A
+26Q266,26,P.S. / I.S. 266,Nicole Scott,EMS,K-8,23.38,A ,58.2,8,B ,13.3,B ,29.9,B ,7,B
+27Q042,27,P.S. 042 R. Vernam,Stephanie Martin Okoase,EMS,K-8,59.57,C ,26.7,0,F ,4.2,D ,21,C ,1.5,C
+27Q043,27,P.S. 043,Gary Fairweather,EMS,K-8,58.55,C ,37.1,4.4,C ,6.8,C ,23.9,C ,2,C
+27Q045,27,P.S. 045 Clarence Witherspoon,Samantha Severin,EMS,Elementary,54.65,B ,48.5,4,C ,9.9,C ,32.6,B ,2,B
+27Q047,27,P.S. 047 Chris Galas,Janet Donohue,EMS,K-8,21.37,B ,45.6,10.9,A ,14,B ,17.7,C ,3,A
+27Q053,27,M.S. 053 Brian Piccolo,Jacqueline Boswell,EMS,Middle,1.91,F ,13.2,1,F ,3.1,F ,8.6,D ,0.5,C
+27Q056,27,P.S. 056 Harry Eichler,Ann Leiter,EMS,Elementary,38.48,B ,40.6,7.7,B ,8,C ,23.3,C ,1.5,B
+27Q060,27,P.S. 060 Woodhaven,Frank Desario,EMS,Elementary,51.21,A ,82.1,4.7,C ,17,A ,49.8,A ,10.5,A
+27Q062,27,P.S. 062 Chester Park,Angela O'Dowd,EMS,Elementary,33.22,A ,59.2,6.7,B ,10.5,B ,39,A ,3,C
+27Q063,27,P.S. 063 Old South,Diane Marino Coleman,EMS,Elementary,44.25,B ,48.3,9.4,A ,12.2,B ,21.7,C ,5,A
+27Q064,27,P.S. 064 Joseph P. Addabbo,Nina Auster,EMS,Elementary,39.66,A ,58.9,10.7,A ,9.9,C ,35.3,A ,3,C
+27Q065,27,P.S. 65 - The Raymond York Elementary School,Rafael Morales,EMS,Elementary,41.93,B ,48.6,8.7,A ,8,C ,27.4,B ,4.5,C
+27Q066,27,P.S. 066 Jacqueline Kennedy Onassis,Phyllis Leinwand,EMS,Elementary,52.67,A ,86.6,10.6,A ,18.6,A ,49.4,A ,8,A
+27Q090,27,P.S. 090 Horace Mann,Adrienne Ubertini,EMS,Elementary,47.23,B ,50.9,7.3,B ,10.3,B ,28.8,B ,4.5,B
+27Q096,27,P.S. 096,Joyce Walker,EMS,Elementary,41.56,C ,30.7,7.2,B ,7,C ,15.5,C ,1,B
+27Q097,27,P.S. 097 Forest Park,Maureen Ingram,EMS,Elementary,53.98,B ,52.4,7.3,B ,13.5,B ,29.1,B ,2.5,A
+27Q100,27,P.S. 100 Glen Morris,Laureen Fromberg,EMS,Elementary,40.97,B ,42.8,5.5,C ,10.1,B ,21.7,C ,5.5,B
+27Q104,27,P.S. 104 The Bays Water,Katie Grady,EMS,Elementary,58.03,B ,48.4,10,A ,6.7,C ,28.7,B ,3,C
+27Q105,27,P.S. 105 The Bay School,Laurie Shapiro,EMS,K-8,57.74,C ,38.2,6.8,B ,3.8,D ,25.6,B ,2,C
+27Q106,27,P.S. 106,Marcella Sills,EMS,Elementary,62.78,A ,58.6,4.1,C ,15.2,A ,38.3,A ,1,B
+27Q108,27,P.S. 108 Captain Vincent G. Fowler,Marie Biondollilo,EMS,Elementary,35.46,A ,58.3,10.2,A ,13.1,B ,28,B ,7,A
+27Q114,27,P.S. / M.S. 114 Belle Harbor,Stephen P. Grill,EMS,K-8,11.73,B ,53.7,8.1,B ,12,B ,28.6,B ,5,B
+27Q123,27,P.S. 123,Cynthia Sumay-Eaton,EMS,Elementary,55.57,C ,39.4,5.4,C ,6.6,C ,25.9,B ,1.5,B
+27Q124,27,P.S. 124 Osmond A Church,Valarie Lewis,EMS,K-8,40.45,B ,52.6,11,A ,10.2,C ,22.8,C ,8.5,C
+27Q137,27,M.S. 137 America's School of Heroes,Laura Mastrogiovanni,EMS,Middle,2.94,B ,45.1,3.6,C ,9,C ,27,B ,5.5,B
+27Q146,27,P.S. 146 Howard Beach,James Mckeon,EMS,K-8,31.12,B ,49.2,7.2,B ,7.5,C ,26.5,B ,8,B
+27Q155,27,P.S. 155,Dorothy Morris,EMS,Elementary,49.16,B ,52.4,7.5,B ,6.5,C ,34.4,A ,4,C
+27Q183,27,P.S. 183 Dr. Richard R. Green,Renee Peart,EMS,K-8,58.74,A ,69.9,10.8,A ,7.7,C ,43.4,A ,8,B
+27Q197,27,P.S. 197 The Ocean School,Jean Mckeon,EMS,Elementary,65.57,C ,29.7,4.4,C ,5.6,D ,17.7,C ,2,A
+27Q202,27,J.H.S. 202 Robert H. Goddard,William Fitzgerald,EMS,Middle,2.85,B ,42.5,6,C ,8.8,C ,22.7,C ,5,B
+27Q207,27,P.S. 207 Rockwood Park,Linda Spadaro,EMS,K-8,20.76,C ,37.5,6.9,B ,9.8,C ,18.3,C ,2.5,A
+27Q210,27,J.H.S. 210 Elizabeth Blackwell,Rosalyn Allman-Manning,EMS,Middle,2.88,C ,28.8,4.1,C ,6.8,C ,15.9,C ,2,C
+27Q215,27,P.S. 215 Lucretia Mott,Susan Rippe Hofmann,EMS,Elementary,64.03,F ,17.9,3.7,D ,2.8,D ,9.8,F ,1.5,D
+27Q223,27,P.S. 223 Lyndon B. Johnson,Deborah Otto,EMS,Elementary,54.63,D ,20.6,5.8,C ,5.3,D ,7,F ,2.5,B
+27Q225,27,P.S. 225 Seaside,Tammy Holloway,EMS,Middle,2.45,,,,,,,,,,
+27Q226,27,J.H.S. 226 Virgil I. Grissom,Rushell White,EMS,Middle,2.54,C ,25.9,6.3,B ,6.3,D ,12.8,D ,0.5,C
+27Q232,27,P.S. 232 Lindenwood,Lisa Josephson,EMS,K-8,31.01,B ,56.9,8.8,A ,11.3,B ,28.3,B ,8.5,A
+27Q253,27,P.S. 253,Robin Johnson,EMS,Elementary,63.84,D ,23,9.9,A ,4.9,D ,8.2,F ,0,C
+27Q254,27,P.S. 254,Naomi Drouillard,EMS,Elementary,52.73,A ,90.3,12.3,A ,20.1,A ,50.4,A ,7.5,A
+27Q262,27,Channel View School for Research,Patricia J. Tubridy,EMS,Middle,2.88,C ,25.4,10,A ,6.8,C ,8.1,F ,0.5,B
+27Q282,27,Knowledge and Power Preparatory Academy VI,Gary Dumornay,EMS,Middle,2.79,A ,67.5,9.4,A ,9.2,C ,41.9,A ,7,C
+27Q306,27,New York City Academy for Discovery,Jennifer Flandro,EC,K-3,52.27,A ,55,11.6,A ,19.1,A ,20.3,A ,4,
+27Q309,27,Academy of Medical Technology: A College Board Sch,Jose Merced,EMS,Middle,2.51,B ,42.2,7.5,B ,6.9,C ,25.2,B ,2.5,D
+27Q317,27,WATERSIDE CHILDREN'S STUDIO SCHOOL,Dana Gerendasi,EMS,Elementary,54.86,A ,67.9,11.1,A ,6.4,C ,46.4,A ,4,
+27Q318,27,WATERSIDE SCHOOL FOR LEADERSHIP,Linda Munro,EMS,Middle,2.13,B ,53.4,10.3,A ,8.9,C ,30.2,B ,4,
+27Q319,27,VILLAGE ACADEMY,Doris Lee,EMS,Middle,2.08,B ,53.1,14.4,A ,7.4,C ,28.8,B ,2.5,
+27Q323,27,Scholars' Academy,Brian O'Connell,EMS,Middle,3.95,A ,59.6,10.2,A ,20.5,A ,28.9,B ,0,A
+27Q333,27,Goldie Maple Academy,Angela Logan,EMS,K-8,56.36,A ,66.3,14.7,A ,12.9,B ,36.2,A ,2.5,C
+28Q008,28,J.H.S. 008 Richard S. Grossley,Angela Green,EMS,Middle,2.11,C ,32.7,4.3,C ,7.1,C ,20.3,C ,1,C
+28Q030,28,P.S. 030 Queens,Dwayne Crowder,EMS,Elementary,56.3,,,,,,,,,,D
+28Q040,28,P.S. 040 Samuel Huntington,Alison Branker,EMS,Elementary,59.62,B ,47.5,8.5,A ,6.2,C ,30.7,B ,2,D
+28Q048,28,P.S. 048 William Wordsworth,Patricia M. Mitchell,EMS,Elementary,56.13,D ,24.1,5.6,C ,4.6,D ,12.9,D ,1,C
+28Q050,28,P.S. 050 Talfourd Lawn Elementary School,Rina Manjarrez,EMS,Elementary,54.26,B ,48.3,4.2,C ,9.8,C ,31.2,B ,3,B
+28Q054,28,P.S. 054 Hillside,Anita Prashad,EMS,Elementary,45.54,C ,30,5.2,C ,3.8,D ,19.5,C ,1.5,C
+28Q055,28,P.S. 055 Maure,Ralph K Honore,EMS,Elementary,39.63,A ,56.8,4.6,C ,5.7,D ,39.5,A ,7,C
+28Q072,28,Catherine & Count Basie Middle School 72,Crystal Taylor Brown,EMS,Middle,2.37,C ,34.7,6.5,B ,7.6,C ,19.1,C ,1.5,C
+28Q080,28,P.S. 080 Thurgood Marshall Magnet,Paulette Glenn,EMS,Elementary,58.6,F ,17.9,8.4,B ,4.9,D ,4.6,F ,0,C
+28Q082,28,P.S. 082 Hammond,Dr. Angela Boykin,EMS,Elementary,53.3,C ,27.9,7.1,B ,6.1,C ,13.6,D ,1,B
+28Q086,28,P.S. Q086,Karen Zuvic,EMS,Elementary,48.53,C ,33.2,4.3,C ,3.8,D ,24.5,B ,0.5,B
+28Q099,28,P.S. 099 Kew Gardens,Paulette Foglio,EMS,Elementary,37.31,A ,65.4,7.3,B ,12.9,B ,41.2,A ,4,A
+28Q101,28,P.S. 101 School in the Gardens,Valerie Capitulo-Saide,EMS,Elementary,15.3,C ,28.7,7,B ,9.3,C ,11.4,D ,1,B
+28Q117,28,P.S. 117 J. Keld / Briarwood School,Paula Cunningham,EMS,Elementary,39.22,C ,25.7,4.8,C ,7,C ,13.9,D ,0,B
+28Q121,28,P.S. 121 Queens,Henry Somers,EMS,Elementary,42.26,B ,54.4,7.7,B ,12.9,B ,27.8,B ,6,A
+28Q139,28,P.S. 139 Rego Park,Monica Bridget Powers-Meade,EMS,Elementary,30.39,B ,42.3,5.6,C ,10.8,B ,24.9,B ,1,C
+28Q140,28,P.S. 140 Edward K Ellington,David Norment,EMS,Elementary,58.97,C ,30,4.6,C ,6.4,C ,17,C ,2,C
+28Q144,28,P.S. 144 Col Jeromus Remsen,Reva Gluck Schneider,EMS,Elementary,19.9,A ,57.5,7.3,B ,8,C ,37.2,A ,5,B
+28Q157,28,J.H.S. 157 Stephen A. Halsey,Vincent Suraci,EMS,Middle,2.83,B ,57.3,8.5,B ,12.6,B ,28.7,B ,7.5,A
+28Q160,28,P.S. 160 Walter Francis Bishop,Jermaine Garden,EMS,Elementary,58.71,C ,32.6,3.7,D ,5.3,D ,22.6,C ,1,B
+28Q161,28,P.S. 161 Arthur Ashe School,Jill Hoder,EMS,Elementary,38.35,A ,60,10.6,A ,11.3,B ,31.1,B ,7,A
+28Q167,28,METROPOLITAN EXPEDITIONARY LEARNING SCHOOL,Damon Mccord,EMS,Middle,2.98,,,,,,,,,,
+28Q174,28,P.S. 174 William Sidney Mount,Karin Kelly,EMS,Elementary,23.66,C ,35.4,5.2,C ,7.9,C ,19.3,C ,3,B
+28Q175,28,P.S. 175 The Lynn Gross Discovery School,Linda Green,EMS,Elementary,25.22,B ,44.5,6.6,B ,11.2,B ,21.2,C ,5.5,A
+28Q182,28,P.S. 182 Samantha Smith,Andrew Todd Topol,EC,K-2,51.25,C ,17.9,6.8,C ,3.6,D ,4.4,D ,3,D
+28Q190,28,J.H.S. 190 Russell Sage,Marilyn Grant,EMS,Middle,2.87,B ,49.4,4.2,C ,12.2,B ,28,B ,5,C
+28Q196,28,P.S. 196 Grand Central Parkway,Susan Migliano,EMS,Elementary,12.86,A ,73.5,10.2,A ,18.1,A ,43.2,A ,2,A
+28Q206,28,P.S. 206 The Horace Harding School,Nicholas Bologna,EMS,Elementary,44.43,B ,46.8,2.8,D ,8.2,C ,33.3,B ,2.5,C
+28Q217,28,J.H.S. 217 Robert A. Van Wyck,Patrick Michael Burns,EMS,Middle,2.61,A ,59,5.6,C ,9.8,C ,33.1,B ,10.5,B
+28Q220,28,P.S. 220 Edward Mandel,Josette Pizarro,EMS,Elementary,37.66,C ,29.2,5.6,C ,3.1,D ,17.5,C ,3,A
+28Q284,28,York Early College Academy,Deborah Burnett,EMS,Middle,3.07,C ,38.4,7.8,B ,10,C ,17.6,C ,3,B
+28Q310,28,Queens Collegiate: A College Board School,Jaime Anne Dubei,EMS,Middle,2.94,C ,32.7,8.3,B ,5.8,D ,18.6,C ,0,
+28Q680,28,Queens Gateway to Health Sciences Secondary School,Dr. Cynthia Edwards,EMS,Middle,3.65,C ,34.6,7.5,B ,13.3,B ,13.8,D ,0,B
+28Q896,28,"Young Women's Leadership School, Queens",Avionne Gumbs,EMS,Middle,2.85,C ,26.1,5.2,C ,8.6,C ,11.3,D ,1,C
+29Q015,29,P.S. 015 Jackie Robinson,Antonio K'Tori,EMS,Elementary,50.44,B ,49.1,7.4,B ,8.7,C ,30.5,B ,2.5,C
+29Q033,29,P.S. 033 Edward M. Funk,Erich Wagner,EMS,Elementary,36.82,C ,27.6,9.6,A ,7.2,C ,10.8,F ,0,C
+29Q034,29,P.S. 034 John Harvard,Pauline Shakespeare,EMS,Elementary,56.24,A ,68.8,6.6,B ,14.7,A ,40,A ,7.5,B
+29Q035,29,P.S. 035 Nathaniel Woodhull,Mark Dempsey,EMS,Elementary,45.44,D ,25.1,1.4,F ,6,C ,17.7,C ,0,D
+29Q036,29,P.S. 036 Saint Albans School,Lynn Staton,EMS,Elementary,52.62,B ,42.6,4.9,C ,5.1,D ,29.6,B ,3,D
+29Q037,29,Cynthia Jenkins School,Beverly Mitchell,EMS,Elementary,54.96,B ,43.4,5.5,C ,4.5,D ,32.9,B ,0.5,C
+29Q038,29,P.S. 038 Rosedale,Cassandra A. Hundley,EMS,Elementary,59.13,C ,34.7,13.1,A ,5.3,D ,14.8,D ,1.5,B
+29Q052,29,P.S. 052 Queens,Linda Pough,EMS,Elementary,56.29,B ,55.4,6.3,B ,11,B ,33.1,B ,5,A
+29Q059,29,I.S. 059 Springfield Gardens,Carleton Gordon,EMS,Middle,2.48,C ,31.3,1.9,F ,6.3,D ,21.6,C ,1.5,C
+29Q095,29,P.S. 095 Eastwood,Dolores Reid-Barker,EMS,Elementary,44.7,B ,43.4,6.9,B ,6.9,C ,27.6,B ,2,B
+29Q109,29,Jean Nuzzi Intermediate School,Miatheresa Pate,EMS,Middle,2.75,C ,38,3.9,C ,7.3,C ,22.3,C ,4.5,C
+29Q116,29,PS/IS 116 William C. Hughley,Barbara Fuller,EMS,K-8,55.12,C ,33.3,5.7,C ,3.5,D ,20.6,C ,3.5,C
+29Q118,29,P.S. 118 Lorraine Hansberry,Cynthia Ofori-Feaster,EMS,Elementary,56.4,C ,33.8,1.6,F ,3.4,D ,24.7,B ,4,C
+29Q131,29,P.S. 131 Abigail Adams,Randolph Ford,EMS,Elementary,37.4,A ,61.5,10,A ,11.7,B ,34.8,A ,5,B
+29Q132,29,P.S. 132 Ralph Bunche,Alicia Davis,EMS,Elementary,50.12,C ,40.2,6.1,B ,8.3,C ,25.2,B ,0.5,C
+29Q134,29,P.S. 134 Hollis,Cheryl Marmon-Halm,EMS,Elementary,60.59,C ,39.3,7.7,B ,4.7,D ,25.9,B ,1,B
+29Q135,29,The Bellaire School,George Hadjoglou,EMS,Elementary,44.24,B ,45.7,6.6,B ,8.1,C ,29,B ,2,C
+29Q136,29,P.S. 136 Roy Wilkins,Tanya S.T. Walker,EMS,Elementary,57.26,B ,53.2,3.5,D ,7.3,C ,36.9,A ,5.5,B
+29Q138,29,P.S. 138 Sunrise,James Mc Enaney,EMS,K-8,56.77,C ,26.6,3.8,C ,5.2,D ,17.1,C ,0.5,C
+29Q147,29,PS/MS 147 Ronald McNair,Anne Cohen,EMS,K-8,48.41,C ,31.7,6.5,B ,3.2,D ,22,C ,0,D
+29Q156,29,P.S. 156 Laurelton,Noreen Little,EMS,K-8,48.63,C ,25.6,3.7,C ,3.9,D ,17,C ,1,C
+29Q176,29,P.S. 176 Cambria Heights,Arlene Bartlett,EMS,Elementary,55.05,B ,53.6,10.9,A ,13.3,B ,26.9,B ,2.5,C
+29Q181,29,P.S. 181 Brookfield,Andrea Belcher,EMS,Elementary,55.52,D ,18.9,4.9,C ,0.8,F ,13.2,D ,0,C
+29Q192,29,I.S. 192 The Linden,Harriett Diaz,EMS,Middle,2.22,C ,39.6,11.3,A ,6.3,D ,18.9,C ,3,B
+29Q195,29,P.S. 195 William Haberle,Beryl Bailey,EMS,Elementary,57.59,A ,60,8.2,B ,7.1,C ,38.2,A ,6.5,D
+29Q208,29,P.S. / I.S. 208,James Philemy,EMS,K-8,42.98,B ,48.5,10.5,A ,12.5,B ,25.5,B ,0,B
+29Q231,29,I.S. 231 Magnetech 2000,Emmanuel Lubin,EMS,Middle,2.27,,,,,,,,,,D
+29Q238,29,I.S. 238 Susan B Anthony,Joseph Gates,EMS,Middle,2.7,B ,43.1,6.6,B ,7.9,C ,27.6,B ,1,C
+29Q251,29,P.S. 251 Queens,Edna Loncke,EC,K-3,50.27,B ,32.1,6.8,C ,11.7,A ,10.6,B ,3,C
+29Q259,29,Pathways College Preparatory School: A College Boa,Kimberly Mitchell,EMS,Middle,2.57,C ,31.5,4.8,C ,8.1,C ,14.1,D ,4.5,C
+29Q268,29,PS/IS 268,Lissa Grant-Stewart,EMS,K-8,45.55,D ,23.2,4,C ,6.5,C ,11.7,D ,1,B
+29Q270,29,The Gordon Parks School,Eleanor S. Andrew,EMS,K-8,46.43,C ,30,10.4,A ,8.7,C ,6.4,F ,4.5,C
+29Q283,29,Preparatory Academy for Writers: A College Board S,Charles Anderson,EMS,Middle,2.32,A ,63.1,11.8,A ,9.2,C ,38.1,A ,4,C
+29Q295,29,P.S./I.S. 295,Angela Thompson,EMS,K-8,39.74,A ,61.5,8,B ,11.2,B ,37.3,A ,5,B
+29Q327,29,EAGLE ACADEMY FOR YOUNG MEN III,Kenyatte Reid,EMS,Middle,2.66,,,,,,,,,,
+30Q002,30,P.S. 002 Alfred Zimberg,Joseph Taddeo,EMS,Elementary,37.93,B ,51.8,7.5,B ,7.9,C ,30.9,B ,5.5,A
+30Q010,30,I.S. 010 Horace Greeley,Clemente Lopes,EMS,Middle,2.73,A ,63.1,8.7,A ,10.4,B ,35.5,A ,8.5,B
+30Q011,30,P.S. 011 Kathryn Phelan,Anna Efkarpides,EMS,Elementary,43.07,A ,73.6,10.4,A ,11.6,B ,44.1,A ,7.5,B
+30Q017,30,P.S. 017 Henry David Thoreau,Cynthia Dickman,EMS,Elementary,51.05,A ,57.3,5.9,C ,5.8,C ,40.6,A ,5,C
+30Q069,30,P.S. 069 Jackson Heights,Martha Vazquez,EMS,Elementary,35.98,A ,56.7,8.5,A ,12.1,B ,32.6,B ,3.5,A
+30Q070,30,P.S. 070 Queens,Donna Geller,EMS,Elementary,41.75,B ,49.3,5.6,C ,9.6,C ,27.6,B ,6.5,C
+30Q076,30,P.S. 076 William Hallet,Mary Schafenberg,EMS,Elementary,60.95,B ,43.3,5.2,C ,7.6,C ,27.5,B ,3,A
+30Q078,30,P.S. 078,Louis Pavone,EMS,Elementary,32.36,B ,51,11.4,A ,10.5,B ,29.1,B ,0,B
+30Q084,30,P.S. 084 Steinway,John Buffa,EMS,K-8,40.37,B ,57,7.9,B ,7.9,C ,34.2,A ,7,C
+30Q085,30,P.S. 085 Judge Charles Vallone,Ann Gordon-Chang,EMS,Elementary,36,C ,37.9,8,B ,10.6,B ,19.3,C ,0,C
+30Q092,30,P.S. 092 Harry T. Stewart Sr.,Pasquale Baratta,EMS,Elementary,65.97,B ,43.2,11.1,A ,9.5,C ,19.1,C ,3.5,A
+30Q111,30,P.S. 111 Jacob Blackwell,Randy Seabrook,EMS,K-8,62.79,C ,40.9,7.3,B ,3.7,D ,26.9,B ,3,C
+30Q112,30,P.S. 112 Dutch Kills,Rafael Campos-Gatjens,EMS,Elementary,54.42,C ,37,6.3,B ,4.7,D ,22,C ,4,B
+30Q122,30,P.S. 122 Mamie Fay,Pamela Sabel,EMS,K-8,29.42,A ,70.6,6.7,B ,15.9,A ,44.5,A ,3.5,A
+30Q126,30,Albert Shanker School for Visual and Performing Ar,Alexander Angueira,EMS,Middle,2.21,B ,48.9,6.8,B ,8.3,C ,29.7,B ,4,C
+30Q127,30,P.S. 127 Aerospace Science Magne,Evita Sanabria,EMS,K-8,60.71,B ,41.3,4.6,C ,8,C ,27.2,B ,1.5,B
+30Q141,30,I.S. 141 The Steinway,Miranda Pavlou,EMS,Middle,2.8,A ,66.4,9.6,A ,13.1,B ,32.7,B ,11,A
+30Q145,30,I.S. 145 Joseph Pulitzer,Dolores Beckham,EMS,Middle,2.65,B ,46.1,9.8,A ,7.9,C ,26.4,B ,2,B
+30Q148,30,P.S. 148 Queens,Andrew Paccione Jr.,EMS,Elementary,53.72,D ,21.2,7.3,B ,5.9,C ,7,F ,1,B
+30Q149,30,P.S. 149 Christa Mcauliffe,Esther Salorio,EMS,Elementary,57.22,A ,61.2,11,A ,12.4,B ,33.8,B ,4,B
+30Q150,30,P.S. 150 Queens,Carmen Parache,EMS,Elementary,41.43,A ,69.2,6.7,B ,14.1,A ,40.9,A ,7.5,B
+30Q151,30,P.S. 151 Mary D. Carter,Jason Goldner,EMS,Elementary,51.27,D ,19,1.7,F ,1.8,D ,15,D ,0.5,C
+30Q152,30,Q152 - P.S. 152 Gwendoline N. Alleyne School,Vincent Vitolo,EMS,Elementary,42.38,A ,59.9,10.6,A ,11.3,B ,33,B ,5,A
+30Q166,30,P.S. 166 Henry Gradstein,Janet Farrell,EMS,Elementary,49.01,B ,46.9,7.7,B ,10.7,B ,27,B ,1.5,B
+30Q171,30,P.S. 171 Peter G. Van Alst,Anne Bussel,EMS,Elementary,55.43,B ,49.7,7,B ,6.6,C ,33.6,B ,2.5,C
+30Q204,30,I.S. 204 Oliver W. Holmes,Yvonne Leimsider,EMS,Middle,2.54,C ,37.1,6.6,B ,9.1,C ,20.4,C ,1,A
+30Q212,30,P.S. 212,Carin Ilene Ellis,EMS,Elementary,51.98,A ,65,9.3,A ,12.1,B ,38,A ,5.5,B
+30Q222,30,P.S. Q222 - Fire Fighter Christopher A. Santora Sc,Yvonne Marrero,EC,K-2,53.11,B ,41,7.6,B ,13.4,A ,13,B ,7,A
+30Q227,30,I.S. 227 Louis Armstrong,William Fahey,EMS,Middle,3.04,A ,62,8.5,B ,13.6,B ,31.9,B ,8,A
+30Q228,30,P.S. 228 Early Childhood Magnet School of the Arts,Olga Guzman,EC,K-2,59.85,A ,45.9,13.9,A ,11.9,A ,15.1,B ,5,A
+30Q230,30,I.S. 230,Sharon Terry,EMS,Middle,2.84,B ,45.9,8.1,B ,10.9,B ,23.9,C ,3,A
+30Q234,30,P.S. 234,Thea Pallos,EMS,Elementary,43.12,C ,35.9,10.3,A ,11.1,B ,13.4,D ,1,A
+30Q235,30,Academy for New Americans,Carmen Rivera,EMS,Middle,2.77,A ,71.7,13.8,A ,1.5,F ,53.9,A ,2.5,A
+30Q286,30,"Young Women's Leadership School, Astoria",Laura A Mitchell,EMS,Middle,3.12,B ,53.3,10.4,A ,11.4,B ,29,B ,2.5,A
+30Q580,30,Baccalaureate School for Global Education,Kelly Joan Johnson,EMS,Middle,3.96,B ,53.4,8.8,A ,21.4,A ,23.2,C ,0,B
+31R001,31,P.S. 001 Tottenville,Diane Gordin,EMS,Elementary,18.63,B ,49.9,8.4,B ,11,B ,25,B ,5.5,B
+31R002,31,I.S. R002 George L. Egbert,Adrienne Stallone,EMS,Middle,2.59,C ,37,5.1,C ,9.7,C ,20.7,C ,1.5,C
+31R003,31,P.S. 003 The Margaret Gioiosa School,Judith Wilson,EMS,Elementary,12.85,C ,28.3,3.7,D ,6.7,C ,15.4,C ,2.5,C
+31R004,31,P.S. 004 Maurice Wollin,Mr. Marc A. Harris,EMS,Elementary,21.79,C ,31.7,4.1,C ,3.3,D ,20.8,C ,3.5,C
+31R005,31,P.S. 005 Huguenot,Lisa Arcuri,EMS,Elementary,11.61,C ,35.5,11.8,A ,10.4,B ,13.2,D ,0,C
+31R006,31,P.S. 6 Corporal Allan F. Kivlehan School,Cynthia Difolco,EMS,Elementary,18.59,C ,26.8,6.6,B ,7.1,C ,8,F ,5,C
+31R007,31,I.S. 007 Elias Bernstein,Dr. Nora De Rosa-Karby,EMS,Middle,3.11,B ,50.6,6.5,B ,13,B ,23,C ,8,B
+31R008,31,P.S. 8 Shirlee Solomon,Lisa Esposito,EMS,Elementary,22.81,A ,82.1,11,A ,15.6,A ,48.5,A ,7,A
+31R011,31,P.S. 11 Thomas Dongan School,Erica Mattera,EMS,Elementary,42.18,C ,36.3,7.3,B ,2.6,D ,23.9,C ,2.5,B
+31R013,31,P.S. 013 M. L. Lindemeyer,Paul Martuccio,EMS,Elementary,43.95,B ,43.1,6.2,B ,11.8,B ,22.6,C ,2.5,C
+31R014,31,P.S. 014 Cornelius Vanderbilt,Nancy Hargett,EMS,Elementary,59.62,D ,21.2,4.6,C ,1.3,F ,14.3,D ,1,C
+31R016,31,P.S. 016 John J. Driscoll,Vincenza Gallassio,EMS,Elementary,61.09,C ,39.9,3.6,D ,2.9,D ,30.9,B ,2.5,C
+31R018,31,P.S. 018 John G. Whittier,Robert Rodriguez,EMS,Elementary,62,C ,34,4.7,C ,7.5,C ,18.8,C ,3,B
+31R019,31,P.S. 019 The Curtis School,Mary Petrone,EMS,Elementary,53.45,A ,67.6,8.2,B ,10.7,B ,40.7,A ,8,B
+31R020,31,P.S. 020 Port Richmond,Marie Munoz,EMS,Elementary,63.97,C ,32.2,11.5,A ,8,C ,10.7,F ,2,C
+31R021,31,P.S. 21 Margaret Emery-Elm Park,Gina Moreno,EMS,Elementary,55.7,C ,38.9,9.9,A ,6.8,C ,22.2,C ,0,A
+31R022,31,P.S. 022 Graniteville,Melissa Lamb Donath,EMS,Elementary,50.31,C ,39.8,4,C ,9.5,C ,26.2,B ,0,B
+31R023,31,P.S. 023 Richmondtown,Frank Campagna,EMS,Elementary,19.18,A ,65.4,8.4,B ,10.9,B ,38.6,A ,7.5,B
+31R024,31,I.S. 024 Myra S. Barnes,Lenny Santamaria,EMS,Middle,2.99,B ,44.4,5.3,C ,11.4,B ,21.2,C ,6.5,C
+31R026,31,P.S. 026 The Carteret School,Laura Kump/Joanne Mecane,EMS,Elementary,37.68,B ,47.4,7.5,B ,9.2,C ,29.6,B ,1,C
+31R027,31,I.S. 027 Anning S. Prall,Tracey Kornish,EMS,Middle,2.54,C ,38.8,6.3,B ,9,C ,21.5,C ,2,C
+31R029,31,P.S. 029 Bardwell,Mrs. Linda Manfredi,EMS,Elementary,24.11,B ,45.8,12,A ,9.4,C ,20.9,C ,3.5,C
+31R030,31,P.S. 030 Westerleigh,Mrs. Denise N. Spina,EMS,Elementary,23.04,B ,51.9,3.8,C ,8.4,C ,33.7,B ,6,C
+31R031,31,P.S. 031 William T. Davis,Patricia Covington,EMS,Elementary,59.22,B ,41.3,7.8,B ,4.6,D ,27.4,B ,1.5,B
+31R032,31,P.S. 032 The Gifford School,Nancy Spataro,EMS,Elementary,17.06,B ,53.4,4,C ,6.6,C ,35.3,A ,7.5,B
+31R034,31,I.S. 034 Tottenville,Jeff Preston,EMS,Middle,2.92,C ,38.6,9.9,A ,12.4,B ,10.2,D ,6,A
+31R035,31,P.S. 35 The Clove Valley School,Melissa Garofalo,EMS,Elementary,25.22,C ,36.2,6.7,B ,9.7,C ,17.8,C ,2,C
+31R036,31,P.S. 036 J. C. Drumgoole,Barbara Bellafatto,EMS,Elementary,13.77,B ,47.9,2.1,F ,6.2,C ,35.1,A ,4.5,C
+31R038,31,P.S. 038 George Cromwell,Everlidys Robles,EMS,Elementary,35.19,C ,35.4,6.2,B ,10.3,B ,14.9,D ,4,B
+31R039,31,P.S. 39 Francis J. Murphy Jr.,Tracey Wright,EMS,Elementary,31.04,C ,39.3,7.4,B ,9.5,C ,19.4,C ,3,C
+31R041,31,P.S. 041 New Dorp,Elise Feldman,EMS,Elementary,31.68,C ,35.5,3.4,D ,9.5,C ,16.6,C ,6,C
+31R042,31,P.S. 042 Eltingville,Brian Sharkey,EMS,Elementary,18.3,B ,45,9.1,A ,7.1,C ,24.3,B ,4.5,C
+31R044,31,P.S. 044 Thomas C. Brown,Joseph Miller,EMS,Elementary,62.54,C ,38.4,5.4,C ,3.9,D ,24.6,B ,4.5,C
+31R045,31,P.S. 045 John Tyler,Christine Chavez,EMS,Elementary,40,B ,49.1,5.7,C ,7.3,C ,31.6,B ,4.5,C
+31R046,31,P.S. 046 Albert V. Maniscalco,Andrea Maffeo,EMS,Elementary,43.04,B ,51.8,9.5,A ,6.8,C ,31,B ,4.5,D
+31R048,31,P.S. 048 William C. Wilcox,Jacqueline Mammolito,EMS,Elementary,20.51,B ,43.1,9.9,A ,13.2,B ,17.4,C ,2.5,B
+31R049,31,I.S. 49 Berta A. Dreyfus,Linda Hill,EMS,Middle,2.15,B ,46.9,5.1,C ,7.6,C ,29.7,B ,4.5,B
+31R050,31,P.S. 050 Frank Hankinson,Sharon Fine,EMS,Elementary,17.14,B ,52.5,6.1,B ,10,C ,33.4,B ,3,B
+31R051,31,I.S. 051 Edwin Markham,Nicholas Mele,EMS,Middle,2.43,B ,43.4,6.1,C ,8.7,C ,26.1,B ,2.5,B
+31R052,31,P.S. 052 John C. Thompson,Jane Mccord,EMS,Elementary,25.31,D ,23.1,5.6,C ,3.2,D ,13.3,D ,1,C
+31R053,31,P.S. 053 Bay Terrace,Annette Esposito,EMS,Elementary,17.93,B ,55.6,10.3,A ,7.5,C ,31.3,B ,6.5,B
+31R054,31,P.S. 054 Charles W. Leng,Anna Castley,EMS,Elementary,30.49,D ,18.6,5.9,C ,6.5,C ,5.7,F ,0.5,C
+31R055,31,P.S. 055 Henry M. Boehm,Sharon Fishman,EMS,Elementary,13.97,C ,34.8,6.2,B ,6.4,C ,18.7,C ,3.5,C
+31R056,31,P.S. 56 The Louis Desario School,Dean Scali,EMS,Elementary,16.71,C ,14.9,3.7,D ,6.2,C ,4,F ,1,C
+31R057,31,P.S. 057 Hubert H. Humphrey,Sandra Barnes,EMS,Elementary,62.15,C ,27.8,3.3,D ,4.3,D ,18.2,C ,2,A
+31R058,31,Space Shuttle Columbia School,Roseann Mezzacappa,EMS,Elementary,29.35,B ,44,7.9,B ,7.5,C ,24.1,C ,4.5,C
+31R060,31,P.S. 060 Alice Austen,Bonnie Ferretti,EMS,Elementary,32.35,D ,21,7.4,B ,5.4,D ,6.7,F ,1.5,C
+31R061,31,I.S. 061 William A Morris,Mr. Richard J. Gallo,EMS,Middle,2.42,C ,33,5,C ,7.9,C ,18.1,C ,2,C
+31R063,31,Marsh Avenue School for Expeditionary Learning,Jessica Jenkins-Milona,EMS,Middle,2.83,B ,47.9,12.7,A ,11.8,B ,18.3,C ,5,B
+31R065,31,P.S. 65 The Academy of Innovative Learning,Sophie Scamardella,EC,K-3,43.37,B ,36.9,12.4,A ,15.3,A ,9.2,C ,0,
+31R069,31,P.S. 069 Daniel D. Tompkins,Doreen Murphy,EMS,Elementary,25.01,C ,31.5,10.1,A ,4.6,D ,15.8,C ,1,C
+31R072,31,I.S. 072 Rocco Laurie,Peter Macellari,EMS,Middle,2.59,B ,54.6,5.8,C ,12.1,B ,32.1,B ,4.5,B
+31R075,31,I.S. 075 Frank D. Paulo,Mark Cannizzaro,EMS,Middle,3.01,B ,45.7,8,B ,11.6,B ,19.6,C ,6.5,B
+31R080,31,The Michael J. Petrides School,Joanne Buckheit,EMS,K-8,25.75,C ,14.9,5,C ,5.7,D ,2.7,F ,1.5,C
+31R861,31,Staten Island School of Civic Leadership,Rose Kerr,EMS,Middle,2.62,A ,97.2,12.8,A ,18.1,A ,56.8,A ,9.5,
+32K045,32,P.S. 045 Horace E. Greene,Tracey Lott-Davis,EMS,Elementary,62,B ,46.9,8.6,A ,9.6,C ,24.7,B ,4,A
+32K075,32,P.S. 075 Mayda Cortiella,Christopher Tricarico,EMS,Elementary,59.15,B ,43,7.5,B ,8.6,C ,21.9,C ,5,C
+32K086,32,P.S. 086 The Irvington,Mabel Sarduy,EMS,Elementary,63.78,B ,42.5,11.7,A ,10.1,B ,19.1,C ,1.5,C
+32K106,32,P.S. 106 Edward Everett Hale,Robert Flores,EMS,Elementary,64.99,C ,26.3,7,B ,7.4,C ,10.9,D ,1,B
+32K116,32,P.S. 116 Elizabeth L Farrell,Seiw Kong,EMS,Elementary,65.47,A ,76.7,7.8,B ,10.7,B ,49.2,A ,9,A
+32K123,32,P.S. 123 Suydam,Veronica Greene,EMS,Elementary,64.61,B ,53.9,9.3,A ,11.9,B ,26.7,B ,6,C
+32K145,32,P.S. 145 Andrew Jackson,Marilyn Torres,EMS,Elementary,64.2,C ,40.3,7.5,B ,6.2,C ,25.6,B ,1,B
+32K151,32,P.S. 151 Lyndon B. Johnson,Maria Anaya,EMS,Elementary,64.47,D ,24.7,6.1,B ,6.3,C ,11.8,D ,0.5,C
+32K162,32,J.H.S. 162 The Willoughby,Barbara Demartino,EMS,Middle,2.29,C ,25.3,4.3,C ,5.3,D ,15.7,C ,0,C
+32K274,32,P.S. 274 Kosciusko,Maritza Ollivierra-Jones,EMS,Elementary,63.71,C ,30.7,7.6,B ,6.6,C ,15.5,C ,1,A
+32K291,32,J.H.S. 291 Roland Hayes,Sean Walsh,EMS,Middle,2.34,C ,27.1,2.3,D ,3.9,D ,19.9,C ,1,C
+32K296,32,J.H.S. 296 The Halsey School,Maria Barreto,EMS,Middle,2.4,F ,12,1.4,F ,2.2,F ,6.9,F ,1.5,C
+32K299,32,P.S. 299 Thomas Warren Field,Wilma Kanova Kirk,EMS,Elementary,60.65,D ,24.1,5.1,C ,5.2,D ,11.3,D ,2.5,B
+32K347,32,I.S. 347 School of Humanities,John Barbella,EMS,Middle,2.4,C ,34.2,7,B ,7.2,C ,18.9,C ,1,C
+32K349,32,"I.S. 349 Math, Science & Tech.",Rogelio Parris,EMS,Middle,2.47,C ,38.5,5.6,C ,6.2,D ,24.7,C ,2,C
+32K376,32,P.S. 376,Maria Vera,EMS,Elementary,64.58,C ,31.2,12.4,A ,12.1,B ,6.1,F ,0.5,B
+32K377,32,P.S. 377 Alejandrina B. De Gautier,Dominic Zagami,EMS,K-8,59.61,F ,4.6,1.8,F ,2.8,F ,0,F ,0,B
+32K383,32,J.H.S. 383 Philippa Schuyler,Barbara Sanders,EMS,Middle,3.61,B ,41.9,3.8,C ,8.8,C ,23.8,C ,5.5,C
+32K384,32,P.S. /I.S. 384 Frances E. Carter,Brunhilda Perez,EMS,K-8,60.55,B ,46.2,12.3,A ,8.5,C ,23.9,C ,1.5,A
+32K554,32,All City Leadership Secondary School,Elvis Estevez,EMS,Middle,3.27,A ,61.8,12.6,A ,13.5,B ,35.7,A ,0,C
+75K036,75,P.S. 36,Johanna Schneider,D75,Middle,,A ,64.9,10.9,A ,9.1,C ,41.8,A ,3,C
+75K053,75,P.S. K053,Heather Leykam,D75,Middle,,A ,75.3,14.8,A ,14.7,B ,41.3,A ,4.5,B
+75K140,75,P.S. K140,Michelle Carpenter,D75,K-8,,F ,32.4,2.3,F ,10.7,C ,17.9,D ,1.5,D
+75K141,75,P.S. K141,Michele Thornton Mannix,D75,Middle,,C ,40.4,2.4,F ,9.5,C ,28.5,C ,0,B
+75K231,75,P.S. K231,Christina Foti,D75,Elementary,,B ,45.3,10.4,B ,11.9,B ,21.5,C ,1.5,C
+75K368,75,P.S. 368,Joycelyn Nedd,D75,Middle,,B ,51.9,4.8,F ,8.8,D ,35.3,B ,3,D
+75K369,75,P.S. K369 - Coy L. Cox School,Rudy Giuliani,D75,K-8,,B ,49.4,10.2,A ,8.6,C ,27.6,C ,3,B
+75K372,75,P.S. 372 -The Children's School,Arthur Mattia,D75,Elementary,,A ,79.2,14,A ,23.3,A ,37.4,A ,4.5,A
+75K771,75,P.S. K771,Denise D'Anna,D75,K-8,,B ,51.9,12.2,A ,12.1,B ,27.5,C ,0,A
+75M094,75,P.S. M094,Ronnie Shuster,D75,Elementary,,D ,32.6,11.3,A ,7.6,F ,10.7,F ,3,C
+75M169,75,P.S. M169 - Robert F. Kennedy,Susan Finn,D75,Middle,,B ,61,6,D ,6.7,F ,43.8,A ,4.5,D
+75M811,75,P.S. M811 - Mickey Mantle School,Barry Daub,D75,Elementary,,C ,36.3,9.4,D ,10.1,C ,15.3,D ,1.5,F
+75Q004,75,P.S. Q004,Marcy Berger,D75,Elementary,,A ,63.8,12,A ,13.4,B ,32.4,B ,6,A
+75Q009,75,P.S. 009,Robert Wojnarowski,D75,K-8,,A ,53.9,8.9,C ,8.5,D ,32,B ,4.5,B
+75Q023,75,P.S. Q023 @ Queens Children Center,Jacqueline Jones,D75,K-8,,B ,47.6,9.1,B ,9.1,C ,21.9,C ,7.5,B
+75Q075,75,Robert E. Peary School,Brenda Gallashaw,D75,K-8,,A ,53.8,10,A ,11.1,C ,31.2,B ,1.5,C
+75Q224,75,P.S. Q224,Desmond Park,D75,Elementary,,B ,51.6,10.7,A ,12.4,B ,28.5,B ,0,B
+75Q256,75,P.S. Q256,Oswaldo Roman,D75,Middle,,A ,77,10.7,A ,13.3,B ,48.5,A ,4.5,A
+75R025,75,South Richmond High School I.S./P.S. 25,James Mckeon,D75,Middle,,C ,45.3,7.5,B ,5,F ,28.3,C ,4.5,B
+75R373,75,P.S. R373,Ilene Goldstein- Harn,D75,Elementary,,A ,58.2,9.8,C ,11.1,C ,32.8,B ,4.5,B
+75X010,75,P.S. X010,Barbara Hanson,D75,Elementary,,B ,54.5,10.7,A ,13.4,B ,30.4,B ,0,A
+75X017,75,P.S. X017,Robin Cohen,D75,K-8,,A ,65.6,9.3,A ,12.2,B ,38.1,A ,6,A
+75X168,75,P.S. 168,Rosa Nieves Greene,D75,K-8,,C ,41.4,11.9,A ,10.1,C ,19.4,C ,0,D
+75X186,75,P186X Walter J. Damrosch School,Ava Cara Kaplan,D75,K-8,,C ,39.9,13.7,A ,9.7,C ,13.5,F ,3,F
+75X188,75,P.S. X188,Shanie Johnson,D75,Middle,,D ,40,6.8,C ,9,C ,22.7,D ,1.5,C
+75X352,75,The Vida Bogart School for All Children,Lourdes Mendez,D75,Elementary,,C ,41.5,3.5,F ,9.3,C ,21.2,C ,7.5,B
+75X723,75,P.S. 723,Christine Walsh,D75,Middle,,B ,52,10.4,A ,10,C ,28.6,C ,3,C
+84K355,84,Williamsburg Collegiate Charter School,J.T. Leaird,EMS,Middle,2.72,A ,83,14.5,A ,18.2,A ,43.8,A ,6.5,A
+84K356,84,Achievement First- Crown Heights Charter School,Camilla Lopez/Wells Blanchard,EMS,K-8,51.76,A ,64.8,9.2,A ,14.1,B ,38,A ,3.5,C
+84K357,84,KIPP AMP Charter School,Ky Adderley/Natalie Webb,EMS,Middle,2.45,B ,53.5,8.4,B ,10.3,B ,28.8,B ,6,C
+84K358,84,Achievement First East New York School,Hilary Cymrot/David Hardy,EMS,Elementary,54.71,A ,56.8,10.4,A ,13.1,B ,31.3,B ,2,C
+84K359,84,The Uft Charter School,Michelle Bodden-White,EMS,K-8,54.63,C ,25.3,5.3,C ,5.1,D ,12.9,D ,2,D
+84K362,84,Hellenic Classical Charter School,Christina Tettonis,EMS,K-8,41.41,B ,42.9,12.5,A ,12.6,B ,15.8,C ,2,C
+84K508,84,Achievement First Endeavor Charter School,Tom Kaiser/Paul Adler,EMS,Middle,2.58,A ,76.7,11,A ,12.8,B ,45.9,A ,7,C
+84K517,84,Leadership Prep Bedford Stuyvesant Charter School,Sultanna Noormuhammad,EMS,Elementary,51.25,B ,54.1,13.7,A ,16,A ,23.4,C ,1,B
+84K536,84,Community Roots Charter School,Allison Keil/Sara Stone,EMS,Elementary,30.17,C ,31.5,12.7,A ,8.7,C ,8.6,F ,1.5,F
+84K538,84,Achievement First Bushwick Charter School,Amy D'Angelo,EMS,K-8,54.6,A ,74.9,12.6,A ,13.5,B ,40.8,A ,8,B
+84K593,84,Excellence Charter School of Bedford Stuyvesant,Jabali Sawicki/,EMS,K-8,49.25,A ,62.2,11.3,A ,16.9,A ,33,B ,1,C
+84K608,84,Kings Collegiate Charter School,Scott Schuster,EMS,Middle,2.82,B ,46.7,10.4,A ,13.1,B ,21.2,C ,2,A
+84K626,84,ACHIEVEMENT FIRST BROWNSVILLE CHARTER SCHOOL,Gina Ribeiro,EC,K-3,53.16,B ,39.6,11.6,A ,14.6,A ,11.4,B ,2,
+84K648,84,Bedford Stuyvesant Collegiate Charter School,Mabel Lajes-Guiteras,EMS,Middle,2.66,A ,61.5,14.2,A ,14.2,B ,29.6,B ,3.5,A
+84K649,84,La Cima Charter School,Andrea Zayas,EC,K-3,54.63,D ,14.8,3.8,F ,6.1,C ,4.9,C ,0,
+84K651,84,PAVE Academy Charter School,Spencer Robertson/Ashley Ferguson,EC,K-3,48.64,C ,25.1,9.4,A ,8.2,B ,7.5,C ,0,
+84K652,84,Brooklyn Ascend Charter School,Keisha Sykes/Brandon Sorlie,EMS,Elementary,51.35,C ,36.7,8.1,B ,9.2,C ,19.3,C ,0,B
+84K701,84,Brooklyn Charter School,Omigbade Escayg,EMS,Elementary,51.89,A ,58.2,12.5,A ,9.7,C ,35.4,A ,0.5,D
+84K702,84,Community Partnership Charter,Melaine Bryon,EMS,Elementary,50.23,B ,47.6,5.9,C ,11.3,B ,27.3,B ,3,B
+84K703,84,Beginning With Children Charter School,Timothy Gembka,EMS,K-8,53.58,C ,32.9,8.8,A ,6.3,C ,16.8,C ,1,C
+84K704,84,Explore Charter School,Tracy Rebe/,EMS,K-8,52.4,C ,33.7,9.7,A ,9.7,C ,13.8,D ,0.5,B
+84K707,84,Brooklyn Prospect Charter School,Lanolia Omowanile,EMS,Middle,2.97,A ,62.9,11.2,A ,13.6,B ,30.6,B ,7.5,
+84K710,84,Brownsville Collegiate Charter School,Jessica Simmons,EMS,Middle,2.54,A ,59.8,13.3,A ,13.6,B ,29.4,B ,3.5,
+84K726,84,Fahari Academy Charter School,Catina Venning,EMS,Middle,2.67,D ,21.5,7.4,B ,5.1,D ,8,F ,1,
+84K730,84,Summit Academy Charter School,Shahara Jackson,EMS,Middle,2.23,C ,37.5,12.2,A ,8.5,C ,15.8,C ,1,
+84K731,84,Brooklyn Excelsior Charter,Tom Demarco,EMS,K-8,57.86,B ,42.9,8.3,B ,15,A ,16,C ,3.5,A
+84K740,84,Brooklyn Scholars Charter School,Desiree Kirton,EMS,Elementary,53.45,B ,45.6,11.9,A ,9.6,C ,24.1,C ,0,
+84K742,84,Explore Empower Charter School,Beth Doyle,EC,K-3,55.95,B ,30.8,9.9,A ,10.7,B ,9.1,C ,1,
+84K744,84,Coney Island Preparatory Public Charter School,Jacob Mnookin,EMS,Middle,2.53,A ,80.8,12.9,A ,16,A ,43.9,A ,8,
+84K777,84,Ocean Hill Collegiate Charter School,Hannah Soloman,EMS,Middle,2.61,,,,,,,,,,
+84K780,84,Brooklyn East Collegiate Charter School,Eric Green,EMS,Middle,2.53,,,,,,,,,,
+84K782,84,Bedford Stuyvesant New Beginnings Charter School,Joshua Morales/Karen Jones,EC,K-3,54.84,,,,,,,,,,
+84K791,84,Brooklyn Dreams Charter School,Yvette Wilds,EC,K-3,54.89,,,,,,,,,,
+84M279,84,The Opportunity Charter School,Marya Baker,EMS,Middle,1.5,B ,44.9,6,C ,4.7,D ,31.7,B ,2.5,C
+84M284,84,Harlem Children's Zone/Promise Academy Charter Sch,Tonya White/Dennis Mckesey,EMS,K-8,56.5,C ,41,10.7,A ,10.9,B ,15.9,C ,3.5,B
+84M320,84,Manhattan Charter School,Genie Depolo,EMS,Elementary,50.57,A ,57.7,8.4,B ,15.4,A ,33.9,B ,0,B
+84M329,84,Harlem Link Charter School,Steven Evangelista/Margaret Ryan,EMS,Elementary,55.94,C ,30.8,5.4,C ,7.8,C ,17.6,C ,0,D
+84M330,84,Girls Preparatory Charter School of New York,Anne Lackritz/Ian Rowe,EMS,Elementary,40.06,C ,32.6,4.4,C ,11.5,B ,14.7,D ,2,C
+84M335,84,Harlem Village Academies Leadership Charter School,Sam Fragomeni,EMS,Middle,2.82,A ,64.9,14.7,A ,14.2,B ,33,B ,3,A
+84M336,84,KIPP Infinity Charter School,Joseph Negron,EMS,Middle,2.43,A ,70.5,13.7,A ,15.6,A ,32.2,B ,9,A
+84M341,84,Harlem Children's Zone/Promise Academy II,Kathleen Fernald/Sheryl Ragland,EMS,Elementary,55.52,B ,46.6,6.7,B ,14.7,A ,25.1,B ,0,C
+84M350,84,Democracy Preparatory Charter School,Lisa Friscia/Elizabeth Raji,EMS,Middle,2.44,A ,65,11.7,A ,13.6,B ,32.1,B ,7.5,A
+84M351,84,Harlem Success Academy 1 Charter School,Jackie Albers,EMS,Elementary,53.32,A ,71.7,11.4,A ,21.7,A ,36.6,A ,2,A
+84M353,84,New Heights Academy Charter School,Lisa Hackett/Kaye Houlihan,EMS,Middle,2.52,B ,51.5,7.5,B ,8.1,C ,29.9,B ,6,C
+84M355,84,Ross Global Academy Charter School, Cristina Alvarez,EMS,K-8,49.39,,,,,,,,,,C
+84M382,84,DREAM Charter School,Eve Colavito,EC,K-3,57.85,C ,20.5,11.1,A ,3.6,D ,3.8,F ,2,
+84M384,84,Harlem Success Academy 2 Charter School,Jim Manly,EC,K-3,55.13,A ,52.9,11.8,A ,18,A ,19.1,A ,4,
+84M385,84,Harlem Success Academy 3 Charter School,Emily Rodriguez,EC,K-3,53.3,A ,51.5,12.8,A ,18.1,A ,16.6,A ,4,
+84M386,84,Harlem Success Academy 4 Charter School,Danique Loving,EC,K-3,54.82,A ,57.5,11.8,A ,20.7,A ,21,A ,4,
+84M388,84,St. HOPE Leadership Academy Charter School,Ventura Rodriguez,EMS,Middle,2.17,C ,26.9,8.4,B ,7.6,C ,9.9,D ,1,B
+84M430,84,The Equity Project Charter School (TEP),Zeke Vanderhoek,EMS,Middle,2.49,B ,53.8,14.3,A ,7.5,C ,26.5,B ,5.5,
+84M478,84,Inwood Academy for Leadership Charter School,Christina Reyes,EMS,Middle,2.63,,,,,,,,,,
+84M481,84,Democracy Preparatory Harlem Charter School,Emmanuel George,EMS,Middle,2.39,,,,,,,,,,
+84M702,84,The Sisulu-Walker Charter School of Harlem,Dawn Cejas,EMS,Elementary,55.08,C ,38.4,6.1,B ,9.3,C ,22,C ,1,C
+84M704,84,Harbor Sciences and Arts Charter School,Joanne Hunt,EMS,K-8,50.21,B ,44.4,10.1,A ,12.4,B ,18.9,C ,3,C
+84M705,84,Amber Charter School,Vasthi Acosta,EMS,Elementary,53.38,B ,55.5,6.6,B ,13.4,B ,35.5,A ,0,C
+84M708,84,Harlem Day Charter School,Curtis Palmore,EMS,Elementary,55.81,D ,18.5,5.1,C ,3.1,D ,10.3,F ,0,C
+84M709,84,Harlem Village Academy Charter School,Laurie Warner/Ray Ankrum,EMS,Middle,2.59,A ,80.7,14.5,A ,14.7,A ,46,A ,5.5,B
+84M726,84,KIPP S.T.A.R. Charter School,Orpheus Williams/Natalie Webb,EMS,Middle,2.43,B ,44.2,10.7,A ,12.7,B ,17.8,C ,3,B
+84M861,84,Future Leaders Institute Charter School,Peter Anderson,EMS,K-8,48.37,F ,6.8,4,C ,1.8,F ,0,F ,1,D
+84Q170,84,Peninsula Preparatory Academy Charter School,Ericka K. Wala,EMS,Elementary,51.94,C ,39.2,7.5,B ,8.2,C ,23.5,C ,0,C
+84Q304,84,VOICE Charter School of New York,Frank Headley,EC,K-3,44.14,B ,36,10.6,A ,9.4,B ,12,B ,4,
+84Q341,84,Riverton Street Charter School,Verone Kennedy,EC,K-3,51.52,,,,,,,,,,
+84Q704,84,Merrick Academy Charter School,Carolyn Thomas,EMS,Elementary,45.94,F ,9.8,3.2,D ,6.6,C ,0,F ,0,C
+84Q705,84,"Renaissance Charter School, The",Stacey Gauthier,EMS,K-8,35.59,C ,41.1,6.8,B ,10.1,C ,21.7,C ,2.5,B
+84Q706,84,Our World Neighborhood Charter,Brian Ferguson,EMS,K-8,30.7,B ,55.2,8,B ,9.8,C ,32.9,B ,4.5,C
+84R067,84,John W. Lavelle Preparatory Charter School,Evelyn Finn,EMS,Middle,2.03,A ,66.1,13.9,A ,13.1,B ,34.1,B ,5,
+84R073,84,New World Preparatory Charter School,Jamie V. Esperon,EMS,Middle,2.26,,,,,,,,,,
+84X165,84,Grand Concourse Charter School,Ira Victor,EMS,Elementary,57.45,B ,54.4,11.9,A ,15.2,A ,26.3,B ,1,B
+84X185,84,The Bronx Lighthouse Charter School,Meghan Kimpton (K-4)/Mathias Guishard (5-8),EMS,K-8,54.79,D ,21.1,8.7,A ,8.8,C ,2.6,F ,1,B
+84X255,84,Bronx Charter School for Excellence,Charlene Reid,EMS,Elementary,47.49,A ,90.4,11.9,A ,21.6,A ,51.9,A ,5,A
+84X309,84,South Bronx Charter School For Int'L Culture & The,Evelyn Hey,EMS,Elementary,57.71,B ,54.8,10.6,A ,13.7,B ,30,B ,0.5,A
+84X345,84,Hyde Leadership Charter School,Betsy Olney,EMS,K-8,60.14,B ,45.3,10,A ,8.9,C ,23.4,C ,3,C
+84X346,84,South Bronx Classical Charter School,Lester Long,EMS,Elementary,55.55,A ,78.8,10.5,A ,18,A ,49.3,A ,1,D
+84X378,84,Icahn Charter School 2,Brenda Carrasquillo,EMS,Elementary,48,A ,66.8,12.2,A ,19.7,A ,34.9,A ,0,C
+84X389,84,Bronx Global Learning Institute for Girls Charter,Celia Domenech,EC,K-3,54.88,C ,26.2,8.9,B ,9.2,B ,8.1,C ,0,
+84X394,84,Mott Haven Academy Charter School,Jessica Nauiokas,EC,K-3,60.17,D ,16,9.5,A ,3.4,F ,3.1,F ,0,
+84X398,84,Bronx Community Charter School,Martha Andrews/Sasha Wilson,EC,K-3,52.17,C ,19.1,12.4,A ,3.1,F ,3.6,F ,0,
+84X407,84,Bronx Charter School for Children,Kristina Jelinek,EMS,Elementary,58.91,D ,19.5,8,B ,7.3,C ,4.2,F ,0,C
+84X419,84,Bronx Academy of Promise Charter School,Catherine Jackvony,EMS,Elementary,61.34,F ,16.5,11.9,A ,4.6,D ,0,F ,0,B
+84X422,84,Icahn Charter School 3,Midga Agosto,EMS,Elementary,55.96,D ,22.5,7.4,B ,12.8,B ,2.3,F ,0,A
+84X482,84,Dr. Izquierdo Health and Science Charter School,John Xavier,EMS,Middle,2.59,,,,,,,,,,
+84X488,84,The Equality Charter School,Caitlin Franco,EMS,Middle,2.44,C ,39.5,10.2,A ,8,C ,19.7,C ,1.5,
+84X496,84,Icahn Charter School 4,Michelle Allen,EC,K-3,59.94,A ,70.8,14.2,A ,22.8,A ,29.8,A ,4,
+84X703,84,Bronx Prep Charter School,Jacqueline King-Robinson,EMS,Middle,2.68,C ,28,9.8,A ,6.7,C ,10.5,D ,1,C
+84X704,84,KIPP NYC College Prep,Natalie Webb,EMS,Middle,2.87,A ,67.9,13.3,A ,13.9,B ,34.7,B ,6,A
+84X705,84,Family Life Academy Charter School,Marilyn Calo,EMS,K-8,55.01,B ,41.3,14.2,A ,10.2,C ,16.9,C ,0,B
+84X706,84,Harriet Tubman Charter School,Cleveland Person,EMS,K-8,58.02,C ,33.1,8.9,A ,5.8,D ,16.4,C ,2,C
+84X717,84,Icahn Charter School,Daniel Garcia,EMS,K-8,51.84,A ,64.3,11.4,A ,18.1,A ,34.8,A ,0,B
+84X718,84,Bronx Charter School for Better Learning,Shubert Jacobs,EMS,Elementary,52.21,C ,35.2,9.8,A ,10.2,B ,15.2,D ,0,C
+84X730,84,Bronx Charter School for Arts,Christina Brown,EMS,Elementary,58.86,D ,23.3,8.3,B ,7.1,C ,6.4,F ,1.5,B
