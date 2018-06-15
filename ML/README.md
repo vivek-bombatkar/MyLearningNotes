@@ -15,4 +15,5 @@
 
 
 ## 2.
-> https://developers.google.com/machine-learning/crash-course/
+> https://developers.google.com/machine-learning/crash-course/~~
+> https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=rTX3heEtu0b2
