@@ -35,3 +35,52 @@ if the index is of integer type, ix will only use label-based indexing and not f
 
 if the index does not contain only integers, then given an integer, ix will immediately use position-based indexing rather than label-based indexing. If however ix is given another type (e.g. a string), it can use label-based indexing.
 ```
+
+### Change data type of columns
+
+```python
+b = [['a',10,100],['b',20,200]]
+b_cols = ['c1','c2','c3']
+df_b = pd.DataFrame(b,columns=b_cols)
+print(df_b)
+#apply
+df_b[['c2','c3']] = df_b[['c2','c3']].apply(pd.to_numeric) 
+print(df_b.dtypes)
+
+#astype
+df_b[['c2','c3']] = df_b[['c2','c3']].astype(float) 
+print(df_b.dtypes)
+```
+
+      c1  c2   c3
+    0  a  10  100
+    1  b  20  200
+    c1    object
+    c2     int64
+    c3     int64
+    dtype: object
+    c1     object
+    c2    float64
+    c3    float64
+    dtype: object
+    
+
+```python
+b = [['a',10,100.11],['b',20,200.22]]
+b_cols = ['c1','c2','c3']
+df_b = pd.DataFrame(b,columns=b_cols)
+print(df_b)
+#infer_objects
+df_b = df_b.infer_objects()
+df_b.dtypes
+```
+
+      c1  c2      c3
+    0  a  10  100.11
+    1  b  20  200.22
+    
+
+    c1     object
+    c2      int64
+    c3    float64
+    dtype: object
