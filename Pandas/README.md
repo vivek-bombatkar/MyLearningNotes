@@ -84,3 +84,149 @@ df_b.dtypes
     c2      int64
     c3    float64
     dtype: object
+
+
+### Delete column from pandas DataFrame
+
+
+
+```python
+import pandas as pd
+import numpy as np
+```
+
+
+```python
+df_a = pd.DataFrame({
+    'b': np.random.choice([3,6,9,np.nan],5),
+    'c': np.random.choice(['aa','bb','cc'],5)
+})
+df_a
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>b</th>
+      <th>c</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>9.0</td>
+      <td>bb</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>6.0</td>
+      <td>bb</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3.0</td>
+      <td>bb</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>9.0</td>
+      <td>aa</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>3.0</td>
+      <td>aa</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+del df_a['b']
+df_a
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>c</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>bb</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>bb</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>bb</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>aa</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>aa</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+df_b = df_a.columns.drop('c',1)
+df_b
+```
+
+
+
+
+    Index([], dtype='object')
+
+
