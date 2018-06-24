@@ -1,0 +1,21 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "fe98af9c9a289b96d31411f7375eac6d45d3f910137e360074ab1bea23133c74"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "matplotlib": "2.2",
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {},
+    "develop": {}
+}
