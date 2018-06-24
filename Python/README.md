@@ -84,7 +84,7 @@ sal 2000
 - G, Global (module) — Names assigned at the top-level of a module file, or by executing a global statement in a def within the file.
 - B, Built-in (Python) — Names preassigned in the built-in names module : open,range,SyntaxError,...
 
-## the pipfile i.e. virtual environment
+## The pipfile i.e. virtual environment
 > https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv
 
 ```commandline
@@ -95,7 +95,7 @@ pipenv install requirments.txt
 #this will create 'pipfile'
 ```
 
-Once we have pipfile created... 
+Once we have pipfile created run below to... 
  - automagically locate the Pipfiles
  - create a new virtual environment 
  - and install the necessary packag
@@ -109,4 +109,21 @@ To activate virtual environment
 pipenv shell
 ```
 
+Running code in the virtual environment
+```commandline
+pipenv run python <myCode>.py
+```
 
+
+And Finaly
+```commandline
+exit
+```
+
+> https://docs.pipenv.org/basics/
+```markdown
+- Generally, keep both Pipfile and Pipfile.lock in version control.
+- Do not keep Pipfile.lock in version control if multiple versions of Python are being targeted.
+- Specify your target Python version in your Pipfile’s [requires] section. Ideally, you should only have one target Python version, as this is a deployment tool.
+- pipenv install is fully compatible with pip install syntax, for which the full documentation can be found here.
+```
