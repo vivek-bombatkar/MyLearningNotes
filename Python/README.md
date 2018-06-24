@@ -3,7 +3,7 @@
 
 ## global veriable 
 > https://stackoverflow.com/questions/423379/using-global-variables-in-a-function-other-than-the-one-that-created-them
-```
+```python
 glob_var=0
 
 def set_1():
@@ -35,7 +35,7 @@ print(glob_var)
 ## yield
 > https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do
 - yield is a keyword that is used like return, except the function will return a generator.
-```
+```python
 def getGenerator():
     list = range(5)
     for i in list:
@@ -53,7 +53,7 @@ for i in myGen:
 - The *args will give you all function parameters as a tuple
 - The **kwargs will give you all keyword arguments except for those corresponding to a formal parameter as a dictionary
 
-```
+```python
 def test(*args):
     for a in args:
         print(a)
@@ -83,5 +83,30 @@ sal 2000
 - E, Enclosing-function locals — Name in the local scope of any and all statically enclosing functions (def or lambda), from inner to outer.
 - G, Global (module) — Names assigned at the top-level of a module file, or by executing a global statement in a def within the file.
 - B, Built-in (Python) — Names preassigned in the built-in names module : open,range,SyntaxError,...
+
+## the pipfile i.e. virtual environment
+> https://robots.thoughtbot.com/how-to-manage-your-python-projects-with-pipenv
+
+```commandline
+pipenv install <abc>
+pipenv install <xyz>
+#OR
+pipenv install requirments.txt
+#this will create 'pipfile'
+```
+
+Once we have pipfile created... 
+ - automagically locate the Pipfiles
+ - create a new virtual environment 
+ - and install the necessary packag
+```commandline
+pipenv install
+```
+
+
+To activate virtual environment
+```commandline
+pipenv shell
+```
 
 
