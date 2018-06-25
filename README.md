@@ -164,3 +164,16 @@ hdfs dfs -lsr hdfs://<path>/\* | awk '{ if ($5 == 0) print $8 }' | xargs hadoop 
 
 #\* avoides the folder itself to comming in the list
 ```
+
+### Commands to generate a keytab file, using the Kerberos password
+
+```
+$ ktutil
+ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e aes256-cts-hmac-sha1-96
+ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e aes128-cts-hmac-sha1-96
+ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e des3-cbc-sha1
+ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e arcfour-hmac
+ktutil:  wkt ./pos-ingest.keytab
+ktutil:  quit
+
+```
