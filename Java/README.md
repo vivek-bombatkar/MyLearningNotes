@@ -66,6 +66,26 @@ class Abstract:
 - You use an assert method, provided by JUnit or another assert framework, to check an expected result versus the actual result. 
 - These method calls are typically called asserts or assert statements.
 
+### gradle
+> https://www.stubbornjava.com/posts/multi-project-builds-with-gradle-and-fat-jars-with-shadow
+> https://docs.gradle.org/current/userguide/command_line_interface.html
+- gradle/
+The gradle/ directory is the default location for including gradle scripts.
+
+- build.gradle
+The build.gradle file is where we will load all plugins
+This is also where we handle building our fat JAR using the Shadow JAR plugin
+
+- ./gradlew clean
+
+Uses your project's gradle wrapper to execute your project's clean task. Usually, this just means the deletion of the build directory.
+
+
+###  uberJar, fatJar and shadowJar in Gradle?
+There is no difference whatsoever. These terms are all synonyms of each other.
+
+The term "uber-jar" may be more commonly used in documentations (take the maven-shade-plugin documentation for example) but "fat-jar" is also widely used.
+
 
 
 
