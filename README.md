@@ -177,3 +177,9 @@ ktutil:  wkt ./pos-ingest.keytab
 ktutil:  quit
 
 ```
+
+### HIVE create table if not exists & create or replace view 
+- 'create or replace view' dose not supported very well, hence it is wise to drop view before hand.
+- and use CREATE VIEW [IF NOT EXISTS]
+
+
