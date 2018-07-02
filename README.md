@@ -186,6 +186,15 @@ ktutil:  quit
 > https://streever.atlassian.net/wiki/spaces/HADOOP/pages/9961474/Hive+JDBC+Extended+Connection+URL+Examples
 > https://cwiki.apache.org/confluence/display/Hive/HiveServer2+Clients
 ```
-jdbc:hive2://zookeeper_quorum|hs2_host:port/[db][;principal=<hs2_principal>/<hs2_host>|_HOST@<KDC_REALM>][;transportMode=binary|http][;httpPath=<http_path>][;serviceDiscoveryMode=zookeeper;zooKeeperNamespace=<zk_namespace>]
-
+jdbc:hive2://zookeeper_quorum|hs2_host:port
+/[db][;principal=<hs2_principal>/<hs2_host>|_HOST@<KDC_REALM>]
+[;transportMode=binary|http]
+[;httpPath=<http_path>]
+[;serviceDiscoveryMode=zookeeper;zooKeeperNamespace=<zk_namespace>]
+```
+- Adding ;SocketTimeout=0 in URL could solve the problems like below
+```
+ERROR processing query/stat
+ement. Error Code: 0, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Invalid S
+essionHandle: SessionHandle [xxx]:12:11,
 ```
