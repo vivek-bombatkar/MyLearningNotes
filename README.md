@@ -182,4 +182,10 @@ ktutil:  quit
 - 'create or replace view' dose not supported very well, hence it is wise to drop view before hand.
 - and use CREATE VIEW [IF NOT EXISTS]
 
+### What's in the HIVE JDBC URL
+> https://streever.atlassian.net/wiki/spaces/HADOOP/pages/9961474/Hive+JDBC+Extended+Connection+URL+Examples
+> https://cwiki.apache.org/confluence/display/Hive/HiveServer2+Clients
+```
+jdbc:hive2://zookeeper_quorum|hs2_host:port/[db][;principal=<hs2_principal>/<hs2_host>|_HOST@<KDC_REALM>][;transportMode=binary|http][;httpPath=<http_path>][;serviceDiscoveryMode=zookeeper;zooKeeperNamespace=<zk_namespace>]
 
+```
