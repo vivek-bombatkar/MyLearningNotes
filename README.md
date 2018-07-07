@@ -204,7 +204,6 @@ essionHandle: SessionHandle [xxx]:12:11,
 > https://serversforhackers.com/s/docker-in-development
 > https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/
 
-'''
 - ***docker***
 
 - ***docker composer***
@@ -216,5 +215,4 @@ essionHandle: SessionHandle [xxx]:12:11,
 > A single Makefile per application defines and encapsulates all the steps for testing, building, and deploying that application.
 
 
-'''
 
