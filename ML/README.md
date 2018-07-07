@@ -1,6 +1,6 @@
 ###
 
-## 1. 
+## 1. ML kick start course  
 > https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-1-exploratory-data-analysis-with-pandas-de57880f1a68
 - Exploratory Data Analysis with Pandas
 - Visual Data Analysis with Python
@@ -14,9 +14,20 @@
 - Gradient Boosting
 
 
-## 2.
+## 2. Google TF kick start
 > https://developers.google.com/machine-learning/crash-course/~~
 > https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=rTX3heEtu0b2
 
-## 3.
+## 3. Random Notes
 > http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
+
+### 3.1 Finding text from image.
+> https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python/text
+
+> https://docs.aws.amazon.com/rekognition/latest/dg/text-detecting-text-procedure.html
+
+> https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts/python-print-text
+
+> https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/vision/cloud-client/detect/detect.py
+> https://cloud.google.com/vision/docs/detecting-text#vision-text-detection-python
+
