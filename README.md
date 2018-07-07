@@ -198,3 +198,16 @@ ERROR processing query/stat
 ement. Error Code: 0, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[*org.apache.hive.service.cli.HiveSQLException:Invalid S
 essionHandle: SessionHandle [xxx]:12:11,
 ```
+
+### DOCKER
+> https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17
+> https://serversforhackers.com/s/docker-in-development
+
+'''
+- docker
+
+- docker composer
+
+- make - makefile
+'''
+
