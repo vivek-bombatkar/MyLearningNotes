@@ -202,12 +202,19 @@ essionHandle: SessionHandle [xxx]:12:11,
 ### DOCKER
 > https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17
 > https://serversforhackers.com/s/docker-in-development
+> https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/
 
 '''
-- docker
+- ***docker***
 
-- docker composer
+- ***docker composer***
+> manages Docker containers in a very neat way. 
+> It allows multiple Docker commands to be written as a single one, which allows our Makefile to be a lot cleaner and easier to maintain.
 
-- make - makefile
+- ***make - makefile***
+> Make is a cross-platform build tool to test and build software and it is used as an interface between the CI/CD server and the application code.
+> A single Makefile per application defines and encapsulates all the steps for testing, building, and deploying that application.
+
+
 '''
 
