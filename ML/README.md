@@ -23,6 +23,7 @@
 
 ### 3.1 Finding text from image.
 > https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python/text
+> https://codelabs.developers.google.com/codelabs/mlkit-android/#0
 
 > https://docs.aws.amazon.com/rekognition/latest/dg/text-detecting-text-procedure.html
 
@@ -30,4 +31,11 @@
 
 > https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/vision/cloud-client/detect/detect.py
 > https://cloud.google.com/vision/docs/detecting-text#vision-text-detection-python
+
+> https://github.com/badmusamuda/Extract-text-from-image
+
+### 3.2 chatboats for slack
+> https://codelabs.developers.google.com/codelabs/mlkit-android/#0
+> https://www.analyticsvidhya.com/blog/2018/03/how-to-build-an-intelligent-chatbot-for-slack-using-dialogflow-api/
+> https://blog.algorithmia.com/sentiment-analysis-slack-chatbot-python/
 
