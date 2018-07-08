@@ -208,6 +208,55 @@ essionHandle: SessionHandle [xxx]:12:11,
 
 - ***docker***
 
+> **Container**
+```
+- running instance with required application. 
+- Containers are always created from images. 
+- Container could expose ports and volumes to interact with other containers or outer world. 
+- Container could be easily killed / removed and re-created again in a very short time.
+```
+
+> **Image**
+```
+- basic element for every container. 
+- Uses copy-on-write model. 
+- During building images every step is cached and could be reused. 
+- Building images could take some time - it depends on particular image. 
+- While containers can be started from images very quickly.
+```
+
+> **Port**
+```
+- is a TCP/UDP port in it’s classical meaning. 
+- There are a lot of modes for networking in Docker containers, 
+- so to make things simpler let’s assume that ports could be exposed to 
+ outer world (accessible from host OS) or connected to other containers 
+- accessible only from that containers and invisible from outer world.
+```
+
+> **Volume**
+```
+- the best explanation is shared folder. 
+- Volume keeps data outside of its container but accessible from this container or other connected containers. 
+- Data stored in volumes is persistent.
+```
+
+> **Registry**
+```
+- server that keeps images. 
+- Could be compared with git - you can pull image from registry to deploy it locally 
+- and you can push locally built images to registry 
+- (create new image or update image version on registry). 
+- Docker registry application is Open Source app like the main application 
+- so you could deploy your private Docker Registry on any server you want
+```
+
+> **Docker hub**
+```
+- is a registry with web-interface. 
+- It keeps a lot of Docker images with different software. 
+```
+
 - ***docker composer***
 > manages Docker containers in a very neat way. 
 
