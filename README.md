@@ -238,7 +238,7 @@ CONTAINER ID        IMAGE                                             COMMAND   
 
 > RUN — execute command in container
 
- ENV — set environment variable
+> ENV — set environment variable
 
 > WORKDIR — set working directory
 
