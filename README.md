@@ -201,18 +201,23 @@ essionHandle: SessionHandle [xxx]:12:11,
 
 ### DOCKER
 > https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17
+
 > https://serversforhackers.com/s/docker-in-development
+
 > https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/
 
 - ***docker***
 
 - ***docker composer***
 > manages Docker containers in a very neat way. 
+
 > It allows multiple Docker commands to be written as a single one, which allows our Makefile to be a lot cleaner and easier to maintain.
 
 - ***make - makefile***
 > Make is a cross-platform build tool to test and build software and it is used as an interface between the CI/CD server and the application code.
+
 > A single Makefile per application defines and encapsulates all the steps for testing, building, and deploying that application.
+
 > Having a clean Makefile is key. It helps to understand it quickly and to maintain. Therefore, having some conventions like target vs _target, Pipeline targets, and Pipeline targets really aim to make developers’ life easier.
 
 
@@ -230,10 +235,15 @@ CONTAINER ID        IMAGE                                             COMMAND   
 
 - ***dockerfile***
 > FROM — set base image
+
 > RUN — execute command in container
-> ENV — set environment variable
+
+ ENV — set environment variable
+
 > WORKDIR — set working directory
+
 > VOLUME — create mount-point for a volume
+
 > CMD — set executable for container
 
 
