@@ -214,5 +214,24 @@ essionHandle: SessionHandle [xxx]:12:11,
 > Make is a cross-platform build tool to test and build software and it is used as an interface between the CI/CD server and the application code.
 > A single Makefile per application defines and encapsulates all the steps for testing, building, and deploying that application.
 
+- ***gettig started with docker***
+```
+C:\WINDOWS\system32>docker run -i -t --rm ubuntu /bin/bash
+root@c61ba2599bbb:/# exit
+
+
+C:\WINDOWS\system32>docker ps -a
+CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                    PORTS               NAMES
+5b9fe6cd227e        ubuntu                                            "/bin/echo 'Hello wo…"   10 hours ago        Exited (0) 10 hours ago     
+
+```
+
+- ***dockerfile***
+> FROM — set base image
+> RUN — execute command in container
+> ENV — set environment variable
+> WORKDIR — set working directory
+> VOLUME — create mount-point for a volume
+> CMD — set executable for container
 
 
