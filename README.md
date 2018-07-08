@@ -200,6 +200,8 @@ essionHandle: SessionHandle [xxx]:12:11,
 ```
 
 ### DOCKER
+> https://runnable.com/docker/python/dockerize-your-python-application
+
 > https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17
 
 > https://serversforhackers.com/s/docker-in-development
