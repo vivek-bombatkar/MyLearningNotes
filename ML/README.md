@@ -22,22 +22,40 @@
 > http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
 
 ### 3.1 Finding text from image.
+> https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/vision/cloud-client/detect/detect.py
+> https://cloud.google.com/vision/docs/detecting-text#vision-text-detection-python
 > https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/python/text
-> https://codelabs.developers.google.com/codelabs/mlkit-android/#0
+
+```
+$ detect.py text C:\Users\vkbomb\Downloads\award.JPG
+
+Texts:
+
+"bla bla bla"
+```
 
 > https://docs.aws.amazon.com/rekognition/latest/dg/text-detecting-text-procedure.html
 
 > https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts/python-print-text
 
-> https://github.com/GoogleCloudPlatform/python-docs-samples/blob/master/vision/cloud-client/detect/detect.py
-> https://cloud.google.com/vision/docs/detecting-text#vision-text-detection-python
-
-> https://github.com/badmusamuda/Extract-text-from-image
 
 ### 3.2 chatboats for slack
-> https://codelabs.developers.google.com/codelabs/mlkit-android/#0
 > https://www.analyticsvidhya.com/blog/2018/03/how-to-build-an-intelligent-chatbot-for-slack-using-dialogflow-api/
+> https://github.com/mohdsanadzakirizvi/Slack-AI-ChatBot
+
+```
+- Creating sample Slack Workspace
+- Creating sample Boat Slack Application
+- Get OAuth & Permissions from slack
+- Export vars for Slack to code handshake
+$export SLACK_TOKEN=<your_bot_user_oauth_token_here>
+$export BOTNAME=<your_botname_here>
+- execute the code 
+```
+
+
 > https://blog.algorithmia.com/sentiment-analysis-slack-chatbot-python/
+
 
 
 ## Common Issues
