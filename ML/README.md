@@ -39,3 +39,17 @@
 > https://www.analyticsvidhya.com/blog/2018/03/how-to-build-an-intelligent-chatbot-for-slack-using-dialogflow-api/
 > https://blog.algorithmia.com/sentiment-analysis-slack-chatbot-python/
 
+
+## Common Issues
+
+### No module named 'google.cloud'
+- Cant locate google.cloud in pyCharm Package list
+> https://github.com/GoogleCloudPlatform/google-cloud-python/issues/2366
+
+```
+#From Terminal 
+pip install google-cloud
+pip install --upgrade google-cloud
+```
+
+
