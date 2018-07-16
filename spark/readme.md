@@ -1,11 +1,5 @@
 
 ## Apache Spark
 
-### Spark job monitoring
+> https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-
 
-
-### Spark application submit yarmn mode
-
-### Drivers and Executors
-
-### 
