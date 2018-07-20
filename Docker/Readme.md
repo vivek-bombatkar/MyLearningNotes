@@ -16,6 +16,107 @@
 > https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/
 
 
+
+> Docker In the simple illustration 
+
+<img src="https://github.com/vivek-bombatkar/MyLearningNotes/Docker/docker_concept.JPG" />
+
+
+
+## Below steps to build and execute very basic docker container
+
+
+### 1. list all running docker images
+
+``` 
+$ docker ps -a
+
+CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
+```
+
+### 2. create Dockerfile and dummy script
+
+***Dockerfile***
+```
+FROM python:3
+
+ADD dummy_script.py /
+
+CMD [ "python", "./dummy_script.py" ]
+```
+
+***dummy_script.py***
+```python
+print("Hello Vivek!)
+```
+
+### 3. build docker images
+
+```
+$ docker build -t my_test_docker .
+
+Sending build context to Docker daemon   7.68kB
+Step 1/3 : FROM python:3
+ ---> 17453243214e
+Step 2/3 : ADD dummy_script.py /
+ ---> 5abf4e3f9fab
+Step 3/3 : CMD [ "python", "./dummy_script.py" ]
+ ---> Running in 2d8e0e769db7
+Removing intermediate container 2d8e0e769db7
+ ---> 38a783dda97c
+Successfully built 38a783dda97c
+Successfully tagged my_test_docker:latest
+SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
+```
+
+List docker image and see the entry.
+
+``` 
+$ docker ps -a
+
+CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
+e36dd51ad184        my_test_docker                                    "python ./dummy_scri…"   3 minutes ago       Exited (0) 3 minutes ago                       kind_heyrovsky
+```
+
+### 4. run docker image as container
+
+```
+$ docker run my_test_docker
+
+Hello Vivek!
+
+```
+
+### 5. Killing 'docker image' vs 'docker container'
+
+#### delete container
+```
+$ docker rm e36dd51ad184
+e36dd51ad184
+ 
+$ docker ps -a
+
+CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
+
+```
+
+> note though the container is deleted you still can run the docker image !
+
+```
+$ docker run my_test_docker
+```
+
+
+### delete image/s
+```
+$ docker rmi my_test_docker
+Untagged: my_test_docker:latest
+Deleted: sha256:38a783dda97c8b188abc2c1d9cb6ed594ee0d06e77e393326f5fe59cb0ebea70
+
+```
+
+
+
 > ***docker***
 
 
@@ -105,98 +206,5 @@ CONTAINER ID        IMAGE                                             COMMAND   
 > VOLUME — create mount-point for a volume
 
 > CMD — set executable for container
-
-
-
-## Below steps to build and execute docker
-
-### 1. list all running docker images
-
-``` 
-$ docker ps -a
-
-CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
-```
-
-### 2. create Dockerfile and dummy script
-
-***Dockerfile***
-```
-FROM python:3
-
-ADD dummy_script.py /
-
-CMD [ "python", "./dummy_script.py" ]
-```
-
-***dummy_script.py***
-```python
-print("Hello Vivek!)
-```
-
-### 3. build docker images
-
-```
-$ docker build -t my_test_docker .
-
-Sending build context to Docker daemon   7.68kB
-Step 1/3 : FROM python:3
- ---> 17453243214e
-Step 2/3 : ADD dummy_script.py /
- ---> 5abf4e3f9fab
-Step 3/3 : CMD [ "python", "./dummy_script.py" ]
- ---> Running in 2d8e0e769db7
-Removing intermediate container 2d8e0e769db7
- ---> 38a783dda97c
-Successfully built 38a783dda97c
-Successfully tagged my_test_docker:latest
-SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is recommended to double check and reset permissions for sensitive files and directories.
-```
-
-List docker image and see the entry.
-
-``` 
-$ docker ps -a
-
-CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
-e36dd51ad184        my_test_docker                                    "python ./dummy_scri…"   3 minutes ago       Exited (0) 3 minutes ago                       kind_heyrovsky
-```
-
-### 4. run docker image
-
-```
-$ docker run my_test_docker
-
-Hello Vivek!
-
-```
-
-### 5. Killing 'docker image' vs 'docker container'
-
-#### delete container
-```
-$ docker rm e36dd51ad184
-e36dd51ad184
- 
-$ docker ps -a
-
-CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
-
-```
-
-> note though the container is deleted you still can run the docker image !
-
-```
-$ docker run my_test_docker
-```
-
-
-### delete image/s
-```
-$ docker rmi my_test_docker
-Untagged: my_test_docker:latest
-Deleted: sha256:38a783dda97c8b188abc2c1d9cb6ed594ee0d06e77e393326f5fe59cb0ebea70
-
-```
 
 
