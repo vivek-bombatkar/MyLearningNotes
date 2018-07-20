@@ -16,10 +16,9 @@
 > https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/
 
 
+### Docker In the simple illustration 
 
-> Docker In the simple illustration 
-
-<img src="https://github.com/vivek-bombatkar/MyLearningNotes/Docker/docker_concept.JPG" />
+<img src="https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/Docker/docker_concept.JPG" />
 
 
 
