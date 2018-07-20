@@ -115,6 +115,7 @@ Deleted: sha256:38a783dda97c8b188abc2c1d9cb6ed594ee0d06e77e393326f5fe59cb0ebea70
 ```
 
 
+## Notes on docker
 
 > ***docker***
 
@@ -180,18 +181,6 @@ Deleted: sha256:38a783dda97c8b188abc2c1d9cb6ed594ee0d06e77e393326f5fe59cb0ebea70
 
 > Having a clean Makefile is key. It helps to understand it quickly and to maintain. Therefore, having some conventions like target vs _target, Pipeline targets, and Pipeline targets really aim to make developers’ life easier.
 
-
-- ***gettig started with docker***
-```
-C:\WINDOWS\system32>docker run -i -t --rm ubuntu /bin/bash
-root@c61ba2599bbb:/# exit
-
-
-C:\WINDOWS\system32>docker ps -a
-CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                    PORTS               NAMES
-5b9fe6cd227e        ubuntu                                            "/bin/echo 'Hello wo…"   10 hours ago        Exited (0) 10 hours ago     
-
-```
 
 - ***dockerfile***
 > FROM — set base image
