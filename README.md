@@ -79,11 +79,11 @@ Hive versions prior to 0.6 just renamed the table in the metastore without movin
 
 ```
 
-### git commonly used commands
+### git commonly used commands in the order that I follow mostly :-)
 ```
+git clone <git dir path>
 git init
 git pull
-git clone <git dir path>
 git add .
 git status
 git commit -m "comments"
@@ -94,6 +94,10 @@ git rm file1.txt
 git rm --cached ipmvp-nifi-custom.iml
 ```
 
+>  Clear all local commits!
+```
+git reset --hard HEAD^
+````
 
 ### AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
