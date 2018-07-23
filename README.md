@@ -203,3 +203,23 @@ ement. Error Code: 0, SQL state: TStatus(statusCode:ERROR_STATUS, infoMessages:[
 essionHandle: SessionHandle [xxx]:12:11,
 ```
 
+### HIVE nonequality conditions in the join
+
+Nonequality condition (like <>) dose not work with join condition, so below will through error!
+```sql
+select *
+from table_a a join table_b b
+on (a.field1 <> b.field2)
+```
+
+Use these conditions in ***where*** instead
+```sql
+select *
+from table_a a join table_b b
+where a.field1 <> b.field2
+```
+
+```
+
+
+
