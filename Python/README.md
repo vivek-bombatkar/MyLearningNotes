@@ -127,3 +127,28 @@ exit
 - Specify your target Python version in your Pipfile’s [requires] section. Ideally, you should only have one target Python version, as this is a deployment tool.
 - pipenv install is fully compatible with pip install syntax, for which the full documentation can be found here.
 ```
+
+## Deployment pipeline for python project
+
+
+### A. test module
+
+```make test```
+
+***Makefile*** 
+> pull docker image from nexux
+> run docker container for test 
+```python setup.py test```
+> ***setup.py***
+
+### B. build and release
+
+```make compile```
+
+***Makefile*** 
+> wheel ```setup.py bdist_wheel```
+> create <>.zip
+
+```make release```
+> 	pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
+
