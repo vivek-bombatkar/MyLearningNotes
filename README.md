@@ -5,7 +5,7 @@
 
 
 ### get HDFS file size 
-```
+```shell
 $ hdfs dfs -du -s -h  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
 655.2 M  1.9 G  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
 
@@ -13,6 +13,13 @@ $ hdfs dfs -du -s -h  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/t
 655.2 M  * 3 (replication factor)  = 1.9 G
 -s : aggregate summary of file lengths
 -h : human readable instead long number in bytes 
+
+# Look for specific keywards
+hdfs dfs -du -s -h  /user/hive/warehouse/*hive_schema_name*/*hive_table_name* 
+
+# print total size
+hdfs dfs -du -s -h  /user/hive/warehouse/*hive_schema_name*/*hive_table_name* | awk '{ total += $1 }; END { print total }'
+
 ```
 
 ### find and delete HIVE tables matching pattern with beeline
