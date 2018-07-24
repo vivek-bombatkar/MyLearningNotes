@@ -135,20 +135,25 @@ exit
 
 ```make test```
 
-***Makefile*** 
-> pull docker image from nexux
-> run docker container for test 
+    > pull docker image from nexux
+    > run docker container for test 
+
 ```python setup.py test```
-> ***setup.py***
+
+    > ***setup.py***
 
 ### B. build and release
 
 ```make compile```
 
-***Makefile*** 
-> wheel ```setup.py bdist_wheel```
-> create <>.zip
+    > wheel ```setup.py bdist_wheel```
+
+    > create <>.zip
 
 ```make release```
-> 	pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
 
+    > 	pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
+
+
+***Makefile*** 
+***setup.py***
