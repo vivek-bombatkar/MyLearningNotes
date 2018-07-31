@@ -254,6 +254,12 @@ log4j.rootLogger=ERROR,stdout,fout
 log4j.logger.com.endeca=INFO
 log4j.logger.com.endeca.itl.web.metrics=INFO
 
+# add a ConsoleAppender to the logger stdout to write to the console
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+# use a simple message format
+log4j.appender.stdout.layout.ConversionPattern=%m%n
+
 # add a FileAppender to the logger fout
 log4j.appender.fout=org.apache.log4j.FileAppender
 # create a log file
