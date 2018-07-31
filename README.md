@@ -226,7 +226,45 @@ from table_a a join table_b b
 where a.field1 <> b.field2
 ```
 
+
+### understanding the log4j 
+> https://logging.apache.org/log4j/1.2/manual.html  
+> https://docs.oracle.com/cd/E29578_01/webhelp/cas_webcrawler/src/cwcg_config_log4j_file.html  
+> 
+- The log4j.properties file sets the logging properties.  
+- Log4j has three main components: loggers, appenders and layouts  
+
+- Logging to the console  
 ```
+log4j.rootLogger=ERROR,stdout
+log4j.logger.com.endeca=INFO
+# Logger for crawl metrics
+log4j.logger.com.endeca.itl.web.metrics=INFO
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
+```
+
+- Logging to a file  
+```
+# initialize root logger with level ERROR for stdout and fout
+log4j.rootLogger=ERROR,stdout,fout
+# set the log level for these components
+log4j.logger.com.endeca=INFO
+log4j.logger.com.endeca.itl.web.metrics=INFO
+
+# add a FileAppender to the logger fout
+log4j.appender.fout=org.apache.log4j.FileAppender
+# create a log file
+log4j.appender.fout.File=crawl.log
+log4j.appender.fout.layout=org.apache.log4j.PatternLayout
+# use a more detailed message pattern
+log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
+```
+
+
+
 
 
 
