@@ -277,7 +277,7 @@ log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
  > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)  
  > http://spark.apache.org/  
  > https://thachtranerc.wordpress.com/2017/07/10/databricks-developer-certifcation-for-apache-spark-finally-i-made-it/  
- > 
+ > https://www.youtube.com/watch?v=tFRPeU5HemU
 
 
 
