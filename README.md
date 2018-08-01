@@ -269,7 +269,12 @@ log4j.appender.fout.layout=org.apache.log4j.PatternLayout
 log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
 ```
 
+### systemctl commands
 
+
+### Databricks - Apache Spark™ Certified Developer
+
+ > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)
 
 
 
