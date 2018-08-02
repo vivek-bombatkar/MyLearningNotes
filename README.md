@@ -275,19 +275,32 @@ log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
 ### Databricks - Apache Spark™ Certified Developer
 
  > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)  
+ 
  > http://spark.apache.org/  
+ 
  > https://thachtranerc.wordpress.com/2017/07/10/databricks-developer-certifcation-for-apache-spark-finally-i-made-it/  
-     - http://spark.apache.org/docs/latest/rdd-programming-guide.html
-     - http://spark.apache.org/docs/latest/sql-programming-guide.html
-     - https://spark.apache.org/docs/latest/streaming-programming-guide.html
-     - https://spark.apache.org/docs/latest/streaming-programming-guide.html
-     - https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html
-     - 
-     - https://www.youtube.com/watch?v=7ooZ4S7Ay6Y
-     - https://www.youtube.com/watch?v=kkOG_aJ9KjQ
-     - https://www.youtube.com/watch?v=dmL0N3qfSc8
-     - https://www.youtube.com/watch?v=49Hr5xZyTEA
-     - https://www.youtube.com/watch?v=TC5cKYBZAeI
+ 
+ - http://spark.apache.org/docs/latest/rdd-programming-guide.html  
+ 
+ - http://spark.apache.org/docs/latest/sql-programming-guide.html  
+ 
+ - https://spark.apache.org/docs/latest/streaming-programming-guide.html
+ 
+ - https://spark.apache.org/docs/latest/streaming-programming-guide.html
+ 
+ - https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html
+ 
+ 
+ - https://www.youtube.com/watch?v=7ooZ4S7Ay6Y
+ 
+ - https://www.youtube.com/watch?v=kkOG_aJ9KjQ
+ 
+ - https://www.youtube.com/watch?v=dmL0N3qfSc8
+ 
+ - https://www.youtube.com/watch?v=49Hr5xZyTEA
+ 
+ - https://www.youtube.com/watch?v=TC5cKYBZAeI
+ 
  > https://www.youtube.com/watch?v=tFRPeU5HemU
 
 
