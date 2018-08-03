@@ -291,6 +291,18 @@ log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
 #### b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)
 
+```
+JOBS --> STAGES --> TASKS
+```
+```
+JOBS    --> All jobs
+        --> individaul jobs
+```  
+> A job can be in a running, succeeded, failed or unknown state.
+
+| JOBS | STAGES | STORAGE | ENVIRONMENT | EXECUTORS | SQL |
+| -- | -- | -- | -- | -- | -- | 
+
 
 #### c. RDD + DataFrame + DataSets + SparkSQL  
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html  
@@ -304,7 +316,6 @@ log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
 
 #### f. GraphLib
 
-   
- 
+
 
 
