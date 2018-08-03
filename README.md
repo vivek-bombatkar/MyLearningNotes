@@ -313,17 +313,17 @@ JOBS    --> All jobs
     - Input - total data processed or read by the application from hadoop or spark storage  
     - Storage Memory - tatal memory used or available 
     
-> STAGES tab : 
+> STAGES tab :    
     - All Stages Page:  shows the task details for a stage given its id and attempt id.   
     - Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   
-    - Summary Metrics for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.
-        - The 1st row is Duration which includes the quantiles based on executorRunTime.
-        - The 2nd row is the optional Scheduler Delay which includes the time to ship the task from the scheduler to executors, and the time to send the task result from the executors to the scheduler. It is not enabled by default and you should select Scheduler Delay checkbox under Show Additional Metrics to include it in the summary table.
+    - Summary Metrics for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
+        - The 1st row is Duration which includes the quantiles based on executorRunTime.  
+        - The 2nd row is the optional Scheduler Delay which includes the time to ship the task from the scheduler to executors, and the time to send the task result from the executors to the scheduler. It is not enabled by default and you should select Scheduler Delay checkbox under Show Additional Metrics to include it in the summary table.  
             - Tip : If Scheduler Delay is large, consider decreasing the size of tasks or decreasing the size of task results.
-        - The 3rd row is the optional Task Deserialization Time which includes the quantiles based on executorDeserializeTime task metric. It is not enabled by default and you should select Task Deserialization Time checkbox under Show Additional Metrics to include it in the summary table.
-        - The 4th row is GC Time which is the time that an executor spent paused for Java garbage collection while the task was running (using jvmGCTime task metric).
-        - The 5th row is the optional Result Serialization Time which is the time spent serializing the task result on a executor before sending it back to the driver (using resultSerializationTime task metric). It is not enabled by default and you should select Result Serialization Time checkbox under Show Additional Metrics to include it in the summary table.
-        - The 6th row is the optional Getting Result Time which is the time that the driver spends fetching task results from workers. It is not enabled by default and you should select Getting Result Time checkbox under Show Additional Metrics to include it in the summary table.
+        - The 3rd row is the optional Task Deserialization Time which includes the quantiles based on executorDeserializeTime task metric. It is not enabled by default and you should select Task Deserialization Time checkbox under Show Additional Metrics to include it in the summary table.  
+        - The 4th row is GC Time which is the time that an executor spent paused for Java garbage collection while the task was running (using jvmGCTime task metric).  
+        - The 5th row is the optional Result Serialization Time which is the time spent serializing the task result on a executor before sending it back to the driver (using resultSerializationTime task metric). It is not enabled by default and you should select Result Serialization Time checkbox under Show Additional Metrics to include it in the summary table.  
+        - The 6th row is the optional Getting Result Time which is the time that the driver spends fetching task results from workers. It is not enabled by default and you should select Getting Result Time checkbox under Show Additional Metrics to include it in the summary table.  
 
 
 
