@@ -293,6 +293,7 @@ log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
 
 #### b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)
+ > https://www.cloudera.com/documentation/enterprise/5-9-x/topics/operation_spark_applications.html
 
 ```
 JOBS --> STAGES --> TASKS
@@ -305,7 +306,7 @@ JOBS    --> All jobs
 
 | JOBS | STAGES | STORAGE | ENVIRONMENT | EXECUTORS | SQL |
 | -- | -- | -- | -- | -- | -- | 
-| The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages. | Stages tab in web UI shows the current state of all stages of all jobs in a Spark application (i.e. a SparkContext) with two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode). | When created, StorageTab creates the following pages and attaches them immediately: A. StoragePage B.RDDPage |  | Shows various details like total tasks, Input, Shuffle read & write, etc   | |
+| The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages. | Stages tab in web UI shows the current state of all stages of all jobs in a Spark application (i.e. a SparkContext) with two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode). | When created, StorageTab creates the following pages and attaches them immediately: A. StoragePage B.RDDPage |  | Shows various details like total tasks, Input, Shuffle read & write, etc   | SQL tab in web UI shows SQLMetrics per physical operator in a structured query physical plan. By default, it displays all SQL query executions. However, after a query has been selected, the SQL tab displays the details for the structured query execution |
 
 
 
