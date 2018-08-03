@@ -314,10 +314,10 @@ JOBS    --> All jobs
     - Storage Memory - tatal memory used or available 
     
 > STAGES tab :    
-    - All Stages Page:  shows the task details for a stage given its id and attempt id.   
-    - Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   
-    - Summary Metrics for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
-        - The 1st row is Duration which includes the quantiles based on executorRunTime.  
+    ..- All Stages Page:  shows the task details for a stage given its id and attempt id.   
+    ..- Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   
+    ..- Summary Metrics for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
+    .... - The 1st row is Duration which includes the quantiles based on executorRunTime.  
         - The 2nd row is the optional Scheduler Delay which includes the time to ship the task from the scheduler to executors, and the time to send the task result from the executors to the scheduler. It is not enabled by default and you should select Scheduler Delay checkbox under Show Additional Metrics to include it in the summary table.  
             - Tip : If Scheduler Delay is large, consider decreasing the size of tasks or decreasing the size of task results.
         - The 3rd row is the optional Task Deserialization Time which includes the quantiles based on executorDeserializeTime task metric. It is not enabled by default and you should select Task Deserialization Time checkbox under Show Additional Metrics to include it in the summary table.  
