@@ -316,7 +316,9 @@ JOBS    --> All jobs
 > STAGES tab :    
     ..- All Stages Page:  shows the task details for a stage given its id and attempt id.   
     ..- Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   
-    ..- Summary Metrics for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
+ 
+ 
+ > ***Summary Metrics*** for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
     .... - The 1st row is Duration which includes the quantiles based on executorRunTime.  
         - The 2nd row is the optional Scheduler Delay which includes the time to ship the task from the scheduler to executors, and the time to send the task result from the executors to the scheduler. It is not enabled by default and you should select Scheduler Delay checkbox under Show Additional Metrics to include it in the summary table.  
             - Tip : If Scheduler Delay is large, consider decreasing the size of tasks or decreasing the size of task results.
@@ -324,6 +326,15 @@ JOBS    --> All jobs
         - The 4th row is GC Time which is the time that an executor spent paused for Java garbage collection while the task was running (using jvmGCTime task metric).  
         - The 5th row is the optional Result Serialization Time which is the time spent serializing the task result on a executor before sending it back to the driver (using resultSerializationTime task metric). It is not enabled by default and you should select Result Serialization Time checkbox under Show Additional Metrics to include it in the summary table.  
         - The 6th row is the optional Getting Result Time which is the time that the driver spends fetching task results from workers. It is not enabled by default and you should select Getting Result Time checkbox under Show Additional Metrics to include it in the summary table.  
+        - Tip : If Getting Result Time is large, consider decreasing the amount of data returned from each task.
+        
+     - If Tungsten is enabled (it is by default), the 7th row is the optional Peak Execution Memory which is the sum of the peak sizes of the internal data structures created during shuffles, aggregations and joins (using peakExecutionMemory task metric). For SQL jobs, this only tracks all unsafe operators, broadcast joins, and external sort. It is not enabled by default and you should select Peak Execution Memory checkbox under Show Additional Metrics to include it in the summary table.
+    - If the stage has an input, the 8th row is Input Size / Records which is the bytes and records read from Hadoop or from a Spark storage (using inputMetrics.bytesRead and inputMetrics.recordsRead task metrics).
+    - If the stage has an output, the 9th row is Output Size / Records which is the bytes and records written to Hadoop or to a Spark storage (using outputMetrics.bytesWritten and outputMetrics.recordsWritten task metrics).
+    - If the stage has shuffle read there will be three more rows in the table. The first row is Shuffle Read Blocked Time which is the time that tasks spent blocked waiting for shuffle data to be read from remote machines (using shuffleReadMetrics.fetchWaitTime task metric). The other row is Shuffle Read Size / Records which is the total shuffle bytes and records read (including both data read locally and data read from remote executors using shuffleReadMetrics.totalBytesRead and shuffleReadMetrics.recordsRead task metrics). And the last row is Shuffle Remote Reads which is the total shuffle bytes read from remote executors (which is a subset of the shuffle read bytes; the remaining shuffle data is read locally). It uses shuffleReadMetrics.remoteBytesRead task metric.
+    - If the stage has shuffle write, the following row is Shuffle Write Size / Records (using shuffleWriteMetrics.bytesWritten and shuffleWriteMetrics.recordsWritten task metrics).
+    - If the stage has bytes spilled, the following two rows are Shuffle spill (memory) (using memoryBytesSpilled task metric) and Shuffle spill (disk) (using diskBytesSpilled task metric).
+
 
 
 
@@ -335,7 +346,9 @@ JOBS    --> All jobs
 #### d. Streaming  
 > https://spark.apache.org/docs/latest/streaming-programming-guide.html
 
-#### e. SparkMLLib
+#### e. SparkMLLib  
+> https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-mllib/spark-mllib.html
+
 
 #### f. GraphLib
 
