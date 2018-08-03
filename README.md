@@ -304,7 +304,6 @@ JOBS    --> All jobs
 | -- | -- | -- | -- | -- | -- | 
 | The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages. | Stages tab in web UI shows the current state of all stages of all jobs in a Spark application (i.e. a SparkContext) with two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode). | When created, StorageTab creates the following pages and attaches them immediately: A. StoragePage B.RDDPage |  | Shows various details like total tasks, Input, Shuffle read & write, etc   | |
 |   | 
-
 ||The Stages page shows the stages in a Spark application per state in their respective sections — Active Stages, Pending Stages, Completed Stages, and Failed Stages.| - All Stages Page:  shows the task details for a stage given its id and attempt id.   
     - Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   |     - Input - total data processed or read by the application from hadoop or spark storage  
     - Storage Memory - tatal memory used or available  |  |  |  |
