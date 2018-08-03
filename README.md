@@ -36,6 +36,9 @@ https://community.hortonworks.com/questions/19239/hadoop-checksum-calculation-do
 hdfs dfs -checksum <hdfs url>
 <hdfs url>        MD5-of-0MD5-of-512CRC32C        00000200000000000000000024c3cf9f64d08eaafeb25bb9776f793c
 
+
+
+
 - Datanodes are responsible for verifying the data they receive before storing the data and its checksum
 - When clients read data from datanodes, they verify checksums as well, comparing them with the ones stored at the datanodes
 - 'get' command : HDFS computes a checksum for each block of each file. The checksums for a file are stored separately in a hidden file. When a file is read from HDFS, the checksums in that hidden file are used to verify the file’s integrity. For the get command, the -crc option will copy that hidden checksum file. The -ignorecrc option will skip the checksum checking when copying
@@ -303,10 +306,7 @@ JOBS    --> All jobs
 | JOBS | STAGES | STORAGE | ENVIRONMENT | EXECUTORS | SQL |
 | -- | -- | -- | -- | -- | -- | 
 | The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages. | Stages tab in web UI shows the current state of all stages of all jobs in a Spark application (i.e. a SparkContext) with two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode). | When created, StorageTab creates the following pages and attaches them immediately: A. StoragePage B.RDDPage |  | Shows various details like total tasks, Input, Shuffle read & write, etc   | |
-|   | 
-||The Stages page shows the stages in a Spark application per state in their respective sections — Active Stages, Pending Stages, Completed Stages, and Failed Stages.| - All Stages Page:  shows the task details for a stage given its id and attempt id.   
-    - Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   |     - Input - total data processed or read by the application from hadoop or spark storage  
-    - Storage Memory - tatal memory used or available  |  |  |  |
+
 
 
 > EXECUTORS tab :   
@@ -316,7 +316,15 @@ JOBS    --> All jobs
 > STAGES tab : 
     - All Stages Page:  shows the task details for a stage given its id and attempt id.   
     - Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).   
-    - 
+    - Summary Metrics for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.
+        - The 1st row is Duration which includes the quantiles based on executorRunTime.
+        - The 2nd row is the optional Scheduler Delay which includes the time to ship the task from the scheduler to executors, and the time to send the task result from the executors to the scheduler. It is not enabled by default and you should select Scheduler Delay checkbox under Show Additional Metrics to include it in the summary table.
+            - Tip : If Scheduler Delay is large, consider decreasing the size of tasks or decreasing the size of task results.
+        - The 3rd row is the optional Task Deserialization Time which includes the quantiles based on executorDeserializeTime task metric. It is not enabled by default and you should select Task Deserialization Time checkbox under Show Additional Metrics to include it in the summary table.
+        - The 4th row is GC Time which is the time that an executor spent paused for Java garbage collection while the task was running (using jvmGCTime task metric).
+        - The 5th row is the optional Result Serialization Time which is the time spent serializing the task result on a executor before sending it back to the driver (using resultSerializationTime task metric). It is not enabled by default and you should select Result Serialization Time checkbox under Show Additional Metrics to include it in the summary table.
+        - The 6th row is the optional Getting Result Time which is the time that the driver spends fetching task results from workers. It is not enabled by default and you should select Getting Result Time checkbox under Show Additional Metrics to include it in the summary table.
+
 
 
 #### c. RDD + DataFrame + DataSets + SparkSQL  
