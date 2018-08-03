@@ -272,7 +272,9 @@ log4j.appender.fout.layout.ConversionPattern=%p\t%d{ISO8601}\t%r\t%c\t[%t]\t%m%n
 ### systemctl commands
 
 
-### Databricks - Apache Spark™ Certified Developer
+### Databricks - Apache Spark™ Certified Developer  
+
+> https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf
 
 #### a. Concept  
 > http://spark.apache.org/  
