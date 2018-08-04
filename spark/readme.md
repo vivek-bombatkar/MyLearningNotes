@@ -103,3 +103,4 @@ JOBS    --> All jobs
 - ***SparkContext*** represents a connection to a computing cluster.  
 - 
 
+<img src="https://github.com/vivek-bombatkar/HackBay_Nuernberg_2018/raw/master/images/big_picture.JPG" />
