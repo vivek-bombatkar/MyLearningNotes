@@ -88,8 +88,8 @@ JOBS    --> All jobs
 #### f. GraphLib
 
 
-***Learning Spark***  notes from the book reading.  
-[Introduction to Data Analysis with Spark](#Introduction to Data Analysis with Spark)
+### ***Learning Spark***  notes from the book reading.  
+[1. Introduction to Data Analysis with Spark](#1)
 - Programming with RDDs  
 - Working with Key-Value Pairs  
 - Loading and Saving Your Data  
@@ -97,9 +97,9 @@ JOBS    --> All jobs
 - Running on a Cluster  
 
 
-## <a name="Introduction to Data Analysis with Spark"></a>Introduction to Data Analysis with Spark    
+## <a name="1"></a>Introduction to Data Analysis with Spark    
 - a cluster computing platform   
 - Spark application consists of a driver program that launches various parallel operations on a cluster.   
+- driver programs typically manage a number of nodes called executors
 - ***SparkContext*** represents a connection to a computing cluster.  
 - 
-
