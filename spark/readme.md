@@ -97,14 +97,9 @@ JOBS    --> All jobs
 - Running on a Cluster  
 
 
-### <a name="Introduction to Data Analysis with Spark"></a>Introduction to Data Analysis with Spark    
+## <a name="Introduction to Data Analysis with Spark"></a>Introduction to Data Analysis with Spark    
 - a cluster computing platform   
 - Spark application consists of a driver program that launches various parallel operations on a cluster.   
 - ***SparkContext*** represents a connection to a computing cluster.  
-
-<img src="https://github.com/vivek-bombatkar/MyLearningNotes/edit/master/spark/pics/componunt_distribution_spark.JPG" />
-
-
-
-
+- 
 
