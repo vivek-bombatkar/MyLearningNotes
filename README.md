@@ -308,8 +308,8 @@ JOBS    --> All jobs
 ```  
 > A job can be in a running, succeeded, failed or unknown state.
 
-| -- | -- | -- | -- | -- | -- |  
-| JOBS | STAGES | STORAGE | ENVIRONMENT | EXECUTORS | SQL |
+
+| JOBS | STAGES | STORAGE | ENVIRONMENT | EXECUTORS | SQL |  
 | The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages. | Stages tab in web UI shows the current state of all stages of all jobs in a Spark application (i.e. a SparkContext) with two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode). | When created, StorageTab creates the following pages and attaches them immediately: A. StoragePage B.RDDPage |  | Shows various details like total tasks, Input, Shuffle read & write, etc   | SQL tab in web UI shows SQLMetrics per physical operator in a structured query physical plan. By default, it displays all SQL query executions. However, after a query has been selected, the SQL tab displays the details for the structured query execution |
 
 
