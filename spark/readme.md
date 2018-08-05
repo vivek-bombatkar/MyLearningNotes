@@ -91,14 +91,14 @@ JOBS    --> All jobs
 ***Learning Spark***  notes from the book reading.  
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
-- Working with Key-Value Pairs  + RDD 
+- [Working with Key-Value Pairs](#3)  
 - Loading and Saving Your Data  
 - Advanced Spark Programming  
 - Running on a Cluster  
 
 
 ## <a name="1"></a>Introduction to Data Analysis with Spark    
-- a cluster computing platform   
+- cluster computing platform   
 - Spark application consists of a driver program that launches various parallel operations on a cluster.   
 - driver programs typically manage a number of nodes called executors
 - ***SparkContext*** represents a connection to a computing cluster.  
@@ -106,4 +106,24 @@ JOBS    --> All jobs
 <img src="https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/spark/pics/componunt_distribution_spark.JPG" />
 
 ## <a name="2"></a>Programming with RDDs    
+- Resilient Distributed Dataset (RDD)
+- an immutable distributed collection of objects
+- It split into multiple partitions, which may be computed on different nodes of the cluster
+- ***Transformations*** construct a new RDD from a previous one.
+- ***Actions***, on the other hand, compute a result based on an RDD, and either return it to the driver program or save it to an external storage system
+- lazy evaluation  - Spark only computes them in a lazy fashion
+- to reuse an RDD in multiple actions, you can ask Spark to persist it using RDD.persist().
+-  three options for passing functions into Spark - lambda. top level function or locally define functions
+- reduce / fold
+
+## <a name="3"></a>Working with Key-Value Pairs
+- RDDs containing key-value pairs. These RDDs are called Pair RDDs. 
+- Transformations one pair rdd : reduceByKey / foldByKey, combineByKey, countByValue, groupByKey, mapValues, flatMapValues, keys, values, sortByKey
+- Transformations on two pair rdd : substractByKey, join, rightOuterJoin, leftOuterJoin, cogroup
+- Actions : collectAsMap(), lookup()
+- Most operator accept a second parameter giving the number of partitions to use when creating the grouped or aggregated RDD
+- repartitioning your data is a fairly expensive operation
+- Partitioning will not be helpful in all applications — for example, if a given RDD is only scanned once, there is no point in partitioning it in advance. It is only useful when a dataset is reused multiple times in key-oriented operations such as joins. 
+- ***partitionBy***
+- HashPartitioner
 - 
