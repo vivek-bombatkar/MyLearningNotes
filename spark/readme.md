@@ -146,5 +146,16 @@ JOBS    --> All jobs
 - The driver communicates with potentially larger number of distributed workers called executors. 
 - The driver runs in its own Java process and each executor is a Java process. 
 - A driver and its executors are together termed a Spark application.
-
-
+- A Spark application is launched on a set of machines using an external service called a cluster manager.
+- Driver program main duties : 
+    - a. compiling user program into task
+    - b. scheduling task on executor
+- Executor 
+    - a. running the tasks
+    - b. in-memory storage for rdd
+- Sparks Dirver & Executor VS YARNs Master & Worker
+    - For instance Apache YARN runs a master daemon (called the Resource Manager) and several worker daemons called (Node Managers). 
+    - Spark will run both drivers and executors on YARN worker nodes.
+- spark2-submit options types :
+    - The first is the location of the cluster manager along with an amount of resources you’d like to request for your job (as shown above). 
+    - The second is information about the runtime dependencies of your application, such as libraries or files you want to be present on all worker machines.
