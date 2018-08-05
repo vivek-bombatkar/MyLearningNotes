@@ -91,7 +91,7 @@ JOBS    --> All jobs
 ***Learning Spark***  notes from the book reading.  
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
-- Working with Key-Value Pairs  
+- Working with Key-Value Pairs  + RDD 
 - Loading and Saving Your Data  
 - Advanced Spark Programming  
 - Running on a Cluster  
