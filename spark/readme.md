@@ -159,3 +159,4 @@ JOBS    --> All jobs
 - spark2-submit options types :
     - The first is the location of the cluster manager along with an amount of resources you’d like to request for your job (as shown above). 
     - The second is information about the runtime dependencies of your application, such as libraries or files you want to be present on all worker machines.
+- todo
