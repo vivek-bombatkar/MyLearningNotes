@@ -92,9 +92,9 @@ JOBS    --> All jobs
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
 - [Working with Key-Value Pairs](#3)  
-- Loading and Saving Your Data  
-- Advanced Spark Programming  
-- Running on a Cluster  
+- [Loading and Saving Your Data](#4)  
+- [Advanced Spark Programming](#5)  
+- [Running on a Cluster](#6)  
 
 
 ## <a name="1"></a>Introduction to Data Analysis with Spark    
@@ -126,4 +126,21 @@ JOBS    --> All jobs
 - Partitioning will not be helpful in all applications — for example, if a given RDD is only scanned once, there is no point in partitioning it in advance. It is only useful when a dataset is reused multiple times in key-oriented operations such as joins. 
 - ***partitionBy***
 - HashPartitioner
+
+## <a name="4"></a>Loading and Saving Your Data
+- Comprassion optison : gzip, lzo, bzip2, zlib, Snappy
+-  
+
+## <a name="5"></a>Advanced Spark Programming
+- ***accumulators*** to aggregate information.
+- One of the most common uses of accumulators is to count events that occur during job execution for debugging purposes. 
+- Note that tasks on worker nodes cannot access the accumulator’s value — from the point of view of these tasks, accumulators are write-only variables.
+- ***speculative execution*** Spark can preemptivley launch a “speculative” copy of the task on another node, and take its result if that finishes.
+- accumulators updated in actions vs in transformations
+- broadcast variables to efficiently distribute large values. allow the program to efficiently
+send a large, read-only value to all the worker nodes for use in one or more Spark
+operations.
+- ***PrePartition operations***: mapPartition, foreachPartition, mapPartitionWithIndex
 - 
+
+## <a name="6"></a>Running on a Cluster
