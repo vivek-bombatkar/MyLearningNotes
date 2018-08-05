@@ -137,10 +137,14 @@ JOBS    --> All jobs
 - Note that tasks on worker nodes cannot access the accumulator’s value — from the point of view of these tasks, accumulators are write-only variables.
 - ***speculative execution*** Spark can preemptivley launch a “speculative” copy of the task on another node, and take its result if that finishes.
 - accumulators updated in actions vs in transformations
-- broadcast variables to efficiently distribute large values. allow the program to efficiently
-send a large, read-only value to all the worker nodes for use in one or more Spark
-operations.
+- broadcast variables to efficiently distribute large values. allow the program to efficiently send a large, read-only value to all the worker nodes for use in one or more Spark operations.
 - ***PrePartition operations***: mapPartition, foreachPartition, mapPartitionWithIndex
-- 
 
 ## <a name="6"></a>Running on a Cluster
+- When running in cluster mode, Spark utilizes a master-slave architecture with one central coordinator and many distributed workers. 
+- The central coordinator is called the driver. 
+- The driver communicates with potentially larger number of distributed workers called executors. 
+- The driver runs in its own Java process and each executor is a Java process. 
+- A driver and its executors are together termed a Spark application.
+
+
