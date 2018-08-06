@@ -170,6 +170,9 @@ exit
     - make release: Creates a source distribution of your modules and releases it to nexus to share it with others. There is one constraint implemented on this release target.  
 
 - Dockerfile
+    - FROM
+    - LABEL
+    - RUN
 - setup.py
 - logging.yaml
 - README.RST
