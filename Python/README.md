@@ -130,34 +130,47 @@ exit
 
 ## Deployment pipeline for python project
 
-
 ### A. test module
 
 ```make test```
 
-    > pull docker image from nexux
-    > run docker container for test 
+- pull docker image from nexux   
+- run docker container for test 
 
 ```python setup.py test```
 
-    > ***setup.py***
+- ***setup.py***
 
 ### B. build and release
 
 ```make compile```
 
-    > wheel ```setup.py bdist_wheel```
+- wheel ```setup.py bdist_wheel```
 
-    > create <>.zip
+- create <>.zip
 
 ```make release```
 
-    > 	pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
+- pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
 
+- ***Makefile*** 
 
-***Makefile*** 
-***setup.py***
+- ***setup.py***
 
 
 ## pytest 
+
+
+## Project setup
+
+- makefile
+    - make shell : This commands sets up the complete pipenv environment including the runtime dependencies you've defined in setup.py and enters this virtual environment. This is usually used for quick scripting tests in the python console.  
+    - make notebook : Similar to make shell this creates a complete virtual environment and starts the jupyter notebook server in this environment.  
+    - make install: Installs you modules into the local virtual environment using setuptools for testing purpose.  
+    - make release: Creates a source distribution of your modules and releases it to nexus to share it with others. There is one constraint implemented on this release target.  
+
+- Dockerfile
+- setup.py
+- logging.yaml
+- README.RST
 
