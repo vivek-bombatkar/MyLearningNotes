@@ -176,4 +176,31 @@ JOBS    --> All jobs
     - The first is the location of the cluster manager along with an amount of resources you’d like to request for your job (as shown above). 
     - The second is information about the runtime dependencies of your application, such as libraries or files you want to be present on all worker machines.
     
- ### 
+ 
+ 
+ ## pyspark.sql.functions f  
+ > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
+ 
+ ### lit() 
+ Creates a Column of literal value
+ ```
+ df.withColumn("col1", f.when("col2") == 0, f.lit("Y")).otherwise(f.lit("N")))
+ ```  
+ ### monotonically_increasing_id() 
+ A column that generates monotonically increasing 64-bit integers. monotonically increasing and unique, but not consecutive.
+```
+df.withColumn("new_id", f.monotonically_increasing_id())
+```
+### SparkSession.table()
+Returns the specified table as a DataFrame.
+
+### expr()
+Parses the expression string into the column that it represents
+'''
+col_condn = f.exppr("if(col is null, 1,0)") 
+df.withColumn("col1",col_condn)
+'''
+
+ 
+ 
+ 
