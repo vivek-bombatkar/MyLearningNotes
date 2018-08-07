@@ -178,7 +178,7 @@ JOBS    --> All jobs
     
  
  
- ## pyspark.sql.functions f  
+ ## SparkSession & pyspark.sql.functions f  
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
  
  ### lit() 
@@ -200,7 +200,29 @@ Parses the expression string into the column that it represents
 col_condn = f.exppr("if(col is null, 1,0)") 
 df.withColumn("col1",col_condn)
 '''
+### JOIN 
+> http://www.learnbymarketing.com/1100/pyspark-joins-by-example/
+```
+df_res = df_one.join(df_two,df_one.col1 == df_two.col1,"left") 
+df_res = df_one.join(other=df_two,on=["col1"],how="left")
+df_res = df_one.alias("a").join(df_two.alias("b"),col("a.col1") == col("b.col1"),"left") 
+```
+### distinct()
+>https://stackoverflow.com/questions/30959955/how-does-distinct-function-work-in-spark
+- shuffle data accross partition 
+```
 
+```
  
- 
+### dataFrame.checkpoint
+> https://dzone.com/articles/what-are-spark-checkpoints-on-dataframes  
+> https://stackoverflow.com/questions/35127720/what-is-the-difference-between-spark-checkpoint-and-persist-to-a-disk  
+- Returns a checkpointed version of this dataset. 
+- Checkpointing can be used to ***truncate the logical plan of this dataset***, which is especially useful in iterative algorithms where the plan may grow exponentially. 
+- It will be saved to files inside the checkpoint directory set with  SparkContext#setCheckpointDir.
+- types : Eager Checkpoint & Non-Eager Checkpoint
+ - eager – Whether to checkpoint this DataFrame immediately
+```
+df.checkpoint
+```
  
