@@ -28,7 +28,15 @@ You should be familiar with the following:
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)  
 
 
-#### a. Concept  
+
+- [a. Concept](#a) 
+- [b. WEB UI / Spark UI  ](#b)
+- [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
+- [d. Streaming](#d)
+- [e. SparkMLLib ](#e)
+- [f. GraphLib ](#f)
+
+#### <a name="a"></a>a. Concept  
 > http://spark.apache.org/  
 > https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html  
 > https://thachtranerc.wordpress.com/2017/07/10/databricks-developer-certifcation-for-apache-spark-finally-i-made-it/  
@@ -39,7 +47,7 @@ You should be familiar with the following:
 > [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)
 
 
-#### b. WEB UI / Spark UI  
+#### <a name="b"></a>b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)
  > https://www.cloudera.com/documentation/enterprise/5-9-x/topics/operation_spark_applications.html
 
@@ -87,20 +95,20 @@ JOBS    --> All jobs
 
 
 
-#### c. RDD + DataFrame + DataSets + SparkSQL  
+#### <a name="c"></a>c. RDD + DataFrame + DataSets + SparkSQL  
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html  
   Working with Key-Value Pairs  
   
 > http://spark.apache.org/docs/latest/sql-programming-guide.html  
 
-#### d. Streaming  (hands on)
+#### <a name="d"></a>d. Streaming  (hands on)
 > https://spark.apache.org/docs/latest/streaming-programming-guide.html
 
-#### e. SparkMLLib  (theory)
+#### <a name="e"></a>e. SparkMLLib  (theory)
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-mllib/spark-mllib.html
 
 
-#### f. GraphLib (theory)
+#### <a name="f"></a>f. GraphLib (theory)
 
 
 
