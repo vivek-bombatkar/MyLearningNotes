@@ -102,7 +102,8 @@ JOBS    --> All jobs
 > http://spark.apache.org/docs/latest/sql-programming-guide.html  
 
 #### <a name="d"></a>d. Streaming  (50-50 hands on + theory)
-> https://spark.apache.org/docs/latest/streaming-programming-guide.html  
+> https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-    
+> https://spark.apache.org/docs/latest/streaming-programming-guide.html   
 
 #### <a name="e"></a>e. SparkMLLib  (theory)
 > https://github.com/vivek-bombatkar/DataWorksSummit2018_Spark_ML   
