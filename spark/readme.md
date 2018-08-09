@@ -10,8 +10,13 @@
 ### Databricks - Apache Spark™ Certified Developer  
 > https://databricks.com/training/certified-spark-developer
 
-You should be familiar with the following:
+#### General IMP links  
+> https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
+> [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
+> https://docs.databricks.com/index.html  
 
+
+You should be familiar with the following:  
 -   Spark Basics  
 -   Spark Streaming  
 -   Spark Architecture  
@@ -22,19 +27,14 @@ You should be familiar with the following:
 -   Programming Languages (Certifications will be offered in Scala or Python)  
 -   Some experience developing Spark apps in production already  
 
-
-> https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf  
-
-> [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)  
-
-
-
+#### Course topics 
 - [a. Concept](#a) 
 - [b. WEB UI / Spark UI  ](#b)
 - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
 - [d. Streaming](#d)
 - [e. SparkMLLib ](#e)
 - [f. GraphLib ](#f)
+
 
 #### <a name="a"></a>a. Concept  
 > http://spark.apache.org/  
