@@ -111,7 +111,8 @@ JOBS    --> All jobs
 
 
 #### <a name="f"></a>f. GraphLib (theory)
-
+> https://spark.apache.org/docs/latest/graphx-programming-guide.html  
+ 
 
 
 ### ***Learning Spark***  notes from the book reading.  
