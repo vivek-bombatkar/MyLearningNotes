@@ -235,4 +235,45 @@ df_res = df_one.alias("a").join(df_two.alias("b"),col("a.col1") == col("b.col1")
 ```
 df.checkpoint
 ```
+
+### pyspark.sql.window
+> https://databricks.com/blog/2015/07/15/introducing-window-functions-in-spark-sql.html  
+```python
+window_condn = window \
+               .partitionby(df.col_date) \               
+               .rangeBetween(min_val, max_val) \
+               .rowsBetween(Window.unboundedPreceding, Window.unboundedFollowing) \
+               .OrderBy(df.col_date) 
+
+df_new = df.withColumn('col1',f.sum('col2')).over(window_condn)   
+```
+
+### df.pivote
+> https://databricks.com/blog/2016/02/09/reshaping-data-with-pivot-in-apache-spark.html  
+- Pivots a column of the current DataFrame and perform the specified aggregation. 
+- There are two versions of pivot function: one that requires the caller to specify the list of distinct values to pivot on, and one that does not. 
+- The latter is more concise but less efficient, because Spark needs to first compute the list of distinct values internally.
+
+### f.explode(col)
+Returns a new row for each element in the given array or map.
+```
+new_df = df.select(f.explode(df.col1))
+```
+
+### df.groupBy(*cols)
+Groups the DataFrame using the specified columns, so we can run aggregation on them. See GroupedData for all the available aggregate functions.
+```python
+df.groupBy(df.col1).cum().collect
+```
+
+### df.agg(*expr)
+Aggregate on the entire DataFrame without groups (shorthand for df.groupBy.agg()).
+```
+df.agg(a.max(df.col1))
+```
+
+
+
+
+
  
