@@ -279,7 +279,8 @@ systemctl run xxx
 systemctl restart xxx
 ```  
 
-
+### Data Architect 
+> https://blog.treasuredata.com/blog/2016/03/15/self-study-list-for-data-engineers-and-aspiring-data-architects/  
 
 
 
