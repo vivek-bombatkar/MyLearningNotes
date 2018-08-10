@@ -70,4 +70,12 @@ pip install google-cloud
 pip install --upgrade google-cloud
 ```
 
+## 4. Interesting Links  
+> [All Articals from him](https://medium.com/@cdossman)  
+  - https://medium.com/ai%C2%B3-theory-practice-business/best-method-to-learn-essential-machine-learning-skills-fast-533e30f3023d  
+  - https://medium.com/ai%C2%B3-theory-practice-business/top-6-cheat-sheets-novice-machine-engineers-need-5ea43d1be3de  
+  - https://medium.com/ai%C2%B3-theory-practice-business/the-engineers-guide-to-machine-learning-30a3d54bea4e  
+> [WEKA](https://www.cs.waikato.ac.nz/ml/index.html)  
+
+
 
