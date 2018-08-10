@@ -273,7 +273,18 @@ Aggregate on the entire DataFrame without groups (shorthand for df.groupBy.agg()
 df.agg(a.max(df.col1))
 ```
 
+### pyspark.sql.types.ArrayType
+```python
+from pyspark.sql.functions import udf
+@udf(returnType=ArrayType(StringType()))
+def func_test_udf(a):
+   return []
+ 
+ new_df = df.withColumn("new_col", func_test_udf(df.col1))
 
+An error occurred while calling None.org.apache.spark.sql.execution.python.UserDefinedPythonFunction. Trace:
+class org.apache.spark.sql.types.ArrayType]) does not exist
+```
 
 
 
