@@ -23,8 +23,8 @@
 
 ***Points to consider***
 -  40 questions, 90 minutes
--   Spark Basics  
- - Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
+-   Spark Basics   
+..- Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
 -   Spark Streaming   
 -   Spark Architecture  
 -   Spark ML  (One question on Machine Learning and GraphX each)
@@ -70,21 +70,21 @@ In standalone cluster mode supports restarting your application automatically if
 > Tunning
 - http://spark.apache.org/docs/latest/tuning.html  
 - CPU, network bandwidth, memory 
-- a. Data Serialization: 
-..- Formats that are slow to serialize objects into, or consume a large number of bytes, will greatly slow down the computation.
-..- Java serialization (default)
-..- Kryo serialization: SparkConf and calling conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer").
-- b. Memory Tuning: 
-..- the amount of memory used by your objects (you may want your entire dataset to fit in memory), 
-..- the cost of accessing those objects
-..- the overhead of garbage collection (if you have high turnover in terms of objects).
-- Memory Management Overview : 
-..- two categories: execution and storage.
-..- Execution memory refers to that used for computation in shuffles, joins, sorts and aggregations, 
-..- Storage memory refers to that used for caching and propagating internal data across the cluster.
-..- When no execution memory is used, storage can acquire all the available memory and vice versa.
-..- spark.memory.fraction
-..- spark.memory.storageFraction
+- a. Data Serialization:  
+..- Formats that are slow to serialize objects into, or consume a large number of bytes, will greatly slow down the computation.  
+..- Java serialization (default)  
+..- Kryo serialization: SparkConf and calling conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer").  
+- b. Memory Tuning:   
+..- the amount of memory used by your objects (you may want your entire dataset to fit in memory),   
+..- the cost of accessing those objects  
+..- the overhead of garbage collection (if you have high turnover in terms of objects).  
+- Memory Management Overview :   
+..- two categories: execution and storage.  
+..- Execution memory refers to that used for computation in shuffles, joins, sorts and aggregations,   
+..- Storage memory refers to that used for caching and propagating internal data across the cluster.  
+..- When no execution memory is used, storage can acquire all the available memory and vice versa.  
+..- spark.memory.fraction  
+..- spark.memory.storageFraction  
 
  
 
