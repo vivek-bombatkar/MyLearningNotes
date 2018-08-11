@@ -14,8 +14,8 @@
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
 > https://docs.databricks.com/index.html
- - practice example from databricks 
- - https://docs.databricks.com/spark/latest/gentle-introduction/index.html
+  - practice example from databricks 
+  - https://docs.databricks.com/spark/latest/gentle-introduction/index.html
 > http://www.bigdatatrunk.com/developer-certification-for-apache-spark-databricks/
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html
  
@@ -23,7 +23,7 @@
 
 ***Points to consider***
 -  40 questions, 90 minutes
--   Spark Basics   
+-   Spark Basics  
   - Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
 -   Spark Streaming   
 -   Spark Architecture  
@@ -65,10 +65,11 @@
 ```
 
 > --supervise flag to spark-submit    
-In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
+  In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
  
-> Tunning
+> Performance Tunning
 - http://spark.apache.org/docs/latest/tuning.html  
+- when tuning a Spark application – most importantly, data serialization and memory tuning.
 - CPU, network bandwidth, memory 
 - a. Data Serialization:  
   - Formats that are slow to serialize objects into, or consume a large number of bytes, will greatly slow down the computation.  
@@ -85,6 +86,45 @@ In standalone cluster mode supports restarting your application automatically if
   - When no execution memory is used, storage can acquire all the available memory and vice versa.  
   - spark.memory.fraction  
   - spark.memory.storageFraction  
+- ***How Determining Memory Consumption***  
+  - create an RDD, put it into cache, and look at the “Storage” page in the web UI  
+  - SizeEstimator’s estimate - consumption of a particular object  
+- Tuning Data Structures  
+  - avoid the Java features that add overhead, such as pointer-based data structures and wrapper objects.   
+  - prefer arrays of objects, and primitive types, instead of the standard Java or Scala collection classes  
+  - Avoid nested structures with a lot of small objects and pointers when possible.  
+  - Consider using numeric IDs or enumeration objects instead of strings for keys.  
+- Serialized RDD Storage  
+  - When your objects are still too large to efficiently store despite this tuning, a much simpler way to reduce memory usage is to store them in serialized form  
+  - Downside is performance hit, as it add overhead of deserialization every time  
+- Garbage Collection Tuning  
+- ***Level of Parallelism***  
+  -  Spark automatically sets the number of 
+   - “map” tasks to run on each file according to its size (though you can control it through optional parameters to SparkContext.textFile, etc),   
+   - and for distributed “reduce” operations, it uses the largest parent RDD’s number of partitions.   
+  - spark.default.parallelism   
+  - recommend 2-3 tasks per CPU core in your cluster.  
+  - You can safely increase the level of parallelism to more than the number of cores in your clusters.  
+ - ***Memory Usage of Reduce Tasks***
+  -  Spark’s shuffle operations (sortByKey, groupByKey, reduceByKey, join, etc) build a hash table within each task to perform the grouping, which can often be large.  
+  - The simplest fix here is to increase the level of parallelism, so that each task’s input set is smaller  
+ - ***Broadcasting Large Variables***
+  -  in general tasks larger than about 20 KB are probably worth optimizing.  
+ - ***Data Locality***
+  - If data and the code that operates on it are together then computation tends to be fast  
+  - Typically it is faster to ship serialized code from place to place than a chunk of data because code size is much smaller than data. Spark builds its scheduling around this general principle of data locality.
+  - Spark prefers to schedule all tasks at the best locality level, but this is not always possible.   
+  - In situations where there is no unprocessed data on any idle executor, Spark switches to lower locality levels.  
+  - There are two options: 
+   - a) wait until a busy CPU frees up to start a task on data on the same server, or 
+   - b) immediately start a new task in a farther away place that requires moving data there.
+  - What Spark typically does is wait a bit in the hopes that a busy CPU frees up.  
+  - Once that timeout expires, it starts moving the data from far away to the free CPU.  
+  - You should increase these settings if your tasks are long and see poor locality, but the default usually works well.  
+- For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
+
+
+
 
  
 
