@@ -13,19 +13,30 @@
 #### General IMP links  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
-> https://docs.databricks.com/index.html  
+> https://docs.databricks.com/index.html
+ - practice example from databricks 
+ - https://docs.databricks.com/spark/latest/gentle-introduction/index.html
+> http://www.bigdatatrunk.com/developer-certification-for-apache-spark-databricks/
+> http://spark.apache.org/docs/latest/rdd-programming-guide.html
+ 
 
 
-You should be familiar with the following:  
+***Points to consider***
+-  40 questions, 90 minutes
 -   Spark Basics  
--   Spark Streaming  
+ - Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
+-   Spark Streaming   
 -   Spark Architecture  
--   Spark ML  
+-   Spark ML  (One question on Machine Learning and GraphX each)
 -   Spark Performance and Debugging  
 -   Spark SQL    
 -   GraphFrames  
 -   Programming Languages (Certifications will be offered in Scala or Python)  
 -   Some experience developing Spark apps in production already  
+-   70% programming Scala, Python and Java, 30% are theory.
+-   Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%
+-   Developers must be able to recognize the code that is more parallel, and less memory constrained. They must know how to apply the best practices to avoid run time issues and performance bottlenecks.
+
 
 #### Course topics 
 - [a. Concept](#a) 
