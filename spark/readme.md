@@ -57,6 +57,17 @@
 > https://www.youtube.com/watch?v=49Hr5xZyTEA  
 > [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)
 
+> Spark Standalone Mode  
+- In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
+```
+./bin/spark-shell --master spark://IP:PORT
+# URL of the master
+```
+
+> --supervise flag to spark-submit  
+In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
+ 
+
 
 #### <a name="b"></a>b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)
