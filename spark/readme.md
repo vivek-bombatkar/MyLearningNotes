@@ -67,7 +67,10 @@
 > --supervise flag to spark-submit  
 In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
  
-
+> Tunning
+ - http://spark.apache.org/docs/latest/tuning.html
+ 
+ 
 
 #### <a name="b"></a>b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)
