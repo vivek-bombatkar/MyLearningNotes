@@ -69,6 +69,7 @@ In standalone cluster mode supports restarting your application automatically if
  
 > Tunning
  - http://spark.apache.org/docs/latest/tuning.html
+ | CPU | network bandwidth |  memory | 
  
  
 
