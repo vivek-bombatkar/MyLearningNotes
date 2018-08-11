@@ -109,18 +109,18 @@
   -  Spark’s shuffle operations (sortByKey, groupByKey, reduceByKey, join, etc) build a hash table within each task to perform the grouping, which can often be large.  
   - The simplest fix here is to increase the level of parallelism, so that each task’s input set is smaller  
  - ***Broadcasting Large Variables***
-  -  in general tasks larger than about 20 KB are probably worth optimizing.  
- - ***Data Locality***
-  - If data and the code that operates on it are together then computation tends to be fast  
-  - Typically it is faster to ship serialized code from place to place than a chunk of data because code size is much smaller than data. Spark builds its scheduling around this general principle of data locality.
-  - Spark prefers to schedule all tasks at the best locality level, but this is not always possible.   
-  - In situations where there is no unprocessed data on any idle executor, Spark switches to lower locality levels.  
-  - There are two options: 
-   - a) wait until a busy CPU frees up to start a task on data on the same server, or 
-   - b) immediately start a new task in a farther away place that requires moving data there.
-  - What Spark typically does is wait a bit in the hopes that a busy CPU frees up.  
-  - Once that timeout expires, it starts moving the data from far away to the free CPU.  
-  - You should increase these settings if your tasks are long and see poor locality, but the default usually works well.  
+   -  in general tasks larger than about 20 KB are probably worth optimizing.  
+ - ***Data Locality***  
+   - If data and the code that operates on it are together then computation tends to be fast   
+   - Typically it is faster to ship serialized code from place to place than a chunk of data because code size is much smaller than data. Spark builds its scheduling around this general principle of data locality.  
+   - Spark prefers to schedule all tasks at the best locality level, but this is not always possible.   
+   - In situations where there is no unprocessed data on any idle executor, Spark switches to lower locality levels.   
+   - There are two options:   
+    - a) wait until a busy CPU frees up to start a task on data on the same server, or  
+    - b) immediately start a new task in a farther away place that requires moving data there.  
+   - What Spark typically does is wait a bit in the hopes that a busy CPU frees up.  
+   - Once that timeout expires, it starts moving the data from far away to the free CPU.  
+   - You should increase these settings if your tasks are long and see poor locality, but the default usually works well.  
 - For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
 
 
