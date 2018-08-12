@@ -65,7 +65,7 @@
 ```
 
 > --supervise flag to spark-submit    
-  In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
+  - In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
  
 > Performance Tunning
 - http://spark.apache.org/docs/latest/tuning.html  
@@ -123,6 +123,17 @@
    - You should increase these settings if your tasks are long and see poor locality, but the default usually works well.  
 - For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
 
+> Job Scheduling  
+- http://spark.apache.org/docs/latest/job-scheduling.html#scheduling-within-an-application  
+- 
+
+> Spark Security  
+- http://spark.apache.org/docs/latest/security.html  
+
+> Hardware Provisioning  
+- http://spark.apache.org/docs/latest/hardware-provisioning.html
+
+> 
 
 
 
