@@ -1,10 +1,7 @@
 
-## Apache Spark
-
-> https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-
-
-> https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications
-
+## Apache Spark  
+> https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
+> https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 
 
 ### Databricks - Apache Spark™ Certified Developer  
@@ -22,20 +19,13 @@
 
 
 ***Points to consider***
--  40 questions, 90 minutes
--   Spark Basics  
-  - Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
--   Spark Streaming   
--   Spark Architecture  
--   Spark ML  (One question on Machine Learning and GraphX each)
--   Spark Performance and Debugging  
--   Spark SQL    
--   GraphFrames  
--   Programming Languages (Certifications will be offered in Scala or Python)  
--   Some experience developing Spark apps in production already  
--   70% programming Scala, Python and Java, 30% are theory.
--   Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%
--   Developers must be able to recognize the code that is more parallel, and less memory constrained. They must know how to apply the best practices to avoid run time issues and performance bottlenecks.
+- 40 questions, 90 minutes  
+- 70% programming Scala, Python and Java, 30% are theory.  
+- Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%  
+- Programming Languages (Certifications will be offered in Scala or Python)  
+- Some experience developing Spark apps in production already  
+- Developers must be able to recognize the code that is more parallel, and less memory constrained. They must know how to apply the best practices to avoid run time issues and performance bottlenecks.  
+
 
 
 #### Course topics 
@@ -57,6 +47,8 @@
 > https://www.youtube.com/watch?v=dmL0N3qfSc8  
 > https://www.youtube.com/watch?v=49Hr5xZyTEA  
 > [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)
+
+- Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
 
 > Spark Standalone Mode  
 - In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
