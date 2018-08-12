@@ -4,10 +4,10 @@
 > https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 
 
-### Databricks - Apache Spark™ Certified Developer  
+## Databricks - Apache Spark™ Certified Developer  
 > https://databricks.com/training/certified-spark-developer
 
-#### General IMP links  
+### 1. General IMP links  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
 > https://docs.databricks.com/index.html
@@ -17,8 +17,7 @@
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html
  
 
-
-***Points to consider***
+### 2. Points to consider
 - 40 questions, 90 minutes  
 - 70% programming Scala, Python and Java, 30% are theory.  
 - Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%  
@@ -28,7 +27,7 @@
 
 
 
-#### Course topics 
+### 3. Course topics 
 - [a. Concept](#a) 
 - [b. WEB UI / Spark UI  ](#b)
 - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
@@ -200,7 +199,7 @@ JOBS    --> All jobs
  
 
 
-### ***Learning Spark***  notes from the book reading.  
+### 4. Learning Spark:   notes from the book reading.  
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
 - [Working with Key-Value Pairs](#3)  
@@ -274,7 +273,7 @@ JOBS    --> All jobs
     
  
  
- ## SparkSession & pyspark.sql.functions f  
+ ### 5. SparkSession & pyspark.sql.functions f  
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
  
  ### lit() 
