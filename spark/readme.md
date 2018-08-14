@@ -348,13 +348,13 @@ new_df = df.select(f.explode(df.col1))
 ### df.groupBy(*cols)
 Groups the DataFrame using the specified columns, so we can run aggregation on them. See GroupedData for all the available aggregate functions.
 ```python
-df.groupBy(df.col1).cum().collect
+df.groupBy(df.col1).count().collect()
 ```
 
 ### df.agg(*expr)
 Aggregate on the entire DataFrame without groups (shorthand for df.groupBy.agg()).
 ```
-df.agg(a.max(df.col1))
+df.groupBy(df.col1).agg(a.max(df.col1))
 ```
 
 ### pyspark.sql.types.ArrayType
@@ -368,6 +368,11 @@ def func_test_udf(a):
 
 An error occurred while calling None.org.apache.spark.sql.execution.python.UserDefinedPythonFunction. Trace:
 class org.apache.spark.sql.types.ArrayType]) does not exist
+```
+
+### df.filter()
+```
+df_new = df.filter(col("col1").isNotNull & col("col1") > 100)
 ```
 
 
