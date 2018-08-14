@@ -375,6 +375,9 @@ class org.apache.spark.sql.types.ArrayType]) does not exist
 df_new = df.filter(col("col1").isNotNull & col("col1") > 100)
 ```
 
+### f.first(col)
+Aggregate function: returns the first value in a group.
+
 
 
  
