@@ -79,14 +79,20 @@ If you have never answered a question on Stack Overflow, I would recommend looki
 
 
 ### Alter HIVE table name 
-https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-Create/Drop/Alter/UseDatabase
-```
-ALTER TABLE old_table RENAME TO new_table;
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL#LanguageManualDDL-Create/Drop/Alter/UseDatabase  
 This statement lets you change the name of a table to a different name.
 As of version 0.6, a rename on a managed table moves its HDFS location. 
 Rename has been changed as of version 2.2.0 (HIVE-14909) so that a managed table's HDFS location is moved only if the table is created without a LOCATION clause and under its database directory.
-Hive versions prior to 0.6 just renamed the table in the metastore without moving the HDFS location.
-
+Hive versions prior to 0.6 just renamed the table in the metastore without moving the HDFS location.  
+```sql
+ALTER TABLE old_table RENAME TO new_table;
+```
+***Rename table records not visible in pyspark!***
+There is a property of table which pyspark api looks for lading data.
+hive rename command fails to update this property, and we see no records when query from pyspark.
+Resolution is to alter table to change 'serdeproperties' path.
+```sql
+alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-cluster/user/hive/warehouse/my_schema.db/new_table') 
 ```
 
 ### git commonly used commands in the order that I follow mostly :-)
