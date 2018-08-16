@@ -23,7 +23,7 @@ hdfs dfs -du -s -h  /user/hive/warehouse/*hive_schema_name*/*hive_table_name* | 
 ```
 
 ### find and delete HIVE tables matching pattern with beeline
-```
+```bash
 beeline -u $BEELINE_URL --showHeader=false --outputformat=tsv2 -e "show tables from $HIVE_SCHEMA like $PATTERN ;" | xargs -I '{}' beeline -u $BEELINE_URL --showHeader=false --outputformat=tsv2 -e " drop table $HIVE_SCHEMA.{} ;" 
 
 xargs - reads data from standard input (stdin) and executes the command (supplied to it as argument) one or more times based on the input read. Any blanks and spaces in input are treated as delimiters, while blank lines are ignored. 
@@ -32,7 +32,7 @@ xargs - reads data from standard input (stdin) and executes the command (supplie
 ### hdfs dfs -checksum
 https://community.hortonworks.com/questions/19239/hadoop-checksum-calculation-doubts.html
 
-```
+```bash
 hdfs dfs -checksum <hdfs url>
 <hdfs url>        MD5-of-0MD5-of-512CRC32C        00000200000000000000000024c3cf9f64d08eaafeb25bb9776f793c
 
@@ -49,7 +49,7 @@ hdfs dfs -checksum <hdfs url>
 
 ### installing jupyter on windows
 
-```
+```bash
 # On command prompt
 C:\> python -m pip install jupyter
 
@@ -96,7 +96,7 @@ alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-clust
 ```
 
 ### git commonly used commands in the order that I follow mostly :-)
-```
+```basg
 git clone <git dir path>
 git init
 git pull
@@ -119,7 +119,7 @@ git reset --hard HEAD^
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
 
 Create a profile 
-```
+```bash
 C:\Users\vkbomb>aws configure --profile test
 AWS Access Key ID []: XXX
 AWS Secret Access Key []: YY
@@ -172,7 +172,7 @@ mainClassName = 'com.gfk.nifi.Main'
 
 ### remove zero byte files from HDFS
 
-```
+```bash
 #List the zero byte files
 hdfs dfs -ls hdfs://<path> | awk '{ if ($5 == 0) print $8 }'
 
@@ -187,7 +187,7 @@ hdfs dfs -lsr hdfs://<path>/\* | awk '{ if ($5 == 0) print $8 }' | xargs hadoop 
 
 ### Commands to generate a keytab file, using the Kerberos password
 
-```
+```bash
 $ ktutil
 ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e aes256-cts-hmac-sha1-96
 ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e aes128-cts-hmac-sha1-96
@@ -205,7 +205,7 @@ ktutil:  quit
 ### What's in the HIVE JDBC URL
 > https://streever.atlassian.net/wiki/spaces/HADOOP/pages/9961474/Hive+JDBC+Extended+Connection+URL+Examples
 > https://cwiki.apache.org/confluence/display/Hive/HiveServer2+Clients
-```
+```bash
 jdbc:hive2://zookeeper_quorum|hs2_host:port
 /[db][;principal=<hs2_principal>/<hs2_host>|_HOST@<KDC_REALM>]
 [;transportMode=binary|http]
