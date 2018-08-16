@@ -5,7 +5,7 @@
 
 
 ### get HDFS file size 
-```shell
+```bash
 $ hdfs dfs -du -s -h  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
 655.2 M  1.9 G  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
 
