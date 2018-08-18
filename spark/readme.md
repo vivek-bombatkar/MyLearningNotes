@@ -7,14 +7,20 @@
 > https://databricks.com/training/certified-spark-developer
 
 
-### Free online Spark clusters for practice notebooks   
+## Free online Spark clusters for practice notebooks   
 - [databricks](https://community.cloud.databricks.com/)  
 - [zepl](https://www.zepl.com/)  
 - [colab from google](https://colab.research.google.com/)  
 
 
+- [1. General IMP links](#10)  
+- [2. Points to consider](#20)  
+- [3. Course topics](#30)  
+- [4. Learning Spark:   notes from the book reading.](#40)  
+- [5. SparkSession & pyspark.sql.functions f](#50)  
 
-### 1. General IMP links  
+
+#### <a name="10"></a>1. General IMP links  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
 > https://docs.databricks.com/index.html
@@ -24,7 +30,7 @@
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html
  
 
-### 2. Points to consider
+### <a name="20"></a>2. Points to consider
 - 40 questions, 90 minutes  
 - 70% programming Scala, Python and Java, 30% are theory.  
 - Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%  
@@ -34,7 +40,7 @@
 
 
 
-### 3. Course topics 
+### <a name="30"></a>3. Course topics 
 - [a. Concept](#a) 
 - [b. WEB UI / Spark UI  ](#b)
 - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
@@ -206,7 +212,7 @@ JOBS    --> All jobs
  
 
 
-### 4. Learning Spark:   notes from the book reading.  
+### <a name="40"></a>4. Learning Spark:   notes from the book reading.  
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
 - [Working with Key-Value Pairs](#3)  
@@ -280,7 +286,7 @@ JOBS    --> All jobs
     
  
  
- ### 5. SparkSession & pyspark.sql.functions f  
+ ### <a name="50"></a>5. SparkSession & pyspark.sql.functions f  
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
  
  ### lit() 
