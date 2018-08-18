@@ -3,9 +3,16 @@
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
 > https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 
-
 ## Databricks - Apache Spark™ Certified Developer  
 > https://databricks.com/training/certified-spark-developer
+
+
+### Free online Spark clusters for practice notebooks   
+- [databricks](https://community.cloud.databricks.com/)  
+- [zepl](https://www.zepl.com/)  
+- [colab from google](https://colab.research.google.com/)  
+
+
 
 ### 1. General IMP links  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
