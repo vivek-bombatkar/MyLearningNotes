@@ -1,8 +1,4 @@
 
-## Apache Spark  
-> https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
-> https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
-
 ## Databricks - Apache Spark™ Certified Developer  
 > https://databricks.com/training/certified-spark-developer
 
@@ -22,6 +18,8 @@
 
 
 #### <a name="10"></a>1. General IMP links  
+> https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
+> https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
 > https://docs.databricks.com/index.html
