@@ -13,6 +13,7 @@
 - [colab from google](https://colab.research.google.com/)  
 
 
+## Index  
 - [1. General IMP links](#10)  
 - [2. Points to consider](#20)  
 - [3. Course topics](#30)  
