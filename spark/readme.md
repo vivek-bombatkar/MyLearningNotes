@@ -70,7 +70,24 @@
 
 > --supervise flag to spark-submit    
   - In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
- 
+  
+> Dynamic Allocation
+  - https://spark.apache.org/docs/latest/configuration.html#dynamic-allocation
+  - scales the number of executors registered with this application up and down based on the workload. 
+  - spark.dynamicAllocation.enabled  
+
+> Speculative execution 
+  - spark.speculation	
+- If set to "true", performs speculative execution of tasks. This means if one or more tasks are running slowly in a stage, they will be re-launched.
+
+> locality wait
+  - spark.locality.wait		
+  - How long to wait to launch a data-local task before giving up and launching it on a less-local node. The same wait will be used to step through multiple locality levels (process-local, node-local, rack-local and then any). It is also possible to customize the waiting time for each level by setting spark.locality.wait.node, etc. You should increase this setting if your tasks are long and see poor locality, but the default usually works well.
+
+
+
+
+
 > Performance Tunning
 - http://spark.apache.org/docs/latest/tuning.html  
 - when tuning a Spark application – most importantly, data serialization and memory tuning.
