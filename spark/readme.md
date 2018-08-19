@@ -42,7 +42,7 @@
 
 
 ### <a name="30"></a>3. Course topics 
-- [a. Concept](#a) 
+- [a. Spark Concept](#a) 
 - [b. WEB UI / Spark UI  ](#b)
 - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
 - [d. Streaming](#d)
@@ -50,7 +50,7 @@
 - [f. GraphLib ](#f)
 
 
-#### <a name="a"></a>a. Concept  
+#### <a name="a"></a>a. Spark Concept  
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
 > http://spark.apache.org/  
 > https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html  
@@ -61,32 +61,33 @@
 > https://www.youtube.com/watch?v=49Hr5xZyTEA  
 > [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)
 
-- Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
+- IMP:  Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
 
-> Spark Standalone Mode  
-- In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
+-  Spark Standalone Mode  
+  - In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
 ```
 ./bin/spark-shell --master spark://IP:PORT
 # URL of the master
 ```
 
-> --supervise flag to spark-submit    
+- supervise flag to spark-submit    
   - In standalone cluster mode supports restarting your application automatically if it exited with non-zero exit code.  
   
-> Dynamic Allocation
+- Dynamic Allocation
   - https://spark.apache.org/docs/latest/configuration.html#dynamic-allocation
   - scales the number of executors registered with this application up and down based on the workload. 
   - spark.dynamicAllocation.enabled  
 
-> Speculative execution 
+- Speculative execution 
   - spark.speculation	
-- If set to "true", performs speculative execution of tasks. This means if one or more tasks are running slowly in a stage, they will be re-launched.
+  - If set to "true", performs speculative execution of tasks. This means if one or more tasks are running slowly in a stage, they will be re-launched.
 
-> locality wait
+- locality wait
   - spark.locality.wait		
   - How long to wait to launch a data-local task before giving up and launching it on a less-local node. The same wait will be used to step through multiple locality levels (process-local, node-local, rack-local and then any). It is also possible to customize the waiting time for each level by setting spark.locality.wait.node, etc. You should increase this setting if your tasks are long and see poor locality, but the default usually works well.
 
-> 
+- Types of RDD
+  - HadoopRDD, FilterRDD, MapRDD, ShuffleRDD, 
 
 
 
