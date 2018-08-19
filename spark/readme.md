@@ -20,6 +20,7 @@
 #### <a name="10"></a>1. General IMP links  
 > [code comments from Git](https://github.com/apache/spark)
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
+> https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/  
 > https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
@@ -85,6 +86,7 @@
   - spark.locality.wait		
   - How long to wait to launch a data-local task before giving up and launching it on a less-local node. The same wait will be used to step through multiple locality levels (process-local, node-local, rack-local and then any). It is also possible to customize the waiting time for each level by setting spark.locality.wait.node, etc. You should increase this setting if your tasks are long and see poor locality, but the default usually works well.
 
+> 
 
 
 
