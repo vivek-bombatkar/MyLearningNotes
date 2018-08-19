@@ -1,5 +1,5 @@
 
-## Databricks - Apache Spark™ Certified Developer  
+# Databricks - Apache Spark™ Certified Developer  
 > https://databricks.com/training/certified-spark-developer
 
 
@@ -17,7 +17,7 @@
 - [5. SparkSession & pyspark.sql.functions f](#50)  
 
 
-#### <a name="10"></a>1. General IMP links  
+## <a name="10"></a>1. General IMP links  
 > [code comments from Git](https://github.com/apache/spark)
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/  
@@ -31,7 +31,7 @@
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html
  
 
-### <a name="20"></a>2. Points to consider
+## <a name="20"></a>2. Points to consider
 - 40 questions, 90 minutes  
 - 70% programming Scala, Python and Java, 30% are theory.  
 - Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%  
@@ -41,7 +41,7 @@
 
 
 
-### <a name="30"></a>3. Course topics 
+## <a name="30"></a>3. Course topics 
 - [a. Spark Concept](#a) 
 - [b. WEB UI / Spark UI  ](#b)
 - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
@@ -50,7 +50,7 @@
 - [f. GraphLib ](#f)
 
 
-#### <a name="a"></a>a. Spark Concept  
+### <a name="a"></a>a. Spark Concept  
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
 > http://spark.apache.org/  
 > https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html  
@@ -161,7 +161,7 @@
 
  
 
-#### <a name="b"></a>b. WEB UI / Spark UI  
+### <a name="b"></a>b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)
  > https://www.cloudera.com/documentation/enterprise/5-9-x/topics/operation_spark_applications.html
 
@@ -209,27 +209,27 @@ JOBS    --> All jobs
 
 
 
-#### <a name="c"></a>c. RDD + DataFrame + DataSets + SparkSQL  
+### <a name="c"></a>c. RDD + DataFrame + DataSets + SparkSQL  
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html  
   Working with Key-Value Pairs  
   
 > http://spark.apache.org/docs/latest/sql-programming-guide.html  
 
-#### <a name="d"></a>d. Streaming  (50-50 hands on + theory)
+### <a name="d"></a>d. Streaming  (50-50 hands on + theory)
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-    
 > https://spark.apache.org/docs/latest/streaming-programming-guide.html   
 
-#### <a name="e"></a>e. SparkMLLib  (theory)
+### <a name="e"></a>e. SparkMLLib  (theory)
 > https://github.com/vivek-bombatkar/DataWorksSummit2018_Spark_ML   
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-mllib/spark-mllib.html  
 
 
-#### <a name="f"></a>f. GraphLib (theory)
+### <a name="f"></a>f. GraphLib (theory)
 > https://spark.apache.org/docs/latest/graphx-programming-guide.html  
  
 
 
-### <a name="40"></a>4. Learning Spark:   notes from the book reading.  
+## <a name="40"></a>4. Learning Spark:   notes from the book reading.  
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
 - [Working with Key-Value Pairs](#3)  
@@ -238,7 +238,7 @@ JOBS    --> All jobs
 - [Running on a Cluster](#6)  
 
 
-#### <a name="1"></a>Introduction to Data Analysis with Spark    
+### <a name="1"></a>Introduction to Data Analysis with Spark    
 - cluster computing platform   
 - Spark application consists of a driver program that launches various parallel operations on a cluster.   
 - driver programs typically manage a number of nodes called executors
@@ -246,7 +246,7 @@ JOBS    --> All jobs
  
 <img src="https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/spark/pics/componunt_distribution_spark.JPG" />
 
-#### <a name="2"></a>Programming with RDDs    
+### <a name="2"></a>Programming with RDDs    
 - Resilient Distributed Dataset (RDD)
 - an immutable distributed collection of objects
 - It split into multiple partitions, which may be computed on different nodes of the cluster
@@ -257,7 +257,7 @@ JOBS    --> All jobs
 -  three options for passing functions into Spark - lambda. top level function or locally define functions
 - reduce / fold
 
-#### <a name="3"></a>Working with Key-Value Pairs
+### <a name="3"></a>Working with Key-Value Pairs
 - RDDs containing key-value pairs. These RDDs are called Pair RDDs. 
 - Transformations one pair rdd : reduceByKey / foldByKey, combineByKey, countByValue, groupByKey, mapValues, flatMapValues, keys, values, sortByKey
 - Transformations on two pair rdd : substractByKey, join, rightOuterJoin, leftOuterJoin, cogroup
@@ -268,11 +268,11 @@ JOBS    --> All jobs
 - ***partitionBy***
 - HashPartitioner
 
-#### <a name="4"></a>Loading and Saving Your Data
+### <a name="4"></a>Loading and Saving Your Data
 - Comprassion optison : gzip, lzo, bzip2, zlib, Snappy
 -  
 
-#### <a name="5"></a>Advanced Spark Programming
+### <a name="5"></a>Advanced Spark Programming
 - ***accumulators*** to aggregate information.
 - One of the most common uses of accumulators is to count events that occur during job execution for debugging purposes. 
 - Note that tasks on worker nodes cannot access the accumulator’s value — from the point of view of these tasks, accumulators are write-only variables.
@@ -281,7 +281,7 @@ JOBS    --> All jobs
 - broadcast variables to efficiently distribute large values. allow the program to efficiently send a large, read-only value to all the worker nodes for use in one or more Spark operations.
 - ***PrePartition operations***: mapPartition, foreachPartition, mapPartitionWithIndex
 
-#### <a name="6"></a>Running on a Cluster
+### <a name="6"></a>Running on a Cluster
 - When running in cluster mode, Spark utilizes a master-slave architecture with one central coordinator and many distributed workers. 
 - The central coordinator is called the driver. 
 - The driver communicates with potentially larger number of distributed workers called executors. 
@@ -303,7 +303,7 @@ JOBS    --> All jobs
     
  
  
- ### <a name="50"></a>5. SparkSession & pyspark.sql.functions f  
+ ## <a name="50"></a>5. SparkSession & pyspark.sql.functions f  
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
  
  ### lit() 
