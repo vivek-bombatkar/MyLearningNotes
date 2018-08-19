@@ -56,9 +56,6 @@
 > https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html  
 > https://thachtranerc.wordpress.com/2017/07/10/databricks-developer-certifcation-for-apache-spark-finally-i-made-it/  
 > https://www.youtube.com/watch?v=7ooZ4S7Ay6Y  
-> https://www.youtube.com/watch?v=kkOG_aJ9KjQ  
-> https://www.youtube.com/watch?v=dmL0N3qfSc8  
-> https://www.youtube.com/watch?v=49Hr5xZyTEA  
 > [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)
 
 - IMP:  Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
