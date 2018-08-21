@@ -303,8 +303,14 @@ JOBS    --> All jobs
     
  
  
- ## <a name="50"></a>5. SparkSession & pyspark.sql.functions f  
- > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html
+ ## <a name="50"></a>5. pyspark API & spark SQL functions   
+ > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html  
+ - functions could be passed to API to perform operations  
+ - like aggregate functions used with 'agg' API  
+ 
+ ```python
+ from pyspark.sql import functions f
+ ```
  
  ### lit() 
  Creates a Column of literal value
