@@ -177,3 +177,11 @@ exit
 - logging.yaml
 - README.RST
 
+## python packages
+> https://docs.python.org/3/reference/import.html
+|Regular packages|Namespace packages|
+| --- | --- |
+| typically implemented as a directory containing an __init__.py file |  is a composite of various portions, where each portion contributes a subpackage to the parent package|
+| When imported, __init__.py file is implicitly executed, and the objects it defines are bound to names in the package’s namespace. | there is no __init__.py file |
+
+***The __init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
