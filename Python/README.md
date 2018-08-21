@@ -186,3 +186,16 @@ exit
 | When imported, \__init__.py file is implicitly executed, and the objects it defines are bound to names in the package’s namespace. | there is no \__init__.py file |
 
 ***The \__init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
+
+
+## python egg and wheel 
+> https://packaging.python.org/discussions/wheel-vs-egg/  
+- Same concept as a .jar file in Java, it is a .zip file with some metadata files renamed .egg, for distributing code as bundles
+- is a logical structure embodying the release of a specific version of a Python project, comprising its code, resources, and metadata.  
+
+| wheel | egg |  
+| --- | --- |  
+| Wheel is a distribution format, i.e a packaging format. |  both a distribution format and a runtime installation format (if left zipped), and was designed to be importable. |  
+| Wheel archives do not include .pyc files. | |  
+| Wheel is internally organized by sysconfig path type, therefore making it easier to convert to other formats. | | 
+  
