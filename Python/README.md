@@ -178,7 +178,8 @@ exit
 - README.RST
 
 ## python packages
-> https://docs.python.org/3/reference/import.html
+> https://docs.python.org/3/reference/import.html  
+
 |Regular packages|Namespace packages|
 | --- | --- |
 | typically implemented as a directory containing an __init__.py file |  is a composite of various portions, where each portion contributes a subpackage to the parent package|
