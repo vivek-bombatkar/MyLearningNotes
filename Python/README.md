@@ -190,6 +190,9 @@ exit
 
 ## python egg and wheel 
 > https://packaging.python.org/discussions/wheel-vs-egg/  
+> http://peak.telecommunity.com/DevCenter/PythonEggs  
+> https://www.blog.pythonlibrary.org/2012/07/12/python-101-easy_install-or-how-to-create-eggs/  
+> https://mrtopf.de/en/a-small-introduction-to-python-eggs/  
 - Same concept as a .jar file in Java, it is a .zip file with some metadata files renamed .egg, for distributing code as bundles
 - is a logical structure embodying the release of a specific version of a Python project, comprising its code, resources, and metadata.  
 
