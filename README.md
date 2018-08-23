@@ -96,7 +96,7 @@ alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-clust
 ```
 
 ### git commonly used commands in the order that I follow mostly :-)
-```basg
+```bash
 git clone <git dir path>
 git init
 git pull
@@ -110,10 +110,20 @@ git rm file1.txt
 git rm --cached ipmvp-nifi-custom.iml
 ```
 
->  Clear all local commits!
+- Clear all local commits!  
 ```
 git reset --hard HEAD^
 ````
+
+- git rebase  
+> https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1  
+```bash
+git checkout develop
+git pull
+git checkout - # switch to feature branch
+git reset --hard HEAD # only if you have to cleanup locall changes
+git rebase develop
+```
 
 ### AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
