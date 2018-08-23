@@ -1,6 +1,6 @@
-# Because its never late to start taking notes and 'public' it...
+# Because its never late to start taking notes and 'public' it...  
 
-## This file contains random technical notes, please follow individual folders for specific technology. 
+> This file contains random technical notes, please follow individual folders for specific technology.   
 
 
 
