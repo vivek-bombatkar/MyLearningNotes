@@ -231,7 +231,8 @@ JOBS    --> All jobs
 
 
 ## <a name="40"></a>4. Notes from the books.  
-4.1 Learning Spark: Lightning‑Fast Big Data   
+[4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
+
 
 ## <a name="41"></a>4.1 Learning Spark: Lightning‑Fast Big Data   
 
