@@ -15,6 +15,9 @@
 - [3. Course topics](#30)  
 - [4. Notes from the books.](#40)  
   - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
+  - [4.2 High Performance Spark](#42)
+  - [4.3 Machine Learning with Spark: Nick Pentreath ](#43) 
+  
 - [5. SparkSession & pyspark.sql.functions f](#50)  
 
 
