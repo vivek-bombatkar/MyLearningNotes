@@ -13,7 +13,8 @@
 - [1. General IMP links](#10)  
 - [2. Points to consider](#20)  
 - [3. Course topics](#30)  
-- [4. Learning Spark:   notes from the book reading.](#40)  
+- [4. Notes from the books.](#40)  
+  - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
 - [5. SparkSession & pyspark.sql.functions f](#50)  
 
 
@@ -229,7 +230,11 @@ JOBS    --> All jobs
  
 
 
-## <a name="40"></a>4. Learning Spark:   notes from the book reading.  
+## <a name="40"></a>4. Notes from the books.  
+4.1 Learning Spark: Lightning‑Fast Big Data   
+
+## <a name="41"></a>4.1 Learning Spark: Lightning‑Fast Big Data   
+
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
 - [Working with Key-Value Pairs](#3)  
