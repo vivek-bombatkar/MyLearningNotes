@@ -3,7 +3,7 @@
 > https://databricks.com/training/certified-spark-developer
 
 
-## Free online Spark clusters for practice notebooks   
+## Free online Spark clusters for getting started!   
 - [databricks](https://community.cloud.databricks.com/)  
 - [zepl](https://www.zepl.com/)  
 - [colab from google](https://colab.research.google.com/)  
