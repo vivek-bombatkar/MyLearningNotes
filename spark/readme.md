@@ -17,8 +17,8 @@
   - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
   - [4.2 High Performance Spark](#42)
   - [4.3 Machine Learning with Spark: Nick Pentreath ](#43)  
-  - [4.4 https://databricks.gitbooks.io/databricks-spark-knowledge-base/content/ ](#44)  
-  - [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ] (#45)
+  - [4.4 https://databricks.gitbooks.io/databricks-spark-knowledge-base/content/ ](#44)   
+  - [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ](#45)  
   
   
 - [5. SparkSession & pyspark.sql.functions f](#50)  
