@@ -315,6 +315,23 @@ JOBS    --> All jobs
     
  
  
+## <a name="42"></a>4.2 High Performance Spark   
+
+
+#### Spark Model of Parallel Computing: RDDs
+- driver (or master node) perform operations on data in parallel. 
+- Spark represents large datasets as RDDs, immutable distributed collections of objects, 
+- which are stored in the executors or (slave nodes). 
+- The objects that comprise RDDs are called partitions 
+- Partitions may be (but do not need to be) computed on different nodes of a distributed system. 
+- Spark can keep an RDD loaded in memory on the executor nodes throughout the life of a Spark application for faster access 
+- RDDs are immutable, so transforming an RDD returns a new RDD rather than the existing one.
+-  Actions trigger the scheduler, which builds a directed acyclic graph (called the DAG), based on the dependencies between RDD transformations. 
+- Then, using this series of steps called the execution plan, the scheduler computes the missing partitions for each stage until it computes the whole RDD.
+
+ 
+ 
+ 
  ## <a name="50"></a>5. pyspark API & spark SQL functions   
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html  
  - functions could be passed to API to perform operations  
