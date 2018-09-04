@@ -2,13 +2,6 @@
 # Databricks - Apache Spark™ Certified Developer  
 > https://databricks.com/training/certified-spark-developer
 
-
-## Free online Spark clusters for getting started!   
-- [databricks](https://community.cloud.databricks.com/)  
-- [zepl](https://www.zepl.com/)  
-- [colab from google](https://colab.research.google.com/)  
-
-
 ## Index  
 - [1. General IMP links](#10)  
 - [2. Points to consider](#20)  
@@ -19,24 +12,31 @@
   - [4.3 Machine Learning with Spark: Nick Pentreath ](#43)  
   - [4.4 https://databricks.gitbooks.io/databricks-spark-knowledge-base/content/ ](#44)   
   - [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ](#45)  
-  
-  
 - [5. SparkSession & pyspark.sql.functions f](#50)  
 
 
 ## <a name="10"></a>1. General IMP links  
+
+
+### Free online Spark clusters for getting started!   
+- [databricks](https://community.cloud.databricks.com/)  
+- [zepl](https://www.zepl.com/)  
+- [colab from google](https://colab.research.google.com/)   
+
 > [code comments from Git](https://github.com/apache/spark)
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/  
 > https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
-> https://docs.databricks.com/index.html
+> https://docs.databricks.com/index.html  
   - practice example from databricks 
-  - https://docs.databricks.com/spark/latest/gentle-introduction/index.html
-> http://www.bigdatatrunk.com/developer-certification-for-apache-spark-databricks/
-> http://spark.apache.org/docs/latest/rdd-programming-guide.html
+  - https://docs.databricks.com/spark/latest/gentle-introduction/index.html  
+> http://www.bigdatatrunk.com/developer-certification-for-apache-spark-databricks/  
+> http://spark.apache.org/docs/latest/rdd-programming-guide.html  
  
+
+
 
 ## <a name="20"></a>2. Points to consider
 - 40 questions, 90 minutes  
@@ -318,7 +318,7 @@ JOBS    --> All jobs
 ## <a name="42"></a>4.2 High Performance Spark   
 
 
-#### Spark Model of Parallel Computing: RDDs
+### Spark Model of Parallel Computing: RDDs
 - driver (or master node) perform operations on data in parallel. 
 - Spark represents large datasets as RDDs, immutable distributed collections of objects, 
 - which are stored in the executors or (slave nodes). 
@@ -327,7 +327,28 @@ JOBS    --> All jobs
 - Spark can keep an RDD loaded in memory on the executor nodes throughout the life of a Spark application for faster access 
 - RDDs are immutable, so transforming an RDD returns a new RDD rather than the existing one.
 -  Actions trigger the scheduler, which builds a directed acyclic graph (called the DAG), based on the dependencies between RDD transformations. 
-- Then, using this series of steps called the execution plan, the scheduler computes the missing partitions for each stage until it computes the whole RDD.
+- Then, using this series of steps called the execution plan, the scheduler computes the missing partitions for each stage until it computes the whole RDD.  
+
+### In Memory Storage and Memory Management  
+- Spark offers three options for memory management:  
+  - in memory deserialized data  - higher performace but consume high memory   
+  - in memory as serialized data - slower performance but low disk space  
+  - on disk - slower and nothing in memory, can be more fault tolarent for long string transformations  
+- The persist() function in the RDD class lets the user control how the RDD is stored. 
+- By default, persist() stores an RDD as deserialized objects in memory.  
+
+### five main properties to represent an RDD internally. 
+- partitions()  
+- iterator(p, parentIters)  
+- dependencies()  
+- partitioner()  
+- preferredLocations(p)  
+
+### Resource Allocation Across Applications  
+-  static allocation  
+-  dynamic allocation  
+
+### The Spark application = pg - 29
 
  
  
