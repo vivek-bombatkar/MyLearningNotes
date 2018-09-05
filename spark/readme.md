@@ -369,6 +369,34 @@ JOBS    --> All jobs
   - However, each executor has a dynamically allocated number of slots for running tasks
   - The number of tasks per stage corresponds to the number of partitions in the output RDD of that stage.
  
+ > Spark SQL’s column operators are defined on the column class, so a filter containing the expression 0 >= df.col("friends") will not
+compile since Scala will use the >= defined on 0. Instead you would write df.col("friend") <= 0 or convert 0 to a column literal with
+lit  
+
+- ***Transformations*** : types
+  - filters
+  - sql standard functions
+  - 'when' - for if then else
+  - Specialized DataFrame Transformations for Missing & Noisy Data
+  - Beyond Row-by-Row Transformations
+  - Aggregates and groupBy - agg API
+  - windowing
+  - sorting - orderBy
+  - Multi DataFrame Transformations
+  
+- Tungsten  
+  - Tungsten is a new Spark SQL component that provides more efficient Spark operations by working directly at the byte level.
+  - Tungsten includes specialized in-memory data structures tuned for the type of operations required by Spark
+  - improved code generation, and a specialized wire protocol.
+
+- Query Optimizer  
+  - Catalyst is the Spark SQL query optimizer, 
+  - which is used to take the query plan and transform it into an execution plan that Spark can run. 
+  - Much as our transformations on RDDs build up a DAG, Spark SQL builds up a tree representing our query plan, called a logical plan. 
+  - Spark is able to apply a number of optimizations on the logical plan 
+  - also choose between multiple physical plans for the same logical plan using a cost-based mode.
+  
+### Joins (SQL & Core) - 79
  
  ## <a name="50"></a>5. pyspark API & spark SQL functions   
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html  
