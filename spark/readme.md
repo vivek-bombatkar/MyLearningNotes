@@ -348,9 +348,26 @@ JOBS    --> All jobs
 -  static allocation  
 -  dynamic allocation  
 
-### The Spark application = pg - 29
-
- 
+### The Anatomy of a Spark Job  
+> spark application -> jobs -> stages -> tasks  
+- ***jobs*** 
+  - highest element of Spark’s execution hierarchy. 
+  - Each Spark job corresponds to one action
+- ***stages***
+  - As mentioned above, a job is defined by calling an action. 
+  - The action may include several transformations, which breakdown of jobs into stages.
+  - Several transformations with narrow dependencies can be grouped into one stage.
+  - It is possible to executed stages in parallel if they are used to compute different RDDs
+  - wide transformations needed to compute one RDD have to be computed in sequence
+  - one stage can be computed without moving data across the partitions. 
+  - Within one stage, the tasks are the units of work done for each partition of the data.
+- ***tasks***
+  - A stage consists of tasks. 
+  - The task is the smallest unit in the execution hierarchy
+  - each can represent one local computation. 
+  - One task cannot be executed on more than one executor. 
+  - However, each executor has a dynamically allocated number of slots for running tasks
+  - The number of tasks per stage corresponds to the number of partitions in the output RDD of that stage.
  
  
  ## <a name="50"></a>5. pyspark API & spark SQL functions   
