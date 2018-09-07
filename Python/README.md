@@ -202,3 +202,11 @@ exit
 | Wheel archives do not include .pyc files. | |  
 | Wheel is internally organized by sysconfig path type, therefore making it easier to convert to other formats. | | 
   
+
+## TypeError vs ValueError  
+> https://www.datacamp.com/community/tutorials/exception-handling-python  
+
+| TypeError | ValueError |
+| --- | --- |
+| Passing arguments of the wrong type (e.g. passing a list when an int is expected) should result in a TypeError | Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value | 
+| Whenever you see an error that include 'NoneType' that means that you have an operand or an object that is None when you were expecting something else. | |
