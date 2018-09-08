@@ -23,14 +23,14 @@
 - [zepl](https://www.zepl.com/)  
 - [colab from google](https://colab.research.google.com/)   
 
-> [code comments from Git](https://github.com/apache/spark)
+> [Spark code comments from Git](https://github.com/apache/spark)  
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/  
 > https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
 > [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
 > https://docs.databricks.com/index.html  
-  - practice example from databricks 
+  - practice example from databricks  
   - https://docs.databricks.com/spark/latest/gentle-introduction/index.html  
 > http://www.bigdatatrunk.com/developer-certification-for-apache-spark-databricks/  
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html  
@@ -63,9 +63,11 @@
 > https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html  
 > https://thachtranerc.wordpress.com/2017/07/10/databricks-developer-certifcation-for-apache-spark-finally-i-made-it/  
 > https://www.youtube.com/watch?v=7ooZ4S7Ay6Y  
-> [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)
+> [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)  
+- TODO IMP:  Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
 
-- IMP:  Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
+
+![Spark2_myLearning_inforGraphics](https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-/blob/master/pics/Spark2_myLearning_inforGraphics.jpg)
 
 -  Spark Standalone Mode  
   - In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
