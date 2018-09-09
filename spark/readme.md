@@ -400,6 +400,22 @@ lit
   
 ### Joins (SQL & Core) - 79
  
+- In order to join data, Spark needs the data that is to be joined to live on the same partition. 
+- The default implementation of join in Spark is a shuffled hash join. 
+- Shuffel could be avoided if 
+  - 1. ***Both RDDs have a known partitioner.***  
+  - 2. map side join -One of the datasets is small enough to fit in memory, in which case we can do a broadcast hash join 
+- ***Left semi joins***
+  - are the only kind of join which only has values from the left table. 
+  - A left semi join is the same as filtering the left table for only rows with keys present in the right table.
+  - ```df1.join(df2, df1("name") === df2("name"), "leftsemi")```
+- ***Broadcast Hash Joins***
+  - df1.join(broadcast(df2), "key")
+  - Spark also automatically uses the spark.sql.conf.autoBroadcastJoinThreshold to determine if a table should be broadcast.
+  
+ 
+ 
+ 
  ## <a name="50"></a>5. pyspark API & spark SQL functions   
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html  
  - functions could be passed to API to perform operations  
