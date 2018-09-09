@@ -401,7 +401,7 @@ lit
   - Spark is able to apply a number of optimizations on the logical plan 
   - also choose between multiple physical plans for the same logical plan using a cost-based mode.
   
-### Joins (SQL & Core) - 79
+### Joins (SQL & Core) 
  
 - In order to join data, Spark needs the data that is to be joined to live on the same partition. 
 - The default implementation of join in Spark is a shuffled hash join. 
@@ -416,6 +416,10 @@ lit
   - df1.join(broadcast(df2), "key")
   - Spark also automatically uses the spark.sql.conf.autoBroadcastJoinThreshold to determine if a table should be broadcast.
   
+ 
+ ## <a name="45"></a>4.5 "Programming Guides" from http://spark.apache.org/docs/latest/
+ 
+ 
  
  
  
