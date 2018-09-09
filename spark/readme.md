@@ -3,19 +3,19 @@
 > https://databricks.com/training/certified-spark-developer
 
 ## Index  
-- [1. General IMP links](#10)  
-- [2. Points to consider](#20)  
-- [3. Course topics](#30)  
-- [4. Notes from the books / guides.](#40)  
+- [1. GENERAL IMP LINKS](#10)  
+- [2. POINTS TO CONSIDER](#20)  
+- [3. COURSE TOPICS](#30)  
+- [4. NOTES FROM THE BOOKS / GUIDES.](#40)  
   - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
   - [4.2 High Performance Spark - Holden Karau and Rachel Warren](#42)
   - [4.3 Machine Learning with Spark: Nick Pentreath ](#43)  
   - [4.4 https://databricks.gitbooks.io/databricks-spark-knowledge-base/content/ ](#44)   
   - [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ](#45)  
-- [5. SparkSession & pyspark.sql.functions f](#50)  
+- [5. SPARKSESSION & PYSPARK.SQL.FUNCTIONS f](#50)  
 
 
-## <a name="10"></a>1. General IMP links  
+## <a name="10"></a>1. GENERAL IMP LINKS  
 
 
 ### Free online Spark clusters for getting started!   
@@ -38,7 +38,7 @@
 
 
 
-## <a name="20"></a>2. Points to consider
+## <a name="20"></a>2. POINTS TO CONSIDER
 - 40 questions, 90 minutes  
 - 70% programming Scala, Python and Java, 30% are theory.  
 - Orielly learning spark : Chapter’s 3,4 and 6 for 50% ; Chapters 8,9(IMP) and 10 for 30%  
@@ -48,7 +48,7 @@
 
 
 
-## <a name="30"></a>3. Course topics 
+## <a name="30"></a>3. COURSE TOPICS 
 - [a. Spark Concept](#a) 
 - [b. WEB UI / Spark UI  ](#b)
 - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)
@@ -238,7 +238,7 @@ JOBS    --> All jobs
  
 
 
-## <a name="40"></a>4. Notes from the books.  
+## <a name="40"></a>4. NOTES FROM THE BOOKS / GUIDES.  
 [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
 
 
@@ -416,7 +416,7 @@ lit
  
  
  
- ## <a name="50"></a>5. pyspark API & spark SQL functions   
+ ## <a name="50"></a>5. SPARKSESSION & PYSPARK.SQL.FUNCTIONS f   
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html  
  - functions could be passed to API to perform operations  
  - like aggregate functions used with 'agg' API  
