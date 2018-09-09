@@ -152,6 +152,9 @@
    - What Spark typically does is wait a bit in the hopes that a busy CPU frees up.  
    - Once that timeout expires, it starts moving the data from far away to the free CPU.  
    - You should increase these settings if your tasks are long and see poor locality, but the default usually works well.  
+   - The best means of checking whether a task ran locally is to inspect a given stage in the Spark UI.
+   - In the Stages tab of spark UI "Locality Level" column displays which locality a given task ran with.
+
 - For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
 
 > Job Scheduling  
