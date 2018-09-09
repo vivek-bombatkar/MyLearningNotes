@@ -8,7 +8,7 @@
 - [3. Course topics](#30)  
 - [4. Notes from the books / guides.](#40)  
   - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
-  - [4.2 High Performance Spark](#42)
+  - [4.2 High Performance Spark - Holden Karau and Rachel Warren](#42)
   - [4.3 Machine Learning with Spark: Nick Pentreath ](#43)  
   - [4.4 https://databricks.gitbooks.io/databricks-spark-knowledge-base/content/ ](#44)   
   - [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ](#45)  
@@ -317,7 +317,7 @@ JOBS    --> All jobs
     
  
  
-## <a name="42"></a>4.2 High Performance Spark   
+## <a name="42"></a>4.2 High Performance Spark - Holden Karau and Rachel Warren   
 
 
 ### Spark Model of Parallel Computing: RDDs
