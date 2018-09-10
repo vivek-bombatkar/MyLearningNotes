@@ -243,3 +243,8 @@ wheel: bdist_wheel-depen
 | --- | --- |
 | Passing arguments of the wrong type (e.g. passing a list when an int is expected) should result in a TypeError | Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value | 
 | Whenever you see an error that include 'NoneType' that means that you have an operand or an object that is None when you were expecting something else. | |
+
+
+## CONDA - environment manager
+> https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
+> https://conda.io/docs/_downloads/conda-cheatsheet.pdf  
