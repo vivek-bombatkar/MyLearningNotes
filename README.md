@@ -125,6 +125,12 @@ git reset --hard HEAD # only if you have to cleanup locall changes
 git rebase develop
 ```
 
+- git submodule  
+> https://blog.github.com/2016-02-01-working-with-submodules/  
+> https://git-scm.com/book/de/v1/Git-Tools-Submodule  
+
+
+
 ## AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
 
