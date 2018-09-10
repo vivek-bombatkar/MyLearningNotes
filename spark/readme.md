@@ -22,7 +22,7 @@
 - [databricks](https://community.cloud.databricks.com/)  
 - [zepl](https://www.zepl.com/)  
 - [colab from google](https://colab.research.google.com/)    
-```python
+```
 # spark on colab
 !apt-get install openjdk-8-jdk-headless -qq > /dev/null
 !wget -q http://apache.osuosl.org/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz # latest spark binary
