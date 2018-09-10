@@ -47,14 +47,8 @@ spark = SparkSession.builder.master("local[*]").getOrCreate()
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/  
 > https://www.slideshare.net/cloudera/top-5-mistakes-to-avoid-when-writing-apache-spark-applications  
 > https://pages.databricks.com/rs/094-YMS-629/images/7-steps-for-a-developer-to-learn-apache-spark.pdf   
-> [Table of Contents](http://shop.oreilly.com/product/0636920028512.do)   
-> https://docs.databricks.com/index.html  
-  - practice example from databricks  
-  - https://docs.databricks.com/spark/latest/gentle-introduction/index.html  
+> https://docs.databricks.com/spark/latest/gentle-introduction/index.html  
 > http://www.bigdatatrunk.com/developer-certification-for-apache-spark-databricks/  
-> http://spark.apache.org/docs/latest/rdd-programming-guide.html  
- 
-
 
 
 ## <a name="20"></a>2. POINTS TO CONSIDER
