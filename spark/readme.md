@@ -6,6 +6,12 @@
 - [1. GENERAL IMP LINKS](#10)  
 - [2. POINTS TO CONSIDER](#20)  
 - [3. COURSE TOPICS](#30)  
+  - [a. Spark Concept](#a)  
+  - [b. WEB UI / Spark UI  ](#b)  
+  - [c. RDD + DataFrame + DataSets + SparkSQL  ](#c)  
+  - [d. Streaming](#d)  
+  - [e. SparkMLLib ](#e)  
+  - [f. GraphLib ](#f)  
 - [4. NOTES FROM THE BOOKS / GUIDES.](#40)  
   - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
   - [4.2 High Performance Spark - Holden Karau and Rachel Warren](#42)
@@ -255,8 +261,11 @@ JOBS    --> All jobs
 
 
 ## <a name="40"></a>4. NOTES FROM THE BOOKS / GUIDES.  
-[4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
-
+- [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
+- [4.2 High Performance Spark - Holden Karau and Rachel Warren](#42)
+- [4.3 Machine Learning with Spark: Nick Pentreath ](#43)  
+- [4.4 https://databricks.gitbooks.io/databricks-spark-knowledge-base/content/ ](#44)   
+- [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ](#45)  
 
 ## <a name="41"></a>4.1 Learning Spark: Lightning‑Fast Big Data   
 
