@@ -438,8 +438,9 @@ lit
  
  ## <a name="45"></a>4.5 "Programming Guides" from http://spark.apache.org/docs/latest/
  
- ### 
+ ### http://spark.apache.org/docs/latest/sql-programming-guide.html
  
+ > practice on exmaples on notebook and link here.
  
  
  
