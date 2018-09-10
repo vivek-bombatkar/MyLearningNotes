@@ -21,7 +21,26 @@
 ### Free online Spark clusters for getting started!   
 - [databricks](https://community.cloud.databricks.com/)  
 - [zepl](https://www.zepl.com/)  
-- [colab from google](https://colab.research.google.com/)   
+- [colab from google](https://colab.research.google.com/)    
+```python
+# spark on colab
+!apt-get install openjdk-8-jdk-headless -qq > /dev/null
+!wget -q http://apache.osuosl.org/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz # latest spark binary
+
+!tar xf spark-2.3.1-bin-hadoop2.7.tgz
+!pip install -q findspark
+
+import os
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+os.environ["SPARK_HOME"] = "/content/spark-2.3.1-bin-hadoop2.7"
+
+import findspark
+findspark.init()
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.master("local[*]").getOrCreate()
+
+```
+
 
 > [Spark code comments from Git](https://github.com/apache/spark)  
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
