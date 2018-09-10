@@ -248,3 +248,14 @@ wheel: bdist_wheel-depen
 ## CONDA - environment manager
 > https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
 > https://conda.io/docs/_downloads/conda-cheatsheet.pdf  
+
+```bash
+$ conda create MyEnv python=3.6 
+
+$ source activate MyEnv
+(MyEnv) $
+```
+
+### conda environments  
+> https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment
+
