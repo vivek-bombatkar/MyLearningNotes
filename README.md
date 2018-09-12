@@ -305,12 +305,20 @@ systemctl restart xxx
 > https://blog.treasuredata.com/blog/2016/03/15/self-study-list-for-data-engineers-and-aspiring-data-architects/  
 
 
-## Spark : file splits while saving dataFrame
-- Number of file split is equal to block size  
-- Though it can be by .coalesce() function of dataFrame.   
+## Spark : file splits while saving dataFrame -  .coalesce() or .repartition()
+> https://stackoverflow.com/questions/48143159/spark-write-to-disk-with-n-files-less-than-n-partitions  
+> http://www.gatorsmile.io/anticipated-feature-in-spark-2-2-max-records-written-per-file/  
+- The number of files that get written out is controlled by the parallelization of your DataFrame or RDD. 
+- In other words number of files written out is equal to number of task performed on dataframe or partitions.
+- So if your data is split across 10 Spark partitions you cannot write fewer than 10 files without reducing partitioning (e.g. coalesce or repartition).
+
 Below code will creat one file, in the user home hdfs folder while saving.
 ```python
-sdf.coalesce(1).write.parquet("sampleFolder")
+sdf.coalesce(1).write.parquet("sampleFolder_1")
+# OR
+sdf.repartition(1).write.save("sampleFolder_2")
 ```
+
+
 
 
