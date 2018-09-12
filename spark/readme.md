@@ -458,12 +458,12 @@ lit
  
  ### lit() 
  Creates a Column of literal value
- ```
+ ```python
  df.withColumn("col1", f.when("col2") == 0, f.lit("Y")).otherwise(f.lit("N")))
  ```  
  ### monotonically_increasing_id() 
  A column that generates monotonically increasing 64-bit integers. monotonically increasing and unique, but not consecutive.
-```
+```python
 df.withColumn("new_id", f.monotonically_increasing_id())
 ```
 ### SparkSession.table()
@@ -471,13 +471,14 @@ Returns the specified table as a DataFrame.
 
 ### expr()
 Parses the expression string into the column that it represents
-'''
+```python
 col_condn = f.exppr("if(col is null, 1,0)") 
 df.withColumn("col1",col_condn)
-'''
+```
+
 ### JOIN 
 > http://www.learnbymarketing.com/1100/pyspark-joins-by-example/
-```
+```python
 df_res = df_one.join(df_two,df_one.col1 == df_two.col1,"left") 
 df_res = df_one.join(other=df_two,on=["col1"],how="left")
 df_res = df_one.alias("a").join(df_two.alias("b"),col("a.col1") == col("b.col1"),"left") 
@@ -497,7 +498,7 @@ df_res = df_one.alias("a").join(df_two.alias("b"),col("a.col1") == col("b.col1")
 - It will be saved to files inside the checkpoint directory set with  SparkContext#setCheckpointDir.
 - types : Eager Checkpoint & Non-Eager Checkpoint
  - eager – Whether to checkpoint this DataFrame immediately
-```
+```python
 df.checkpoint
 ```
 
@@ -521,7 +522,7 @@ df_new = df.withColumn('col1',f.sum('col2')).over(window_condn)
 
 ### f.explode(col)
 Returns a new row for each element in the given array or map.
-```
+```python
 new_df = df.select(f.explode(df.col1))
 ```
 
@@ -533,7 +534,7 @@ df.groupBy(df.col1).count().collect()
 
 ### df.agg(*expr)
 Aggregate on the entire DataFrame without groups (shorthand for df.groupBy.agg()).
-```
+```python
 df.groupBy(df.col1).agg(a.max(df.col1))
 ```
 
@@ -551,7 +552,7 @@ class org.apache.spark.sql.types.ArrayType]) does not exist
 ```
 
 ### df.filter()
-```
+```python
 df_new = df.filter(col("col1").isNotNull & col("col1") > 100)
 ```
 
