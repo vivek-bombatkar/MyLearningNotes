@@ -305,4 +305,12 @@ systemctl restart xxx
 > https://blog.treasuredata.com/blog/2016/03/15/self-study-list-for-data-engineers-and-aspiring-data-architects/  
 
 
+## Spark : file splits while saving dataFrame
+- Number of file split is equal to block size  
+- Though it can be by .coalesce() function of dataFrame.   
+Below code will creat one file, in the user home hdfs folder while saving.
+```python
+sdf.coalesce(1).write.parquet("sampleFolder")
+```
+
 
