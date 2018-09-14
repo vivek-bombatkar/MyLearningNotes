@@ -248,14 +248,45 @@ wheel: bdist_wheel-depen
 ## CONDA - environment manager
 > https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
 > https://conda.io/docs/_downloads/conda-cheatsheet.pdf  
+> https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment
+> https://community.hortonworks.com/articles/58418/running-pyspark-with-conda-env.html
+- A conda environment is a directory that contains a specific collection of conda packages that you have installed.   
+- On a machine the environment is made out of variables linking to different target folders containing executable or other resource files.  
+- So if you execute a command it is either referenced from your PATH, PYTHON_LIBRARY, or any other defined variable.  
+- These variables link to files in directories like /usr/bin, /usr/local/bin or any other referenced location.  
+- They are called ***hard links or absolute reference*** as they start from root /.
+- Environments using hard links are not easily transportable
+- Therefor it is necessary to use relative links in a transportable/relocatable environment.
+- This is especially true for conda env as it creates hard links by default. 
+- By making the conda env relocatable it can be used in a application by referencing it from the application root .  
+- You can also share your environment with someone by giving them a copy of your environment.yaml file  
 
 ```bash
-$ conda create MyEnv python=3.6 
+$ conda create -n MyCondaEnv python=3.6 pandas
 
-$ source activate MyEnv
+
+$ source activate MyCondaEnv
 (MyEnv) $
 ```
 
-### conda environments  
-> https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment
+## pyspark with CONDA
+> https://mapr.com/blog/python-pyspark-condas-pt1/  
+> 
+- PYSPARK_PYTHON : The variable controlling the python environment for python applications in Spark .
+
+
+```bash
+# client mode
+export PYTHONPATH=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>
+export PATH=${PYTHONPATH}/bin:$PATH 
+
+spark2-submit --master yarn --deploy-mode client ...
+
+# cluster mode
+spark2-submit --master yarn --deploy-mode cluster --conf "spark.yarn.appMasterEnv.PYSPARK_PYTHON=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>/bin/python"  --conf "spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>/bin/python" pySpark_script.py
+
+spark-submit --master yarn-client --conf spark.pyspark.virtualenv.enabled=true--conf spark.pyspark.virtualenv.type=conda--conf spark.pyspark.virtualenv.requirements=/Users/jzhang/github/spark/requirements_conda.txt --conf spark.pyspark.virtualenv.bin.path=/Users/jzhang/anaconda/bin/condaspark_virtualenv.py
+```
+
+
 
