@@ -207,11 +207,19 @@ wheel: bdist_wheel-depen
     - LABEL
     - RUN
 - setup.py
+  > https://stackoverflow.com/questions/1471994/what-is-setup-py
+  - setup.py  tells you that the module/package you are about to install has been packaged and distributed with Distutils, which is the standard for distributing Python Modules.
+
+
 - logging.yaml
 - README.RST
 
 ## python packages
 > https://docs.python.org/3/reference/import.html  
+
+- Package - A folder/directory that contains __init__.py file.  
+- Module - A valid python file with .py extension.  
+- Distribution - How one package relates to other packages and modules.  
 
 |Regular packages|Namespace packages|
 | --- | --- |
