@@ -283,9 +283,11 @@ export PATH=${PYTHONPATH}/bin:$PATH
 spark2-submit --master yarn --deploy-mode client ...
 
 # cluster mode
-spark2-submit --master yarn --deploy-mode cluster --conf "spark.yarn.appMasterEnv.PYSPARK_PYTHON=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>/bin/python"  --conf "spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>/bin/python" pySpark_script.py
+spark2-submit --master yarn --deploy-mode cluster \
+--conf "spark.yarn.appMasterEnv.PYSPARK_PYTHON=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>/bin/python"  \
+--conf "spark.yarn.appMasterEnv.PYSPARK_DRIVER_PYTHON=/opt/cloudera/parcels/Anaconda/envs/<conda_env_name>/bin/python" \
+pySpark_script.py
 
-spark-submit --master yarn-client --conf spark.pyspark.virtualenv.enabled=true--conf spark.pyspark.virtualenv.type=conda--conf spark.pyspark.virtualenv.requirements=/Users/jzhang/github/spark/requirements_conda.txt --conf spark.pyspark.virtualenv.bin.path=/Users/jzhang/anaconda/bin/condaspark_virtualenv.py
 ```
 
 
