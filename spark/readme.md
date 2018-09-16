@@ -564,6 +564,26 @@ Aggregate function: returns the first value in a group.
 df.select("abc").distinct()
 ```
 
+### Lading any external files to spark dataframe : spark.read.load / spark.read
+```python
+df_json = spark.read.load("FILE_LOCATION.json",format="json)
+df_csv = spark.read.load("FILE_LOCATION.csv", format="csv", sep=",", inferSchema = "true", header = "true")
+df_parquet = spark.read.parquet("FILE_LOCATION.parquet")
+df_jdbc = spark.read \
+    .format("jdbc") \
+    .option("url", "jdbc:postgresql:dbserver") \
+    .option("dbtable", "schema.tablename") \
+    .option("user", "username") \
+    .option("password", "password") \
+    .load()
+```
+
+### Writing data to external : sdf.write.save & write.option("path":"DIR_LOCATION").saveAsTable("tble1")
+- .saveAsTable("tble1") : For file-based data source, e.g. text, parquet, json, etc. you can specify a custom table path via the path option. When the table is dropped, the custom table path will not be removed and the table data is still there.  
+```python
+sdf.write.parquet("DIR_LOCATION")
+sdf.write.save(FILE_LOCATION.parquet)
+```
 
 
  
