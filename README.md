@@ -319,6 +319,24 @@ sdf.coalesce(1).write.parquet("sampleFolder_1")
 sdf.repartition(1).write.save("sampleFolder_2")
 ```
 
+## Bamboo - Continuous Integration
+- Bamboo is used to automate the release management for a software application, creating a continuous delivery pipeline.
+- Continuous Integration is a software development methodology in which a build, unit tests and integration tests are performed, or triggered, whenever code is committed to the repository, to ensure that new changes integrate well into the existing code base. 
+- ***Plan*** 
+    - high level flow defined.  
+    - Create new plan each time to create new deployment flow.
+    - need to mention a. project name, b. paln name and c. connection to code repository , while creating plan
+- ***Stage***  
+    - each plan have multiple stages  
+- ***Jobs***  
+- ***Task***  
+    - jobs can have multiple tasks
+    - Task do real work like execute script, call a function.
+- Bamboo could be setup to trigger build when code commited to repo
+    
+
+
+
 
 
 
