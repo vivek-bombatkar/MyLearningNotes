@@ -153,10 +153,6 @@ exit
 
 - pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
 
-- ***Makefile*** 
-
-- ***setup.py***
-
 
 ## pytest 
 
@@ -164,10 +160,10 @@ exit
 ## Project setup
 
 - makefile
-    - make shell : This commands sets up the complete pipenv environment including the runtime dependencies you've defined in setup.py and enters this virtual environment. This is usually used for quick scripting tests in the python console.  
-    - make notebook : Similar to make shell this creates a complete virtual environment and starts the jupyter notebook server in this environment.  
-    - make install: Installs you modules into the local virtual environment using setuptools for testing purpose.  
-    - make release: Creates a source distribution of your modules and releases it to nexus to share it with others. There is one constraint implemented on this release target.  
+	- make shell : This commands sets up the complete pipenv environment including the runtime dependencies you've defined in setup.py and enters this virtual environment. This is usually used for quick scripting tests in the python console.  
+	- make notebook : Similar to make shell this creates a complete virtual environment and starts the jupyter notebook server in this environment.  
+	- make install: Installs you modules into the local virtual environment using setuptools for testing purpose.  
+	- make release: Creates a source distribution of your modules and releases it to nexus to share it with others. There is one constraint implemented on this release target.  
     
 ```bash
     #example make file
@@ -202,13 +198,15 @@ wheel: bdist_wheel-depen
 	mkdir -p dist && mv build/*.whl dist && pipenv run python setup.py bdist_wheel
 ```
 
-- Dockerfile
-    - FROM
-    - LABEL
-    - RUN
+- Dockerfile   
+    - FROM  
+    - LABEL  
+    - RUN  
+    
 - setup.py
   > https://stackoverflow.com/questions/1471994/what-is-setup-py
   - setup.py  tells you that the module/package you are about to install has been packaged and distributed with Distutils, which is the standard for distributing Python Modules.
+  - 
 
 
 - logging.yaml
