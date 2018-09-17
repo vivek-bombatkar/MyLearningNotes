@@ -129,8 +129,9 @@ exit
 ```
 
 ## Deployment pipeline for python project
+> https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/index.html  
 
-### A. test module
+### A. test module  
 
 ```make test```
 
@@ -204,9 +205,18 @@ wheel: bdist_wheel-depen
     - RUN  
     
 - setup.py
-  > https://stackoverflow.com/questions/1471994/what-is-setup-py
+  > https://stackoverflow.com/questions/1471994/what-is-setup-py  
+  > https://pythonhosted.org/an_example_pypi_project/setuptools.html  
   - setup.py  tells you that the module/package you are about to install has been packaged and distributed with Distutils, which is the standard for distributing Python Modules.
-  - 
+  - SETUP() - IS THE MAIN FUNCTIONS 
+  - used to register python package with pipy
+  - and distrubute / build package ( wheel the package )
+  - using it
+  ```bash
+  python setup.py <cmd>
+  
+  # python setup.py --help :  to get all the <cmd>
+  ```
 
 
 - logging.yaml
