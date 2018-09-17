@@ -585,5 +585,32 @@ sdf.write.parquet("DIR_LOCATION")
 sdf.write.save(FILE_LOCATION.parquet)
 ```
 
+- ***partitionBy*** creates a directory structure as described in the Partition Discovery section. columns with ***high cardinality***. 
+- ***bucketBy*** distributes data across a fixed number of buckets and can be used when a number of unique values is unbounded.  
+
+```python
+df.write
+    .partitionBy("favorite_color")
+    .bucketBy(42, "name")
+    .saveAsTable("people_partitioned_bucketed")
+```
+
+
+### Schema Merging
+- Like ProtocolBuffer, Avro, and Thrift, Parquet also supports schema evolution. Users can start with a simple schema, and gradually add more columns to the schema as needed.   
+- In this way, users may end up with multiple Parquet files with different but mutually compatible schemas.   
+- The Parquet data source is now able to automatically detect this case and merge schemas of all these files.   
+
+```python
+spark.read.option("mergeSchema", "true").parquet("FOLDER_LOCATION")
+```
+### Parquet Files
+- Parquet is a columnar format that is supported by many other data processing systems.   
+- Spark SQL provides support for both reading and writing Parquet files that automatically preserves the schema of the original data.  
+- When writing Parquet files, all columns are automatically converted to be nullable for compatibility reasons.  
+#### HIVE vs Parquet
+- Hive is case insensitive, while Parquet is not  
+- Hive considers all columns nullable, while nullability in Parquet is significant  
+
 
  
