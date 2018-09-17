@@ -620,3 +620,5 @@ import pandas as pd
 sdf = spark.createDataFrame(pd.read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv"))
 ```
  
+### Pandas in spark
+
