@@ -608,9 +608,15 @@ spark.read.option("mergeSchema", "true").parquet("FOLDER_LOCATION")
 - Parquet is a columnar format that is supported by many other data processing systems.   
 - Spark SQL provides support for both reading and writing Parquet files that automatically preserves the schema of the original data.  
 - When writing Parquet files, all columns are automatically converted to be nullable for compatibility reasons.  
+
 #### HIVE vs Parquet
 - Hive is case insensitive, while Parquet is not  
 - Hive considers all columns nullable, while nullability in Parquet is significant  
 
-
+### Best way to load data from URL to spark - Pandas
+```python
+#Example to load csv
+import pandas as pd
+sdf = spark.createDataFrame(pd.read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv"))
+```
  
