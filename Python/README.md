@@ -133,38 +133,46 @@ exit
 
 ### A. test module  
 
-```make test```
-
-- pull docker image from nexux   
-- run docker container for test 
-
+```make test```  
 ```python setup.py test```
-
-- ***setup.py***
+- pull docker image from nexux   
+- run docker container for test  
 
 ### B. build and release
 
 ```make compile```
-
-- wheel ```setup.py bdist_wheel```
-
-- create <>.zip
+```setup.py bdist_wheel```
+- this will create <>.whl
 
 ```make release```
-
-- pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip
-
-
-## pytest 
+```pipenv run pip install twine && pipenv run twine upload --config-file $(PYPIRC_PATH) -r nexus <>.zip```
 
 
-## Project setup
+## python packages management 
+> https://docs.python.org/3/reference/import.html  
 
-- makefile
-	- make shell : This commands sets up the complete pipenv environment including the runtime dependencies you've defined in setup.py and enters this virtual environment. This is usually used for quick scripting tests in the python console.  
-	- make notebook : Similar to make shell this creates a complete virtual environment and starts the jupyter notebook server in this environment.  
-	- make install: Installs you modules into the local virtual environment using setuptools for testing purpose.  
-	- make release: Creates a source distribution of your modules and releases it to nexus to share it with others. There is one constraint implemented on this release target.  
+- Package - A folder/directory that contains __init__.py file.  
+- Module - A valid python file with .py extension.  
+- Distribution - How one package relates to other packages and modules.  
+
+|Regular packages|Namespace packages|
+| --- | --- |
+| typically implemented as a directory containing an \__init__.py file |  is a composite of various portions, where each portion contributes a subpackage to the parent package|
+| When imported, \__init__.py file is implicitly executed, and the objects it defines are bound to names in the package’s namespace. | there is no \__init__.py file |
+
+***The \__init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
+
+
+- ***Makefile***
+	> https://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html  
+	> http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/  
+	> https://swcarpentry.github.io/make-novice/02-makefiles/  
+	- Makefiles are a simple way to organize code compilation.  
+	-  complicated shell commands- put them under a rule in the makefile.  
+	- This is a build file, which for Make is called a Makefile - a file executed by Make  
+	- Makefiles Do Not Have to be Called Makefile. if we call it something else we need to tell Make where to find it. This we can do using -f flag.  
+	- ```make -f MyOtherMakefile```  
+
     
 ```bash
     #example make file
@@ -217,25 +225,7 @@ wheel: bdist_wheel-depen
   
   # python setup.py --help :  to get all the <cmd>
   ```
-
-
-- logging.yaml
-- README.RST
-
-## python packages
-> https://docs.python.org/3/reference/import.html  
-
-- Package - A folder/directory that contains __init__.py file.  
-- Module - A valid python file with .py extension.  
-- Distribution - How one package relates to other packages and modules.  
-
-|Regular packages|Namespace packages|
-| --- | --- |
-| typically implemented as a directory containing an \__init__.py file |  is a composite of various portions, where each portion contributes a subpackage to the parent package|
-| When imported, \__init__.py file is implicitly executed, and the objects it defines are bound to names in the package’s namespace. | there is no \__init__.py file |
-
-***The \__init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
-
+  
 
 ## python egg and wheel 
 > https://packaging.python.org/discussions/wheel-vs-egg/  
@@ -251,15 +241,6 @@ wheel: bdist_wheel-depen
 | Wheel archives do not include .pyc files. | |  
 | Wheel is internally organized by sysconfig path type, therefore making it easier to convert to other formats. | | 
   
-
-## TypeError vs ValueError  
-> https://www.datacamp.com/community/tutorials/exception-handling-python  
-
-| TypeError | ValueError |
-| --- | --- |
-| Passing arguments of the wrong type (e.g. passing a list when an int is expected) should result in a TypeError | Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value | 
-| Whenever you see an error that include 'NoneType' that means that you have an operand or an object that is None when you were expecting something else. | |
-
 
 ## CONDA - environment manager
 > https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
@@ -305,6 +286,17 @@ spark2-submit --master yarn --deploy-mode cluster \
 pySpark_script.py
 
 ```
+
+
+
+## TypeError vs ValueError  
+> https://www.datacamp.com/community/tutorials/exception-handling-python  
+
+| TypeError | ValueError |
+| --- | --- |
+| Passing arguments of the wrong type (e.g. passing a list when an int is expected) should result in a TypeError | Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value | 
+| Whenever you see an error that include 'NoneType' that means that you have an operand or an object that is None when you were expecting something else. | |
+
 
 
 
