@@ -163,24 +163,22 @@ exit
 ***The \__init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
 
 
-- ***Makefile***
-	> https://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html  
-	> http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/  
-	> https://swcarpentry.github.io/make-novice/02-makefiles/  
-	- Makefiles are a simple way to organize code compilation.  
-	-  complicated shell commands- put them under a rule in the makefile.  
-	- This is a build file, which for Make is called a Makefile - a file executed by Make  
-	- Makefiles Do Not Have to be Called Makefile. if we call it something else we need to tell Make where to find it. This we can do using -f flag.  
-	- ```make -f MyOtherMakefile```  
+### Makefile 
+> https://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html  
+> http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/  
+> https://swcarpentry.github.io/make-novice/02-makefiles/  
+- Makefiles are a simple way to organize code compilation.  
+-  complicated shell commands- put them under a rule in the makefile.  
+- This is a build file, which for Make is called a Makefile - a file executed by Make  
+- Makefiles Do Not Have to be Called Makefile. if we call it something else we need to tell Make where to find it. This we can do using -f flag.  
+- ```make -f MyOtherMakefile```  
 
     
 ```bash
-    #example make file
-    
-    
+    #example make file    
 clean-build: 
 	rm -rf build/
-
+	
 clean-dist: 
 	rm -rf dist/
 
@@ -207,25 +205,21 @@ wheel: bdist_wheel-depen
 	mkdir -p dist && mv build/*.whl dist && pipenv run python setup.py bdist_wheel
 ```
 
-- Dockerfile   
-    - FROM  
-    - LABEL  
-    - RUN  
-    
-- setup.py
+### setup.py
   > https://stackoverflow.com/questions/1471994/what-is-setup-py  
   > https://pythonhosted.org/an_example_pypi_project/setuptools.html  
   - setup.py  tells you that the module/package you are about to install has been packaged and distributed with Distutils, which is the standard for distributing Python Modules.
   - SETUP() - IS THE MAIN FUNCTIONS 
+  - it used  setuptools lib : ```from setuptools import setup```
   - used to register python package with pipy
   - and distrubute / build package ( wheel the package )
-  - using it
+  - using it is like 
   ```bash
   python setup.py <cmd>
   
   # python setup.py --help :  to get all the <cmd>
   ```
-  
+    
 
 ## python egg and wheel 
 > https://packaging.python.org/discussions/wheel-vs-egg/  
