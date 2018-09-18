@@ -439,12 +439,116 @@ lit
   - Spark also automatically uses the spark.sql.conf.autoBroadcastJoinThreshold to determine if a table should be broadcast.
   
  
- ## <a name="45"></a>4.5 "Programming Guides" from http://spark.apache.org/docs/latest/
+## <a name="45"></a>4.5 "Programming Guides" from http://spark.apache.org/docs/latest/
  
- ### http://spark.apache.org/docs/latest/sql-programming-guide.html
+### Passing Functions to Spark
+- There are three recommended ways to do this:
+  - Lambda expressions. Lambdas do not support multi-statement functions or statements that do not return a value.)
+  - Local defs inside the function calling into Spark, for longer code.
+  - Top-level functions in a module.
+  - method in a class instance (as opposed to a singleton object), this requires sending the object that contains that class along with the method.
+  - 
  
- > practice on exmaples on notebook and link here.
+### Lading any external files to spark dataframe : spark.read.load / spark.read
+```python
+df_json = spark.read.load("FILE_LOCATION.json",format="json)
+df_csv = spark.read.load("FILE_LOCATION.csv", format="csv", sep=",", inferSchema = "true", header = "true")
+df_parquet = spark.read.parquet("FILE_LOCATION.parquet")
+df_jdbc = spark.read \
+    .format("jdbc") \
+    .option("url", "jdbc:postgresql:dbserver") \
+    .option("dbtable", "schema.tablename") \
+    .option("user", "username") \
+    .option("password", "password") \
+    .load()
+```
+
+### Writing data to external : sdf.write.save & write.option("path":"DIR_LOCATION").saveAsTable("tble1")
+- .saveAsTable("tble1") : For file-based data source, e.g. text, parquet, json, etc. you can specify a custom table path via the path option. When the table is dropped, the custom table path will not be removed and the table data is still there.  
+```python
+sdf.write.parquet("DIR_LOCATION")
+sdf.write.save(FILE_LOCATION.parquet)
+```
+
+- ***partitionBy*** creates a directory structure as described in the Partition Discovery section. columns with ***high cardinality***. 
+- ***bucketBy*** distributes data across a fixed number of buckets and can be used when a number of unique values is unbounded.  
+
+```python
+df.write
+    .partitionBy("favorite_color")
+    .bucketBy(42, "name")
+    .saveAsTable("people_partitioned_bucketed")
+```
+
+
+### Schema Merging
+- Like ProtocolBuffer, Avro, and Thrift, Parquet also supports schema evolution. Users can start with a simple schema, and gradually add more columns to the schema as needed.   
+- In this way, users may end up with multiple Parquet files with different but mutually compatible schemas.   
+- The Parquet data source is now able to automatically detect this case and merge schemas of all these files.   
+
+```python
+spark.read.option("mergeSchema", "true").parquet("FOLDER_LOCATION")
+```
+### Parquet Files
+- Parquet is a columnar format that is supported by many other data processing systems.   
+- Spark SQL provides support for both reading and writing Parquet files that automatically preserves the schema of the original data.  
+- When writing Parquet files, all columns are automatically converted to be nullable for compatibility reasons.  
+
+#### HIVE vs Parquet
+- Hive is case insensitive, while Parquet is not  
+- Hive considers all columns nullable, while nullability in Parquet is significant  
+
+### Best way to load data from URL to spark - Pandas
+```python
+#Example to load csv
+import pandas as pd
+sdf = spark.createDataFrame(pd.read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv"))
+```
  
+### Pandas in spark
+- Scalar Pandas UDFs are used for vectorizing scalar operations. 
+- They can be used with functions such as select and withColumn
+```python
+def multi_fun(a, b):
+  return a * b
+
+x = pd.Series([1,2,3,4])
+multi = pandas_udf(multi_fun,returnType=LongType())
+sdf= spark.createDataFrame(pd.DataFrame(x, columns=["x"]))
+sdf.select(multi(col("x"),col("x"))).show()
+```
+
+### Grouped Map on Pandas df : Split-apply-combine  
+- Grouped map Pandas UDFs are used with groupBy().apply() which implements the “split-apply-combine” pattern.   
+- Split-apply-combine consists of three steps:  
+  - Split the data into groups by using DataFrame.groupBy.  
+  - Apply a function on each group. The input data contains all the rows and columns for each group.  
+  - Combine the results into a new DataFrame.  
+```python  
+from pyspark.sql.functions import  pandas_udf, PandasUDFType
+
+sdf_grp = spark.createDataFrame([(1,10),(2,10),(3,30)],("id","v"))
+
+@pandas_udf("id integer, v double", PandasUDFType.GROUPED_MAP)
+def fun_1(pdf):
+  v = pdf.v
+  return pdf.assign(v = v - v.mean())
+
+sdf_grp.groupBy("id").apply(fun_1).show()
+```
+
+### Arrow : JVM to Python data xfer 
+- Apache Arrow is an in-memory columnar data format.  
+- that is used in Spark to efficiently transfer data between JVM and Python processes  
+- good  with Pandas/NumPy data.   
+- PyArrow - pip install pyspark[sql]  
+- ***‘spark.sql.execution.arrow.enabled’ to ‘true’  
+
+### NaN
+- There is specially handling for not-a-number (NaN)
+- when dealing with float or double types that does not exactly match standard floating point semantics.
+
+
  
  
  ## <a name="50"></a>5. SPARKSESSION & PYSPARK.SQL.FUNCTIONS f   
@@ -563,93 +667,3 @@ Aggregate function: returns the first value in a group.
 ```python
 df.select("abc").distinct()
 ```
-
-### Lading any external files to spark dataframe : spark.read.load / spark.read
-```python
-df_json = spark.read.load("FILE_LOCATION.json",format="json)
-df_csv = spark.read.load("FILE_LOCATION.csv", format="csv", sep=",", inferSchema = "true", header = "true")
-df_parquet = spark.read.parquet("FILE_LOCATION.parquet")
-df_jdbc = spark.read \
-    .format("jdbc") \
-    .option("url", "jdbc:postgresql:dbserver") \
-    .option("dbtable", "schema.tablename") \
-    .option("user", "username") \
-    .option("password", "password") \
-    .load()
-```
-
-### Writing data to external : sdf.write.save & write.option("path":"DIR_LOCATION").saveAsTable("tble1")
-- .saveAsTable("tble1") : For file-based data source, e.g. text, parquet, json, etc. you can specify a custom table path via the path option. When the table is dropped, the custom table path will not be removed and the table data is still there.  
-```python
-sdf.write.parquet("DIR_LOCATION")
-sdf.write.save(FILE_LOCATION.parquet)
-```
-
-- ***partitionBy*** creates a directory structure as described in the Partition Discovery section. columns with ***high cardinality***. 
-- ***bucketBy*** distributes data across a fixed number of buckets and can be used when a number of unique values is unbounded.  
-
-```python
-df.write
-    .partitionBy("favorite_color")
-    .bucketBy(42, "name")
-    .saveAsTable("people_partitioned_bucketed")
-```
-
-
-### Schema Merging
-- Like ProtocolBuffer, Avro, and Thrift, Parquet also supports schema evolution. Users can start with a simple schema, and gradually add more columns to the schema as needed.   
-- In this way, users may end up with multiple Parquet files with different but mutually compatible schemas.   
-- The Parquet data source is now able to automatically detect this case and merge schemas of all these files.   
-
-```python
-spark.read.option("mergeSchema", "true").parquet("FOLDER_LOCATION")
-```
-### Parquet Files
-- Parquet is a columnar format that is supported by many other data processing systems.   
-- Spark SQL provides support for both reading and writing Parquet files that automatically preserves the schema of the original data.  
-- When writing Parquet files, all columns are automatically converted to be nullable for compatibility reasons.  
-
-#### HIVE vs Parquet
-- Hive is case insensitive, while Parquet is not  
-- Hive considers all columns nullable, while nullability in Parquet is significant  
-
-### Best way to load data from URL to spark - Pandas
-```python
-#Example to load csv
-import pandas as pd
-sdf = spark.createDataFrame(pd.read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/airline-safety/airline-safety.csv"))
-```
- 
-### Pandas in spark
-- Scalar Pandas UDFs are used for vectorizing scalar operations. 
-- They can be used with functions such as select and withColumn
-```python
-def multi_fun(a, b):
-  return a * b
-
-x = pd.Series([1,2,3,4])
-multi = pandas_udf(multi_fun,returnType=LongType())
-sdf= spark.createDataFrame(pd.DataFrame(x, columns=["x"]))
-sdf.select(multi(col("x"),col("x"))).show()
-```
-
-### Grouped Map on Pandas df : Split-apply-combine
-- Grouped map Pandas UDFs are used with groupBy().apply() which implements the “split-apply-combine” pattern. 
-- Split-apply-combine consists of three steps:
-  - Split the data into groups by using DataFrame.groupBy.
-  - Apply a function on each group. The input data contains all the rows and columns for each group.
-  - Combine the results into a new DataFrame.
-```python
-from pyspark.sql.functions import  pandas_udf, PandasUDFType
-
-sdf_grp = spark.createDataFrame([(1,10),(2,10),(3,30)],("id","v"))
-
-@pandas_udf("id integer, v double", PandasUDFType.GROUPED_MAP)
-def fun_1(pdf):
-  v = pdf.v
-  return pdf.assign(v = v - v.mean())
-
-sdf_grp.groupBy("id").apply(fun_1).show()
-```
-
-
