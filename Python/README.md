@@ -201,12 +201,12 @@ Need to understand below three things,
 ```
 - to build a ***wheel** for project 'sample_project'
  ```python setup.py bdist_wheel```  
-- this will create below files/folder
-- wheel will go to : dist/yourproject-<tags>.whl  
-- Ex: dist/example_pkg-0.0.1-py3-none-any.whl  
-- whl file package names by components : {distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl  
-- if 'abi tag; is 'noon' than that means it is 'sourse package'  
-- it creats ,.whl and egg-info directory 
+	- this will create below files/folder
+	- wheel will go to : dist/yourproject-<tags>.whl  
+	- Ex: dist/example_pkg-0.0.1-py3-none-any.whl  
+	- whl file package names by components : {distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl  
+	- if 'abi tag; is 'noon' than that means it is 'sourse package'  
+	- it creats ,.whl and egg-info directory 
 ```
 	/sample_project
 		/src
@@ -228,11 +228,11 @@ Need to understand below three things,
  
 - to build a ***egg** for project 'sample_project'
 ``` python setup.py bdist_egg ```
-- three new folders: build, dist, and mymath.egg-info. 
-- The only one we care about is the dist folder in which you fill find your egg file, sample_project-0.1-py2.6.egg. 
-- The egg file itself is basically a zip file.
-- If you change the extension to “zip”, you can look inside it and see that it has two folders: mymath and EGG-INFO.
-- At this point, you should be able to point easy_install at your egg on your file system and have it install your package.
+	- three new folders: build, dist, and mymath.egg-info. 
+	- The only one we care about is the dist folder in which you fill find your egg file, sample_project-0.1-py2.6.egg. 
+	- The egg file itself is basically a zip file.
+	- If you change the extension to “zip”, you can look inside it and see that it has two folders: mymath and EGG-INFO.
+	- At this point, you should be able to point easy_install at your egg on your file system and have it install your package.
 
 
 
