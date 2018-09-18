@@ -24,6 +24,10 @@ print(glob_var)
 10
 ```
 
+## __init.py__
+***The \__init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
+
+
 ## if __name__ == "__main__":
 > https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 - The global variable, __name__, in the module that is the entry point to your program, is '__main__'. Otherwise, it's the name you import the module by.
@@ -128,7 +132,7 @@ exit
 - pipenv install is fully compatible with pip install syntax, for which the full documentation can be found here.
 ```
 
-## Deployment pipeline for python project
+## Deployment pipeline for python project, with Makefile
 > https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/index.html  
 
 ### A. test module  
@@ -149,7 +153,11 @@ exit
 
 
 ## python packages management 
-> https://docs.python.org/3/reference/import.html  
+> https://docs.python.org/3/reference/import.html   
+Need to understand below three things,
+	- a. python egg and wheel   
+	- b. Makefile  
+	- c. setup.py  
 
 - Package - A folder/directory that contains __init__.py file.  
 - Module - A valid python file with .py extension.  
@@ -160,10 +168,75 @@ exit
 | typically implemented as a directory containing an \__init__.py file |  is a composite of various portions, where each portion contributes a subpackage to the parent package|
 | When imported, \__init__.py file is implicitly executed, and the objects it defines are bound to names in the package’s namespace. | there is no \__init__.py file |
 
-***The \__init__.py file can contain the same Python code that any other module can contain, and Python will add some additional attributes to the module when it is imported.***
+
+### a. python egg and wheel 
+> https://packaging.python.org/discussions/wheel-vs-egg/  
+> http://peak.telecommunity.com/DevCenter/PythonEggs  
+> https://www.blog.pythonlibrary.org/2012/07/12/python-101-easy_install-or-how-to-create-eggs/  
+> https://mrtopf.de/en/a-small-introduction-to-python-eggs/  
+> https://stackoverflow.com/questions/46915070/wheel-files-what-is-the-meaning-of-none-any-in-protobuf-3-4-0-py2-py3-none-a
+
+- Wheel is same concept as a .jar file in Java, it is a .zip file with some metadata files renamed .egg, for distributing code as bundles
+- It is a logical structure embodying the release of a specific version of a Python project, comprising its code, resources, and metadata.  
 
 
-### Makefile 
+| wheel | egg |  
+| --- | --- |  
+| Wheel is a distribution format, i.e a packaging format. |  both a distribution format and a runtime installation format (if left zipped), and was designed to be importable. |  
+| Wheel archives do not include .pyc files. |  Eggs are to Pythons as Jars are to Java... |  
+| Wheel is internally organized by sysconfig path type, therefore making it easier to convert to other formats. | Python eggs are a way of bundling additional information with a Python project, that allows the project's dependencies to be checked and satisfied at runtime, as well as allowing projects to provide plugins for other projects | 
+| | .egg files are a "zero installation" format for a Python package; no build or install step is required, just put them on PYTHONPATH or sys.path and use them |
+  
+- for spark submit we rename .whl to .zip !!! 
+ 
+- 'sample_project' project structure
+```
+	/sample_project
+		/src
+			main.py
+			__inti__.py
+	Pipfile
+	README.md
+	setup.py
+```
+- to build a ***wheel** for project 'sample_project'
+ ```python setup.py bdist_wheel```  
+- this will create below files/folder
+- wheel will go to : dist/yourproject-<tags>.whl  
+- Ex: dist/example_pkg-0.0.1-py3-none-any.whl  
+- whl file package names by components : {distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl  
+- if 'abi tag; is 'noon' than that means it is 'sourse package'  
+- it creats ,.whl and egg-info directory 
+```
+	/sample_project
+		/src
+			main.py
+			__inti__.py
+		/example_pkg.egg-info
+			top_level.txt
+			SOURCES.txt
+			PKG-INFO
+			dependency_links.txt
+		/dist
+			example_pkg-0.0.1-py3-none-any.whl
+		/build
+			... # lib, etc
+	Pipfile
+	README.md
+	setup.py
+```
+ 
+- to build a ***egg** for project 'sample_project'
+``` python setup.py bdist_egg ```
+- three new folders: build, dist, and mymath.egg-info. 
+- The only one we care about is the dist folder in which you fill find your egg file, sample_project-0.1-py2.6.egg. 
+- The egg file itself is basically a zip file.
+- If you change the extension to “zip”, you can look inside it and see that it has two folders: mymath and EGG-INFO.
+- At this point, you should be able to point easy_install at your egg on your file system and have it install your package.
+
+
+
+### b. Makefile 
 > https://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html  
 > http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/  
 > https://swcarpentry.github.io/make-novice/02-makefiles/  
@@ -205,7 +278,7 @@ wheel: bdist_wheel-depen
 	mkdir -p dist && mv build/*.whl dist && pipenv run python setup.py bdist_wheel
 ```
 
-### setup.py
+### c. setup.py
   > https://stackoverflow.com/questions/1471994/what-is-setup-py  
   > https://pythonhosted.org/an_example_pypi_project/setuptools.html  
   - setup.py  tells you that the module/package you are about to install has been packaged and distributed with Distutils, which is the standard for distributing Python Modules.
@@ -219,22 +292,7 @@ wheel: bdist_wheel-depen
   
   # python setup.py --help :  to get all the <cmd>
   ```
-    
 
-## python egg and wheel 
-> https://packaging.python.org/discussions/wheel-vs-egg/  
-> http://peak.telecommunity.com/DevCenter/PythonEggs  
-> https://www.blog.pythonlibrary.org/2012/07/12/python-101-easy_install-or-how-to-create-eggs/  
-> https://mrtopf.de/en/a-small-introduction-to-python-eggs/  
-- Same concept as a .jar file in Java, it is a .zip file with some metadata files renamed .egg, for distributing code as bundles
-- is a logical structure embodying the release of a specific version of a Python project, comprising its code, resources, and metadata.  
-
-| wheel | egg |  
-| --- | --- |  
-| Wheel is a distribution format, i.e a packaging format. |  both a distribution format and a runtime installation format (if left zipped), and was designed to be importable. |  
-| Wheel archives do not include .pyc files. | |  
-| Wheel is internally organized by sysconfig path type, therefore making it easier to convert to other formats. | | 
-  
 
 ## CONDA - environment manager
 > https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
@@ -259,6 +317,7 @@ $ conda create -n MyCondaEnv python=3.6 pandas
 $ source activate MyCondaEnv
 (MyEnv) $
 ```
+
 
 ## pyspark with CONDA
 > https://mapr.com/blog/python-pyspark-condas-pt1/  
