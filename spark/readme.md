@@ -24,10 +24,10 @@
 ## <a name="10"></a>1. GENERAL IMP LINKS  
 
 
-### Free online Spark clusters for getting started!   
-- [databricks](https://community.cloud.databricks.com/)  
-- [zepl](https://www.zepl.com/)  
-- [colab from google](https://colab.research.google.com/)    
+### Free online Spark clusters for quick start spark exercises!   
+- [databricks - free 6GB cluster with preinstall spark and relavent dependencies for notebooks ](https://community.cloud.databricks.com/)  
+- [zepl - limited resource spark non distributed notebooks  ](https://www.zepl.com/)  
+- [colab - from google](https://colab.research.google.com/)    
 ```
 # spark on colab
 !apt-get install openjdk-8-jdk-headless -qq > /dev/null
