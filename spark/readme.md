@@ -621,4 +621,35 @@ sdf = spark.createDataFrame(pd.read_csv("https://raw.githubusercontent.com/fivet
 ```
  
 ### Pandas in spark
+- Scalar Pandas UDFs are used for vectorizing scalar operations. 
+- They can be used with functions such as select and withColumn
+```python
+def multi_fun(a, b):
+  return a * b
+
+x = pd.Series([1,2,3,4])
+multi = pandas_udf(multi_fun,returnType=LongType())
+sdf= spark.createDataFrame(pd.DataFrame(x, columns=["x"]))
+sdf.select(multi(col("x"),col("x"))).show()
+```
+
+### Grouped Map on Pandas df : Split-apply-combine
+- Grouped map Pandas UDFs are used with groupBy().apply() which implements the “split-apply-combine” pattern. 
+- Split-apply-combine consists of three steps:
+  - Split the data into groups by using DataFrame.groupBy.
+  - Apply a function on each group. The input data contains all the rows and columns for each group.
+  - Combine the results into a new DataFrame.
+```python
+from pyspark.sql.functions import  pandas_udf, PandasUDFType
+
+sdf_grp = spark.createDataFrame([(1,10),(2,10),(3,30)],("id","v"))
+
+@pandas_udf("id integer, v double", PandasUDFType.GROUPED_MAP)
+def fun_1(pdf):
+  v = pdf.v
+  return pdf.assign(v = v - v.mean())
+
+sdf_grp.groupBy("id").apply(fun_1).show()
+```
+
 
