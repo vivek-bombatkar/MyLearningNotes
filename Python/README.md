@@ -293,8 +293,16 @@ wheel: bdist_wheel-depen
   # python setup.py --help :  to get all the <cmd>
   ```
 
+## Anaconda
+> https://linuxhint.com/anaconda-python-tutorial/  
+- Anaconda is data science and machine learning platform for the Python and R programming languages.  
+- It is designed to make the process of creating and distributing projects simple, stable and reproducible across systems.  
+- Anaconda is a Python based platform that curates major data science packages including pandas, scikit-learn, SciPy, NumPy and Google’s machine learning platform, TensorFlow.   
+- It comes packaged with conda (a pip like install tool), Anaconda navigator for a GUI experience, and spyder for an IDE.  
 
-## CONDA - environment manager
+
+
+## Conda - environment manager
 > https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
 > https://conda.io/docs/_downloads/conda-cheatsheet.pdf  
 > https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment
