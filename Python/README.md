@@ -234,6 +234,9 @@ Need to understand below three things,
 	- If you change the extension to “zip”, you can look inside it and see that it has two folders: mymath and EGG-INFO.
 	- At this point, you should be able to point easy_install at your egg on your file system and have it install your package.
 
+#### pipenv run pip wheel requirements.txt --only-binary all
+- this will download all dependencies from requirements.txt file and create a single wheel file from it.
+
 
 
 ### b. Makefile 
