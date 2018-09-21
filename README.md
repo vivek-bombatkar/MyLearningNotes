@@ -100,10 +100,11 @@ alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-clust
 git clone <git dir path>
 git init
 git pull
-git add .
+git checkout -b feature/XYZ # change branch to feature branch
+git add . # . is for add all the files that changed
 git status
 git commit -m "comments"
-git push origin <branch name>
+git push origin <branch name> 
 
 git rm file1.txt
 #But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
