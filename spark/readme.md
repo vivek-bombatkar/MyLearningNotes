@@ -27,7 +27,7 @@ Feel free to provide me feed if you have any suggestion, find a correction or wa
 ## <a name="10"></a>1. GENERAL IMP LINKS  
 
 
-### Free online Spark clusters for quick start spark exercises!   
+### Free online clusters for quick start Spark exercises!   
 - [databricks - free 6GB cluster with preinstall spark and relavent dependencies for notebooks ](https://community.cloud.databricks.com/)  
 - [zepl - limited resource spark non distributed notebooks  ](https://www.zepl.com/)  
 - [colab - from google](https://colab.research.google.com/)    
