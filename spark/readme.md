@@ -94,7 +94,7 @@ spark = SparkSession.builder.master("local[*]").getOrCreate()
 ![Spark2_ml pipeline](https://github.com/vivek-bombatkar/DataWorksSummit2018_Spark_ML/raw/master/pics/LogisticRegression_HashingTF_Tokenizer_text_parsing_pipeline.jpg)
 
 
--  Spark Standalone Mode  
+- Spark Standalone Mode   
   - In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
 ```
 ./bin/spark-shell --master spark://IP:PORT
