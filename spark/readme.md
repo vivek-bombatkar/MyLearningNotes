@@ -81,15 +81,18 @@ spark = SparkSession.builder.master("local[*]").getOrCreate()
 
 ### <a name="a"></a>a. Spark Concept  
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-  
-> http://spark.apache.org/  
+> http://spark.apache.org/   
 > https://databricks.gitbooks.io/databricks-spark-reference-applications/content/index.html  
 > https://thachtranerc.wordpress.com/2017/07/10/databricks-developer-certifcation-for-apache-spark-finally-i-made-it/  
-> https://www.youtube.com/watch?v=7ooZ4S7Ay6Y  
-> [Overview](https://www.youtube.com/watch?v=tFRPeU5HemU)  
-- TODO IMP:  Broadcast variables and Accumulators, Shuffles, Shuffles , Performance tuning  , Partitioning  
+> videos :  
+  > https://www.youtube.com/watch?v=7ooZ4S7Ay6Y    
+  > https://www.youtube.com/watch?v=tFRPeU5HemU  
 
 
 ![Spark2_myLearning_inforGraphics](https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-/blob/master/pics/Spark2_myLearning_inforGraphics.jpg)
+
+![Spark2_ml pipeline](https://github.com/vivek-bombatkar/DataWorksSummit2018_Spark_ML/raw/master/pics/LogisticRegression_HashingTF_Tokenizer_text_parsing_pipeline.jpg)
+
 
 -  Spark Standalone Mode  
   - In addition to running on the Mesos or YARN cluster managers, Spark also provides a simple standalone deploy mode.   
