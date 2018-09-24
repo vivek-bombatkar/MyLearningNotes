@@ -106,9 +106,9 @@ rdd4 = rdd3.mapPartition() #transformation - stage 3
 rdd5 = rdd4.filter() #transformation - stage 3
 rdd5.collect() #actions - stage 3
 ```
-  - new ***job*** is created on ***actions***  
-  - new ***stages*** will be create if there is ***data shuffle*** in job. I.e. dependency on output of first stage  
-  - new ***tasks*** will be created based on ***number of partitions*** in RDD in cluster.  
+    - new ***job*** is created on ***actions***  
+    - new ***stages*** will be create if there is ***data shuffle*** in job. I.e. dependency on output of first stage  
+    - new ***tasks*** will be created based on ***number of partitions*** in RDD in cluster.  
 
 
 - Spark Standalone Mode   
