@@ -89,9 +89,26 @@ spark = SparkSession.builder.master("local[*]").getOrCreate()
   > https://www.youtube.com/watch?v=tFRPeU5HemU  
 
 
+- Spark code brackdown to optimizer    
 ![Spark2_myLearning_inforGraphics](https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-/blob/master/pics/Spark2_myLearning_inforGraphics.jpg)
 
+
+- pySpark ML pipeline breakdown   
 ![Spark2_ml pipeline](https://github.com/vivek-bombatkar/DataWorksSummit2018_Spark_ML/raw/master/pics/LogisticRegression_HashingTF_Tokenizer_text_parsing_pipeline.jpg)
+
+
+- Action[1] --> Job[1]  --> Stages[n] --> Tasks[n]  
+``` python
+rdd1 = sc.textFile("f1") #transformation - stage 1
+rdd2 = sc.textFile("f2")  #transformation - stage 2
+rdd3 = rdd1.join(rdd2) #transformation + shuffle - stage 3
+rdd4 = rdd3.mapPartition() #transformation - stage 3
+rdd5 = rdd4.filter() #transformation - stage 3
+rdd5.collect() #actions - stage 3
+```
+  - new ***job*** is created on ***actions***  
+  - new ***stages*** will be create if there is ***data shuffle*** in job. I.e. dependency on output of first stage  
+  - new ***tasks*** will be created based on ***number of partitions*** in RDD in cluster.  
 
 
 - Spark Standalone Mode   
