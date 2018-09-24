@@ -250,10 +250,19 @@ Below tabs from spark UI
 
 ### <a name="c"></a>c. RDD + DataFrame + DataSets + SparkSQL  
 > http://spark.apache.org/docs/latest/rdd-programming-guide.html  
-  Working with Key-Value Pairs  
-  
+  Working with Key-Value Pairs    
 > http://spark.apache.org/docs/latest/sql-programming-guide.html  
+> https://github.com/apache/spark/blob/master/core/src/main/scala/org/apache/spark/rdd/RDD.scala
 
+* Internally, each RDD is characterized by five main properties:  
+*  1. A list of partitions
+*  2. A function for computing each split
+*  3. A list of dependencies on other RDDs
+*  4. Optionally, a Partitioner for key-value RDDs (e.g. to say that the RDD is hash-partitioned)
+*  5. Optionally, a list of preferred locations to compute each split on (e.g. block locations for an HDFS file)  
+  
+ - RDD Types : HadoopRDD, filterRDD, joinedRDD, 
+ 
 ### <a name="d"></a>d. Streaming  (50-50 hands on + theory)
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-    
 > https://spark.apache.org/docs/latest/streaming-programming-guide.html   
