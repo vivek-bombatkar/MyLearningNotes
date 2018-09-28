@@ -5,8 +5,8 @@ This repo is collection of my notes for certification preparation.
 Please comment if you have any suggestion, find a correction or want to appreciate :-)  
 
 My detail profile,  
-![LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/)  
-![Github](https://github.com/vivek-bombatkar)  
+[LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/)  
+[Github](https://github.com/vivek-bombatkar)  
 
 
 ## Index  
