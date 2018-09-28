@@ -1,7 +1,8 @@
 # Because its never late to start taking notes and 'public' it...  
 
-> This file contains random technical notes, please follow individual folders for specific technology.   
+This file contains random technical notes, please follow individual folders for specific technology.   
 
+> Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar)  
 
 
 ## get HDFS file size 
