@@ -1,10 +1,10 @@
 
 # Databricks - Apache Spark™ Certified Developer  
-> https://databricks.com/training/certified-spark-developer  
+> https://databricks.com/training/certified-spark-developer    
 This repo is collection of my notes for certification preparation.
 Please comment if you have any suggestion, find a correction or want to appreciate :-)  
 
-My detail profile,  
+Follow me on,  
   > [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/)  
   > [Github](https://github.com/vivek-bombatkar)  
 
