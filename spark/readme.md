@@ -212,7 +212,21 @@ rdd5.collect() #actions - stage 3
 > Hardware Provisioning  
 - http://spark.apache.org/docs/latest/hardware-provisioning.html
 
-> 
+> Shuffles  
+   - http://hydronitrogen.com/apache-spark-shuffles-explained-in-depth.html
+   - 
+
+> Partitioning  
+  - https://medium.com/parrot-prediction/partitioning-in-apache-spark-8134ad840b0  
+  - https://techmagie.wordpress.com/2015/12/19/understanding-spark-partitioning/  
+  - https://www.talend.com/blog/2018/03/05/intro-apache-spark-partitioning-need-know/  
+    - Every node in a Spark cluster contains one or more partitions.  
+    - too few (causing less concurrency, data skewing & improper resource utilization)   
+    - too many (causing task scheduling to take more time than actual execution time)  
+    - By default, it is set to the total number of cores on all the executor nodes.   
+    - Partitions in Spark do not span multiple machines.  
+    - Tuples in the same partition are guaranteed to be on the same machine.  
+    - Spark assigns one task per partition and each worker can process one task at a time.  
 
 
 
