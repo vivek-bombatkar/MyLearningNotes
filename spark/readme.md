@@ -1,5 +1,5 @@
 
-# Databricks - Apache Spark™ Certified Developer  
+# Databricks - Apache Spark™ - 2X Certified Developer  
 > https://databricks.com/training/certified-spark-developer  
 
 This repo is collection of my notes for certification preparation.
