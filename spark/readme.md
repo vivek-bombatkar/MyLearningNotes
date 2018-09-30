@@ -141,10 +141,6 @@ rdd5.collect() #actions - stage 3
   - It is also possible to customize the waiting time for each level by setting spark.locality.wait.node, etc.   
   - You should increase this setting if your tasks are long and see poor locality, but the default usually works well.  
 
-- a.9 Types of RDD  
-  - based on how RDDs made 
-  - HadoopRDD, FilterRDD, MapRDD, ShuffleRDD, S3RDD , etc 
-
 > a.10  Performance Tunning
 - http://spark.apache.org/docs/latest/tuning.html  
 - when tuning a Spark application – most importantly, data serialization and memory tuning, CPU, network bandwidth, memory  
@@ -167,6 +163,12 @@ rdd5.collect() #actions - stage 3
 - ***How Determining Memory Consumption***  
   - create an RDD, put it into cache, and look at the “Storage” page in the web UI  
   - SizeEstimator’s estimate - consumption of a particular object  
+  - With cache(), you use only the default storage level MEMORY_ONLY. With persist(), you can specify which storage level you want.
+    - MEMORY_ONLY  
+    - MEMORY_ONLY_SER  
+    - MEMORY_AND_DISK  
+    - MEMORY_AND_DISK_SER  
+    - DISK_ONLY  
   
 - Tuning Data Structures  
   - avoid the Java features that add overhead, such as pointer-based data structures and wrapper objects.   
@@ -210,25 +212,26 @@ rdd5.collect() #actions - stage 3
    - The best means of checking whether a task ran locally is to inspect a given stage in the Spark UI.
    - In the Stages tab of spark UI ***Locality Level*** column displays which locality a given task ran with.
    - Locality Level : PROCESS_LOCAL, NODE_LOCAL, RACK_LOCAL, or ANY  
-   - 
+ 
+ ![data locality](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/spark/pics/data_locality.JPG)
+ 
+- ***For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
 
-- For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
-
-> Job Scheduling  
+> a.11 Job Scheduling  
 - http://spark.apache.org/docs/latest/job-scheduling.html#scheduling-within-an-application  
 - 
 
-> Spark Security  
+> a.12 Spark Security  
 - http://spark.apache.org/docs/latest/security.html  
 
-> Hardware Provisioning  
+> a.13 Hardware Provisioning  
 - http://spark.apache.org/docs/latest/hardware-provisioning.html
 
-> Shuffles  
+> a.14 Shuffles  
    - http://hydronitrogen.com/apache-spark-shuffles-explained-in-depth.html
    - 
 
-> Partitioning  
+> a.15 Partitioning  
   - https://medium.com/parrot-prediction/partitioning-in-apache-spark-8134ad840b0  
   - https://techmagie.wordpress.com/2015/12/19/understanding-spark-partitioning/  
   - https://www.talend.com/blog/2018/03/05/intro-apache-spark-partitioning-need-know/  
@@ -241,71 +244,73 @@ rdd5.collect() #actions - stage 3
     - Spark assigns one task per partition and each worker can process one task at a time.  
 
 
-
- 
-
 ### <a name="b"></a>b. WEB UI / Spark UI  
  > [spark web ui](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-webui.html)  
  > https://www.cloudera.com/documentation/enterprise/5-9-x/topics/operation_spark_applications.html  
 
-A job can be in a running, succeeded, failed or unknown state.  
+- A job can be in a running, succeeded, failed or unknown state.    
+- ```JOBS --> STAGES --> TASKS```  
 
-```
-JOBS --> STAGES --> TASKS
-```
-```
-JOBS    --> All jobs
-        --> individaul jobs
-```  
+Below tabs from spark UI  
 
-Below tabs from spark UI
-- 1. JOBS tab :  The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages.  
-- 2. STAGES tab:  Stages tab in web UI shows the current state of all stages of all jobs in a Spark application (i.e. a SparkContext) with two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode).  
-- 3. STORAGE tab : 
+![data locality](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/spark/pics/spark_ui.JPG)
+
+- 1. ***JOBS tab*** :  The Jobs tab consists of two pages, i.e. All Jobs and Details for Job pages.  
+  
+- 2. ***STAGES tab***:  
+  - Stages tab in web UI shows the current state of 'all stages of all jobs' in a Spark application (i.e. a SparkContext)  
+  - two optional pages for the tasks and statistics for a stage (when a stage is selected) and pool details (when the application works in FAIR scheduling mode).  
+  - ***Summary Metrics***  :
+    - for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available.  
+    - The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
+  
+- 3. ***STORAGE tab*** :   
   - When created, StorageTab creates the following pages and attaches them immediately: A. StoragePage B.RDDPage   
   - All Stages Page:  shows the task details for a stage given its id and attempt id.   
   - Stagev Details page / The Fair Scheduler Pool Details page :  shows information about a Schedulable pool and is only available when a Spark application uses the FAIR scheduling mode (which is controlled by spark.scheduler.mode setting).    
-- 4. ENVIRONMENT tab : Shows various details like total tasks, Input, Shuffle read & write, etc  
-- 5. EXECUTORS tab : list all executors used  
+    
+- 4. ***ENVIRONMENT tab***: Shows various details like total tasks, Input, Shuffle read & write, etc  
+  
+- 5. ***EXECUTORS tab*** : list all executors used   
     - Input - total data processed or read by the application from hadoop or spark storage  
     - Storage Memory - tatal memory used or available     
-- 6. SQL tab:  SQL tab in web UI shows SQLMetrics per physical operator in a structured query physical plan. By default, it displays all SQL query executions. However, after a query has been selected, the SQL tab displays the details for the structured query execution  
+    
+- 6. ***SQL tab***:  SQL tab in web UI shows SQLMetrics per physical operator in a structured query physical plan.  
+    - By default, it displays all SQL query executions.  
+    - However, after a query has been selected, the SQL tab displays the details for the structured query execution   
   
-- ***Summary Metrics***  :
-  - for Completed Tasks in Stage : The summary metrics table shows the metrics for the tasks in a given stage that have already finished with SUCCESS status and metrics available. 
-  - The table consists of the following columns: Metric, Min, 25th percentile, Median, 75th percentile, Max.  
-
-
 
 ### <a name="c"></a>c. RDD + DataFrame + DataSets + SparkSQL  
-> http://spark.apache.org/docs/latest/rdd-programming-guide.html  
-  Working with Key-Value Pairs    
-> http://spark.apache.org/docs/latest/sql-programming-guide.html  
-> https://github.com/apache/spark/blob/master/core/src/main/scala/org/apache/spark/rdd/RDD.scala
 
-* Internally, each RDD is characterized by five main properties:  
-*  1. A list of partitions
-*  2. A function for computing each split
-*  3. A list of dependencies on other RDDs
-*  4. Optionally, a Partitioner for key-value RDDs (e.g. to say that the RDD is hash-partitioned)
-*  5. Optionally, a list of preferred locations to compute each split on (e.g. block locations for an HDFS file)  
+> http://spark.apache.org/docs/latest/rdd-programming-guide.html      
+> http://spark.apache.org/docs/latest/sql-programming-guide.html  
+> https://github.com/apache/spark/blob/master/core/src/main/scala/org/apache/spark/rdd/RDD.scala  
+
+* Internally, each RDD is characterized by 5 main properties:  
+  *  1. A list of partitions
+  *  2. A function for computing each split
+  *  3. A list of dependencies on other RDDs
+  *  4. Optionally, a Partitioner for key-value RDDs (e.g. to say that the RDD is hash-partitioned)
+  *  5. Optionally, a list of preferred locations to compute each split on (e.g. block locations for an HDFS file)  
   
- - RDD Types : HadoopRDD, filterRDD, joinedRDD, 
- 
-### <a name="d"></a>d. Streaming  (50-50 hands on + theory)
+-  Types of RDD  
+  - type based on how RDDs made 
+  - HadoopRDD, FilterRDD, MapRDD, ShuffleRDD, S3RDD , etc 
+  
+
+### <a name="d"></a>d. Streaming  
 > https://github.com/vivek-bombatkar/Spark-with-Python---My-learning-notes-    
 > https://spark.apache.org/docs/latest/streaming-programming-guide.html   
 
-### <a name="e"></a>e. SparkMLLib  (theory)
+### <a name="e"></a>e. SparkMLLib  
 > https://github.com/vivek-bombatkar/DataWorksSummit2018_Spark_ML   
 > https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-mllib/spark-mllib.html  
 
-
-### <a name="f"></a>f. GraphLib (theory)
-> https://spark.apache.org/docs/latest/graphx-programming-guide.html  
- 
-
-
+### <a name="f"></a>f. GraphLib 
+> https://spark.apache.org/docs/latest/graphx-programming-guide.html   
+  
+    
+    
 ## <a name="40"></a>4. NOTES FROM THE BOOKS / GUIDES.  
 - [4.1 Learning Spark: Lightning‑Fast Big Data ](#41)
 - [4.2 High Performance Spark - Holden Karau and Rachel Warren](#42)
@@ -314,14 +319,12 @@ Below tabs from spark UI
 - [4.5 Programming Guides from http://spark.apache.org/docs/latest/ ](#45)  
 
 ## <a name="41"></a>4.1 Learning Spark: Lightning‑Fast Big Data   
-
 - [Introduction to Data Analysis with Spark](#1)
 - [Programming with RDDs](#2)  
 - [Working with Key-Value Pairs](#3)  
 - [Loading and Saving Your Data](#4)  
 - [Advanced Spark Programming](#5)  
 - [Running on a Cluster](#6)  
-
 
 ### <a name="1"></a>Introduction to Data Analysis with Spark    
 - cluster computing platform   
