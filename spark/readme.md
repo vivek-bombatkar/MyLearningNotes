@@ -211,7 +211,7 @@ rdd5.collect() #actions - stage 3
    - In the Stages tab of spark UI ***Locality Level*** column displays which locality a given task ran with.
    - Locality Level : PROCESS_LOCAL, NODE_LOCAL, RACK_LOCAL, or ANY  
  
- ![data locality](https://github.com/vivek-bombatkar/MyLearningNotes/tree/row/master/spark/pics/data_locality.jpg)
+ ![data locality](https://github.com/vivek-bombatkar/MyLearningNotes/row/master/spark/pics/data_locality.jpg)
  
 
 - For most programs, switching to Kryo serialization and persisting data in serialized form will solve most common performance issues
