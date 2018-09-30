@@ -327,98 +327,104 @@ Below tabs from spark UI
 - [Running on a Cluster](#6)  
 
 ### <a name="1"></a>Introduction to Data Analysis with Spark    
-- cluster computing platform   
-- Spark application consists of a driver program that launches various parallel operations on a cluster.   
-- driver programs typically manage a number of nodes called executors
+- Spark is cluster computing platform   
+- Spark application consists of a ***driver program*** that launches various parallel operations on a cluster.   
+- driver programs typically manage a ***number of nodes called executors***  
 - ***SparkContext*** represents a connection to a computing cluster.  
- 
+   
 <img src="https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/spark/pics/componunt_distribution_spark.JPG" />
-
+  
+   
 ### <a name="2"></a>Programming with RDDs    
-- Resilient Distributed Dataset (RDD)
-- an immutable distributed collection of objects
-- It split into multiple partitions, which may be computed on different nodes of the cluster
-- ***Transformations*** construct a new RDD from a previous one.
-- ***Actions***, on the other hand, compute a result based on an RDD, and either return it to the driver program or save it to an external storage system
-- lazy evaluation  - Spark only computes them in a lazy fashion
-- to reuse an RDD in multiple actions, you can ask Spark to persist it using RDD.persist().
--  three options for passing functions into Spark - lambda. top level function or locally define functions
-- reduce / fold
-
+- Resilient Distributed Dataset (RDD)  
+- an immutable distributed collection of objects  
+- It split into multiple partitions, which may be computed on different nodes of the cluster  
+- ***Transformations*** construct a new RDD from a previous one.  
+- ***Actions***, on the other hand, compute a result based on an RDD, and either return it to the driver program or save it to an external storage system  
+- lazy evaluation  - Spark only computes them in a lazy fashion  
+- to reuse an RDD in multiple actions, you can ask Spark to persist it using RDD.persist().  
+- three options for passing functions into Spark -   
+    - lambda  
+    - top level function  
+    - locally define functions  
+- reduce / fold - There is no practical difference when it comes to performance whatsoever:   
+    - RDD.fold action is using fold on the partition Iterators which is implemented using foldLeft.  
+    - RDD.reduce is using reduceLefton the partition Iterators.  
+  
 ### <a name="3"></a>Working with Key-Value Pairs
-- RDDs containing key-value pairs. These RDDs are called Pair RDDs. 
-- Transformations one pair rdd : reduceByKey / foldByKey, combineByKey, countByValue, groupByKey, mapValues, flatMapValues, keys, values, sortByKey
-- Transformations on two pair rdd : substractByKey, join, rightOuterJoin, leftOuterJoin, cogroup
-- Actions : collectAsMap(), lookup()
-- Most operator accept a second parameter giving the number of partitions to use when creating the grouped or aggregated RDD
-- repartitioning your data is a fairly expensive operation
-- Partitioning will not be helpful in all applications — for example, if a given RDD is only scanned once, there is no point in partitioning it in advance. It is only useful when a dataset is reused multiple times in key-oriented operations such as joins. 
+- RDDs containing key-value pairs. These RDDs are called Pair RDDs.  
+- Transformations one pair rdd : reduceByKey / foldByKey, combineByKey, countByValue, groupByKey, mapValues, flatMapValues, keys, values, sortByKey  
+- Transformations on two pair rdd : substractByKey, join, rightOuterJoin, leftOuterJoin, cogroup  
+- Actions : collectAsMap(), lookup()  
+- Most operator accept a second parameter giving the number of partitions to use when creating the grouped or aggregated RDD  
+- repartitioning your data is a fairly expensive operation  
+- Partitioning will not be helpful in all applications — for example, if a given RDD is only scanned once, there is no point in partitioning it in advance. 
+- It is only useful when a dataset is reused multiple times in key-oriented operations such as joins. 
 - ***partitionBy***
 - HashPartitioner
-
+  
 ### <a name="4"></a>Loading and Saving Your Data
-- Comprassion optison : gzip, lzo, bzip2, zlib, Snappy
--  
-
+- | Comprassion optison |  gzip | lzo | bzip2 | zlib | Snappy |
+   
 ### <a name="5"></a>Advanced Spark Programming
 - ***accumulators*** to aggregate information.
 - One of the most common uses of accumulators is to count events that occur during job execution for debugging purposes. 
-- Note that tasks on worker nodes cannot access the accumulator’s value — from the point of view of these tasks, accumulators are write-only variables.
+- Note that tasks on worker nodes cannot access the accumulator’s value — from the point of view of these tasks, accumulators are ***write-only*** variables.
 - ***speculative execution*** Spark can preemptivley launch a “speculative” copy of the task on another node, and take its result if that finishes.
 - accumulators updated in actions vs in transformations
 - broadcast variables to efficiently distribute large values. allow the program to efficiently send a large, read-only value to all the worker nodes for use in one or more Spark operations.
 - ***PrePartition operations***: mapPartition, foreachPartition, mapPartitionWithIndex
 
 ### <a name="6"></a>Running on a Cluster
-- When running in cluster mode, Spark utilizes a master-slave architecture with one central coordinator and many distributed workers. 
-- The central coordinator is called the driver. 
-- The driver communicates with potentially larger number of distributed workers called executors. 
-- The driver runs in its own Java process and each executor is a Java process. 
-- A driver and its executors are together termed a Spark application.
-- A Spark application is launched on a set of machines using an external service called a cluster manager.
-- Driver program main duties : 
-    - a. compiling user program into task
-    - b. scheduling task on executor
-- Executor 
-    - a. running the tasks
-    - b. in-memory storage for rdd
-- Sparks Dirver & Executor VS YARNs Master & Worker
-    - For instance Apache YARN runs a master daemon (called the Resource Manager) and several worker daemons called (Node Managers). 
-    - Spark will run both drivers and executors on YARN worker nodes.
-- spark2-submit options types :
-    - The first is the location of the cluster manager along with an amount of resources you’d like to request for your job (as shown above). 
-    - The second is information about the runtime dependencies of your application, such as libraries or files you want to be present on all worker machines.
+- When running in cluster mode, Spark utilizes a master-slave architecture with one central coordinator and many distributed workers.  
+- The central coordinator is called the driver.  
+- The driver communicates with potentially larger number of distributed workers called executors.   
+- The driver runs in its own Java process and each executor is a Java process.   
+- A driver and its executors are together termed a Spark application.  
+- A Spark application is launched on a set of machines using an external service called a cluster manager.  
+- Driver program main duties :  
+    - a. compiling user program into task  
+    - b. scheduling task on executor  
+- Executor  
+    - a. running the tasks  
+    - b. in-memory storage for rdd  
     
- 
- 
+- ***Sparks Dirver & Executor VS YARNs Master & Worker***   
+    - For instance Apache YARN runs a master daemon (called the Resource Manager) and several worker daemons called (Node Managers).  
+    - Spark will run both drivers and executors on YARN worker nodes.  
+    
+- spark2-submit options types :  
+    - The first is the ***location*** of the cluster manager along with an amount of ***resources*** you’d like to request for your job  
+    - The second is information about the ***runtime dependencies*** of your application, such as libraries or files you want to be present on all worker machines.    
+    
+    
 ## <a name="42"></a>4.2 High Performance Spark - Holden Karau and Rachel Warren   
-
-
-### Spark Model of Parallel Computing: RDDs
-- driver (or master node) perform operations on data in parallel. 
-- Spark represents large datasets as RDDs, immutable distributed collections of objects, 
-- which are stored in the executors or (slave nodes). 
-- The objects that comprise RDDs are called partitions 
-- Partitions may be (but do not need to be) computed on different nodes of a distributed system. 
-- Spark can keep an RDD loaded in memory on the executor nodes throughout the life of a Spark application for faster access 
-- RDDs are immutable, so transforming an RDD returns a new RDD rather than the existing one.
--  Actions trigger the scheduler, which builds a directed acyclic graph (called the DAG), based on the dependencies between RDD transformations. 
+  
+### Spark Model of Parallel Computing: RDDs  
+- driver (or master node) perform operations on data in parallel.   
+- Spark represents large datasets as RDDs, immutable distributed collections of objects,   
+- which are stored in the executors or (slave nodes).   
+- The objects that comprise RDDs are called partitions   
+- Partitions may be (but do not need to be) computed on different nodes of a distributed system.   
+- Spark can keep an RDD loaded in memory on the executor nodes throughout the life of a Spark application for faster access   
+- RDDs are immutable, so transforming an RDD returns a new RDD rather than the existing one.  
+- Actions trigger the scheduler, which builds a directed acyclic graph (called the DAG), based on the dependencies between RDD transformations.  
 - Then, using this series of steps called the execution plan, the scheduler computes the missing partitions for each stage until it computes the whole RDD.  
 
 ### In Memory Storage and Memory Management  
 - Spark offers three options for memory management:  
   - in memory deserialized data  - higher performace but consume high memory   
-  - in memory as serialized data - slower performance but low disk space  
+  - in memory as serialized data - slower performance but low disk space   
   - on disk - slower and nothing in memory, can be more fault tolarent for long string transformations  
 - The persist() function in the RDD class lets the user control how the RDD is stored. 
 - By default, persist() stores an RDD as deserialized objects in memory.  
 
 ### five main properties to represent an RDD internally. 
-- partitions()  
-- iterator(p, parentIters)  
-- dependencies()  
-- partitioner()  
-- preferredLocations(p)  
+- 1 - partitions()  
+- 2 - iterator(p, parentIters)  
+- 3 - dependencies()  
+- 4 - partitioner()  
+- 5 - preferredLocations(p)  
 
 ### Resource Allocation Across Applications  
 -  static allocation  
@@ -429,43 +435,43 @@ Below tabs from spark UI
 - ***jobs*** 
   - highest element of Spark’s execution hierarchy. 
   - Each Spark job corresponds to one action
+  
 - ***stages***
   - As mentioned above, a job is defined by calling an action. 
   - The action may include several transformations, which breakdown of jobs into stages.
   - Several transformations with narrow dependencies can be grouped into one stage.
-  - It is possible to executed stages in parallel if they are used to compute different RDDs
-  - wide transformations needed to compute one RDD have to be computed in sequence
-  - one stage can be computed without moving data across the partitions. 
-  - Within one stage, the tasks are the units of work done for each partition of the data.
+  - It is possible to executed stages in parallel if they are used to compute different RDDs  
+  - wide transformations needed to compute one RDD have to be computed in sequence  
+  - one stage can be computed without moving data across the partitions.  
+  - Within one stage, the tasks are the units of work done for each partition of the data.  
+    
 - ***tasks***
   - A stage consists of tasks. 
-  - The task is the smallest unit in the execution hierarchy
+  - The task is the smallest unit in the execution hierarchy  
   - each can represent one local computation. 
-  - One task cannot be executed on more than one executor. 
-  - However, each executor has a dynamically allocated number of slots for running tasks
-  - The number of tasks per stage corresponds to the number of partitions in the output RDD of that stage.
+  - One task cannot be executed on more than one executor.  
+  - However, each executor has a dynamically allocated number of slots for running tasks  
+  - ***The number of tasks per stage corresponds to the number of partitions in the RDD***  
  
- > Spark SQL’s column operators are defined on the column class, so a filter containing the expression 0 >= df.col("friends") will not
-compile since Scala will use the >= defined on 0. Instead you would write df.col("friend") <= 0 or convert 0 to a column literal with
-lit  
+- Spark SQL’s column operators are defined on the column class, so a filter containing the expression ```0 >= df.col("friends")``` will not compile since Scala will use the >= defined on 0. Instead you would write ```df.col("friend") <= 0``` or convert 0 to a column literal with ***lit()***  
 
 - ***Transformations*** : types
-  - filters
-  - sql standard functions
-  - 'when' - for if then else
-  - Specialized DataFrame Transformations for Missing & Noisy Data
-  - Beyond Row-by-Row Transformations
-  - Aggregates and groupBy - agg API
-  - windowing
-  - sorting - orderBy
-  - Multi DataFrame Transformations
+  - filters  
+  - sql standard functions  
+  - 'when' - for if then else  
+  - Specialized DataFrame Transformations for Missing & Noisy Data  
+  - Beyond Row-by-Row Transformations  
+  - Aggregates and groupBy - agg API  
+  - windowing  
+  - sorting - orderBy  
+  - Multi DataFrame Transformations  
   
-- Tungsten  
-  - Tungsten is a new Spark SQL component that provides more efficient Spark operations by working directly at the byte level.
-  - Tungsten includes specialized in-memory data structures tuned for the type of operations required by Spark
-  - improved code generation, and a specialized wire protocol.
+- ***Tungsten***  
+  - Tungsten is a new Spark SQL component that provides more efficient Spark operations by working directly at the byte level.  
+  - Tungsten includes specialized in-memory data structures tuned for the type of operations required by Spark  
+  - improved code generation, and a specialized wire protocol.  
 
-- Query Optimizer  
+- ***Query Optimizer : Catalyst***
   - Catalyst is the Spark SQL query optimizer, 
   - which is used to take the query plan and transform it into an execution plan that Spark can run. 
   - Much as our transformations on RDDs build up a DAG, Spark SQL builds up a tree representing our query plan, called a logical plan. 
@@ -473,9 +479,8 @@ lit
   - also choose between multiple physical plans for the same logical plan using a cost-based mode.
   
 ### Joins (SQL & Core) 
- 
 - In order to join data, Spark needs the data that is to be joined to live on the same partition. 
-- The default implementation of join in Spark is a shuffled hash join. 
+- The default implementation of join in Spark is a ***shuffled hash join***. 
 - Shuffel could be avoided if 
   - 1. ***Both RDDs have a known partitioner.***  
   - 2. map side join -One of the datasets is small enough to fit in memory, in which case we can do a broadcast hash join 
@@ -484,8 +489,8 @@ lit
   - A left semi join is the same as filtering the left table for only rows with keys present in the right table.
   - ```df1.join(df2, df1("name") === df2("name"), "leftsemi")```
 - ***Broadcast Hash Joins***
-  - df1.join(broadcast(df2), "key")
-  - Spark also automatically uses the spark.sql.conf.autoBroadcastJoinThreshold to determine if a table should be broadcast.
+  - ```df1.join(broadcast(df2), "key")```
+  - Spark also automatically uses the ```spark.sql.conf.autoBroadcastJoinThreshold``` to determine if a table should be broadcast.
   
  
 ## <a name="45"></a>4.5 "Programming Guides" from http://spark.apache.org/docs/latest/
@@ -521,27 +526,30 @@ sdf.write.save(FILE_LOCATION.parquet)
 
 - ***partitionBy*** creates a directory structure as described in the Partition Discovery section. columns with ***high cardinality***. 
 - ***bucketBy*** distributes data across a fixed number of buckets and can be used when a number of unique values is unbounded.  
-
+> https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-bucketing.html  
 ```python
 df.write
     .partitionBy("favorite_color")
     .bucketBy(42, "name")
     .saveAsTable("people_partitioned_bucketed")
 ```
+  - Unlike bucketing in Apache Hive, Spark SQL creates the bucket files per the number of buckets and partitions. 
+  - In other words, the number of bucketing files is the number of buckets multiplied by the number of task writers (one per partition).
 
 
-### Schema Merging
-- Like ProtocolBuffer, Avro, and Thrift, Parquet also supports schema evolution. Users can start with a simple schema, and gradually add more columns to the schema as needed.   
-- In this way, users may end up with multiple Parquet files with different but mutually compatible schemas.   
-- The Parquet data source is now able to automatically detect this case and merge schemas of all these files.   
-
-```python
-spark.read.option("mergeSchema", "true").parquet("FOLDER_LOCATION")
-```
 ### Parquet Files
 - Parquet is a columnar format that is supported by many other data processing systems.   
 - Spark SQL provides support for both reading and writing Parquet files that automatically preserves the schema of the original data.  
 - When writing Parquet files, all columns are automatically converted to be nullable for compatibility reasons.  
+
+### Schema Merging
+- Like ProtocolBuffer, Avro, and Thrift, Parquet also supports schema evolution. 
+- Users can start with a simple schema, and gradually add more columns to the schema as needed.   
+- In this way, users may end up with multiple Parquet files with different but mutually compatible schemas.   
+- The Parquet data source is now able to automatically detect this case and merge schemas of all these files.   
+```python
+spark.read.option("mergeSchema", "true").parquet("FOLDER_LOCATION")
+```
 
 #### HIVE vs Parquet
 - Hive is case insensitive, while Parquet is not  
@@ -555,7 +563,7 @@ sdf = spark.createDataFrame(pd.read_csv("https://raw.githubusercontent.com/fivet
 ```
  
 ### Pandas in spark
-- Scalar Pandas UDFs are used for vectorizing scalar operations. 
+- Scalar Pandas UDFs are used for ***vectorizing scalar*** operations. 
 - They can be used with functions such as select and withColumn
 ```python
 def multi_fun(a, b):
@@ -596,15 +604,12 @@ sdf_grp.groupBy("id").apply(fun_1).show()
 ### NaN
 - There is specially handling for not-a-number (NaN)
 - when dealing with float or double types that does not exactly match standard floating point semantics.
-
-
- 
- 
+  
  ## <a name="50"></a>5. SPARKSESSION & PYSPARK.SQL.FUNCTIONS f   
  > http://spark.apache.org/docs/2.2.0/api/python/pyspark.sql.html  
  - functions could be passed to API to perform operations  
  - like aggregate functions used with 'agg' API  
- 
+   
  ```python
  from pyspark.sql import functions f
  ```
