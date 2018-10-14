@@ -50,10 +50,19 @@ Practice SQL Interview questions and Answers
 > https://www.tutorialspoint.com/dwh/dwh_schemas.htm
 
 ### windowing function
-> https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions101.htm
-
-> https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics
-
+> https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics  
+> https://blog.matters.tech/sql-window-functions-basics-e9a9fa17ce7e  
+- select > partition > order  
+- use windowing over (self join + group by)  
+- windowing functions are a select post-processing toolset  
+- iterate over the result of a select to compute values based on a wider view than just one row.  
+- At its core, a window function calculates a return value for every input row of a table based on a group of rows, called the Frame  
+- Rank vs DenseRank  
+- three kinds of window functions: 1. ranking functions 2. analytic functions 3. aggregate functions  
+```SQL
+OVER (PARTITION BY ... ORDER BY ...)
+```
+- Window functions are also called over functions due to how they are applied using over operator.  
 
 
 ## Data Structure
