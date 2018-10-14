@@ -376,3 +376,7 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 
 ## Complexity 
 
+
+## Data Warehouse
+> http://cs.ulb.ac.be/public/_media/teaching/infoh415/dwnotes.pdf  
+> 
