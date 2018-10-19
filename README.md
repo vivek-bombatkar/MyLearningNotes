@@ -97,6 +97,9 @@ alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-clust
 ```
 
 ## git commonly used commands in the order that I follow mostly :-)
+> https://www.youtube.com/watch?v=47uih9Tp6H8  
+> https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow  
+
 ```bash
 git clone <git dir path>
 git init
@@ -132,6 +135,16 @@ git rebase develop
 > https://git-scm.com/book/de/v1/Git-Tools-Submodule  
 
 
+- git release  with git-flow extensions
+    - release/merge feature branch to develop and master  
+    ```
+    git flow release start 0.1.0
+    git checkout master
+    git checkout merge release/0.1.0
+    git flow release finish '0.1.0'
+    ```
+    - 'tags' - once master updated with new changes, it should be tagged with the updated version number.
+    
 
 ## AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
