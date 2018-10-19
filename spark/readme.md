@@ -12,7 +12,6 @@ Please checkout my notes from below links,
 
 
 ## Spark - HDFS partitoning 
-| -- | -- | -- |  
 | No partiton defined | sdf.write.partitionBy("col_1") | sdf.write.repartiton(10) |  
 | -- | -- | -- |  
 | spark default partition will get apply, i.e. 128 MB | files with splits based on partition column, hence default 128 MB will not apply. |  partition will be based on number given  | 
