@@ -363,4 +363,9 @@ pySpark_script.py
 
 
 
+## package management
+
+|  pipenv  |  Docker  |  Conda  |
+|  --  | --  |  --  |  
+|  requirements.txt, setup.py, Makefile |  Dockerfile, setup.py, Makefile  |  setup.py, Makefile  | 
 
