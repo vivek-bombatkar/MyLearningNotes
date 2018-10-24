@@ -41,15 +41,12 @@ Random link
 ## SQL
 Practice SQL Interview questions and Answers
 
-> http://sqlzoo.net/ 
+> http://sqlzoo.net/   
+> https://www.hackerrank.com/   
+> https://leetcode.com/problemset/database/   
+> https://www.tutorialspoint.com/dwh/dwh_schemas.htm  
 
-> https://www.hackerrank.com/ 
-
-> https://leetcode.com/problemset/database/ 
-
-> https://www.tutorialspoint.com/dwh/dwh_schemas.htm
-
-### windowing function
+### 1 windowing function
 > https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics  
 > https://blog.matters.tech/sql-window-functions-basics-e9a9fa17ce7e  
 - select > partition > order  
@@ -57,13 +54,56 @@ Practice SQL Interview questions and Answers
 - windowing functions are a select post-processing toolset  
 - iterate over the result of a select to compute values based on a wider view than just one row.  
 - At its core, a window function calculates a return value for every input row of a table based on a group of rows, called the Frame  
-- Rank vs DenseRank  
+- Rank vs DenseRank  : 
 - three kinds of window functions: 1. ranking functions 2. analytic functions 3. aggregate functions  
 ```SQL
 OVER (PARTITION BY ... ORDER BY ...)
 ```
 - Window functions are also called over functions due to how they are applied using over operator.  
+- Lead & Lag : to traverse up and down in the rows  
+- 
 
+### 2 Nth highest salary  
+	- corelated subquery  
+		-  subquery depends upon the main query  
+		- execute for every row returned by the main query.  
+		```
+		SELECT name, salary 
+		FROM #Employee e1
+		WHERE N-1 = (SELECT COUNT(DISTINCT salary) FROM #Employee e2
+		WHERE e2.salary > e1.salary)
+		```
+	- windowing  
+		- 
+		```
+		WITH CTE AS
+		(
+		SELECT Name, Salary, DENSE_RANK() OVER (Salary ORDER BY SALARY DESC) AS Ranks
+		FROM Employees
+		)
+		SELECT * FROM CTE WHERE Ranks=2
+		```
+### 3 running total
+	- self join
+		-   we take the sum of sales in the second table over every row that has a date less than or equal to the date coming from the first table.  
+		```
+		select 
+		    a.date,
+		    sum(b.sales) as cumulative_sales
+		from sales_table a 
+		join sales_table b on a.date >= b.date
+		group by a.date
+		order by a.date;
+		```
+	- windowing functions
+		- order by date rows unbounded preceding limits the sum function to only sales before the date of the current row.   
+		```
+		select
+	    	date,
+	    	sum(sales) over (order by date rows unbounded preceding) as cumulative_sales
+		from sales_table;
+		```
+		
 
 ## Data Structure
 > https://www.tutorialspoint.com/python/python_data_structure.htm
