@@ -349,8 +349,6 @@ sdf.repartition(1).write.save("sampleFolder_2")
     - Task do real work like execute script, call a function.
 - Bamboo could be setup to trigger build when code commited to repo
     
-## Spark : HDFS from PySpark
-> https://diogoalexandrefranco.github.io/interacting-with-hdfs-from-pyspark/  
 
 
 
