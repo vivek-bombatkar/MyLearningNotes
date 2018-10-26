@@ -17,6 +17,10 @@ Please checkout my Spark related notes from below repos,
 | spark default partition will get apply, i.e. 128 MB | files with splits based on partition column, hence default 128 MB will not apply. |  partition will be based on number given  |  
 
 
+## Spark : HDFS from PySpark  
+> https://diogoalexandrefranco.github.io/interacting-with-hdfs-from-pyspark/   
+
+
 ## unit testing with pyspark
 > https://www.knowru.com/blog/how-unittest-pyspark-applications/  
 > https://engblog.nextdoor.com/unit-testing-apache-spark-with-py-test-3b8970dc013b  
