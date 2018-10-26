@@ -2,7 +2,7 @@
 # Spark hands on practice and notes   
 > Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar)  
 
-Please checkout my notes from below links,  
+Please checkout my Spark related notes from below repos,  
 
 > https://github.com/vivek-bombatkar/Databricks-Apache-Spark-2X-Certified-Developer  
 
