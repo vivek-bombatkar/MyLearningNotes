@@ -372,3 +372,14 @@ pySpark_script.py
 
 ## Unit tests  [TODO]
 > https://www.pythonsheets.com/notes/python-tests.html  
+
+## Visualization  
+- Pandas chart functison
+
+|  Charts  |   pdf.plot.<chart_name>() |  
+|  --  |  --  |  
+|  Bar chart  |  ordinal categorical data  |   
+|  Line chart  |  ordinal categorical and interval data.  |  
+|  Area chart  |  ordinal categorical and interval data.  |  
+|  Histogram  |    interval data. special kind of bar plot that splits your data into even intervals and displays how many rows are in each interval with bars.  |   
+| pie chart  |   |   
