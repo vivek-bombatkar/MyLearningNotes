@@ -40,8 +40,10 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 |  KDE plot chart  |  sns.kdeplot(pdf.query('price < 200').price), kernel density estimate, KDE plots can also be used in two dimensions.  |
 |  Distplot chart  |  sns.distplot(pdf['points'], bins=10, kde=False), The seaborn equivalent to a pandas histogram is the distplot.  |  |  Jointplot   |  sns.jointplot(x='price', y='points', data=pdf[reviews['price'] < 100]), To plot two variables against one another in seaborn, we use jointplot.  | 
 |  Boxplot  |  sns.boxplot(x='variety', y='points', data=df ), The center of the distributions shown above is the "box" in boxplot. The top of the box is the 75th percentile, while the bottom is the 25th percentile. In other words, half of the data is distributed within the box!, Boxplots are great for summarizing the shape of many datasets. |  
-|  Violinplot  |  sns.violinplot(x='variety', y='points', data=df ),  |  
-
+|  Violinplot  |  sns.violinplot(x='variety', y='points', data=),  |   
+|  FacetGrid  |  g = sns.FacetGrid(pdf, col="Position"), A FacetGrid is an object which stores some information on how you want to break up your data visualization.  |
+|  Pairplot  | sns.pairplot(footballers[['Overall', 'Potential', 'Value']]),  You pass it a pandas DataFrame in the right shape, and it returns you a gridded result of your variable values  |  
+|  
 
 
 ## pandas iloc vs ix vs loc explanation, how are they different?
