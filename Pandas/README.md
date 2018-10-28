@@ -43,7 +43,8 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 |  Violinplot  |  sns.violinplot(x='variety', y='points', data=),  |   
 |  FacetGrid  |  g = sns.FacetGrid(pdf, col="Position"), A FacetGrid is an object which stores some information on how you want to break up your data visualization.  |
 |  Pairplot  | sns.pairplot(footballers[['Overall', 'Potential', 'Value']]),  You pass it a pandas DataFrame in the right shape, and it returns you a gridded result of your variable values  |  
-|  Heatmap  |   sns.heatmap(f, annot=True),  summarization visualization is the correlation plot, in which measures the correlation between every pair of values in a dataset and plots a result in color. A correlation plot is a specific kind of heatmap. A heatmap maps one particular fact (in this case, correlation) about every pair of variables you chose from a dataset. |
+|  Heatmap  |   sns.heatmap(f, annot=True),  summarization visualization is the correlation plot, in which measures the correlation between every pair of values in a dataset and plots a result in color. A correlation plot is a specific kind of heatmap. A heatmap maps one particular fact (in this case, correlation) about every pair of variables you chose from a dataset.  |  
+|  ***plotly***  |  ***from plotly.offline import init_notebook_mode, iplot***  |   
 |  
   
 
