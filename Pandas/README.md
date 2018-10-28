@@ -45,7 +45,31 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 |  Pairplot  | sns.pairplot(footballers[['Overall', 'Potential', 'Value']]),  You pass it a pandas DataFrame in the right shape, and it returns you a gridded result of your variable values  |  
 |  Heatmap  |   sns.heatmap(f, annot=True),  summarization visualization is the correlation plot, in which measures the correlation between every pair of values in a dataset and plots a result in color. A correlation plot is a specific kind of heatmap. A heatmap maps one particular fact (in this case, correlation) about every pair of variables you chose from a dataset.  |  
 |  ***plotly***  |  ***from plotly.offline import init_notebook_mode, iplot***  |   
-|  
+
+
+Chart Types 
+• Understand discrete v. continuous  
+• Understand measure names and measure values  
+• Understand generated fields  
+• Understand how and when to build:  
+• Histograms  
+• Heat maps  
+• Tree maps  
+• Bullet graphs  
+• Combined Axis Charts  
+• Dual Axis Charts  
+• Scatter Plots  
+• Data Highlighter  
+• Cross tabs  
+• Motion charts  
+• Bar in bar charts  
+• Box plots  
+• Gantt Bar Charts  
+• Paretos  
+• Sparklines  
+• Understand how to effectively use titles, captions and tooltips   
+• Understand how to edit axes  
+• Understand mark labels and annotations  
   
 
 
