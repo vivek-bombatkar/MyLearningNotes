@@ -23,8 +23,9 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 > https://www.kaggle.com/residentmario/bivariate-plotting-with-pandas/
 - Pandas chart functison
 
-|  Charts  |   pdf.plot.<chart_name>(), df.plot.bar()	/  |  
+|  Charts  |   details  |  
 |  --  |  --  |  
+|   ***pandas***   |  pdf.plot.<chart_name>(), df.plot.bar()	|    
 |  Bar chart  |  ordinal categorical data  |   
 |  Line chart  |  ordinal categorical and interval data.  |  
 |  Area chart  |  ordinal categorical and interval data.  |  
@@ -34,7 +35,7 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 |  Hex Plot  |  df.plot.hexbin(x='price', y='points', gridsize=15), interval and some nominal categorical data. A hex plot aggregates points in space into hexagons, and then colors those hexagons based on the values within them  |   
 |  Stacked Bar chart  |  df.plot.bar(stacked=True),  nominal and ordinal categorical data. A stacked chart is one which plots the variables one on top of the other.  |   
 |  Bivariate Line chart  |  df.plot.line(),  ordinal categorical and interval data.  |
-|  ***import seaborn as sns***  |  |  
+|  ***Seaborn***  |  ***import seaborn as sns***  |  
 |  Countplot chart  |  sns.countplot(pdf['points']), The pandas bar chart becomes a seaborn countplot.  |    
 |  KDE plot chart  |  sns.kdeplot(pdf.query('price < 200').price), kernel density estimate, KDE plots can also be used in two dimensions.  |
 |  Distplot chart  |  sns.distplot(pdf['points'], bins=10, kde=False), The seaborn equivalent to a pandas histogram is the distplot.  |  |  Jointplot   |  sns.jointplot(x='price', y='points', data=pdf[reviews['price'] < 100]), To plot two variables against one another in seaborn, we use jointplot.  | 
