@@ -19,7 +19,25 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 
 
 
-## Notes:
+## Visualization  
+> https://www.kaggle.com/residentmario/bivariate-plotting-with-pandas/
+- Pandas chart functison
+
+|  Charts  |   pdf.plot.<chart_name>(), df.plot.bar()	/  |  
+|  --  |  --  |  
+|  Bar chart  |  ordinal categorical data  |   
+|  Line chart  |  ordinal categorical and interval data.  |  
+|  Area chart  |  ordinal categorical and interval data.  |  
+|  Histogram  |    interval data. special kind of bar plot that splits your data into even intervals and displays how many rows are in each interval with bars.  |   
+|  pie chart  |   |   
+|  Scatter plot  |  df.plot.scatter(x='price', y='points'),  interval and some nominal categorical data. work best with relatively small datasets, and with variables which have a large number of unique values.  |  
+|  Hex Plot  |  df.plot.hexbin(x='price', y='points', gridsize=15), interval and some nominal categorical data. A hex plot aggregates points in space into hexagons, and then colors those hexagons based on the values within them  |   
+|  Stacked Bar chart  |  df.plot.bar(stacked=True),  nominal and ordinal categorical data. A stacked chart is one which plots the variables one on top of the other.  |   
+|  Bivariate Line chart  |  df.plot.line(),  ordinal categorical and interval data.  |
+| 
+
+
+
 
 ## pandas iloc vs ix vs loc explanation, how are they different?
 https://stackoverflow.com/questions/31593201/pandas-iloc-vs-ix-vs-loc-explanation-how-are-they-different
