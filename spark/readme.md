@@ -25,3 +25,9 @@ Please checkout my Spark related notes from below repos,
 > https://www.knowru.com/blog/how-unittest-pyspark-applications/  
 > https://engblog.nextdoor.com/unit-testing-apache-spark-with-py-test-3b8970dc013b  
 > https://blog.cambridgespark.com/unit-testing-with-pyspark-fb31671b1ad8  
+
+## orderBy
+
+```python
+sdf.orderBy('col1', ascending = False)
+```
