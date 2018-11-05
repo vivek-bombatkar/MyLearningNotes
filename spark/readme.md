@@ -31,3 +31,18 @@ Please checkout my Spark related notes from below repos,
 ```python
 sdf.orderBy('col1', ascending = False)
 ```
+
+## checkpoint()
+> https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-rdd-checkpointing.html  
+- Useful for overwriting the same HIVE table which used to create DF  
+```python
+sc = sparkSession.sparkContext
+sc.setCheckpointDir('/user/tmp/checkpoint')
+
+sdf = sparkSession.sql("select *, "1" as new_col  from hive_table_1").checkpoint()
+
+sdf.write.mode("overwrite").saveAsTable("hive_table_1")
+
+# withput checkpoint exception will thrown  
+#org.apache.spark.sql.AnalysisException: Cannot overwrite table prod_gse_microwave.gsemicrowave_gb_1w_31102018t153548z that is also being read from;  
+```
