@@ -128,10 +128,10 @@ Note: The client will write only to the first node for every block.
  1) While Writing  
 	a) Primary Node[1,2]: Node 1 goes down after 100 MB of data is written.  
 
-	1) Will the client be aware of the failure? YES. As he has opened socket connection to the node 1 and 2 for writing.  
-	2) What should the client do now? Start the write process again. Again communicate back to the master, who will send a new write pipeline.  
-	3) How much data should the client send now as a part of the write process? The complete file has to be rewritten.  
-	4) What will happen to the 100MB & 72 MB data written and replicated. --> Orphaned or zombied blocks, which needs to be deleted via a cron job, which runs fsck.This has to be executed explicitly.  
+		1) Will the client be aware of the failure? YES. As he has opened socket connection to the node 1 and 2 for writing.  
+		2) What should the client do now? Start the write process again. Again communicate back to the master, who will send a new write pipeline.  
+		3) How much data should the client send now as a part of the write process? The complete file has to be rewritten.  
+		4) What will happen to the 100MB & 72 MB data written and replicated. --> Orphaned or zombied blocks, which needs to be deleted via a cron job, which runs fsck.This has to be executed explicitly.  
 
 				Master
 
@@ -139,8 +139,8 @@ Note: The client will write only to the first node for every block.
 128	72			128	72	72		128
 
 	b) Replicated Nodes: Node 9 goes down after 100 MB of data is written.  
-	1) Will the client be aware of the failure? No  
-	2) How will the framework handle it. The master will assign a new node for the failed node. [ 8 ], and will inform 5 to write the complete block to 8.  
+		1) Will the client be aware of the failure? No  
+		2) How will the framework handle it. The master will assign a new node for the failed node. [ 8 ], and will inform 5 to write the complete block to 8.  
 
 
  2) After Writing  
@@ -165,11 +165,53 @@ There would be a XXX-default.xml file which will give you all the listing of the
 There will be a XXX-site.xml file inside etc/hadoop folder of the hadoop installation, where we will have to write the properties which needs to be overridden.  
 
 
+## deamons in hadoop  
+
 |   |  HDFS  | YARN  |
 |  --  |  -- |  --  |
 |  Master  |  Namenode  | ResourceManager  |
 |  Slave  |  Datanode  |  NodeManager  | 
 |  |  SecondaryNameNode OR Passive Namenode  |   |
 			
+
+## 4 node cluster --> on which machine will the deamons be running  
+
+	Master	{	NN	SNN	RM	} --> 3 machines
+
+	Slaves	{	DN+NM	DN+NM	DN+NM	DN+NM	}  
+
+
+http://media.bestofmicro.com/X/8/430172/original/yarn.png
+
+
+|   		|	 NN  |  SNN  |	RM  | 	Slave  | 	Client  |  
+|  -- |  -- |  -- |  --  |  --  |  --  |
+|  core-site.xml > fs.defaultFS | 	YES  | 	YES  | 	YES  |	 YES  |   YES  |  
+|  hdfs-site.xml > dfs.replication  | 	YES  | 	No  | 	No  | 	No  | 	No  |  
+|  dfs.namenode.name.dir  | 	YES  | 	No  | 	No  | 	No  | 	No  |  
+|  dfs.datanode.data.dir  | 	No  | 	No  | 	No  | 	YES  | 	No  |    
+|  mapred-site.xml  | 		No  | 	No  | 	YES  |   No  | 	No  |  
+|  yarn-site.xml  |	 	No  | 	No  | 	YES  |	No  | 	No  |   
+
+
+
+### How metadata is handled in HDFS  
+
+For the first time, when we format the NN and start the services  
+
+1) fsimage --> snapshot of the FS at a point of time  
+2) edits_in_progress  
+3) edits_XXXXXX03-XXXXXXXX40  
+
+	--> HDFS Architecture with respect to Metadata
+
+https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html
+
+https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html#Secondary_NameNode
+
+Where is the meta data of the cluster stored?
+
+1) Main memory of the NN		PLUS
+2) a persisted copy will be present in fsimage and edits
 
 
