@@ -215,3 +215,15 @@ Where is the meta data of the cluster stored?
 2) a persisted copy will be present in fsimage and edits
 
 
+### Checkpointing process
+
+1) The SNN will copy the fsimage and edits in progress to its local system, load it in to memory, apply the edits in progress and create a new fsimage  
+
+4 clock --> fsimage_20 edits in progress  
+5 clock --> SNN will copy these files, apply the image and get a new fsimage_30  
+6 clock --> SNN will copy these files, apply the image and get a new fsimage_40  
+6.30 --> restart my machine -->   
+
+2) It will then copy the new fsimage to the directory in the NN also.  
+
+
