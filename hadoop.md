@@ -227,3 +227,10 @@ Where is the meta data of the cluster stored?
 2) It will then copy the new fsimage to the directory in the NN also.  
 
 
+### Metadata of Hadoop
+
+1) fsimage --> snapshot of the filesystem when checkpointing happened   
+2) edits_in_progress --> logs of what happened on the FS after the previous checkpoint   
+3) edits_XXXX-XXXX --> These are the individuals edits which have been stored so that we can roll back to a earlier point.  
+
+
