@@ -1,7 +1,12 @@
 ###
 
 ## 1. ML kick start course  
-> https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-1-exploratory-data-analysis-with-pandas-de57880f1a68
+> https://medium.com/open-machine-learning-course/open-machine-learning-course-topic-1-exploratory-data-analysis-with-pandas-de57880f1a68  
+> https://jakevdp.github.io/PythonDataScienceHandbook/   
+> https://towardsdatascience.com/  
+> https://cognitiveclass.ai/courses/machine-learning-with-python/  
+> https://www.kdnuggets.com/2018/11/text-preprocessing-python.html   
+
 - Exploratory Data Analysis with Pandas
 - Visual Data Analysis with Python
 - Classification, Decision Trees and k Nearest Neighbors
