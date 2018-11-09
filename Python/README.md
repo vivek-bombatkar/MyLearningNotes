@@ -372,6 +372,45 @@ pySpark_script.py
 
 ## Unit tests  [TODO]
 > https://www.pythonsheets.com/notes/python-tests.html  
+> https://python.g-node.org/python-summerschool-2009/_media/cheat_sheets.pdf  
+
+```python
+#Basic structure of a test suite
+import unittest
+class FirstTestCase(unittest.TestCase):
+	 def setUp(self):
+		 """setUp is called before every test"""
+		 pass
+	 def tearDown(self):
+		 """tearDown is called at the end of every test"""
+		 pass
+	 def testtruisms(self):
+		 """All methods beginning with ‘test’ are executed"""
+		 self.assertTrue(True)
+		 self.assertFalse(False)
+class SecondTestCase(unittest.TestCase):
+	 def testapproximation(self):
+		 self.assertAlmostEqual(1.1, 1.15, 1)
+
+if __name__ == '__main__':
+	 # run all TestCase's in this module
+	 unittest.main()
+
+```
+
+Assert methods in unittest.TestCase
+Most assert methods accept an optional msg argument, which is used as an explanation for the error.
+
+|  methon  |  result  |
+|  --  |  --  |
+|  assert_(expr[, msg) assertTrue(expr[, msg])  |   Fail if expr is False  |
+|  assertFalse(expr[, msg])  |  Fail if expr is True  |
+|  assertEqual(first, second[, msg])   |  Fail if first is not equal to second  |
+|  assertNotEqual(first, second[, msg])  |  Fail if first is equal to second  |
+|  assertAlmostEqual(first, second [, places[, msg]])  | Fail if first is equal to second up to the decimal place indicated by places  |
+|  assertNotAlmostEqual(first, second [, places[, msg]])  |  Fail if first is not equal to second up to the decimal place indicated by places  |
+|  assertRaises(exception, callable, ...)  |  Fail if the function callable does not raise an exception of class exception. If additional positional or keyword arguments are given, they are passed to callable.  |
+|  fail([msg])  |  Always fail  |
 
 
 ## Logging
