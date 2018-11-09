@@ -373,3 +373,113 @@ pySpark_script.py
 ## Unit tests  [TODO]
 > https://www.pythonsheets.com/notes/python-tests.html  
 
+
+## Logging
+> http://zyxue.github.io/2015/08/05/quick-setup-for-python-logging.html  
+
+```python
+import logging  
+logging.basicConfig(
+    level=logging.DEBUG, format='%(asctime)s|%(levelname)s|%(message)s')
+
+logging.info('some message')
+```
+
+```python
+import logging
+
+def sample_function(secret_parameter):
+    logger = logging.getLogger(__name__)  # __name__=projectA.moduleB
+    logger.debug("Going to perform magic with '%s'",  secret_parameter)
+    ...
+    try:
+        result = do_magic(secret_parameter)
+    except IndexError:
+        logger.exception("OMG it happened again, someone please tell Laszlo")
+    except:
+        logger.info("Unexpected exception", exc_info=True)
+        raise
+    else:
+        logger.info("Magic with '%s' resulted in '%s'", secret_parameter, result, stack_info=True)
+
+```
+
+```python
+# 1: logging.yaml  
+
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s - %(levelname)s -[%(name)s]  %(message)s"
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+
+    file:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: app_test.log
+        maxBytes: 10485760 # 10MB
+        backupCount: 20
+        encoding: utf8
+
+loggers:
+    <module name>.<py file>:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+    <module name>:
+        level: DEBUG
+        handlers: [console]
+        propagate: no
+
+root:
+    level: INFO
+    handlers: [console, file]
+
+
+# 2: main.py
+
+import logging
+import logging.config
+
+def setup_logging(default_path='logging.yaml', default_level=logging.INFO, env_key='LOG_CFG'):
+    """Setup logging configuration
+    """
+    print("Path:")
+    for i in os.listdir("."):
+        print(i)
+    config_path = default_path
+    value = os.getenv(env_key, None)
+    if value:
+        config_path = value
+    if os.path.exists(config_path):
+        with open(config_path, 'rt') as f:
+            config = yaml.safe_load(f.read())
+        logging.config.dictConfig(config)
+        logging.info("Logging successfully configured from {0}".format(config_path))
+    else:
+        logging.basicConfig(level=default_level)
+        logging.warn("No logging configuration found. Using default configuration.")
+
+# 3: test.py
+
+import logging
+
+def testF(abc):
+    logger = logging.getLogger(__name__)
+    try:
+        logger.debug("Starting ...")
+	...		
+	logger.debug("...finished ")
+        return result
+
+    except Exception as e:
+        logger.error("Error processing : {0}".format(e))
+
+```
