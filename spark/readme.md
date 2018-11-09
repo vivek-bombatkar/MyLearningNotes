@@ -26,6 +26,51 @@ Please checkout my Spark related notes from below repos,
 > https://engblog.nextdoor.com/unit-testing-apache-spark-with-py-test-3b8970dc013b  
 > https://blog.cambridgespark.com/unit-testing-with-pyspark-fb31671b1ad8  
 
+> ***sparktestingbase*** : https://github.com/holdenk/spark-testing-base  
+```python
+# 1. df_comparison.py
+sparktestingbase
+from sparktestingbase import sqltestcase
+from pyspark.sql import SparkSession
+
+class SparkBaseTestCase(sqltestcase.SQLTestCase):
+
+    def setUp(self):
+        super(SparkBaseTestCase, self).setUp()
+        self.session = SparkSession.builder.getOrCreate()
+
+    def read_data(self, file_name, schema):
+        temp_data = self.session.read.csv('file:///{0}/tests/{1}'.format(os.getcwd(), file_name), sep=',',
+                                          header='true', schema=schema)
+        # we need this additional conversion in case of existence of not nullable columns in the expected schema
+        # after reading from csv all columns of the schema are nullable, so comparison of dataframes fails
+        return self.session.createDataFrame(temp_data.rdd.collect(), schema)
+
+# 2. test_module_1.py
+
+from tests import dataframes_comparison as dfcomp
+from pyspark.sql.functions import *
+
+
+class TestDataClean(dfcomp.SparkBaseTestCase):
+
+    def test_module_1(self):
+        schema_test = StructType([
+            StructField("field_1", StringType()),
+            StructField("field_2", StringType())
+        ])
+        schema_expected = StructType([
+            StructField("field_1", StringType()),
+            StructField("field_2", StringType())
+            #StructField("field_1_not_applicable", BooleanType()),
+            #StructField("field_2_not_applicable", BooleanType())
+        ])
+        expected_data = self.read_data('module_1_data/module_1expected_data.csv', schema_expected)
+        test_data = self.read_data('module_1_data/module_1_test_data.csv', schema_test)
+        super(TestDataClean, self).assertDataFrameEqual(module_1.function_1(test_data), expected_data)
+
+```
+
 ## orderBy
 
 ```python
