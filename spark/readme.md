@@ -26,6 +26,13 @@ Please checkout my Spark related notes from below repos,
 > https://engblog.nextdoor.com/unit-testing-apache-spark-with-py-test-3b8970dc013b  
 > https://blog.cambridgespark.com/unit-testing-with-pyspark-fb31671b1ad8  
 
+- Convert dataframe to pandas  
+```python
+from pandas.util.testing import assert_frame_equal
+assert_frame_equal(csvdata, csvdata_old)
+
+```
+
 > ***sparktestingbase*** : https://github.com/holdenk/spark-testing-base  
 ```python
 # 1. df_comparison.py
