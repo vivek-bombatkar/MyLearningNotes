@@ -372,8 +372,22 @@ pySpark_script.py
 
 ## Unit tests  [TODO]
 > https://www.pythonsheets.com/notes/python-tests.html  
-> https://python.g-node.org/python-summerschool-2009/_media/cheat_sheets.pdf  
+> https://python.g-node.org/python-summerschool-2009/_media/cheat_sheets.pdf    
 
+- Ex 1  
+```python
+import unittest
+
+def fun(x):
+    return x + 1
+
+class MyTest(unittest.TestCase):
+    def test(self):
+        self.assertEqual(fun(3), 4)
+	
+```
+
+- Ex 2
 ```python
 #Basic structure of a test suite
 import unittest
