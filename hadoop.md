@@ -1,5 +1,5 @@
 
-## big data  
+## 1. big data  
 ***Big data --> 3 v's - IBM
 
 Big data is a term for data sets that are so large or complex that traditional data processing applications are inadequate to deal with them.
@@ -64,7 +64,7 @@ Master --> metadata
 Slaves --> actual data  
 
 
-## HDFS Architecture  
+## 2. HDFS Architecture  
 
 HDFS --> daemons --
 			NameNode		-	Master - maintains the metadata
@@ -253,7 +253,7 @@ The SNN copies the edits_inProgress + fsimage from the NN, loads it its internal
 3) edits_XXXX-XXXX --> These are the individuals edits which have been stored so that we can roll back to a earlier point.  
 
 
-## Hadoop  
+## 3. Hadoop  
 
 - core-site.xml --> IP address of your NN. --> 9000 port will be used by the datanodes for the RPC communication. This will also be used by the client.  
 
@@ -523,5 +523,31 @@ Ex 7 --> Working with a Group By Example --> Partitioner.
 4 classes here.
 
 hdfs dfs -rm-r /input/partitiondata.txt
+
+## 3. Hive
+
+### Difference between Internal V/s External Table
+
+A] Location of Data
+1) Int: /user/hive/warehouse/Name.db/Tablefolder in HDFS
+2) Ext: Can be present anywhere in HDFS
+
+B] Is a load required?
+1) Int: Yes
+2) Ext: No as the data is already uploaded by the upstream in to a specific folder in HDFS
+
+C] Who has permission on the data folder?
+1) Int: Hive
+2) Ext: Not hive, but HDFS
+
+D] What happens when i drop a table?
+1) Int: Both the structure & the data will be deleted.
+2) Ext: Only the structure is deleted and the data will be present in HDFS.
+
+E] Syntax
+1) Int: Normal syntax
+2) Ext: The word external should be present before the table word + folder location should be given at the time of table create itself.
+
+ sqlContext.sql("CREATE external TABLE IF NOT EXISTS customer1 (id INT, name STRING,city STRING, state STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' location '/TempCust'")
 
 
