@@ -1,8 +1,9 @@
-Big data --> 3 v's - IBM
+
+## big data  
+***Big data --> 3 v's - IBM
 
 Big data is a term for data sets that are so large or complex that traditional data processing applications are inadequate to deal with them.
 Challenges include analysis, capture, data curation, search, sharing, storage, transfer, visualization, querying, updating and information privacy.  
-
 
 1) Volume --> How many zeros in yotta bytes. --> 24 zeros.  
 
@@ -23,19 +24,17 @@ Challenges include analysis, capture, data curation, search, sharing, storage, t
 http://www.ibmbigdatahub.com/infographic/four-vs-big-data  
 
 
-
-
 Analysis		v/s		Analytics  
 
 Reporting [ historical]			Predictive  
 RDBMS, BI				RDBMS,NoSQL - SPSS, SAS, R  
 
 
-OLTP			v/s		OLAP  
-
-Transactional				Analytical  
-RDBMS					DWH  
-NoSQL					Hadoop  
+|  OLTP			|		OLAP   |
+|  --  |  --  | 
+|  Transactional	|			Analytical  |  
+|  RDBMS		| 			DWH  |   
+|  NoSQL		|  			Hadoop  |   
 
 
 Biggest Diffentiator between RDBMS and Hadoop  
@@ -66,6 +65,12 @@ Slaves --> actual data
 
 
 ## HDFS Architecture  
+
+HDFS --> daemons --
+			NameNode		-	Master - maintains the metadata
+			Data Node		-	Store the actual data - blocks
+			Secondary NameNode	-	Checkpointing if there is no Passive NN
+			
 
 ***Is HDFS a physical or a virtual file system? Virtual.***  
 If we put a file called sample into the cluster.  
@@ -197,6 +202,11 @@ http://media.bestofmicro.com/X/8/430172/original/yarn.png
 
 ### How metadata is handled in HDFS  
 
+2 things that represents the metadata of a cluster --> 
+	a) fsimage --> Snap shot of the FS at a point of time
+	b) edits_inprogress --> redo logs in oracle
+	
+
 For the first time, when we format the NN and start the services  
 
 1) fsimage --> snapshot of the FS at a point of time  
@@ -217,6 +227,10 @@ Where is the meta data of the cluster stored?
 
 ### Checkpointing process
 
+Checkpointing --> Some time interval [ 1 hour ] --> 
+
+The SNN copies the edits_inProgress + fsimage from the NN, loads it its internal memory and applies the edits_inprogress on the fsimage and create a new fsimage and copies this fsimage to the NN also.	
+
 1) The SNN will copy the fsimage and edits in progress to its local system, load it in to memory, apply the edits in progress and create a new fsimage  
 
 4 clock --> fsimage_20 edits in progress  
@@ -227,6 +241,11 @@ Where is the meta data of the cluster stored?
 2) It will then copy the new fsimage to the directory in the NN also.  
 
 
+==> What will be present on the Data Nodes?
+	a) blocks
+	b) .meta file which contains the checksum information for a block.
+	
+	
 ### Metadata of Hadoop
 
 1) fsimage --> snapshot of the filesystem when checkpointing happened   
@@ -235,6 +254,11 @@ Where is the meta data of the cluster stored?
 
 
 ## Hadoop  
+
+- core-site.xml --> IP address of your NN. --> 9000 port will be used by the datanodes for the RPC communication. This will also be used by the client.  
+
+- hdfs-site.xml --> replication - the default is 3.  
+
 
 ### Zookeeper
 Zookeeper is the component which ensure that the masters have a leader and when the leader goes down, it will assign another leader.
