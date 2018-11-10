@@ -350,7 +350,18 @@ sdf.repartition(1).write.save("sampleFolder_2")
 - Bamboo could be setup to trigger build when code commited to repo
     
 
+## Data quality issues
 
+1. imcompleted - missing data   
+2. inaccuracy - garbage chars / wrong data  
+3. inconsistency - price in diff currency   
+4. invalidity - logically / business logically invalide data  
+5. Non stadard - decimal places not consistance  
+
+- Data profiling - data quality metrics : %complete, %accurate,  
+    - threshold to validate in meta or control table
+- Data cleansing - remove duplicate, null / NA
+- 
 
 
 
