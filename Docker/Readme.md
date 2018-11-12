@@ -7,6 +7,8 @@
 ### Useful links 
 
 > https://www.youtube.com/watch?v=99d0O2AitLk  
+> https://www.youtube.com/watch?v=YFl2mCHdv24  
+> https://www.youtube.com/watch?v=WvmF-WsmzfQ  
 > https://runnable.com/docker/python/dockerize-your-python-application  
 > https://github.com/buildkite/python-docker-example  
 > https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17  
