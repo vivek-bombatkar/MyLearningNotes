@@ -30,8 +30,8 @@ beeline -u $BEELINE_URL --showHeader=false --outputformat=tsv2 -e "show tables f
 xargs - reads data from standard input (stdin) and executes the command (supplied to it as argument) one or more times based on the input read. Any blanks and spaces in input are treated as delimiters, while blank lines are ignored. 
 ```
 
-## HIVE: select column names based on reguler expression
-
+## HIVE: select column names based on reguler expression  
+> https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Select#LanguageManualSelect-REGEXColumnSpecification  
 ```sql
 set hive.support.quoted.identifiers=none;
 select `<reguler expression>` from  hive_table ;
