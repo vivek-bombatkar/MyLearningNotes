@@ -307,9 +307,10 @@ wheel: bdist_wheel-depen
 
 ## Conda - environment manager
 > https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c  
-> https://conda.io/docs/_downloads/conda-cheatsheet.pdf  
-> https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment
-> https://community.hortonworks.com/articles/58418/running-pyspark-with-conda-env.html
+> https://conda.io/docs/_downloads/conda-cheatsheet.pdf   
+> https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment  
+> https://community.hortonworks.com/articles/58418/running-pyspark-with-conda-env.html  
+> https://www.slideshare.net/AaronMeurer/conda-a-binary-scipy2014  
 - A conda environment is a directory that contains a specific collection of conda packages that you have installed.   
 - On a machine the environment is made out of variables linking to different target folders containing executable or other resource files.  
 - So if you execute a command it is either referenced from your PATH, PYTHON_LIBRARY, or any other defined variable.  
