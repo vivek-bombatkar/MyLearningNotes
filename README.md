@@ -32,6 +32,7 @@ xargs - reads data from standard input (stdin) and executes the command (supplie
 
 ## HIVE: select column names based on reguler expression  
 > https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Select#LanguageManualSelect-REGEXColumnSpecification  
+
 ```sql
 set hive.support.quoted.identifiers=none;
 select `<reguler expression>` from  hive_table ;
