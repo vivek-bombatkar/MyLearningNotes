@@ -30,6 +30,13 @@ beeline -u $BEELINE_URL --showHeader=false --outputformat=tsv2 -e "show tables f
 xargs - reads data from standard input (stdin) and executes the command (supplied to it as argument) one or more times based on the input read. Any blanks and spaces in input are treated as delimiters, while blank lines are ignored. 
 ```
 
+## HIVE: select column names based on reguler expression
+
+```sql
+set hive.support.quoted.identifiers=none;
+select `<reguler expression>` from  hive_table ;
+```
+
 ## hdfs dfs -checksum
 https://community.hortonworks.com/questions/19239/hadoop-checksum-calculation-doubts.html
 
