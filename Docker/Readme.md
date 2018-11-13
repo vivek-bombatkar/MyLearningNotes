@@ -21,6 +21,10 @@
 <img src="https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/Docker/docker_concept.JPG" />
 
 
+- Note: after installing Docker on Windows, need to add below path to Path environment variable before start using Docker commands in command prompt.  
+
+``` C:\Program Files\Docker\Docker\resources\bin ```
+
 
 ## Below steps to build and execute very basic docker container
 
