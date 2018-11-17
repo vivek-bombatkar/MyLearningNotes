@@ -1,0 +1,369 @@
+
+Stuff done on Day1
+
+1) What is Big Data
+2) What is Hadoop
+3) Use Cases of Big Data
+4) HDFS Read - Write Architecture
+5) Started with hadoop 2.7.2 setup on ubuntu 14.4
+6) Details of the metadata - Checkpointing
+7) File Injestion example and impact on the data and metadata locations.
+
+==============================================>
+
+Metadata of Hadoop
+
+1) fsimage --> snapshot of the filesystem when checkpointing happened
+2) edits_in_progress --> logs of what happened on the FS after the previous checkpoint
+3) edits_XXXX-XXXX --> These are the individuals edits which have been stored so that we can roll back to a earlier point.
+
+==============================================>
+
+Zookeeper is the component which ensure that the masters have a leader and when the leader goes down, it will assign another leader.
+
+http://hadoop.apache.org/docs/current2/hadoop-project-dist/hadoop-hdfs/HDFSHighAvailabilityWithQJM.html
+
+===============================================>
+
+Pre-Req when we start
+
+a) start-all.sh
+b) start the job history server -- 18
+
+===============================================>
+
+Intel Virtualization on Win 8 - 10 --> https://www.youtube.com/watch?v=3irpIFya_lk
+
+DataSet for POCs.
+
+1) https://www.kaggle.com/competitions
+2) https://data.gov.in/catalogs
+3) https://data.cityofnewyork.us/browse
+
+https://www.meetup.com/
+
+===============================================> Map Reduce
+
+1) Map --> 	pick what you want from a record.
+
+		Works parallely on each node
+
+		The result is shuffled sorted 
+
+--> Magic Phase of Shuffling --> Bring together all the values of the similar key together so that we can perform reducing
+
+2) Reduce --> 	aggregation based on the map functionality
+
+===============================>
+
+3 aspects / faces of map reduce
+
+1) Programming Model --> Divide & Conquer --> Can be applied to any language and any framework
+
+2) It is a API --> Allow developers to use the framework classes so that the functionality can be used.
+
+3) It is a Runtime --> Resource Manager + Node Manager
+
+===============> Pre-req information you need before processing
+
+1) dataset
+2) result of the analysis - knowledge of the data
+3) What is a record? The default record seperator --> \n [ new line ]
+
+DataSet1
+		How are you
+		I am fine
+	How many records we have here? 2
+
+DataSet2
+		Venkat
+		M
+		Krishnan
+		Kumar
+		A
+		Anupam
+	How many records we have? 2
+
+DataSet3
+		Video File --> 1280 MB
+	How many blocks? 10
+	How many records? 1
+
+	Can we have parallel processing in DataSet3? 
+
+=============================================> In any Map Reduce Program, How many classes will be there?
+
+
+Map Class --> Business logic of what i should pick from a record
+Combiner
+Partitioner
+Reduce Class --> Business logic of aggregation
+
+Driver Class --> Build my Job and send it across to the Cluster
+
+
+
+===============================> 6 Phases in Map Reduce
+
+5 Node Cluster
+
+sample -- 200
+
+	1		2		3		4		5
+			128 - M				72 - M
+
+Shuffler + Reducer process can run on any of the data nodes which ever is free. Also Note by default there would be only 1 reducer per job.
+
+					Reducing
+
+
+1] Input Phase - Block
+
+2] Splitting Phase. There are 2 types of splits in Hadoop
+
+	a) Block Split 		--> Writing	physical
+	b) Record Split
+	   Logical Record	--> Reading	logical
+
+
+key --> cursor position [ moves left to right like a cursor ]
+value --> the record.
+
+3] Mapping phase: Here you will write the business logic of what is needed from a record.
+
+	1) txns
+	2) Sum of Sales across cities
+	3) record is a new line.	
+
+00000000,06-26-2011,4007024,040.33,Exercise & Fitness,Cardio Machine Accessories,Clarksville,Tennessee,credit
+00000001,05-26-2011,4006742,198.44,Exercise & Fitness,Weightlifting Gloves,Long Beach,California,credit
+00000002,06-01-2011,4009775,005.58,Exercise & Fitness,Weightlifting Machine Accessories,Anaheim,California,credit
+00000003,06-05-2011,4002199,198.19,Gymnastics,Gymnastics Rings,Milwaukee,Wisconsin,credit
+00000004,12-17-2011,4002613,098.81,Team Sports,Field Hockey,Nashville  ,Tennessee,credit
+00000005,02-14-2011,4007591,193.63,Outdoor Recreation,Camping & Backpacking & Hiking,Chicago,Illinois,credit
+00000006,10-28-2011,4002190,027.89,Puzzles,Jigsaw Puzzles,Charleston,South Carolina,credit
+00000007,07-14-2011,4002964,096.01,Outdoor Play Equipment,Sandboxes,Columbus,Ohio,credit
+00000008,01-17-2011,4007361,010.44,Winter Sports,Snowmobiling,Des Moines,Iowa,credit
+00000009,05-17-2011,4004798,152.46,Jumping,Bungee Jumping,St. Petersburg,Florida,credit
+
+In this example: Key will be the city and the amt will be the value.
+
+Where is the output of the mapping phase stored? Nodes where the processing has happened. [ Node 2 and Node 4 where the blocks were present in our example]
+
+4] Shuffling --> Controls Shuffling --> Master of the Processing Layer
+
+Where is shuffling done? on Any Slave which is decided by the RM.
+
+Can shuffling start when any blocks is finished? YES
+
+There are 2 parts of the Reducing
+
+	a) To bring the data from the mapper output locations in different nodes to the reducer JVM. This i sthe shuffling process
+
+5) Reducing --> We perform the aggregations
+
+6) Output Phase --> Were the output of reducing is stored in HDFS
+
+
+Rules for Broken Records :-
+
+
+1) The possibility of a broken record comes only in the last record for a block.
+
+2) The second block onwards will start processing from the beginning of a record only. That means if we have a broken record in the 2nd block, it will not be processed by the second block at the beginning.
+
+3) When the first block finds that at the end of the block, there is no recording ending, it will tell the RM to request the other block on a different node to share that record to the first block and then processing will happen.
+
+=========================> Post Tea Break
+
+1) Install JDK 1.8
+2) Extract eclipse
+3) Start Eclipse
+
+The dependency jar files are present in
+
+1) hadoop-2.7.2\share\hadoop\mapreduce --> all jars here
+2) hadoop-2.7.2\share\hadoop\mapreduce\lib --> all jars here
+3) hadoop-2.7.2\share\hadoop\common --> all jars here
+
+Tight Coupling v/s Loose Coupling between different classes
+
+1) Tight --> Using Inner classes [ Mapper and Reducer ] would be within the Driver class
+
+2) Loose --> Each of them as seperate java files itself.
+
+=================> Walk Through of the code
+
+The access pattern in Hadoop is WORM --> Write Once Read Many
+
+Hadoop does not support Updates:- SCD Type2
+
+https://en.wikipedia.org/wiki/Slowly_changing_dimension
+
+To get a list of linux options possible in hdfs --> hdfs dfs - press enter
+
+Speculative Execution:- http://hadoopinrealworld.com/speculative-execution/
+
+Deep Dive in to Code:-
+
+1) What are the life cycle methods of mapper --
+
+	setup
+	map / run
+	cleanup
+
+2) What are the Mapper and Reducer classes static? Called from the Driver class via the job class
+
+3) What is the  < > line in the mapper class? Generics --> compile time type safefy
+
+4) What is LongWritable, Text? Wrapper given by Hadoop Framework. This is to create Avro Style Serialization - Page No 108 of the Def Guide
+
+5) What is context in the map function? 
+
+6) The InputFormat class specifies the record splitting logic. The default is TextInputFormat
+
+7) job.setMapOutputKeyClass and Value class because there is Generic Erasure at runtime
+
+=====================================> Post Lunch
+
+Ex - 2 --> Location of the Sysout statement. 
+
+Complete Flow of the Map Reduce Programme.
+
+1) Client submits the jar file via hadoop jar
+
+2) The request goes to the Resource Manager [RM ]
+
+3) The RM will allocate a Application Master to handle the life cycle of that particular application. This AM will be started on any data node which is available.
+
+The per-application ApplicationMaster is, in effect, a framework specific library and is tasked with negotiating resources from the ResourceManager and working with the NodeManager(s) to execute and monitor the tasks.
+
+4) The RM will communicate with the NN to get the block details of the file that is being analyzed.
+
+5) The RM will communicate with the Applicaton Master and give that information to him.
+
+6) The AM will communicate with the NM on the nodes where the blocks are and the Node Manager will start the Map containers.
+
+7) These NM will communicate with the DN to get the blocks and do the processing.
+
+8) The life cycle of the application is taken care of by AM.
+
+Ex3 --> Find out the Max Temp per year.
+
+dataset: 1901_S
+Schema --> fixed position --> Year and The Temp
+Purpose: Find out the max temp per year.
+
+k1 --cursor
+v1 --complete record
+k2 -- year
+v2 -- temp	--> Map function
+
+shuffler: Bring together all values for the similar years
+
+k3 - year
+v3 - max temp
+
+===================================================>
+
+Ex- 4 --> Optimization via the combiner
+
+If we have a lot of similar keys from the mapper, then the following 2 counter values should be checked:-
+
+1) Network IO -- Reduce Shuffled Bytes
+2) Disk IO --> spilled records.
+
+		Map Writing    - 6
+		Reduce Reading - 6
+
+1901_C dataset --> 6565 readings per year and we have 2 years of data in this file. 1901 and 1902.
+
+Run the same jar with this new dataset and tell me
+
+	Network IO		-> 144436
+	Disk IO			-> 26260
+
+Now let us optimize the performance by introducing the Combiner. This is like a mini reducer running on the map side. This will be called before the data is written to the disk.
+
+Combiner takes the input from the mapper and performs aggregation. If the logic of the mapper and reducer is the same, then we can use the reducer class itself as the combiner.
+
+	Network IO		-> 28
+	Disk IO			-> 4 [ 2 unique years, 2 for map writing and 2 for reduce reading ]
+
+If combiner is so beneficial, why was it not set to true by default in the framework?
+
+If we use combiner in logic like median, avg, std dev --> will it work? They is why the combiner is kept optional.
+
+======================================
+
+Ex 5: Sum of Transactions per product [ Sub Category ]. 
+
+Plus we need to find out the total number of sub category items --> This info will be available from the counters. 
+
+The schema of the txns file is 
+
+txnid, date, custid, amount, primary_product, sub_category, City, State, Cash / Credit
+
+00000009,05-17-2011,4004798,152.46,Jumping,Bungee Jumping,St. Petersburg,Florida,credit
+
+Map Phase: pick the sub category and the amount
+
+Shuffle Phase: All the values for similar sub categories will be brought together by the shuffler
+
+Reduce Phase: Perform Aggregation.Note: The final result that i want should be of not more than 2 decimals
+
+Imp Points: We can use the Reducer class as a combiner only if the key value of the mapper and the reducer are the same.If not it will give the ClassCastException.
+
+If we still need to use a combiner, we will have to explicitly write a combiner class, which will extend the Reducer class itself, as there is no Combiner class in the framework.
+
+Ex 6: For testing the business logic of the map and reduce functions, we will have to use the MR Unit Library.
+
+3 Drivers-->
+	MapDriver<k1,v1,k2,v2>
+	ReduceDriver<k2,v2,k3,v3>
+	MapReduceDriver<k1,v1,k2,v2,k3,v3>
+	
+Junit methodology
+
+1) @Before --> setup --> create the necessary instances
+2) Unit Test Case
+	Pass some input values
+	Specify the expected output values
+	runTest
+
+Ex 7 --> Working with a Group By Example --> Partitioner.
+
+4 classes here.
+
+hdfs dfs -rm-r /input/partitiondata.txt
+
+========================================> Limitations of Map Reduce
+
+--> Learning Curve 
+--> Not good for Ad-hoc style programming.
+--> Overkill for structured data, since we can easily use SQL style processing.
+
+2009 --> Jeff Hammerbasch -- CTO Facebook --> Data -
+
+10TB / Day --> Oracle and highly customized mysql database.
+
+Let us use hadoop --> get 10 java developers --> wrapper over map reduce.
+
+SQL query -- hive compiler -- convert that in to MR at the back and process the data in HDFS.
+
+Bucky Java --> https://www.youtube.com/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28
+
+Pre-Req for tomorrow:- 
+
+Pig- https://www.youtube.com/watch?v=rbWQokft0BU&t=11s
+Hive - https://www.youtube.com/watch?v=9hg73PCuTDc&t=34s
+
+
+
+
+
+
+
+
+
+
