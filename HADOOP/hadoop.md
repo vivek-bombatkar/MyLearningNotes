@@ -1,5 +1,10 @@
 
-## 1. big data  
+- [1. BIG DATA](#10)  
+- [2. HDFS Architecture  ](#20)  
+- [3. Hadoop](#30)  
+- [4. Hive](#40)  
+
+## <a name="10"></a>1. big data  
 ***Big data --> 3 v's - IBM
 
 Big data is a term for data sets that are so large or complex that traditional data processing applications are inadequate to deal with them.
@@ -63,8 +68,7 @@ What are the 4 common virtualization softwares
 Master --> metadata  
 Slaves --> actual data  
 
-
-## 2. HDFS Architecture  
+## <a name="20"></a>2. HDFS Architecture  
 
 HDFS --> daemons --
 			NameNode		-	Master - maintains the metadata
@@ -253,7 +257,7 @@ The SNN copies the edits_inProgress + fsimage from the NN, loads it its internal
 3) edits_XXXX-XXXX --> These are the individuals edits which have been stored so that we can roll back to a earlier point.  
 
 
-## 3. Hadoop  
+## <a name="30"></a>3. Hadoop  
 
 - core-site.xml --> IP address of your NN. --> 9000 port will be used by the datanodes for the RPC communication. This will also be used by the client.  
 
@@ -524,7 +528,7 @@ Ex 7 --> Working with a Group By Example --> Partitioner.
 
 hdfs dfs -rm-r /input/partitiondata.txt
 
-## 3. Hive
+## <a name="40"></a>4. Hive
 
 ### Difference between Internal V/s External Table
 
