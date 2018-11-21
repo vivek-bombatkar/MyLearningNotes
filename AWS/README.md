@@ -1,5 +1,8 @@
 ## AWS
 
+### useful links
+> https://www.youtube.com/watch?v=2en00-mPaS8   
+
 ## Hadoop + HIVE 
 - S3  
 - EC2 cluster > steps
