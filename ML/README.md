@@ -83,4 +83,7 @@ pip install --upgrade google-cloud
 > [WEKA](https://www.cs.waikato.ac.nz/ml/index.html)  
 
 
+## 5. books  
+> http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf  
+
 
