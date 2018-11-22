@@ -37,11 +37,6 @@ $ python main.py
 ...
 
 
-### Support
-Feel free to reach out to us at,
-- Markus.Herrmann@gfk.com
-- Joerg.Petzold@gfk.com
-- Vivek.Bombatkar@gfk.com
 
 
 
