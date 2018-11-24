@@ -10,6 +10,7 @@
 
 ## PySpark application
 > https://blog.sqreen.io/amazon-emr-spark/  
+> https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-submit-step.html  
 > https://medium.com/big-data-on-amazon-elastic-mapreduce/run-a-spark-job-within-amazon-emr-in-15-minutes-68b02af1ae16  
 
 
