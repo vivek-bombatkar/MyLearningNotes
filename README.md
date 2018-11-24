@@ -153,6 +153,13 @@ git rebase develop
     ```
     - 'tags' - once master updated with new changes, it should be tagged with the updated version number.
     
+- git setup the connection or 407 error  
+> https://stackoverflow.com/questions/24907140/git-returns-http-error-407-from-proxy-after-connect  
+```
+git config --global http.proxy http://username:password@proxiURL:proxiPort
+
+git config --global http.sslVerify false
+```
 
 ## AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
