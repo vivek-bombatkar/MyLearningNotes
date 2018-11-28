@@ -98,3 +98,12 @@ sdf.write.mode("overwrite").saveAsTable("hive_table_1")
 ```
   - withput checkpoint exception will thrown : org.apache.spark.sql.AnalysisException: Cannot overwrite table prod_gse_microwave.gsemicrowave_gb_1w_31102018t153548z that is also being read from;   
 
+
+## Configuration 
+> https://spark.apache.org/docs/1.5.0/configuration.html#dynamically-loading-spark-properties
+
+- Properties set directly on the SparkConf take highest precedence, then flags passed to spark-submit or spark-shell, then options in the spark-defaults.conf file.  
+1. Properties set on the SparkConf (in program).  
+2. Flags passed to spark-submit or spark-shell.  
+3. Options set in the spark-defaults.conf file.  
+
