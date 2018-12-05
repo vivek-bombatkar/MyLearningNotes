@@ -374,6 +374,7 @@ pySpark_script.py
 ## Unit tests  [TODO]
 > https://www.pythonsheets.com/notes/python-tests.html  
 > https://python.g-node.org/python-summerschool-2009/_media/cheat_sheets.pdf    
+> https://docs.python-guide.org/writing/tests/  
 
 ### unittest
 - Ex 1  
