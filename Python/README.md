@@ -375,6 +375,7 @@ pySpark_script.py
 > https://www.pythonsheets.com/notes/python-tests.html  
 > https://python.g-node.org/python-summerschool-2009/_media/cheat_sheets.pdf    
 
+### unittest
 - Ex 1  
 ```python
 import unittest
@@ -426,6 +427,35 @@ Most assert methods accept an optional msg argument, which is used as an explana
 |  assertNotAlmostEqual(first, second [, places[, msg]])  |  Fail if first is not equal to second up to the decimal place indicated by places  |
 |  assertRaises(exception, callable, ...)  |  Fail if the function callable does not raise an exception of class exception. If additional positional or keyword arguments are given, they are passed to callable.  |
 |  fail([msg])  |  Always fail  |
+
+
+### pytest
+
+- Ex 1  
+```python
+import pytest 
+def fun(x):
+    return x+1
+
+def test_fun():
+    assert fun(5) == 7
+```    
+
+- Ex 2  
+```python
+import pytest 
+
+def fun(x):
+    try:
+        return x+1
+    except Exception as ex:
+        raise
+
+def test_fun():
+    with pytest.raises(Exception) as exc_info:
+        fun('5')
+    assert exc_info.typename == "TypeError"
+```
 
 
 ## Logging
