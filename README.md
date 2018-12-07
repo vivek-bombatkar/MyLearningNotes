@@ -161,6 +161,11 @@ git config --global http.proxy http://username:password@proxiURL:proxiPort
 git config --global http.sslVerify false
 ```
 
+### git flow
+- merge develop to master by creating release branch.  
+
+
+
 ## AWS CLI
 Install CLI : https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-windows.html#awscli-install-windows-path
 
