@@ -78,6 +78,12 @@ class TestDataClean(dfcomp.SparkBaseTestCase):
 
 ```
 
+## pytest-spark
+> https://pypi.org/project/pytest-spark/   
+> https://stackoverflow.com/questions/40975360/testing-spark-with-pytest-cannot-run-spark-in-local-mode  
+> https://pypi.org/project/pytest-runner/  
+
+
 ## orderBy
 
 ```python
