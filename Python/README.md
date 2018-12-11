@@ -431,6 +431,7 @@ Most assert methods accept an optional msg argument, which is used as an explana
 
 
 ### pytest
+> https://pypi.org/project/pytest-runner/  
 
 - Ex 1  
 ```python
@@ -457,6 +458,9 @@ def test_fun():
         fun('5')
     assert exc_info.typename == "TypeError"
 ```
+
+### Auto unit testing with setuptool
+
 
 
 ## Logging
