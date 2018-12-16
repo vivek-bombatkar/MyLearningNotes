@@ -14,6 +14,9 @@
 > https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17  
 > https://serversforhackers.com/s/docker-in-development  
 > https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/  
+> https://medium.com/@chadlagore/conda-environments-with-docker-82cdc9d25754  
+> https://www.youtube.com/watch?v=JBtWxj9l7zM  
+> 
 
 
 ### Docker In the simple illustration 
