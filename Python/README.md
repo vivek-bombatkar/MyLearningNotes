@@ -600,3 +600,28 @@ flake8 <PY PACKAGE FOLDER>
 pylint <PY PACKAGE FOLDER> --ignore= <PY PACKAGE FOLDER>/tests
 
 ```
+
+### tox
+> https://tox.readthedocs.io/en/latest/  
+
+- tox aims to automate and standardize testing in Python.  
+
+-tox.ini  
+```
+[tox]
+envlist = py36tox
+
+[testenv]
+setenv =
+    PYTHONPATH={toxinidir}
+    LC_ALL=en_US.UTF-8
+    LANG=en_US.UTF-8
+whitelist_externals =
+    pytest
+commands =
+    pytest 
+
+[testenv:abc]
+whitelist_externals =
+commands =
+```
