@@ -436,7 +436,9 @@ Most assert methods accept an optional msg argument, which is used as an explana
 
 
 ### pytest
-> https://pypi.org/project/pytest-runner/  
+> https://pypi.org/project/pytest-runner/   
+> https://stackoverflow.com/questions/38155169/how-do-i-get-pytest-to-run-all-functions-as-test  
+> https://docs.pytest.org/en/latest/goodpractices.html
 
 - Ex 1  
 ```python
@@ -575,5 +577,26 @@ def testF(abc):
 
     except Exception as e:
         logger.error("Error processing : {0}".format(e))
+
+```
+
+## code coverage
+> https://coverage.readthedocs.io/en/v4.5.x/  
+
+```
+pip install coverage 
+
+coverage run --source <PY PACKAGE FOLDER> -m pytest 	# find the py package 
+coverage report -m --fail-under=80			# fail if less than 80% code coverage
+coverage html						# generate html report
+
+```
+
+## style check
+> https://realpython.com/python-code-quality/   
+
+```
+flake8 <PY PACKAGE FOLDER>
+pylint <PY PACKAGE FOLDER> --ignore= <PY PACKAGE FOLDER>/tests
 
 ```
