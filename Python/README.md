@@ -247,11 +247,16 @@ Need to understand below three things,
 -  complicated shell commands- put them under a rule in the makefile.  
 - This is a build file, which for Make is called a Makefile - a file executed by Make  
 - Makefiles Do Not Have to be Called Makefile. if we call it something else we need to tell Make where to find it. This we can do using -f flag.  
+- Additional things that you want to add is something called PHONY. By default, makefile operates on files so if there will be a file called clean-pyc it will try to use it instead of a command. To avoid this use ```.PHONY``` at the beginning of your makefile
+
+
 - ```make -f MyOtherMakefile```  
 
     
 ```bash
     #example make file    
+.PHONY: init clean wheel 
+    
 clean-build: 
 	rm -rf build/
 	
