@@ -580,6 +580,11 @@ def testF(abc):
 
 ```
 
+## CI vs CD in Python
+> https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment  
+
+
+
 ## code coverage
 > https://coverage.readthedocs.io/en/v4.5.x/  
 
