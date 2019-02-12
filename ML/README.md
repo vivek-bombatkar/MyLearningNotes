@@ -87,3 +87,9 @@ pip install --upgrade google-cloud
 > http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf  
 
 
+## CONCEPTS  
+
+### PCA, Principal Component Analtsis  
+> https://www.youtube.com/watch?v=8LwCPpNtggM  
+> http://setosa.io/ev/principal-component-analysis/  
+
