@@ -606,7 +606,7 @@ pylint <PY PACKAGE FOLDER> --ignore= <PY PACKAGE FOLDER>/tests
 
 ```
 
-### tox
+## tox
 > https://tox.readthedocs.io/en/latest/  
 
 - tox aims to automate and standardize testing in Python.  
@@ -630,3 +630,6 @@ commands =
 whitelist_externals =
 commands =
 ```
+
+## Function channing  
+> https://medium.com/@adamshort/python-gems-5-silent-function-chaining-a6501b3ef07e
