@@ -104,7 +104,10 @@ Resolution is to alter table to change 'serdeproperties' path.
 alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-cluster/user/hive/warehouse/my_schema.db/new_table') 
 ```
 
-## git commonly used commands in the order that I follow mostly :-)
+## The GIT stuff    
+
+### commonly used commands in the order that I follow mostly :-)  
+
 > https://www.youtube.com/watch?v=47uih9Tp6H8  
 > https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow  
 
@@ -161,8 +164,34 @@ git config --global http.proxy http://username:password@proxiURL:proxiPort
 git config --global http.sslVerify false
 ```
 
-### git flow
+### git flow  
+> https://danielkummer.github.io/git-flow-cheatsheet/  
 - merge develop to master by creating release branch.  
+- version of new release is same as release branch name.  
+
+#### steps using git flow:  
+
+- git flow for feature branch  
+```
+git flow init  
+git flow feature start MYFEATURE
+git flow feature finish MYFEATURE
+git flow feature publish MYFEATURE
+git flow feature pull origin MYFEATURE
+git flow feature track MYFEATURE
+```
+
+- git flow for release  
+```
+git flow release start RELEASE  
+git flow release publish RELEASE
+git flow release finish RELEASE
+git push origin --tags
+```
+
+
+### git merge conflicts 
+> https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts  
 
 
 
