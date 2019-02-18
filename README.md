@@ -192,6 +192,12 @@ git push origin --tags
 
 ### git merge conflicts 
 > https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts  
+- When feature branch needs to merge with develop that is already updated with some other changes  
+#### Steps:  
+1. first update feature from develop.  
+2. merge conflicts  
+3. then merge feature to develop  
+4. merge conflicts  
 
 
 
