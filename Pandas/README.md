@@ -752,5 +752,9 @@ df_b.is_copy = False
 df_b['X']/= 2
 ```
 
-
+## join vs merge vs concat
+> https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html  
+>  
+- ```ValueError: cannot reindex from a duplicate axis```
+This error usually rises when you join / assign to a column when the index has duplicate values. 
 
