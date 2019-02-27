@@ -222,5 +222,6 @@ rm -rf app
 
 docker run  vkbomb/gfk-spark-submit:v2 src/algorithm_2.py
 ```
-
+And Then  
+``` COPY /app /src/ ```
 
