@@ -203,3 +203,24 @@ Deleted: sha256:38a783dda97c8b188abc2c1d9cb6ed594ee0d06e77e393326f5fe59cb0ebea70
 > CMD — set executable for container
 
 
+## Common issues 
+
+### failed: Forbidden path outside the build context:
+- So this fails :  ``` COPY ../tmp/ /tmp ```  
+Solution:  
+> https://howtovault.com/posts/how-to-fix-copy-failed-forbidden-path-outside-the-build-context-in-docker/  
+```
+#build.sh
+#!/bin/bash
+mkdir app
+
+cp -r ../src/* app
+
+docker build --force-rm -t vkbomb/gfk-spark-submit:v2 -f Dockerfile .
+
+rm -rf app
+
+docker run  vkbomb/gfk-spark-submit:v2 src/algorithm_2.py
+```
+
+
