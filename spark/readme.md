@@ -113,3 +113,32 @@ sdf.write.mode("overwrite").saveAsTable("hive_table_1")
 2. Flags passed to spark-submit or spark-shell.  
 3. Options set in the spark-defaults.conf file.  
 
+
+## Log handling in Spark  
+- In the code itself while creating spark context  
+```spark.sparkContext.setLogLevel("ERROR)"```
+
+- While spark-submit   
+``` --driver-java-options "-Dlog4j.configuration=<FULL PATH>/spark_custom-log4j.properties" ```
+
+- spark_custom-log4j.properties file :   
+```
+log4j.rootLogger=${root.logger}
+root.logger=WARN,console
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.target=System.err
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%d{yy/MM/dd HH:mm:ss} %p %c{2}: %m%n
+shell.log.level=WARN
+log4j.logger.org.eclipse.jetty=WARN
+log4j.logger.org.spark-project.jetty=WARN
+log4j.logger.org.spark-project.jetty.util.component.AbstractLifeCycle=ERROR
+log4j.logger.org.apache.spark.repl.SparkIMain$exprTyper=ERROR
+log4j.logger.org.apache.spark.repl.SparkILoop$SparkILoopInterpreter=ERROR
+log4j.logger.org.apache.parquet=ERROR
+log4j.logger.parquet=ERROR
+log4j.logger.org.apache.hadoop.hive.metastore.RetryingHMSHandler=FATAL
+log4j.logger.org.apache.hadoop.hive.ql.exec.FunctionRegistry=ERROR
+log4j.logger.org.apache.spark.repl.Main=${shell.log.level}
+log4j.logger.org.apache.spark.api.python.PythonGatewayServer=${shell.log.level}
+```
