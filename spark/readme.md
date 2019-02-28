@@ -114,11 +114,11 @@ sdf.write.mode("overwrite").saveAsTable("hive_table_1")
 3. Options set in the spark-defaults.conf file.  
 
 
-## Log handling in Spark  
-- In the code itself while creating spark context  
+## Log handling in Spark - 2 options 
+- 1. In the code itself while creating spark context  
 ```spark.sparkContext.setLogLevel("ERROR)"```
 
-- While spark-submit   
+- 2. While spark-submit   
 ``` --driver-java-options "-Dlog4j.configuration=<FULL PATH>/spark_custom-log4j.properties" ```
 
 - spark_custom-log4j.properties file :   
