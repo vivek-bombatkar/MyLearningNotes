@@ -335,6 +335,9 @@ $ source activate MyCondaEnv
 (MyEnv) $
 ```
 
+- Cloning an environment  
+> https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html  
+``` conda create --name myclone --clone myenv ```
 
 ## pyspark with CONDA
 > https://mapr.com/blog/python-pyspark-condas-pt1/  
