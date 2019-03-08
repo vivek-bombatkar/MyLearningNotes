@@ -321,6 +321,13 @@ from table_a a join table_b b
 where a.field1 <> b.field2
 ```
 
+## HIVE create external table using schema from another table  
+```
+create external table tbl_ext 
+like tbl_abc
+location '/user/hive/xyz...'
+```
+
 
 ## HADOOP / HIVE uncompress .zip files
 > http://gethue.com/extract-archives-as-oozie-job/  
