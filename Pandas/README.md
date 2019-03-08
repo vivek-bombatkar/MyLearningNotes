@@ -758,3 +758,19 @@ df_b['X']/= 2
 - ```ValueError: cannot reindex from a duplicate axis```
 This error usually rises when you join / assign to a column when the index has duplicate values. 
 
+# pandas_profiling
+```
+import pandas_profiling
+
+pdf = # create pandas dataframe
+pandas_profiling.ProfileReport(pdf)
+
+#to create html out  of it
+pd_profile = pandas_profiling.ProfileReport(pdf)
+pd_profile.to_file(outputfile="output.html")
+```
+
+
+
+
+
