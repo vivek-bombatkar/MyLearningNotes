@@ -93,3 +93,6 @@ pip install --upgrade google-cloud
 > https://www.youtube.com/watch?v=8LwCPpNtggM  
 > http://setosa.io/ev/principal-component-analysis/  
 
+### Correlation and Pearson vs Spearman.  
+> https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/basics/a-comparison-of-the-pearson-and-spearman-correlation-methods/
+
