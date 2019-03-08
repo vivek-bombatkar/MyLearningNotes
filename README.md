@@ -322,6 +322,12 @@ where a.field1 <> b.field2
 ```
 
 
+## HADOOP / HIVE uncompress .zip files
+> http://gethue.com/extract-archives-as-oozie-job/  
+> https://stackoverflow.com/questions/34573279/how-to-unzip-gz-files-in-a-new-directory-in-hadoop  
+
+
+
 ## understanding the log4j 
 > https://logging.apache.org/log4j/1.2/manual.html  
 > https://docs.oracle.com/cd/E29578_01/webhelp/cas_webcrawler/src/cwcg_config_log4j_file.html  
