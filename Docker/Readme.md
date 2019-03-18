@@ -121,6 +121,15 @@ Deleted: sha256:38a783dda97c8b188abc2c1d9cb6ed594ee0d06e77e393326f5fe59cb0ebea70
 
 ```
 
+### Clearn cache for all images.
+If docker had cached the dependencies that he wants to download already then it might not download it again, which could lead to some issues in production.
+> https://forums.docker.com/t/how-to-delete-cache/5753/2  
+```
+docker kill $(docker ps -q)
+docker_clean_ps
+docker rmi $(docker images -a -q)
+```
+
 
 ## Notes on docker
 
