@@ -142,3 +142,33 @@ log4j.logger.org.apache.hadoop.hive.ql.exec.FunctionRegistry=ERROR
 log4j.logger.org.apache.spark.repl.Main=${shell.log.level}
 log4j.logger.org.apache.spark.api.python.PythonGatewayServer=${shell.log.level}
 ```
+
+## read files from AWS S3
+
+```
+from pyspark import SparkContext, SparkConf
+from pyspark.sql import SparkSession, HiveContext
+
+spark = SparkSession.builder \
+.master("local[*]") \
+.appName("load_aws_s3") \
+.enableHiveSupport() \
+.config("spark.submit.deployMode","client") \
+.config("spark.hadoop.fs.s3a.impl","org.apache.hadoop.fs.s3a.S3AFileSystem") \
+.config("spark.hadoop.fs.s3a.aws.credentials.provider","org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider") \
+.config("spark.hadoop.com.amazonaws.services.s3.enableV4","true") \
+.config("spark.hadoop.fs.s3a.endpoint","https://s3.eu-central-1.amazonaws.com") \
+.config("spark.hadoop.hadoop.security.credential.provider.path","jceks://hdfs/user/myuser/pwd.jceks") \
+.config("spark.jars","hdfs://hadoop-supercrunch-mvp/user/myuser/spark-avro_2.11-4.0.0.jar") \
+.getOrCreate()
+
+s3df_1 = spark.read.csv("<S3 BUCKET ADDRESS>/*csv")
+
+s3df_2 = spark.read.format("com.databricks.spark.avro").load(""<S3 BUCKET ADDRESS>/*.avro")
+```
+
+``` .config("spark.hadoop.hadoop.security.credential.provider.path","jceks://hdfs/user/myuser/pwd.jceks") ```
+- .jceks is the strong encrypted pwd 
+
+``` .config("spark.jars","hdfs://hadoop-supercrunch-mvp/user/myuser/spark-avro_2.11-4.0.0.jar") ```  
+- Need this to read avro files in pyspark 
