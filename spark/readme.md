@@ -159,12 +159,12 @@ spark = SparkSession.builder \
 .config("spark.hadoop.com.amazonaws.services.s3.enableV4","true") \
 .config("spark.hadoop.fs.s3a.endpoint","https://s3.eu-central-1.amazonaws.com") \
 .config("spark.hadoop.hadoop.security.credential.provider.path","jceks://hdfs/user/myuser/pwd.jceks") \
-.config("spark.jars","hdfs://hadoop-supercrunch-mvp/user/myuser/spark-avro_2.11-4.0.0.jar") \
+.config("spark.jars","hdfs://myClusterName/user/myuser/spark-avro_2.11-4.0.0.jar") \
 .getOrCreate()
 
-s3df_1 = spark.read.csv("<S3 BUCKET ADDRESS>/*csv")
+sdf = spark.read.csv("<S3 BUCKET ADDRESS>/*csv")
 
-s3df_2 = spark.read.format("com.databricks.spark.avro").load(""<S3 BUCKET ADDRESS>/*.avro")
+sdf = spark.read.format("com.databricks.spark.avro").load(""<S3 BUCKET ADDRESS>/*.avro")
 ```
 
 ``` .config("spark.hadoop.hadoop.security.credential.provider.path","jceks://hdfs/user/myuser/pwd.jceks") ```
