@@ -774,5 +774,6 @@ pd_profile.to_file(outputfile="output.html")
 # EDA with Pandas  
 > https://www.datacamp.com/community/tutorials/python-data-profiling  
 
+# LabelEncoder()
 
 
