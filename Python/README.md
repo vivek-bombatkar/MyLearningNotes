@@ -638,6 +638,7 @@ commands =
 > https://medium.com/@adamshort/python-gems-5-silent-function-chaining-a6501b3ef07e
 
 ## Resizing Jupyter notebook  
+> https://medium.com/@1522933668924/using-matplotlib-in-jupyter-notebooks-comparing-methods-and-some-tips-python-c38e85b40ba1  
 
 ```
 from IPython.display import display, HTML
