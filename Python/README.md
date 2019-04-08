@@ -636,3 +636,17 @@ commands =
 
 ## Function channing  
 > https://medium.com/@adamshort/python-gems-5-silent-function-chaining-a6501b3ef07e
+
+## Resizing Jupyter notebook  
+
+```
+from IPython.display import display, HTML
+
+display(HTML(data="""
+<style>
+    div#notebook-container    { width: 95%; }
+    div#menubar-container     { width: 65%; }
+    div#maintoolbar-container { width: 99%; }
+</style>
+"""))
+``` 
