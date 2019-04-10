@@ -172,3 +172,33 @@ sdf = spark.read.format("com.databricks.spark.avro").load(""<S3 BUCKET ADDRESS>/
 
 ``` .config("spark.jars","hdfs://hadoop-supercrunch-mvp/user/myuser/spark-avro_2.11-4.0.0.jar") ```  
 - Need this to read avro files in pyspark 
+
+## renaming dataframe columnames
+
+```python
+df = spark.createDataFrame([(100, 15), (200, 10)], 
+                                  ["201821_sum(abc)", "201822_mean(abc)"])
+df.show()
+
+def format_string(myString):
+    return myString[:6]
+
+df = data.withColumnRenamed(data.columns[0], format_string(data.columns[0]))\
+                .withColumnRenamed(data.columns[1],format_string(data.columns[1]))
+
+df_new.show()
+
++---------------+----------------+
+|201821_sum(abc)|201822_mean(abc)|
++---------------+----------------+
+|            100|              15|
+|            200|              10|
++---------------+----------------+
+
++----+----+
+|col1|col2|
++----+----+
+| 100|  15|
+| 200|  10|
++----+----+
+```
