@@ -202,3 +202,17 @@ df_new.show()
 | 200|  10|
 +----+----+
 ```
+
+## spark job conf : spark.app.name VS name
+
+```
+spark-submit --name "app_test_1" --conf "spark.app.name=app_test_2"  Untitled1.py
+
+spark = SparkSession.builder.master("yarn").appName("app_test_2")...
+
+#.appName() = spark.app.name
+
+```
+
+- name : seen in Spark History server UI list  
+- spark.app.name : seen in Environment tab along with all other configs. 
