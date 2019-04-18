@@ -40,6 +40,7 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 ## Seaborn 
 
 |  ***Seaborn***  |  ***import seaborn as sns***  |  
+|  --  |  --  |  
 |  Countplot chart  |  sns.countplot(pdf['points']), The pandas bar chart becomes a seaborn countplot.  |    
 |  KDE plot chart  |  sns.kdeplot(pdf.query('price < 200').price), kernel density estimate, KDE plots can also be used in two dimensions.  |
 |  Distplot chart  |  sns.distplot(pdf['points'], bins=10, kde=False), The seaborn equivalent to a pandas histogram is the distplot.  |  |  Jointplot   |  sns.jointplot(x='price', y='points', data=pdf[reviews['price'] < 100]), To plot two variables against one another in seaborn, we use jointplot.  | 
@@ -52,12 +53,12 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 ## plotly
 
 |  ***plotly***  |  ***from plotly.offline import init_notebook_mode, iplot***  |   
-
+|  --  |  --  |  
 
 ## matplotlib
 
 |  ***matplotlib***  |  ***import matplotlib.pyplot as plt***  |   
-
+|  --  |  --  |  
 
 ### Chart Types   
 
