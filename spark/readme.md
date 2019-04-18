@@ -216,3 +216,28 @@ spark = SparkSession.builder.master("yarn").appName("app_test_2")...
 
 - name : seen in Spark History server UI list  
 - spark.app.name : seen in Environment tab along with all other configs. 
+
+## Pickle object to Hadoop , RDD 
+> http://spark.apache.org/docs/latest/api/python/pyspark.html?highlight=pickle  
+`
+RDD.saveAsPickleFile 
+sparkContext.pickleFile
+`
+
+```
+from time import gmtime, strftime
+
+TIMESTAMP = strftime("%d%m%Yt%H%M%Sz", gmtime())
+DS_HDFS_DIR = '/user/hive/warehouse/abc'
+
+spark = spark_session.get_spark_session()
+sdf = spark.createDataFrame(pdf)
+
+PICKLE_OBJ_LOCATION = "{}/test_pickle_object_{}".format(DS_HDFS_DIR,TIMESTAMP)
+sdf.rdd.saveAsPickleFile(PICKLE_OBJ_LOCATION)
+```
+```
+rdd_pickle =spark.sparkContext.pickleFile(PICKLE_OBJ_LOCATION)
+sdf = rdd_pickle.toDF()
+
+```
