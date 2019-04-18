@@ -19,9 +19,10 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 
 
 
-## Visualization  
+# Visualization  
 > https://www.kaggle.com/residentmario/bivariate-plotting-with-pandas/
-- Pandas chart functison
+
+## Pandas chart functison
 
 |  Charts  |   details  |  
 |  --  |  --  |  
@@ -35,6 +36,9 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 |  Hex Plot  |  df.plot.hexbin(x='price', y='points', gridsize=15), interval and some nominal categorical data. A hex plot aggregates points in space into hexagons, and then colors those hexagons based on the values within them  |   
 |  Stacked Bar chart  |  df.plot.bar(stacked=True),  nominal and ordinal categorical data. A stacked chart is one which plots the variables one on top of the other.  |   
 |  Bivariate Line chart  |  df.plot.line(),  ordinal categorical and interval data.  |
+
+## Seaborn 
+
 |  ***Seaborn***  |  ***import seaborn as sns***  |  
 |  Countplot chart  |  sns.countplot(pdf['points']), The pandas bar chart becomes a seaborn countplot.  |    
 |  KDE plot chart  |  sns.kdeplot(pdf.query('price < 200').price), kernel density estimate, KDE plots can also be used in two dimensions.  |
@@ -44,10 +48,19 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 |  FacetGrid  |  g = sns.FacetGrid(pdf, col="Position"), A FacetGrid is an object which stores some information on how you want to break up your data visualization.  |
 |  Pairplot  | sns.pairplot(footballers[['Overall', 'Potential', 'Value']]),  You pass it a pandas DataFrame in the right shape, and it returns you a gridded result of your variable values  |  
 |  Heatmap  |   sns.heatmap(f, annot=True),  summarization visualization is the correlation plot, in which measures the correlation between every pair of values in a dataset and plots a result in color. A correlation plot is a specific kind of heatmap. A heatmap maps one particular fact (in this case, correlation) about every pair of variables you chose from a dataset.  |  
+
+## plotly
+
 |  ***plotly***  |  ***from plotly.offline import init_notebook_mode, iplot***  |   
 
 
-Chart Types 
+## matplotlib
+
+|  ***matplotlib***  |  ***import matplotlib.pyplot as plt***  |   
+
+
+### Chart Types   
+
 • Understand discrete v. continuous  
 • Understand measure names and measure values  
 • Understand generated fields  
