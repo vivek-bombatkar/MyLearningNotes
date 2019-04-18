@@ -802,3 +802,25 @@ pd_profile.to_file(outputfile="output.html")
 # LabelEncoder()
 
 
+# python dictionary into pdf
+> https://stackoverflow.com/questions/19736080/creating-dataframe-from-a-dictionary-where-entries-have-different-lengths  
+
+```
+d = {
+    'k1':[1,2,3],
+    'k2':[1,2],
+    'k3':['one']
+}
+print(d)
+
+pdf = pd.DataFrame.from_dict(d,orient='index').transpose()
+print(pdf)
+pdf
+
+	k1	k2	k3
+0	1	1	one
+1	2	2	NaN
+2	3	NaN	NaN
+
+```
+
