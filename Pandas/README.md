@@ -88,6 +88,17 @@ if the index is of integer type, ix will only use label-based indexing and not f
 if the index does not contain only integers, then given an integer, ix will immediately use position-based indexing rather than label-based indexing. If however ix is given another type (e.g. a string), it can use label-based indexing.
 ```
 
+## select multiple cols from pdf 
+> https://stackoverflow.com/questions/11285613/selecting-multiple-columns-in-a-pandas-dataframe  
+```
+
+pdf_select = pdf[['col1','col2']]
+#or 
+pdf_select = pdf.iloc[:,0:2]
+
+```
+
+
 ### Change data type of columns
 
 ```python
