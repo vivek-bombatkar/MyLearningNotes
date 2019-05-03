@@ -126,6 +126,14 @@ git rm file1.txt
 git rm --cached ipmvp-nifi-custom.iml
 ```
 
+- If `git pull` want to specifiy exact remote branch
+Ex: There is no tracking information for the current branch. Please specify which branch you want to merge with.
+
+```
+    git branch --set-upstream-to=origin/<branch> feature/FFAWI-205
+```
+
+
 - Clear all local commits!  
 ```
 git reset --hard HEAD^
