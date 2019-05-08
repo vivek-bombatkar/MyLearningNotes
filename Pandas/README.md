@@ -836,7 +836,8 @@ for row in pdf.iloc[:,1]:
 pdf_new = pdf_new.groupby(['Response']).count()
 ```
 
-#   
+#  pdf column names   
 ```
-
+pdf.columns.values
+list(pdf)
 ```
