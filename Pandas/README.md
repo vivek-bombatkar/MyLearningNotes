@@ -26,7 +26,7 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 
 |  Charts  |   details  |  
 |  --  |  --  |  
-|   ***pandas***   |  pdf.plot.<chart_name>(), df.plot.bar()	|    
+|   ***pandas***   |  pdf.plot.<chart_name>(), df.plot.bar() and df.plot.barh() for horizontal labling   |    
 |  Bar chart  |  ordinal categorical data  |   
 |  Line chart  |  ordinal categorical and interval data.  |  
 |  Area chart  |  ordinal categorical and interval data.  |  
@@ -824,3 +824,19 @@ pdf
 
 ```
 
+# pandas.DataFrame.groupby  & pandas.DataFrame.append
+> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.groupby.html   
+> https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.append.html   
+
+```
+pdf_new = pd.DataFrame(columns=['Response','cnt'])
+for row in pdf.iloc[:,1]:
+    for str in row.split(';'):
+        pdf_new = pdf_new.append({'Response':str,'cnt':1},ignore_index=True)
+pdf_new = pdf_new.groupby(['Response']).count()
+```
+
+#   
+```
+
+```
