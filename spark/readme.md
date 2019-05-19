@@ -241,3 +241,64 @@ rdd_pickle =spark.sparkContext.pickleFile(PICKLE_OBJ_LOCATION)
 sdf = rdd_pickle.toDF()
 
 ```
+
+## Various ways to handle bad records with PySpark  
+> https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4222224209897404/1931650819888846/1920808090278788/latest.html
+
+```python
+#Reference:
+#https://spark.apache.org/docs/latest/api/java/org/apache/spark/sql/DataFrameReader.html
+#https://docs.databricks.com/spark/latest/spark-sql/handling-bad-records.html
+
+from pyspark.sql import functions as F
+from pyspark.sql.types import IntegerType, StringType, StructType
+
+dbutils.fs.rm("/tmp/dataframe_sample.csv", True)
+dbutils.fs.put("/tmp/dataframe_sample.csv", 
+"""
+1,CA-SF
+2,CA-SD
+three,NY-NY
+4,NY-NY
+five,CA-SD
+""", True)
+
+schema_test = StructType([
+    StructField("id", IntegerType()),
+    StructField("location", StringType())
+])
+
+# 1. Do not care for bad records
+df_RAW = spark.read.schema(schema_test).csv("/tmp/dataframe_sample.csv")
+
+# 2. Ignnore bad records from result
+df_DROPMALFORMED = spark.read.schema(schema_test).option("mode","DROPMALFORMED").csv("/tmp/dataframe_sample.csv")
+
+# 3. Ignore and collect bad records in separate location 
+df_COLLECT_BAD_RECORD = spark.read.schema(schema_test).option("mode","DROPMALFORMED").option("badRecordPath","/tmp").csv("/tmp/dataframe_sample.csv")
+
+
+df_RAW.show()
+df_DROPMALFORMED.show()
+df_COLLECT_BAD_RECORD.show()
+```
+```
+Wrote 48 bytes.
++----+--------+
+|  id|location|
++----+--------+
+|   1|   CA-SF|
+|   2|   CA-SD|
+|null|    null|
+|   4|   NY-NY|
+|null|    null|
++----+--------+
+
++---+--------+
+| id|location|
++---+--------+
+|  1|   CA-SF|
+|  2|   CA-SD|
+|  4|   NY-NY|
++---+--------+
+```
