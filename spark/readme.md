@@ -302,3 +302,47 @@ Wrote 48 bytes.
 |  4|   NY-NY|
 +---+--------+
 ```
+
+### Above solution (with badRecordPath) will not work if you are not using Databricks distribution of Spark !
+Hence alternative approach will be below, 
+
+```python
+from pyspark.sql import functions as F
+from pyspark.sql.types import IntegerType, StringType, StructType, StructField
+from pyspark.sql.functions import col
+
+schema_test = StructType([
+    StructField("id", IntegerType()),
+    StructField("location", StringType()),
+    StructField("badRecords", StringType())
+])
+
+
+df_raw = spark.read.schema(schema_test)\
+                .csv("dataframe_sample.csv",columnNameOfCorruptRecord='badRecords').cache()
+
+df_badRecords = df_raw.filter(col("badRecords").isNotNull()).select("badRecords")
+df_goodRecords = df_raw.filter(col("badRecords").isNull()).select("id","location")
+
+df_badRecords.show()
+df_goodRecords.show()
+```
+
+```
++-----------+
+| badRecords|
++-----------+
+|three,NY-NY|
+| five,CA-SD|
++-----------+
+
++---+--------+
+| id|location|
++---+--------+
+|  1|   CA-SF|
+|  2|   CA-SD|
+|  4|   NY-NY|
++---+--------+
+```
+
+- Note `.cache()` is IMP because: "Since Spark 2.3, the queries from raw JSON/CSV files are disallowed when the referenced columns only include the internal corrupt record column..."   
