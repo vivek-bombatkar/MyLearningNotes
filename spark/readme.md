@@ -346,3 +346,13 @@ df_goodRecords.show()
 ```
 
 - Note `.cache()` is IMP because: "Since Spark 2.3, the queries from raw JSON/CSV files are disallowed when the referenced columns only include the internal corrupt record column..."   
+
+
+## Spark SQL Built in functions  
+> https://spark.apache.org/docs/latest/api/sql/
+
+Could use them over Dataframe as well,
+```python
+from pyspark.sql.functions import expr
+condition1 = expr('<SQL Built in function>')
+```
