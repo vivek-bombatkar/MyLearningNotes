@@ -363,3 +363,6 @@ condition1 = expr('<SQL Built in function>')
 ``` 
 spark-submit --conf spark.yarn.maxAppAttempts=1 ...
 ```   
+
+## .config("spark.sql.crossJoin.enabled", "true")   
+> http://blog.madhukaraphatak.com/migrating-to-spark-two-part-4/  
