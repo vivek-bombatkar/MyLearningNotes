@@ -356,3 +356,10 @@ Could use them over Dataframe as well,
 from pyspark.sql.functions import expr
 condition1 = expr('<SQL Built in function>')
 ```
+
+## spark.task.maxFailures  
+- Number of failures of any particular task before giving up on the job. The total number of failures spread across different tasks will not cause the job to fail; a particular task has to fail this number of attempts. Should be greater than or equal to 1 
+- Only works for yarn-cluster mode as in client mode failure once is failure    
+``` 
+spark-submit --conf spark.yarn.maxAppAttempts=1 ...
+```   
