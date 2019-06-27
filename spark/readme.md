@@ -366,3 +366,35 @@ spark-submit --conf spark.yarn.maxAppAttempts=1 ...
 
 ## .config("spark.sql.crossJoin.enabled", "true")   
 > http://blog.madhukaraphatak.com/migrating-to-spark-two-part-4/  
+
+
+## pySpark DF vs Pandas DF  
+> https://www.kdnuggets.com/2016/01/python-data-science-pandas-spark-dataframe-differences.html  
+
+# From Pandas to Spark
+
+In this notebook we try to find patterns how common Pandas operations can be expressed in Spark. Since you should always avoid of switching back and forth between Spark and Pandas, you always should try to stay within a single framework. Actually the flexibility of Pandas is slightly bigger than that of Spark, but except for some specific exceptions you can do almost everything in Spark what you can do with Pandas, although the syntax and general approacj might differ.
+
+## Fundamental Differences
+
+Due to its inner design, Spark has some fundamental differences to Pandas. Specifically:
+
+### Distributed processing
+The huge selling point of Apache Spark is that it uses a distributed execution model running on multiple computers in a cluster, whereas Pandas is limited to a single Python process. While in Pandas your whole data set has to fit into memory, Spark can process data sets which are much bigger than the total amount of RAM of the whole compute cluster.
+
+This non-functional high level difference has lead to a specific design of the implementation of Spark, which in turn has some very important implications when working with Spark. Some of the implications are formulated in the next items.
+
+### Lazy evaluation
+Spark does not execute any transformation when you specify it, but it chains together and optimizes all transformations whenever an action is started, for example to store or view the result of some transofrmations. This design is a very conscious decision of the Spark people (although an "eager" mode is planned for PySpark), which allows better optimizations since the execution of all transformations is delayed until the whole picture is clear to Spark. This approach allows rearranging transformations and pruning of columns thus greatly improving execution speed.
+
+In general in Pandas you always work directly with the data, while in Spark you always transform the execution plan that will create some data for you.
+
+### Immutable DataFrames
+The whole core of Spark is developed in Scala, a object-oriented functional programming language. Again this was a very conscious design design of the founders of Spark. Functional programming in general prefers immutable objects over mutable ones. This is also true for the Spark API and helps to keep the Spark code simpler and more efficient. On the other hand, this also means that you cannot modify a data frame in place like you might be used to by Pandas. Every Spark transformation returns a new data frame (with some special exceptions, where some meta information is changed).
+
+### No index
+Pandas data frames always have an index (even if that is only the natural numbers), but Spark doesn't even have the concept of an index. Instead of an index, you might think about a primary key like you might know from relational databases.
+
+### No single record access
+By using the index, Pandas allows very efficient access to individual rows. This is completely impossible with Spark, since in Spark you primarily work with execution plans *representing* the data, but not with the data itself.
+
