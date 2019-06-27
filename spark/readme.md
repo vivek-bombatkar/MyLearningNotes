@@ -398,3 +398,5 @@ Pandas data frames always have an index (even if that is only the natural number
 ### No single record access
 By using the index, Pandas allows very efficient access to individual rows. This is completely impossible with Spark, since in Spark you primarily work with execution plans *representing* the data, but not with the data itself.
 
+
+## 
