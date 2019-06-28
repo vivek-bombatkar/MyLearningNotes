@@ -399,4 +399,12 @@ Pandas data frames always have an index (even if that is only the natural number
 By using the index, Pandas allows very efficient access to individual rows. This is completely impossible with Spark, since in Spark you primarily work with execution plans *representing* the data, but not with the data itself.
 
 
-## 
+## UDF & Pandas UDF
+> https://github.com/vivek-bombatkar/spark-training/tree/master/spark-python/jupyter-advanced-udf  
+> https://towardsdatascience.com/pyspark-udfs-and-star-expansion-b50f501dcb7b   
+
+```
+== Physical Plan ==
++- BatchEvalPython 
+VS
++- ArrowEvalPython
