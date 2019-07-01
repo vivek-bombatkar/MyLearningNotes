@@ -59,6 +59,7 @@ https://github.com/hyunhw/ml-pandas-examples/blob/master/Pandas/1_Pandas_basic.i
 
 |  ***matplotlib***  |  ***import matplotlib.pyplot as plt***  |   
 |  --  |  --  |  
+|  |  http://queirozf.com/entries/matplotlib-examples-displaying-and-configuring-legends  |
 
 ### Chart Types   
 
