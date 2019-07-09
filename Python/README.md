@@ -693,6 +693,7 @@ _func_add(20,20): 40
 ## Context managers  
 - Using `with` is recomended!  
 
+- General way  
 ```python
 def _func_stop():
     print("Stop")
@@ -714,6 +715,24 @@ def func_rolling():
 
 with DoNothing():
     func_rolling()
+Stop
+Lest get rolling!
+Start
+```
+
+- Yet another way
+```python
+import contextlib
+​
+@contextlib.contextmanager
+def func_do_nnothing():
+    _func_stop()
+    yield
+    _func_start()
+    
+with func_do_nnothing():
+    func_rolling()
+    
 Stop
 Lest get rolling!
 Start
