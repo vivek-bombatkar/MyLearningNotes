@@ -690,3 +690,30 @@ _func_add(20): 30
 _func_add(20,20): 40
 ```
 
+## Context managers  
+
+```python
+def _func_stop():
+    print("Stop")
+
+def _func_start():
+    print("Start")
+    
+class DoNothing:
+    def __enter__(self):
+        _func_stop()
+        return self
+    
+    def __exit__(self,str_type,str_value,str_traceback):
+        _func_start()
+        
+def func_rolling():
+    print("Lest get rolling!")
+    
+
+with DoNothing():
+    func_rolling()
+Stop
+Lest get rolling!
+Start
+```
