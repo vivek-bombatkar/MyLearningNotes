@@ -651,3 +651,42 @@ display(HTML(data="""
 </style>
 """))
 ``` 
+
+## DockString vs Annotations
+
+```python
+class cls_no_use:
+    def __init__(self, a, b):
+        self.a = a
+        self.b =b
+
+        def _func_add(a: int = 10, b: int = 10) -> cls_no_use:
+    """This func dose nothing but addition!"""
+    return a+b
+```
+
+- DockString  
+```python
+_func_add.__doc__
+
+'This func dose nothing but addition!'
+```
+
+- Annotations 
+```python
+_func_add.__annotations__
+
+{'a': int, 'b': int, 'return': __main__.cls_no_use}
+```
+
+- Finally  
+```python
+print(f'_func_add(): {_func_add()}')
+print(f'_func_add(20): {_func_add(20)}')
+print(f'_func_add(20,20): {_func_add(20,20)}')
+
+_func_add(): 20
+_func_add(20): 30
+_func_add(20,20): 40
+```
+
