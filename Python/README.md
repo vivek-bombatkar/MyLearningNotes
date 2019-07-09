@@ -691,6 +691,7 @@ _func_add(20,20): 40
 ```
 
 ## Context managers  
+- Using `with` is recomended!  
 
 ```python
 def _func_stop():
