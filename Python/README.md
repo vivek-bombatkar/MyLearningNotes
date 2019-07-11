@@ -652,6 +652,8 @@ display(HTML(data="""
 """))
 ``` 
 
+# Clean Code notes...  
+
 ## DockString vs Annotations
 
 ```python
@@ -737,3 +739,48 @@ Stop
 Lest get rolling!
 Start
 ```
+
+## EAFP (stands for Easier to Ask Forgiveness than Permission), while LBYL (stands for Look Before You Leap).  
+
+```python
+if os.path.exists(filename):
+with open(filename) as f:
+```
+
+Prefer EAFP over LBYL.  
+```python
+try:
+with open(filename) as f:
+...
+except FileNotFoundError as e:
+logger.error(e)
+```
+
+
+## Mutable default arguments  
+Simply put, don't use mutable objects as the default arguments of
+functions. If you use mutable objects as default arguments, you will
+get results that are not the expected ones.
+
+## How arguments are copied to functions  
+The first rule in Python is that all arguments are passed by a value. Always.
+
+```python 
+def _func_test_agrs(arg):
+    arg += " in func"
+    return arg
+​
+immutable = " hello world"
+print(_func_test_agrs(immutable))
+print(immutable)
+​
+mutable = list(" hello world")
+print(_func_test_agrs(mutable))
+print(mutable)
+ hello world in func
+ hello world
+[' ', 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', ' ', 'i', 'n', ' ', 'f', 'u', 'n', 'c']
+[' ', 'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', ' ', 'i', 'n', ' ', 'f', 'u', 'n', 'c']
+
+```
+
