@@ -784,3 +784,40 @@ print(mutable)
 
 ```
 
+> Don't mutate function arguments. In general, try to avoid side-effects in functions as much as possible.  
+
+
+## Variable number of arguments  
+
+we can use the packing mechanism and pass them all together in a single instruction:
+
+```python
+def _func_pack_args(arg1,arg2,arg3):
+    print(arg1)
+    print(arg2)
+    print(arg3)
+​
+v1 = 10    
+v2 = 20
+v3 = 30
+l = [v1,v2,v3]
+# _func_pack_args(l)
+#TypeError: _func_pack_args() missing 2 required positional arguments: 'arg2' and 'arg3'
+​
+_func_pack_args(*l)
+10
+20
+30
+```
+
+Pass any # of args.
+```python
+def _func_veriable_args(*args):
+    for arg in args:
+        print(arg)
+​
+_func_veriable_args(10,20,30)        
+10
+20
+30
+```
