@@ -408,3 +408,11 @@ By using the index, Pandas allows very efficient access to individual rows. This
 +- BatchEvalPython 
 VS
 +- ArrowEvalPython
+```
+
+## Windowing functions  
+> https://medium.com/jbennetcodes/how-to-get-rid-of-loops-and-use-window-functions-in-pandas-or-spark-sql-907f274850e4
+
+
+
+
