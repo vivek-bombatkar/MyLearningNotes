@@ -18,18 +18,18 @@ GCP: DataStorage, BigQuery,
 GCP: DataFlow, 
 
 - Managed Clusters  
-GCP: DataProc, 
-K8s  
+GCP: DataProc,  
+K8s   
 
 
-3. Data Analytics  
+3. Data Analytics   
 GCP: BigQuery, DataLab  
 
 4. Access Control  
 IAM    
 
-5. Data Transfer
+5. Data Transfer  
 GCP: Storage Transfer Services, Transfer Application
 
-6. Visualization 
+6. Visualization  
 GCP: DataStudio, DataLab  
