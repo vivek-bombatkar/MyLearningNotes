@@ -2,6 +2,8 @@
 
 > https://www.canva.com
 
+- IMP Links   
+> [Map AWS services to Google Cloud Platform products](https://cloud.google.com/free/docs/map-aws-google-cloud-platform)   
 
 1. Storage 
 - SQL  
@@ -29,7 +31,12 @@ GCP: BigQuery, DataLab
 IAM    
 
 5. Data Transfer  
-GCP: Storage Transfer Services, Transfer Application
+GCP: Storage Transfer Services, Transfer Application  
+AWS:  [Snowball](https://aws.amazon.com/getting-started/projects/migrate-petabyte-scale-data/?c_13)  
 
 6. Visualization  
 GCP: DataStudio, DataLab  
+
+6. Realtime data
+GCP: PubSub  
+AWS: [Amazon Kinesis](https://aws.amazon.com/kinesis/data-analytics/)   
