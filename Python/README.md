@@ -51,7 +51,8 @@ for i in myGen:
 - Generators are iterators, a kind of iterable you can only iterate over once. Generators do not store all the values in memory, they generate the values on the fly:
 
 ## *args and **kwargs
-> https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters
+> https://stackoverflow.com/questions/36901/what-does-double-star-asterisk-and-star-asterisk-do-for-parameters  
+> http://sys-exit.blogspot.com/2013/07/python-positional-arguments-and-keyword.html
 
 - The *args and **kwargs is a common idiom to allow arbitrary number of arguments to functions 
 - The *args will give you all function parameters as a tuple
