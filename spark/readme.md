@@ -414,5 +414,13 @@ VS
 > https://medium.com/jbennetcodes/how-to-get-rid-of-loops-and-use-window-functions-in-pandas-or-spark-sql-907f274850e4
 
 
+## store DF into HIVE Partition Table    
+> https://stackoverflow.com/questions/38487667/overwrite-specific-partitions-in-spark-dataframe-write-method    
+- Partition columns need NOT to mention.
+``
+spark.set("spark.sql.sources.partitionOverwriteMode","dynamic")
+...
+sdf.write.mode("overwrite").inserInto("schema.table")
 
+``
 
