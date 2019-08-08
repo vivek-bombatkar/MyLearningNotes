@@ -5,6 +5,9 @@
 ## IMP links / CheatSheets  
 > https://www.cheatography.com/desmovalvo/cheat-sheets/python3-data-structures/pdf/  
 > https://ehmatthes.github.io/pcc/cheatsheets/README.html  
+> https://www.analyticsvidhya.com/blog/2015/06/quick-guide-text-data-cleaning-python/  
+> https://www.analyticsvidhya.com/blog/2015/06/data-visualization-in-python-cheat-sheet/  
+> https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python/  
 
 
 
