@@ -46,6 +46,9 @@ Practice SQL Interview questions and Answers
 > https://leetcode.com/problemset/database/   
 > https://www.tutorialspoint.com/dwh/dwh_schemas.htm  
 
+### SQL Good reads   
+> https://www.geeksforgeeks.org/sql-correlated-subqueries/    
+> 
 ### 1 windowing function
 > https://cwiki.apache.org/confluence/display/Hive/LanguageManual+WindowingAndAnalytics  
 > https://blog.matters.tech/sql-window-functions-basics-e9a9fa17ce7e  
@@ -103,6 +106,7 @@ OVER (PARTITION BY ... ORDER BY ...)
 	    	sum(sales) over (order by date rows unbounded preceding) as cumulative_sales
 		from sales_table;
 		```
+		
 		
 
 ## Data Structure
