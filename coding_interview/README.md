@@ -428,7 +428,18 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 > https://leetcode.com/problemset/algorithms/
 
 ## Complexity 
+- Big O notation   
+> https://www.youtube.com/playlist?list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn  
+```
+1 for each assignment / calculation 
+n for loop
 
+ignore constants
+o(n) - loop
+o(n) + o(m) - multiple loops
+o(n^2) - inner loop
+o(log n) - loop reduce factor
+```
 
 ## Data Warehouse
 > http://cs.ulb.ac.be/public/_media/teaching/infoh415/dwnotes.pdf  
