@@ -111,6 +111,8 @@ OVER (PARTITION BY ... ORDER BY ...)
 
 ## Data Structure
 > https://www.tutorialspoint.com/python/python_data_structure.htm
+> Video tutorial Py Datastructure : https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jtoS3i&index=7  
+> 
 
 ```
 i=[[1,2,4,7],[21,22,24,'a']]
