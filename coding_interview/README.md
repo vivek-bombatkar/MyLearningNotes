@@ -138,7 +138,20 @@ https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg/playlists?view=50&sort=
 
 
 - Random HandsOn  
-```
+
+```python 
+def sorting(_list: [])-> []:
+    return _list.sort()
+
+
+old_list = [30,20,10,50]
+#sets and tuples has no attribute 'sort'
+new_list = sorting(old_list)
+print(old_list) # [10, 20, 30, 50]
+print(new_list) # None
+```  
+
+```  
 i=[[1,2,4,7],[21,22,24,'a']]
 print(id(i))
 j=i
