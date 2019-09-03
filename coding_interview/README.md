@@ -131,6 +131,9 @@ https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jto
 
 
 
+- BT vs Binary Search Trees  
+
+
 
 
 ###HandsOn
@@ -454,7 +457,6 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 3. Quick  
 4. Merge  
 5. Bucket  
-
 
 
 ## Complexity 
