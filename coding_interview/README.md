@@ -628,10 +628,45 @@ def recr_get_fibonachi(n):
 
 - IMP search Algos  
 1. Bubble  - swap firt pair of elements, swap smaller to first position   
+```
+#O(n^2)
+def bubble_sort(_list: []) -> []:
+    for i in range(len(_list)):
+        for j in range(i+1,len(_list)):
+            if _list[j] < _list[i]:
+                tmp = _list[i]
+                _list[i] = _list[j]
+                _list[j] = tmp
+    return _list
+```
+
 2. Selection - linear scan, bring first smaller element to first, then look for second smallest   
+```python
+#O(n^2)
+def selection_sort(_list:[]) -> []:
+    for i in range(len(_list)):
+        min_index = i
+        for j in range(i+1, len(_list)):
+            if _list[i] > _list[j]:
+                min_index = j
+        _list[i],_list[min_index] = _list[min_index], _list[i]
+    return _list
+```
 3. Quick  - pick random element, move all smaller to first half and bigger to right half, then repeate for each half  
 4. Merge  - sort each pair first, then sort four by merging pair, then sort 8...  
 5. Bucket  - partition array into bucket and sort bucket individually    
+6. Insertion sort - remove one element from array and add to another sorted array at right position   
+```python
+def insertion_sort(_list:[]) -> []:
+    for i in range(len(_list)):
+        current_element = _list[i]
+        current_position = i
+        while current_position > 0 and _list[current_position - 1] > current_element:
+            _list[current_position] = _list[current_position - 1]
+            current_position = current_position - 1
+        _list[current_position] = current_element
+    return _list
+```    
 
 
 # 4. Complexity  
