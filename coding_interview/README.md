@@ -111,9 +111,29 @@ OVER (PARTITION BY ... ORDER BY ...)
 
 ## Data Structure
 > https://www.tutorialspoint.com/python/python_data_structure.htm
-> Video tutorial Py Datastructure : https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jtoS3i&index=7  
-> 
+> Video tutorial Py Datastructure :   
+https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jtoS3i&index=7   
 
+
+- Py Native Data Structures
+1. List  
+2. Tuples  
+3. Dict  
+4. Sets  
+
+- Advance DS  
+1. Link List
+2. Trees  
+3. Graphs  
+4. Stack  
+5. Queue  
+6. 
+
+
+
+
+
+###HandsOn
 ```
 i=[[1,2,4,7],[21,22,24,'a']]
 print(id(i))
@@ -425,9 +445,17 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 ```
 
 ## Algorithms
-> https://www.tutorialspoint.com/python/python_big_o_notation.htm
+> https://www.tutorialspoint.com/python/python_big_o_notation.htm  
+> https://leetcode.com/problemset/algorithms/  
 
-> https://leetcode.com/problemset/algorithms/
+- IMP search Algos  
+1. Bubble  
+2. Selection  
+3. Quick  
+4. Merge  
+5. Bucket  
+
+
 
 ## Complexity 
 - Big O notation   
