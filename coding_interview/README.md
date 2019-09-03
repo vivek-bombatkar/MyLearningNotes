@@ -151,7 +151,7 @@ print(old_list) # [10, 20, 30, 50]
 print(new_list) # None
 ```  
 
-```  
+```python  
 i=[[1,2,4,7],[21,22,24,'a']]
 print(id(i))
 j=i
@@ -168,7 +168,7 @@ print (id(i))
 print (id(j))
 ```
 
-```
+```python
 def changeValue(thisObject,thisValue):
     thisObject += thisValue
 
@@ -185,7 +185,7 @@ print (int_n)
 print (id(int_n))
 ```
 
-```
+```python
 class Node:
     def __init__(self,val):
       self.val = val
@@ -201,7 +201,7 @@ node2.next = node3
 print node1
 ```
 
-```
+```python
 dictOne = dict(one=1,two=2)
 dictTwo = dict(zip(['one','two'],[10,20]))
 print (dictTwo['one'])
@@ -224,7 +224,7 @@ The order of data elements in a dictionary is not fixed.
 
 - link list  
 > https://www.tutorialspoint.com/python/python_linked_lists.htm
-```
+```python
 class Node:
     def __init__(self,thisValue = None):
         self.value=thisValue
@@ -287,7 +287,7 @@ linkList.traverseList()
 - stack  
 >
 
-```
+```python
 class Stack:
     def __init__(self):
         self.stack=[]
@@ -311,7 +311,7 @@ print myStack.peek()
 
 - queue and collections.deque  
 
-```
+```python
 class Queue:
     def __init__(self):
         self.queue=list()
@@ -346,7 +346,7 @@ print myDqueue
 
 - Binary Tree  
 
-```
+```python
 class Node:
     def __init__(self,data):
         self.data = data
@@ -393,7 +393,7 @@ print(root.findNode(21))
 ```
 
 -  Binary Search using iterator  
-```
+```python
 class BinarySearch:
     def findValue(self,list,value):
         last_pos=len(list)-1
@@ -414,7 +414,7 @@ BS=BinarySearch()
 print(BS.findValue(array,40))
 ```
 
-```
+```python
 def reverse_numbers(int_this):
     this_reverse=''
     str_this=str(int_this)
@@ -425,7 +425,7 @@ def reverse_numbers(int_this):
 print(reverse_numbers(123456))
 ```
 
-```
+```python
 def checkIfSubstring(str_this,substr_this):
     for str in str_this.split(" "):
         if str == substr_this:
@@ -435,7 +435,7 @@ def checkIfSubstring(str_this,substr_this):
 print(checkIfSubstring("this is my code","code"))
 ```
 
-```         
+```python         
 def maxOfList(lst_this):
     maxElement=0
     for element in lst_this:
@@ -446,7 +446,7 @@ def maxOfList(lst_this):
 print(maxOfList([1,4,2,5,7,2,1,7]))
 ```
 
-```
+```python
 def medianOfList(a_list):
     sumElements=0
     for element in a_list:
@@ -466,7 +466,7 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 - Solved problems  
  Two Sum : https://www.youtube.com/watch?v=gCin6Qz-eJQ&list=PL5tcWHG-UPH1YSW2RraQg2L2p5hQTIpNL&index=3
 
-```
+```python
 
 
 class ListList():
@@ -628,7 +628,7 @@ def recr_get_fibonachi(n):
 
 - IMP search Algos  
 1. Bubble  - swap firt pair of elements, swap smaller to first position   
-```
+```python
 #O(n^2)
 def bubble_sort(_list: []) -> []:
     for i in range(len(_list)):
