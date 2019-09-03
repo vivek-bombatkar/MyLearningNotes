@@ -454,6 +454,158 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
  Two Sum : https://www.youtube.com/watch?v=gCin6Qz-eJQ&list=PL5tcWHG-UPH1YSW2RraQg2L2p5hQTIpNL&index=3
 
 ```
+
+
+class ListList():
+    def __init__(self):
+        self.nodes = []
+
+    def add(self,node):
+        return self.nodes.append(node)
+    
+def look_and_say(sequence:[])->[]:
+    res = []
+    for i in range(len(sequence)):
+        if i>0 & sequence[i] == sequence[i-1]:
+            res.pop()
+            res.pop()
+            res.append(2)
+            res.append(sequence[i])
+        else:
+            res.append(1)
+            res.append(sequence[i])
+        # res.append(sequence[i])
+    return res
+
+def is_palindrome_1(given_string: str)-> bool:
+    tmp = given_string.replace(" ","").lower()
+    print(tmp)
+    if tmp.strip() == tmp[::-1].strip() :
+        return True
+    return False
+
+def is_palindrome_2(given_str: str)->bool:
+    tmp = given_str.replace(" ","").lower()
+    i= 0
+    j = len(tmp) -1
+    while i < j:
+        if tmp[i] != tmp[j]:
+            return False
+        i += 1
+        j -= 1
+    return True
+
+def is_anagram(str_1, str_2):
+    tmp1 = ([s for s in str_1.replace(" ","")])
+    tmp2 = ([s for s in str_2.replace(" ", "")])
+    # if sorted(tmp1) !=  sorted(tmp2) :
+    #     return False
+    for s in tmp1:
+        if s in tmp2:
+            tmp2.remove(s)
+        else:
+            return False
+    return True
+
+def is_all_qunique(given_str):
+    processed_elem = []
+    for s in given_str:
+        if s in processed_elem:
+            return False
+        else:
+            processed_elem.append(s)
+    return True
+def is_all_qunique_2(given_str):
+    for i in range(len(given_str)):
+        if given_str[i] in given_str[i+1:len(given_str)]:
+            return False
+    return True
+
+def what_is_sets(given_str: str):
+    return set(given_str)
+
+def recur_first_upper(given_str,index):
+    if (len(given_str) -1 == index):
+        return "NON"
+    elif given_str[index].isupper():
+        return given_str[index]
+    print(given_str[index])
+    return  recur_first_upper(given_str,index+1)
+
+def recr_len_str(given_str):
+    print(given_str)
+    if given_str == "":
+        return 0
+    return 1 + recr_len_str(given_str[1:])
+
+def recr_product(num_1, num_2):
+    print("Called...")
+    # print(f'{num_1}, {num_2}')
+    if num_1 == 1:
+        return num_2
+    print(num_2 + recr_product(num_1 -1 ,num_2))
+    return num_2 + recr_product(num_1 -1 ,num_2)
+
+def recr_linear_search(given_list,search_element):
+    if given_list == []:
+        return False
+    if search_element == given_list[0]:
+        return True
+    return recr_linear_search(given_list[1:],search_element)
+
+def itr_binary_search(given_list, serach_elemnt):
+    subset_list = given_list
+    center = (len(given_list) // 2)
+    while center >= 0:
+        print(center)
+        if serach_elemnt > center:
+            subset_list = subset_list[center:]
+        else:
+            subset_list = subset_list[:center]
+        center = len(subset_list) // 2
+        if subset_list[center] == serach_elemnt:
+            return True
+        print(subset_list)
+    return False
+
+def recur_binary_search(given_list,search_element):
+    list_lenght = len(given_list) -1
+    list_center = (list_lenght // 2)
+    if search_element in [given_list[list_center], given_list[0],given_list[list_lenght]]:
+        return True
+    elif search_element > given_list[list_lenght] or search_element < given_list[0]:
+        return False
+
+    if search_element > list_center:
+        return recur_binary_search(given_list[list_center + 1:],search_element)
+    else:
+        return recur_binary_search(given_list[:list_center],search_element)
+
+    # if search_element
+
+def shift_list(given_list):
+    print(given_list)
+    result =[]
+    if len(given_list) <= 1:
+        return list
+    else:
+        last = given_list[-1]
+        result += [last]
+        for i in given_list[:-1]:
+            result += [i]
+
+
+    return result
+
+def recr_get_fibonachi(n):
+    febi = [0,1]
+    while i in range(len(febi)):
+        if n in febi:
+            return febi.index(n)
+        febi.append(febi[i]+febi[+1])
+    return 0
+    
+    
 ```
 
  
