@@ -623,8 +623,8 @@ def recr_get_fibonachi(n):
 
  
 # 3. Algorithms
-> https://www.tutorialspoint.com/python/python_big_o_notation.htm  
-> https://leetcode.com/problemset/algorithms/  
+> https://medium.com/@george.seif94/a-tour-of-the-top-5-sorting-algorithms-with-python-code-43ea9aa02889   
+> https://leetcode.com/problemset/algorithms/    
 
 - IMP search Algos  
 1. Bubble  - swap firt pair of elements, swap smaller to first position   
