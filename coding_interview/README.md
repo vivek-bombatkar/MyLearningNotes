@@ -8,35 +8,6 @@ Divide it into 4 parts
 4. Complexity calculations
 
 
-Collect CheatSheets
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/CrackingTheCodingInterview.pdf
-
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/PythonCheatSheet.pdf
-
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/Python_2_7.pdf
-
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/big-o-cheat-sheet-poster.png
-
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/main-qimg-420e994dba8284996618d7922be544d2.png
-
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/mementopython3-english.pdf
-
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/python_cheat_sheet.pdf
-
-
-Random link
-> https://www.qt.io/qt-for-application-development/
-
-> https://www.geeksforgeeks.org/
-
-> http://highscalability.com/
-
-> https://projecteuler.net/index.php
-
-> https://www.codechef.com/
-
-> https://www.careercup.com/page
-
 
 # 1. SQL
 Practice SQL Interview questions and Answers
@@ -683,7 +654,35 @@ o(n^2) - inner loop
 o(log n) - loop reduce factor
 ```
 
-# Extra notes:   
-- Data Warehouse  
-> http://cs.ulb.ac.be/public/_media/teaching/infoh415/dwnotes.pdf  
-> 
+
+
+# Collect CheatSheets
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/CrackingTheCodingInterview.pdf   
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/PythonCheatSheet.pdf   
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/Python_2_7.pdf   
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/big-o-cheat-sheet-poster.png   
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/main-qimg-420e994dba8284996618d7922be544d2.png   
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/mementopython3-english.pdf   
+
+> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/python_cheat_sheet.pdf   
+
+
+# Random link
+> https://www.qt.io/qt-for-application-development/   
+
+> https://www.geeksforgeeks.org/   
+
+> http://highscalability.com/  
+
+> https://projecteuler.net/index.php  
+
+> https://www.codechef.com/  
+
+> https://www.careercup.com/page  
+
+> Data Warehouse - http://cs.ulb.ac.be/public/_media/teaching/infoh415/dwnotes.pdf   
