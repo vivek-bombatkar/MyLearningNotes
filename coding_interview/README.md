@@ -87,7 +87,25 @@ OVER (PARTITION BY ... ORDER BY ...)
 https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jtoS3i&index=7     
 https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg/playlists?view=50&sort=dd&shelf_id=4  
 
-- Py Native Data Structures  
+- Py Native Data Structures   
+```python
+
+
+_set = set([1,'a',2,'b',4,4]) # or {1,'a',2,'b',4,4}
+# _set += set([10]) unmutable
+print(_set)
+# {1, 'a', 4, 8, 'b'} Order of items is NOT guaranty
+
+_tuple = tuple([1,'a',2,'b',4,4]) # or (1,'a',2,'b',4,4 )
+_tuple += tuple([10]) # mutable
+print(_tuple)
+# (1, 'a', 2, 'b', 4, 4) Order is guaranty
+
+_list = [1,'a',2,'b',4,4]
+print(_list)
+# [1, 'a', 2, 'b', 4, 4] Order is guaranty
+```
+
 1. List / Arrays  
 ```python
 import unittest
@@ -146,7 +164,9 @@ print(replace_spaces("abcd ","%20"))
 ```
 
 2. Tuples  
+
 3. Dict / Hash Tables 
+
 4. Sets  
 
 - Advance DS  
