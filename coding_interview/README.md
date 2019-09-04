@@ -88,9 +88,26 @@ https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jto
 https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg/playlists?view=50&sort=dd&shelf_id=4  
 
 - Py Native Data Structures  
-1. List  
+1. List / Arrays  
+```python
+import unittest
+
+#O(n^2)
+def is_unique(_string: str) -> bool:
+    for char1 in range(len(_string)):
+        if _string[char1] in _string[char1 + 1:]:
+            return False
+    return True
+
+class Test(unittest.TestCase):
+    def test_is_unique(self):
+        assert True == is_unique("abc")
+
+unittest.main()
+```
+
 2. Tuples  
-3. Dict  
+3. Dict / Hash Tables 
 4. Sets  
 
 - Advance DS  
