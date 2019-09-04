@@ -106,6 +106,45 @@ class Test(unittest.TestCase):
 unittest.main()
 ```
 
+```python
+import unittest
+
+def remove_duplicate(_string: str) -> str:
+    if _string == "":
+        return _string
+    else:
+        new_string = ""
+        for c in _string:
+            if c not in new_string:
+                new_string = "".join([new_string,c])
+    return new_string
+
+class Test(unittest.TestCase):
+    def test_for_null_string(self):
+        assert "" == remove_duplicate("")
+
+    def test_happy_path(self):
+        assert "abc" == remove_duplicate("abbc")
+unittest.main()
+```
+
+```python
+def replace_spaces(_string: str,_replace_with:str)-> str:
+    for i in range(len(_string)):
+        if _string[i] == " ":
+            if i == 0: 
+                _string ="".join([_replace_with,_string[i+1:]])
+            elif i == len(_string):
+                _string ="".join([_string[:i-1],_replace_with])
+            else:
+                _string = "".join([_string[:i],_replace_with,_string[i+1:]])
+    return _string
+
+print(replace_spaces("ab cd","%20"))
+print(replace_spaces(" abcd","%20"))
+print(replace_spaces("abcd ","%20"))
+```
+
 2. Tuples  
 3. Dict / Hash Tables 
 4. Sets  
