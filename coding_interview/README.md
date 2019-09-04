@@ -657,7 +657,7 @@ o(log n) - loop reduce factor
 
 
 # Collect CheatSheets
-> https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/CrackingTheCodingInterview.pdf   
+> http://www.crackingthecodinginterview.com/   
 
 > https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/coding_interview/PythonCheatSheet.pdf   
 
