@@ -719,6 +719,8 @@ def insertion_sort(_list:[]) -> []:
 # 4. Complexity  
 - Big O notation    
 > https://www.youtube.com/playlist?list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn  
+> https://www.interviewcake.com/article/python3/big-o-notation-time-and-space-complexity   
+
 ```
 1 for each assignment / calculation 
 n for loop
