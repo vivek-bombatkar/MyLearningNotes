@@ -164,6 +164,18 @@ print(replace_spaces(" abcd","%20"))
 print(replace_spaces("abcd ","%20"))
 ```
 
+```python
+def is_permutation(_string1:str, _string2:str) -> str:
+    _string1 = _string1.replace(" ","")
+    _string2 = _string2.replace(" ","")
+    if len(_string2) != len(_string1):
+        return False
+    for c in _string1:
+        if c in _string2:
+            _string2 = _string2.replace(c,"")
+    return len(_string2) == 0
+```    
+
 2. Tuples  
 
 3. Dict / Hash Tables 
