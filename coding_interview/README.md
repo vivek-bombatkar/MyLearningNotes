@@ -736,6 +736,17 @@ def fizz_buzz(n:int) -> str:
 
 print(fizz_buzz(15))
 
+def factorial(n):
+    x = 1
+    for i in range(1,n):
+        x += x * i
+    return x
+def recr_factorial(n):
+    if n > 1:
+        return  n * factorial(n-1)
+	
+	
+
 ```
 
  
