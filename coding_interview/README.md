@@ -169,6 +169,14 @@ print(replace_spaces("abcd ","%20"))
 3. Dict / Hash Tables 
 
 4. Sets  
+```python
+
+def is_unique_string(_string:str) -> str:
+    return len(_string) == len(set(_string))
+print(is_unique_string("abca"))
+print(is_unique_string("abc"))
+
+```
 
 - Advance DS  
 1. Link List
