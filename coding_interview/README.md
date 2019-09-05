@@ -164,6 +164,8 @@ print(replace_spaces(" abcd","%20"))
 print(replace_spaces("abcd ","%20"))
 ```
 
+- Strings are immutable lists !!
+Hence cant use .sort() as it sorts the list in place, use sorted() instead!
 ```python
 def is_permutation(_string1:str, _string2:str) -> str:
     _string1 = _string1.replace(" ","")
@@ -174,6 +176,15 @@ def is_permutation(_string1:str, _string2:str) -> str:
         if c in _string2:
             _string2 = _string2.replace(c,"")
     return len(_string2) == 0
+
+def is_polindrom(_string:str) -> str:
+    j = len(_string) -1
+    for i in range(len(_string)):
+        if i < j:
+            if _string[i] != _string[j]:
+                return False
+        j -= 1
+    return True    
 ```    
 
 2. Tuples  
