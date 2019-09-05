@@ -82,10 +82,11 @@ OVER (PARTITION BY ... ORDER BY ...)
 		
 
 # 2. Data Structure
-> https://www.tutorialspoint.com/python/python_data_structure.htm
-> Video tutorial Py Datastructure :   
-https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jtoS3i&index=7     
-https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg/playlists?view=50&sort=dd&shelf_id=4  
+> https://www.tutorialspoint.com/python/python_data_structure.htm  
+> Video tutorial Py Datastructure :    
+- https://www.youtube.com/watch?v=4f225AUHGAY&list=PLib7LoYR5PuDxi8TxxGKxMgf8b-jtoS3i&index=7       
+- https://www.youtube.com/channel/UCFxcvyt2Ucq5IL0_1Njzqlg/playlists?view=50&sort=dd&shelf_id=4    
+- https://www.youtube.com/watch?v=p65AHm9MX80  
 
 - Py Native Data Structures   
 ```python
