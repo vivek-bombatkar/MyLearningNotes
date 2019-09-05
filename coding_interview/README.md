@@ -185,6 +185,18 @@ def is_polindrom(_string:str) -> str:
                 return False
         j -= 1
     return True    
+    
+def appears_only_one(_list: []) -> int:
+    for i in range(len(_list)):
+        if i == 0 and _list[i] not in _list[i+1:]:
+                return _list[i]
+        elif i > 0 or i == len(_list):
+            if (_list[i] not in _list[: i]) and  (_list[i] not in _list[i+1:]):
+                return _list[i]
+    return 0
+
+print(appears_only_one([1,2,2,3,1]))
+
 ```    
 
 2. Tuples  
@@ -544,6 +556,18 @@ print(medianOfList([1,2,3,4,5,6,7,8,9]))
 
 - Solved problems  
  Two Sum : https://www.youtube.com/watch?v=gCin6Qz-eJQ&list=PL5tcWHG-UPH1YSW2RraQg2L2p5hQTIpNL&index=3
+
+```python
+def two_sum(_list:[],n:int)->():
+    _dict = {}
+    for i in range(len(_list)):
+        x = n-_list[i]
+        if _list[i] in _dict:
+            return (_dict.get(_list[i]),i)
+        _dict.update({x:i})
+
+    return (0,0)
+```
 
 ```python
 
