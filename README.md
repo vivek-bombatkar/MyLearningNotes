@@ -130,7 +130,7 @@ git rm --cached ipmvp-nifi-custom.iml
 Ex: There is no tracking information for the current branch. Please specify which branch you want to merge with.
 
 ```
-    git branch --set-upstream-to=origin/<branch> feature/FFAWI-205
+    git branch --set-upstream-to=origin/<branch> feature/XXX-100
 ```
 
 
