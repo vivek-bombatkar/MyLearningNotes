@@ -5,7 +5,7 @@ This file contains random technical notes, please follow individual folders for 
 > Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar)  
 
 
-## get HDFS file size 
+# get HDFS file size 
 ```bash
 $ hdfs dfs -du -s -h  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
 655.2 M  1.9 G  hdfs://hadoop-cluster/user/hive/warehouse/hive_schema.db/table
@@ -80,7 +80,7 @@ C:\>jupyter notebook
 ```
 
 
-## Test your Knowledge with Stack Overflow
+# Test your Knowledge with Stack Overflow
 https://medium.com/dunder-data/how-to-learn-pandas-108905ab4955
 You don’t really know a Python library if you cannot answer the majority of questions on it that are asked on Stack Overflow. This statement might be a little too strong, but in general, Stack Overflow provides a great testing ground for your knowledge of a particular library. There are over 50,000 questions tagged as pandas, so you have an endless test bank to build your pandas knowledge.
 
@@ -104,7 +104,7 @@ Resolution is to alter table to change 'serdeproperties' path.
 alter table my_schema.new_table set serdeproperties ('path'='hdfs://hadoop-cluster/user/hive/warehouse/my_schema.db/new_table') 
 ```
 
-## The GIT stuff    
+# The GIT stuff    
 
 ### commonly used commands in the order that I follow mostly :-)  
 
@@ -131,6 +131,15 @@ Ex: There is no tracking information for the current branch. Please specify whic
 
 ```
     git branch --set-upstream-to=origin/<branch> feature/XXX-100
+```
+
+- Create new branch and push to git   
+```
+git branch feature/ABC-123
+git checkout feature/ABC-123
+git add .
+git commit -m "bla bla"
+git push origin feature/ABC-123
 ```
 
 
