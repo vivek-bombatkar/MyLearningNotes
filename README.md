@@ -449,3 +449,14 @@ sdf.repartition(1).write.save("sampleFolder_2")
 - 
 
 
+## ZIP and UNZIP  
+
+- Exclude specific folders and files  
+```
+zip -9r algo.zip . -x "notebook/*"  "tests/*" ".git/*"
+```
+
+- Only list but not unzip   
+```
+unzip -vl algo.zip
+```
