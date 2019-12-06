@@ -40,3 +40,10 @@ GCP: DataStudio, DataLab
 6. Realtime data
 GCP: PubSub  
 AWS: [Amazon Kinesis](https://aws.amazon.com/kinesis/data-analytics/)   
+
+## GCP good reads!
+
+- [Test server code](https://cloud.google.com/functions/docs/testing/test-overview)  
+- [CICD for cloud functions](https://medium.com/@selsaber/ci-cd-for-gcp-serverless-cloud-functions-001-ae3ed055942c)  
+- []()
+  
