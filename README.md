@@ -150,6 +150,7 @@ git reset --hard HEAD^
 
 - git rebase  
 > https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1  
+> https://www.jetbrains.com/help/pycharm/apply-changes-from-one-branch-to-another.html  
 ```bash
 git checkout develop
 git pull
