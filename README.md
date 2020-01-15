@@ -182,6 +182,21 @@ git config --global http.proxy http://username:password@proxiURL:proxiPort
 git config --global http.sslVerify false
 ```
 
+- Git Rebase
+Rebase the develop branch with feature. I.e. pull the updates from develop to feature branch.
+
+```
+# on the feature branch
+  git checkout develop
+  git reset --hard origin/develop
+  git status
+  git pull --rebase origin/develop
+  git pull --rebase origin develop
+  git checkout feature/FFAWI-920
+  git pull --rebase
+  git status
+```
+
 ### git flow  
 > https://danielkummer.github.io/git-flow-cheatsheet/  
 - merge develop to master by creating release branch.  
