@@ -188,11 +188,9 @@ git config --global http.sslVerify false
 ```
 # on the feature branch
   git checkout develop
-  git reset --hard origin/develop
-  git status
-  git pull --rebase origin develop
-  git checkout feature/<branch_name>
-  git pull --rebase
+  git pull origin develop # to update local develop
+  git pull --rebase origin develop 
+  git rebase --continue # to confirm if rebase cpompleted
   git status
 ```
 
