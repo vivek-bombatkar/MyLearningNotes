@@ -182,17 +182,16 @@ git config --global http.proxy http://username:password@proxiURL:proxiPort
 git config --global http.sslVerify false
 ```
 
-- Git Rebase
-Rebase the develop branch with feature. I.e. pull the updates from develop to feature branch.
+- Git Rebase  
+> Rebase the develop branch with feature. I.e. pull the updates from develop to feature branch.
 
 ```
 # on the feature branch
   git checkout develop
   git reset --hard origin/develop
   git status
-  git pull --rebase origin/develop
   git pull --rebase origin develop
-  git checkout feature/FFAWI-920
+  git checkout feature/<branch_name>
   git pull --rebase
   git status
 ```
