@@ -30,6 +30,25 @@ Two. How should we document/communicate?
   - solution approach: How does the system approach this scenario? What tactics, approaches or decisions have been taken in this direction?
   - link to details: Where are the details of this solution described? This link will either point to a concrete building block, (implementing the approach) or a section of the crosscutting concepts.
   
+- Document the various environments
+![Document the various environments](https://docs.arc42.org/images/07-deployment-overview.png)
+
+- Use sequence diagrams to describe or specify runtime scenarios
+![Use sequence diagrams to describe or specify runtime scenarios](http://docs.arc42.org/images/06-short-and-interesting.png)
+
+- collection from arc42 as checklist for concepts
+![collection from arc42 as checklist for concepts](http://docs.arc42.org/images/08-Crosscutting-Concepts-Structure.png)
+
+- mind-map as quality tree
+![mind-map as quality tree](http://docs.arc42.org/images/10-quality-tree-mindmap-example.png)
+
+- Document and explain the specific quality tree
+![Document and explain the specific quality tree](http://docs.arc42.org/images/10-quality-tree-example.png)
+
+- quality tree as checklist
+![quality tree as checklist](http://docs.arc42.org/images/01-ISO-25010-EN.png)
+
+
 
 # Resource
 - https://docs.arc42.org/home/ 
