@@ -14,7 +14,7 @@
 - Risks and technical debt: Known problems, risks and technical debt  
 - Glossary: Definitions of important business and technical terms  
 
-# IMP Diagrams 
+# IMP Takeaways 
 
 - Use activity diagrams with swimlanes to describe or specify runtime scenarios
 ![Use activity diagrams with swimlanes to describe or specify runtime scenarios](https://docs.arc42.org/images/06-activity-with-swimlane.png)
