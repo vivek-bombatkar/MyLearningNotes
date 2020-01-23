@@ -3,7 +3,8 @@
 ***arc42 is a template for architecture communication and documentation.   
 arc42 answers the following two questions in a pragmatic way, but can be tailored to your specific needs:   
 1. What should we document/communicate about our architecture?   
-***2. How should we document/communicate?   
+2. How should we document/communicate?   
+***
 
 - Introduction and goals: Requirements, stakeholder, (top) quality goals  
 - Constraints: Technical and organizational constraints, conventions  
