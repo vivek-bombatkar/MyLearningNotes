@@ -1,5 +1,6 @@
 
-# Arc42 template
+# Arc42 Template
+***arc42 is a template for architecture communication and documentation.***
 - Introduction and goals: Requirements, stakeholder, (top) quality goals  
 - Constraints: Technical and organizational constraints, conventions  
 - Context and scope: Business and technical context, external interfaces  
