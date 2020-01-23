@@ -13,12 +13,20 @@
 - Risks and technical debt: Known problems, risks and technical debt  
 - Glossary: Definitions of important business and technical terms  
 
-# IMP Diaframs 
+# IMP Diagrams 
 
 - Use activity diagrams with swimlanes to describe or specify runtime scenarios
 ![Use activity diagrams with swimlanes to describe or specify runtime scenarios](https://docs.arc42.org/images/06-activity-with-swimlane.png)
 
+- [Describe the solution approaches as a table!] (https://docs.arc42.org/tips/4-2/)
+  - quality goal: What’s the top-level goal?
+  - scenario: What is a or the detailed scenario for this quality goal?
+  - solution approach: How does the system approach this scenario? What tactics, approaches or decisions have been taken in this direction?
+  - link to details: Where are the details of this solution described? This link will either point to a concrete building block, (implementing the approach) or a section of the crosscutting concepts.
+  
 
 # Resource
 - https://docs.arc42.org/home/ 
 - https://arc42.org/overview/
+
+
