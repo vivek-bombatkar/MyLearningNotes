@@ -1,5 +1,5 @@
 
-# Arc42 Template
+# The Arc42 Template
 ***arc42 is a template for architecture communication and documentation.***   
 arc42 answers the following two questions in a pragmatic way, but can be tailored to your specific needs:   
 One. What should we document/communicate about our architecture?   
@@ -19,7 +19,7 @@ Two. How should we document/communicate?
 - 11. Risks and technical debt: Known problems, risks and technical debt  
 - 12. Glossary: Definitions of important business and technical terms  
 
-# IMP Takeaways 
+# Takeaways 
 
 - Use activity diagrams with swimlanes to describe or specify runtime scenarios
 ![Use activity diagrams with swimlanes to describe or specify runtime scenarios](https://docs.arc42.org/images/06-activity-with-swimlane.png)
@@ -47,6 +47,9 @@ Two. How should we document/communicate?
 
 - quality tree as checklist
 ![quality tree as checklist](http://docs.arc42.org/images/01-ISO-25010-EN.png)
+
+- Amend the glossary by a (graphical) model
+![Amend the glossary by a (graphical) model](http://docs.arc42.org/images/12-graphical-glossary.png)
 
 
 
