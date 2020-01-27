@@ -849,6 +849,12 @@ import matplotlib.pyplot as plt
 
 
 ## Jupyter Notebook call from command line
-
-> https://nbconvert.readthedocs.io/en/latest/execute_api.html
-> https://pythonhosted.org/jupyter_runner/
+This even can run the spark applications.
+```
+FILE_NAME=dummy3 jupyter nbconvert --to notebook --execute dummy_utility.ipynb 
+[NbConvertApp] Converting notebook dummy_utility.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+...
+```
+-  https://nbconvert.readthedocs.io/en/latest/execute_api.html  
+-  https://pythonhosted.org/jupyter_runner/
