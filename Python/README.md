@@ -847,3 +847,8 @@ import matplotlib.pyplot as plt
 > [sub plot management](https://jakevdp.github.io/PythonDataScienceHandbook/04.08-multiple-subplots.html)  
 > https://www.kaggle.com/bombatkarvivek/pyspark-ml-pipeline-with-titanic-dataset-eda  
 
+
+## Jupyter Notebook call from command line
+
+> https://nbconvert.readthedocs.io/en/latest/execute_api.html
+> https://pythonhosted.org/jupyter_runner/
