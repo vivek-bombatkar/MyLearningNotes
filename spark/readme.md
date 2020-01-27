@@ -78,11 +78,31 @@ class TestDataClean(dfcomp.SparkBaseTestCase):
 
 ```
 
-## pytest-spark
+## pytest-spark - This is very handy one!
 > https://pypi.org/project/pytest-spark/   
 > https://stackoverflow.com/questions/40975360/testing-spark-with-pytest-cannot-run-spark-in-local-mode  
 > https://pypi.org/project/pytest-runner/  
 
+- Just define pytest.ini and use `spark_session` as fixture in tests. 
+
+- pytest.ini
+```
+[pytest]
+
+spark_options =
+    spark.app.name: my-pytest-spark-tests
+    spark.port.maxRetries: 2
+    spark.submit.deployMode: client
+    spark.master: local
+```
+
+- Actual tests
+```python
+def test_spark_session_dataframe(spark_session):
+    test_df = spark_session.createDataFrame([[1,3],[2,4]], "a: int, b: int")
+    # ...
+
+```
 
 ## orderBy
 
