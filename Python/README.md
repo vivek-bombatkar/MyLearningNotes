@@ -856,5 +856,10 @@ FILE_NAME=dummy3 jupyter nbconvert --to notebook --execute dummy_utility.ipynb
 [NbConvertApp] Executing notebook with kernel: python3
 ...
 ```
+
+- in notebook
+```python
+file_name = os.environ.get('FILE_NAME','dummy_default_name')
+```
 -  https://nbconvert.readthedocs.io/en/latest/execute_api.html  
 -  https://pythonhosted.org/jupyter_runner/
