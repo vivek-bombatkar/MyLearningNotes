@@ -473,3 +473,29 @@ zip -9r algo.zip . -x "notebook/*"  "tests/*" ".git/*"
 ```
 unzip -vl algo.zip
 ```
+
+
+## Linux Screen Windows
+Keep running your script though you disconnect from session.
+
+- https://linuxize.com/post/how-to-use-linux-screen/
+
+- Start new screen window
+```
+screen -S session_name
+
+```
+
+- Detach from Linux Screen Session
+
+```
+Ctrl+a d
+```
+
+- Return back to screen
+```
+screen -r session_name
+```
+```
+screen -ls
+```
