@@ -148,9 +148,6 @@ git push origin feature/ABC-123
 git reset --hard HEAD^
 ````
 
-- git rebase  
-> https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1  
-> https://www.jetbrains.com/help/pycharm/apply-changes-from-one-branch-to-another.html  
 ```bash
 git checkout develop
 git pull
@@ -183,6 +180,8 @@ git config --global http.sslVerify false
 ```
 
 - Git Rebase  
+> https://medium.com/@fredrikmorken/why-you-should-stop-using-git-rebase-5552bee4fed1  
+> https://www.jetbrains.com/help/pycharm/apply-changes-from-one-branch-to-another.html 
 > Rebase the develop branch with feature. I.e. pull the updates from develop to feature branch.
 
 ```
