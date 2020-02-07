@@ -444,3 +444,18 @@ sdf.write.mode("overwrite").inserInto("schema.table")
 
 ``
 
+
+## Passing Environment Veriables to Spark in yarn-cluster mode
+
+```
+spark2-submit --master yarn --deploy-mode cluster          \
+--conf  spark.yarn.appMasterEnv.foo=bar \
+--py-files abc.zip main.py
+```
+-main.py
+```python
+foo = os.environ.get('foo')
+# print(foo)
+# bar
+
+```
