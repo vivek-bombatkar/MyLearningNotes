@@ -351,6 +351,18 @@ $ source activate MyCondaEnv
 > https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html  
 ``` conda create --name myclone --clone myenv ```
 
+
+> https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/  
+
+- Conda and pip
+	- pip installs python packages within any environment; conda installs any package within conda environments.
+	- If you want to, say, manage Python packages within an existing system Python installation, conda can't help you: by design, it can only install packages within conda environments. 
+
+- Conda and Anaconda
+	- Conda is a package manager; Anaconda is a distribution. 
+	- A software distribution is a pre-built and pre-configured collection of packages that can be installed and used on a system. 
+	- A package manager is a tool that automates the process of installing, updating, and removing packages. 
+
 ## pyspark with CONDA
 > https://mapr.com/blog/python-pyspark-condas-pt1/  
 > 
