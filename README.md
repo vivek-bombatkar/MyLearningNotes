@@ -303,12 +303,22 @@ hdfs dfs -lsr hdfs://<path>/\* | awk '{ if ($5 == 0) print $8 }' | xargs hadoop 
 ## Commands to generate a keytab file, using the Kerberos password
 
 ```bash
+$ vim test123.sh
+rm -f <user>.keytab  
+echo -e " add_entry -password -p <user>@<server> -k 5 -e aes256-cts-hmac-sha1-96\n<pwd>\nwkt <user>.keytab" |ktutil
+echo -e " add_entry -password -p <user>@<server> -k 5 -e aes128-cts-hmac-sha1-96\n<pwd>\nwkt <user>.keytab" |ktutil
+echo -e " add_entry -password -p <user>@<server> -k 5 -e des3-cbc-sha1\n<pwd>\nwkt <user>.keytab" |ktutil
+echo -e " add_entry -password -p <user>@<server> -k 5 -e arcfour-hmac\n<pwd>\nwkt <user>.keytab" |ktutil
+```
+OR 
+
+```bash
 $ ktutil
-ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e aes256-cts-hmac-sha1-96
-ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e aes128-cts-hmac-sha1-96
-ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e des3-cbc-sha1
-ktutil:  add_entry -password -p pos-ingest@INSIGHTS.SUPERCRUNCH.IO -k 5 -e arcfour-hmac
-ktutil:  wkt ./pos-ingest.keytab
+ktutil:  add_entry -password -p <user>@<server> -k 5 -e aes256-cts-hmac-sha1-96
+ktutil:  add_entry -password -p <user>@<server> -k 5 -e aes128-cts-hmac-sha1-96
+ktutil:  add_entry -password -p <user>@<server> -k 5 -e des3-cbc-sha1
+ktutil:  add_entry -password -p <user>@<server> -k 5 -e arcfour-hmac
+ktutil:  wkt ./<user>.keytab
 ktutil:  quit
 
 ```
