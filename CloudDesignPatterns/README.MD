@@ -3,6 +3,9 @@
 # Azure
 
 - [big data and data warehouse](https://azure.microsoft.com/fr-fr/blog/implementation-patterns-for-big-data-and-data-warehouse-on-azure/)
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.43.09.png)
+    
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.43.19.png)
 
 - [Big data architectures](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/)
 
