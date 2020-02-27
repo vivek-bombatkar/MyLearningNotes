@@ -939,8 +939,16 @@ logger.degub()
 ```
 
 ## logdecorator
-> 
-```
+> https://pypi.org/project/logdecorator/ . 
+```python
+from logdecorator import log_on_start, log_on_end, log_on_error
 
-from logdecorator import log_on_start, log_on_end
+logger = structlog.get_logger()
+
+@log_on_start(logging.INFO, "start ...", logger=logger)
+@log_on_end(logging.INFO, "finish ...", logger=logger)
+@log_on_error(logging.ERROR, "Error ...",
+              reraise=True)
+def handle(*, country: int,
+...
 ```
