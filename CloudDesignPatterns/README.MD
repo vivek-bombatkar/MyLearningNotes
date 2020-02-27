@@ -1,6 +1,5 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww33400\viewh20500\viewkind0
-}
+
+
+# Azure
+
+- [big data and data warehouse](https://azure.microsoft.com/fr-fr/blog/implementation-patterns-for-big-data-and-data-warehouse-on-azure/)
