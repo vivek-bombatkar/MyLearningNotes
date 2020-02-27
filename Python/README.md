@@ -875,3 +875,26 @@ file_name = os.environ.get('FILE_NAME','dummy_default_name')
 ```
 -  https://nbconvert.readthedocs.io/en/latest/execute_api.html  
 -  https://pythonhosted.org/jupyter_runner/
+
+## argparse
+> https://docs.python.org/3/library/argparse.html
+
+```python
+parser = argparse.ArgumentParser(description='some description', 
+			formatter_class=argparse.RawDescriptionHelpFormatter)
+
+parser.add_argument('--arg1=', 
+		help='what is arg1...',
+		type=str, 
+		default='Other', 
+		dest='environment', 
+		required=False)
+
+args = parser.parse_args()
+print(args.environment)
+```
+
+```bash
+python test_argparse.py --arg1=="hello world!"
+```
+
