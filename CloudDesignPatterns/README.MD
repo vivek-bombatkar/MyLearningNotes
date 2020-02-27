@@ -8,7 +8,13 @@
     ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.43.19.png)
 
 - [Big data architectures](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/)
-
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.45.12.png)
+    
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.45.28.png)
+    
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.45.38.png)
+    
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.45.53.png)
 
 - [Big data architecture style](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data)
 
