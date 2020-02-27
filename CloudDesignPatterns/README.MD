@@ -16,4 +16,5 @@
     - Machine Learning Algorithm Cheat Sheet
     
     - Deep learning vs. machine learning
+    [!](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.34.55.png)
 
