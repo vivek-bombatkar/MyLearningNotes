@@ -898,3 +898,49 @@ print(args.environment)
 python test_argparse.py --arg1=="hello world!"
 ```
 
+## structlog
+> http://www.structlog.org/en/stable/getting-started.html . 
+
+```python
+chain = [
+    structlog.stdlib.filter_by_level,
+    merge_in_threadlocal,
+    structlog.stdlib.add_log_level,
+    LogEntryProcessor.add_app_info,
+    LogEntryProcessor.add_logger_name,
+    LogEntryProcessor.add_timestamp,
+    structlog.processors.StackInfoRenderer(),
+    structlog.processors.format_exc_info,
+    LogEntryProcessor.cleanup_keynames,
+    structlog.processors.JSONRenderer()
+]
+
+log_format = "%(filename)s:%(lineno)s %(funcName)10s %(message)s"
+
+
+logging.basicConfig(level=log_level,
+		stream=sys.stdout,
+		format=log_format)
+
+structlog.configure_once(
+processors=chain,
+context_class=dict,
+logger_factory=structlog.stdlib.LoggerFactory(),
+wrapper_class=structlog.stdlib.BoundLogger,
+cache_logger_on_first_use=True,
+)
+
+logger = structlog.get_logger()
+
+logger.info()
+logger.degub()
+...
+
+```
+
+## logdecorator
+> 
+```
+
+from logdecorator import log_on_start, log_on_end
+```
