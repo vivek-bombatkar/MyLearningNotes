@@ -20,6 +20,10 @@
 
 - [The emerging big data architectural pattern](https://azure.microsoft.com/en-us/blog/the-emerging-big-data-architectural-pattern/)
 
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.49.48.png)
+    
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.50.05.png)
+
 - [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
 
 
