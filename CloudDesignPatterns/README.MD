@@ -10,3 +10,10 @@
 - [Big data architecture style](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/big-data)
 
 - [The emerging big data architectural pattern](https://azure.microsoft.com/en-us/blog/the-emerging-big-data-architectural-pattern/)
+
+- [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
+
+    - Machine Learning Algorithm Cheat Sheet
+    
+    - Deep learning vs. machine learning
+
