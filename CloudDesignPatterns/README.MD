@@ -13,8 +13,13 @@
 
 - [Azure Machine Learning documentation](https://docs.microsoft.com/en-us/azure/machine-learning/)
 
+
     - Machine Learning Algorithm Cheat Sheet
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.35.44.png)
+    
     
     - Deep learning vs. machine learning
     ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.34.55.png)
+    ![](https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/CloudDesignPatterns/Screenshot%202020-02-27%20at%2010.35.27.png)
+    
 
