@@ -904,14 +904,9 @@ python test_argparse.py --arg1=="hello world!"
 ```python
 chain = [
     structlog.stdlib.filter_by_level,
-    merge_in_threadlocal,
     structlog.stdlib.add_log_level,
-    LogEntryProcessor.add_app_info,
-    LogEntryProcessor.add_logger_name,
-    LogEntryProcessor.add_timestamp,
     structlog.processors.StackInfoRenderer(),
     structlog.processors.format_exc_info,
-    LogEntryProcessor.cleanup_keynames,
     structlog.processors.JSONRenderer()
 ]
 
