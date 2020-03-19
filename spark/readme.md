@@ -190,7 +190,7 @@ sdf = spark.read.format("com.databricks.spark.avro").load(""<S3 BUCKET ADDRESS>/
 ``` .config("spark.hadoop.hadoop.security.credential.provider.path","jceks://hdfs/user/myuser/pwd.jceks") ```
 - .jceks is the strong encrypted pwd 
 
-``` .config("spark.jars","hdfs://hadoop-supercrunch-mvp/user/myuser/spark-avro_2.11-4.0.0.jar") ```  
+``` .config("spark.jars","hdfs://myCluster/user/myuser/spark-avro_2.11-4.0.0.jar") ```  
 - Need this to read avro files in pyspark 
 
 ## renaming dataframe columnames
