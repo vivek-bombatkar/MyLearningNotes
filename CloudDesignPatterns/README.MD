@@ -3,6 +3,8 @@
 # Azure
 
 ### Azure certification   
+> https://www.microsoft.com/en-us/learning/browse-all-certifications.aspx   
+
 - Exam AI-100: Designing and Implementing an Azure AI Solution, https://docs.microsoft.com/en-us/learn/certifications/exams/ai-100?wt.mc_id=learningredirect_certs-web-wwl  
 
 - Exam DP-100: Designing and Implementing a Data Science Solution on Azure, https://docs.microsoft.com/en-us/learn/certifications/exams/dp-100?wt.mc_id=learningredirect_certs-web-wwl   
