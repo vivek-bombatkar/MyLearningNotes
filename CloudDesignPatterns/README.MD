@@ -2,6 +2,9 @@
 
 # Azure
 
+### azure-fundamentals - good starting point!
+> https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/
+
 ### Azure certification   
 > https://www.microsoft.com/en-us/learning/browse-all-certifications.aspx   
 
