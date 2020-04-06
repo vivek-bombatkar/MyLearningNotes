@@ -676,6 +676,16 @@ display(HTML(data="""
 """))
 ``` 
 
+# Python Anti-Patterns
+> https://docs.quantifiedcode.com/python-anti-patterns/index.html   
+
+ 1. Correctness
+ 2. Maintainability
+ 3. Readability
+ 4. Security
+ 5. Performance
+ 
+ 
 # Clean Code notes...  
 
 ## DockString vs Annotations
@@ -765,6 +775,8 @@ Start
 ```
 
 ## EAFP (stands for Easier to Ask Forgiveness than Permission), while LBYL (stands for Look Before You Leap).  
+> https://docs.quantifiedcode.com/python-anti-patterns/readability/asking_for_permission_instead_of_forgiveness_when_working_with_files.html  
+
 
 ```python
 if os.path.exists(filename):
