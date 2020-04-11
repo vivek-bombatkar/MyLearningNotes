@@ -717,11 +717,11 @@ with other ones, through multiple inheritance, so that the methods
 or properties used on the mixin will be available.
 
 - SOLID principles
-    - S: Single responsibility principle
-    - O: Open/closed principle
-    - L: Liskov's substitution principle
-    - I: Interface segregation principle
-    - D: Dependency inversion principle
+    - S: Single responsibility principle ; a class) must have only one responsibility.   Again, the smaller the class, the better.
+    - O: Open/closed principle; open to extension but closed for modification.
+    - L: Liskov's substitution principle; series of properties that an object type must hold to preserve reliability on its design.
+    - I: Interface segregation principle; that interfaces (set of methods an object expose) should be small.
+    - D: Dependency inversion principle; making it independent of things that are fragile, volatile, or out of our control
 
 
 ## DockString vs Annotations
