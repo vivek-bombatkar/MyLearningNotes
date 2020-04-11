@@ -707,6 +707,21 @@ fits the problem.
 EAFP (stands for Easier to Ask Forgiveness than
 Permission), while LBYL (stands for Look Before You Leap).
 
+- Mixins
+A mixin is a base class that encapsulates some common behavior
+with the goal of reusing code. Typically, a mixin class is not useful
+on its own, and extending this class alone will certainly not work,
+because most of the time it depends on methods and properties that
+are defined in other classes. The idea is to use mixin classes along
+with other ones, through multiple inheritance, so that the methods
+or properties used on the mixin will be available.
+
+- SOLID principles
+    - S: Single responsibility principle
+    - O: Open/closed principle
+    - L: Liskov's substitution principle
+    - I: Interface segregation principle
+    - D: Dependency inversion principle
 
 
 ## DockString vs Annotations
