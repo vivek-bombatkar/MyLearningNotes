@@ -22,6 +22,12 @@ def main():
 if __name__=='__main__':
     @contextlib.contextmanager
     def db_handler():
+        """
+        All we need to know is that
+        when this decorator is applied, everything before the yield statement
+        will be run as if it were part of the __enter__ method.
+        :return:
+        """
         stop_database()
         yield
         start_database()
