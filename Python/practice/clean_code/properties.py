@@ -1,3 +1,7 @@
+# —don't do more than one thing on a method. If you want to assign
+# something and then check the value, break that down into two or
+# more sentences.
+
 import re
 EMAIL_FORMAT = re.compile(r"[^@]+@[^@]+\.[^@]+")
 def is_valid_email(potentially_valid_email: str):
