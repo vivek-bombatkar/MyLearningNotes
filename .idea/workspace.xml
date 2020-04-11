@@ -39,6 +39,7 @@
       </list>
     </option>
   </component>
+  <component name="ProjectId" id="1aNwaaELdoqjUsQn6LzFuS65R8T" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -62,6 +63,9 @@
       </pane>
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -498,7 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/TS_1/venv/Lib/site-packages/tensorflow/python/training/saver.py" />
+    <entry file="file://$PROJECT_DIR$/../TS_1/venv/Lib/site-packages/tensorflow/python/training/saver.py" />
     <entry file="file://$PROJECT_DIR$/ML/TensorFlow-Character-Recognition-master/predict.py" />
     <entry file="file://$PROJECT_DIR$/ML/Google_vision-text-detection-python/detect.py">
       <provider selected="true" editor-type-id="text-editor">
