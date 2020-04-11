@@ -686,7 +686,28 @@ display(HTML(data="""
  5. Performance
  
  
-# Clean Code notes...  
+# Clean Code notes...
+
+## The KeyWords
+- DRY/OAOO
+The ideas of Don't Repeat Yourself (DRY) and Once and Only Once (OAOO)
+
+- YAGNI
+YAGNI (short for You Ain't Gonna Need It) is an idea you might
+want to keep in mind very often when writing a solution if you do
+not want to over-engineer it.
+
+- KIS
+KIS (stands for Keep It Simple) relates very much to the previous
+point. When you are designing a software component, avoid overengineering
+it; ask yourself if your solution is the minimal one that
+fits the problem.
+
+- EAFP/LBYL
+EAFP (stands for Easier to Ask Forgiveness than
+Permission), while LBYL (stands for Look Before You Leap).
+
+
 
 ## DockString vs Annotations
 
