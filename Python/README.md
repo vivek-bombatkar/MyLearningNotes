@@ -731,7 +731,8 @@ whatever is after the decorator as a first parameter of the decorator
 itself, and the result would be whatever the decorator returns.
     - original is the decorated function,
 often also called a wrapped object.
-
+    -   Use of decorators: Transforming parameters, Tracing code, Validate parameters, Implement retry operations, Simplify classes by moving some (repetitive) logic
+        into decorators
 
 ## DockString vs Annotations
 
