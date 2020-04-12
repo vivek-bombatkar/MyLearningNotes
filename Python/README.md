@@ -761,6 +761,19 @@ _func_add.__annotations__
 {'a': int, 'b': int, 'return': __main__.cls_no_use}
 ```
 
+- doctest
+The doctest module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. 
+
+```python
+def my_fun():
+    """
+    this is my_fun
+    Example:
+    ::
+        >>> assert my_fun() == None
+        >>>
+    """
+```
 - Finally  
 ```python
 print(f'_func_add(): {_func_add()}')
