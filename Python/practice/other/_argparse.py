@@ -2,7 +2,7 @@ import argparse
 
 if __name__=='__main__':
 #Creating a parser
-    args_parser = argparse.ArgumentParser(description="process args")
+    # args_parser = argparse.ArgumentParser(description="process args")
 # Adding arguments
     args_parser.add_argument('--agrg_1=',
                              required=True,
