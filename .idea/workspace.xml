@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd72c10d-34b6-46f6-acf5-1b8e7c38ef9b" name="Default" comment="keep learning...">
-      <change afterPath="$PROJECT_DIR$/Python/practice/other/argparse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/practice/other/logging_struct_log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/practice/clean_code/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/practice/clean_code/decorator.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.argparse">
+  <component name="RunManager" selected="Python.logging_struct_log">
     <configuration name="argparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyLearningNotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +111,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logging_struct_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyLearningNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/practice/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/practice/other/logging_struct_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="properties" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyLearningNotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,34 +153,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="underscores" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyLearningNotes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/practice/clean_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/practice/clean_code/underscores.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logging_struct_log" />
         <item itemvalue="Python.argparse" />
         <item itemvalue="Python.decorator" />
         <item itemvalue="Python.callable_objects" />
         <item itemvalue="Python.properties" />
-        <item itemvalue="Python.underscores" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586696909870</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="keep learning...">
+      <created>1586699341000</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586699341001</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
