@@ -723,6 +723,15 @@ or properties used on the mixin will be available.
     - I: Interface segregation principle; that interfaces (set of methods an object expose) should be small.
     - D: Dependency inversion principle; making it independent of things that are fragile, volatile, or out of our control
 
+- Decorators : decorators wrap a function, modifying its behavior.
+    - is a mechanism to simplify the way functions and methods are
+defined when they have to be modified after their original definition.
+    - Decorators are just syntax sugar for calling
+whatever is after the decorator as a first parameter of the decorator
+itself, and the result would be whatever the decorator returns.
+    - original is the decorated function,
+often also called a wrapped object.
+
 
 ## DockString vs Annotations
 
