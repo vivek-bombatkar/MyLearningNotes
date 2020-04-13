@@ -1065,3 +1065,7 @@ logger = structlog.get_logger()
 def handle(*, country: int,
 ...
 ```
+
+## DESIGN PATTERNS in PYTHON
+> https://refactoring.guru/design-patterns/python
+- video guides
