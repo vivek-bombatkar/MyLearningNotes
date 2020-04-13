@@ -408,6 +408,13 @@ pySpark_script.py
 > https://python.g-node.org/python-summerschool-2009/_media/cheat_sheets.pdf    
 > https://docs.python-guide.org/writing/tests/  
 
+- mock.Mock vs mock.patch
+    - patch replaces the class with a mock object and lets you work with the mock instance  
+    - Once you patch a class, references to the class are completely replaced by the mock instance.
+    - mock.patch is usually used when you are testing something that creates a new instance of a class inside of the test.  
+    - 
+    
+    
 ### unittest
 - Ex 1  
 ```python
