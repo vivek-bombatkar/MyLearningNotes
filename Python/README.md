@@ -412,7 +412,22 @@ pySpark_script.py
     - patch replaces the class with a mock object and lets you work with the mock instance  
     - Once you patch a class, references to the class are completely replaced by the mock instance.
     - mock.patch is usually used when you are testing something that creates a new instance of a class inside of the test.  
-    - 
+
+- Mock vs MagicMock
+    - Mock is use for replacing or mocking an object in python unittest while. 
+    - MagicMock is a subclass of Mock with all the "magic methods" pre-created and ready to use.
+    - Below  are the pre-created magic methods and its default values for MagicMock.
+        ```python
+        __lt__: NotImplemented
+        __gt__: NotImplemented
+        __le__: NotImplemented
+        __ge__: NotImplemented
+        __int__: 1
+        __contains__: False
+        __len__: 0
+        __iter__: iter([])
+        ...
+        ```
     
     
 ### unittest
