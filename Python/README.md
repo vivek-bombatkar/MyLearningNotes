@@ -500,6 +500,18 @@ def test_fun():
     assert exc_info.typename == "TypeError"
 ```
 
+- Code coverage with pytest-cov package
+```shell script
+pytest \
+--cov-report term-missing \
+--cov=coverage_1 \
+test_coverage_1.py
+```
+
+- Use coverage as a tool to find blind spots in the code, but not as a metric or target
+goal.
+
+
 ### Auto unit testing with setuptool
 
 
