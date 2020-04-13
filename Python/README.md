@@ -428,6 +428,15 @@ pySpark_script.py
         __iter__: iter([])
         ...
         ```
+- @pytest.fixture(autouse=True)
+    - Autouse fixtures (xUnit setup on steroids)
+The class-level transact fixture is marked with autouse=true which implies that all test methods in the class will use this fixture without a need to state it in the test function signature or with a class-level usefixtures decorator.
+```python
+@pytest.fixture(autouse=True)
+def my_fixture():
+    ...
+```
+
     
     
 ### unittest
