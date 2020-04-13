@@ -470,6 +470,15 @@ Most assert methods accept an optional msg argument, which is used as an explana
 
 
 ### pytest
+- By default, pytest runs tests in sequential order
+- pytest provides us with an option to run tests in parallel.
+For this, we need to first install the pytest-xdist plugin.
+```shell script
+pip install pytest-xdist
+# pytest -n <num>
+pytest -n 3
+```
+
 > https://pypi.org/project/pytest-runner/   
 > https://stackoverflow.com/questions/38155169/how-do-i-get-pytest-to-run-all-functions-as-test  
 > https://docs.pytest.org/en/latest/goodpractices.html
@@ -502,6 +511,8 @@ def test_fun():
 
 - Code coverage with pytest-cov package
 ```shell script
+pip install pytest-cov
+
 pytest \
 --cov-report term-missing \
 --cov=coverage_1 \
@@ -511,6 +522,8 @@ test_coverage_1.py
 - Use coverage as a tool to find blind spots in the code, but not as a metric or target
 goal.
 
+- Pytest reusable features so that we can feed our tests with data or objects in
+order to test more effectively and without repetition.
 
 ### Auto unit testing with setuptool
 
