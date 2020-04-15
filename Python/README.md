@@ -1075,6 +1075,12 @@ def handle(*, country: int,
 ...
 ```
 
+## truffleHog
+> https://github.com/dxa4481/truffleHog/blob/dev/README.md
+- Searches through git repositories for secrets, digging deep into commit history and branches. This is effective at finding secrets accidentally committed.
+
+
+
 ## DESIGN PATTERNS in PYTHON
 > https://refactoring.guru/design-patterns/python
 - video guides
