@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd72c10d-34b6-46f6-acf5-1b8e7c38ef9b" name="Default" comment="keep learning...">
+      <change afterPath="$PROJECT_DIR$/Python/practice/other/oop_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python/README.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +26,10 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -35,61 +40,7 @@
       <recent name="C:\Users\minal\PycharmProjects\MyLearningNotes\Python\practice\clean_code" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.py_test">
-    <configuration name="argparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyLearningNotes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/practice/other" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\minal\PycharmProjects\MyLearningNotes\Python\practice\other\_argparse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyLearningNotes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/practice/clean_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/practice/clean_code/decorator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.oop_2">
     <configuration name="logging_struct_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyLearningNotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +54,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/practice/other/logging_struct_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oop_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MyLearningNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/practice/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/practice/other/oop_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="opp_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyLearningNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/practice/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/practice/other/opp_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.oop_2" />
+        <item itemvalue="Python.opp_1" />
         <item itemvalue="Python.py_test" />
         <item itemvalue="Python.unit_testing" />
         <item itemvalue="Python.logging_struct_log" />
-        <item itemvalue="Python.argparse" />
-        <item itemvalue="Python.decorator" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586791547924</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="keep learning...">
+      <created>1586816011855</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1586816011855</updated>
+    </task>
+    <task id="LOCAL-00037" summary="keep learning...">
+      <created>1586982215531</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586982215531</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,18 +433,43 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="good" />
     <MESSAGE value="keep learning..." />
     <option name="LAST_COMMIT_MESSAGE" value="keep learning..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="21" key="CommitChangelistDialog2" timestamp="1586982214429">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="311" y="21" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1586982214429" />
+    <state width="1348" height="176" key="GridCell.Tab.0.bottom" timestamp="1586985871732">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1348" height="176" key="GridCell.Tab.0.bottom/0.0.1368.912@0.0.1368.912" timestamp="1586985871732" />
+    <state width="1348" height="176" key="GridCell.Tab.0.center" timestamp="1586985871732">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1348" height="176" key="GridCell.Tab.0.center/0.0.1368.912@0.0.1368.912" timestamp="1586985871732" />
+    <state width="1348" height="176" key="GridCell.Tab.0.left" timestamp="1586985871732">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1348" height="176" key="GridCell.Tab.0.left/0.0.1368.912@0.0.1368.912" timestamp="1586985871732" />
+    <state width="1348" height="176" key="GridCell.Tab.0.right" timestamp="1586985871732">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state width="1348" height="176" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1586985871732" />
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1586982226214">
+      <screen x="0" y="0" width="1368" height="912" />
+    </state>
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1586982226214" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,6 +478,11 @@
           <url>file://$PROJECT_DIR$/ML/TensorFlow-Character-Recognition-master/createModel.py</url>
           <line>125</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/practice/other/opp_1.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
