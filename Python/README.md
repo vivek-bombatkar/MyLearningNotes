@@ -1078,3 +1078,12 @@ def handle(*, country: int,
 ## DESIGN PATTERNS in PYTHON
 > https://refactoring.guru/design-patterns/python
 - video guides
+
+## DBB - Behavior Driven Development
+> https://behave.readthedocs.io/en/latest/philosophy.html
+> https://behave.readthedocs.io/en/latest/tutorial.html
+
+- It extends TDD by writing test cases in a natural language that non-programmers can read. 
+- Behavior-driven developers use their native language in combination with the ubiquitous language of domain-driven design to describe the purpose and benefit of their code. 
+- This allows the developers to focus on why the code should be created, rather than the technical details, and 
+- minimizes translation between the technical language in which the code is written and the domain language spoken by the business, users, stakeholders, project management, etc.
