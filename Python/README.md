@@ -8,7 +8,7 @@
 > https://www.analyticsvidhya.com/blog/2015/06/quick-guide-text-data-cleaning-python/  
 > https://www.analyticsvidhya.com/blog/2015/06/data-visualization-in-python-cheat-sheet/  
 > https://www.analyticsvidhya.com/blog/2015/06/infographic-cheat-sheet-data-exploration-python/  
-
+> https://dbader.org/blog/ 
 
 
 
@@ -1106,3 +1106,36 @@ def handle(*, country: int,
 - A class method can access or modify class state while a static method can’t access or modify it.
 - In general, static methods know nothing about class state. They are utility type methods that take some parameters and work upon those parameters. On the other hand class methods must have class as parameter.
 - We use @classmethod decorator in python to create a class method and we use @staticmethod decorator to create a static method in python.
+
+## PEP 8 -- Style Guide for Python Code
+> https://www.python.org/dev/peps/pep-0008/
+- Indentation
+Use 4 spaces per indentation level.
+- Tabs or Spaces?
+Spaces are the preferred indentation method.
+- Maximum Line Length
+Limit all lines to a maximum of 79 characters.
+- Should a Line Break Before or After a Binary Operator? : Before.
+```python
+# Correct:
+# easy to match operators with operands
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+```
+- Blank Lines
+    - Surround top-level function and class definitions with two blank lines.
+    - Method definitions inside a class are surrounded by a single blank line.
+- Imports
+Imports should usually be on separate lines:
+-  "dunders" (i.e. names with two leading and two trailing underscores) such as __all__, __author__, __version__,
+- String Quotes
+In Python, single-quoted strings and double-quoted strings are the same. 
+- String Quotes
+In Python, single-quoted strings and double-quoted strings are the same. 
+- Use ''.startswith() and ''.endswith() instead of string slicing to check for prefixes or suffixes.
+- Object type comparisons should always use isinstance() instead of comparing types directly:
+- Don't compare boolean values to True or False using ==:
+- 
+
+

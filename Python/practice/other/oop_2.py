@@ -13,6 +13,7 @@ class A:
         return cls(a)
 
 
+
 class Person:
     def __init__(self, name, age):
         self.name = name
