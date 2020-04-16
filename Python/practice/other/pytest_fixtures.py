@@ -3,12 +3,19 @@ import pytest
 @pytest.fixture
 def my_fixture():
     return 10
+@pytest.fixture(autouse=True)
+def my_auto_use_fixture():
+    return 5
 
 def test_one(my_fixture):
     assert my_fixture + 5 == 15
 
 def test_two(my_fixture):
     assert my_fixture - 5 == 5
+
+def test_three():
+    assert my_auto_use_fixture  == 5
+
 
 # (MyLearningNotes) C:\Users\minal\PycharmProjects\MyLearningNotes\Python\practice\other>pytest -n 2 pytest_fixtures.py
 # ======================================================= test session starts ========================================================
