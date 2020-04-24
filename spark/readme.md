@@ -459,3 +459,11 @@ foo = os.environ.get('foo')
 # bar
 
 ```
+
+## Spark Resource configurations : Tiny Executors vs Fat Executors
+> https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application.html
+`--num-executors, --executor-cores and --executor-memory`
+- these three params play a very important role in spark performance as they control the amount of CPU & memory your spark application gets. 
+- This makes it very crucial for users to understand the right way to configure them. Hope this blog helped you in getting that perspective…
+
+
