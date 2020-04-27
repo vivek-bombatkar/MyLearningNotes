@@ -253,12 +253,31 @@ class ConcreteProduct2(Product):
 def client_code(creator: Creator) -> None:
     print(f"Client: I'm not aware of the creator's class, but it still works.\n"
           f"{creator.some_operation()}", end="")
+#
+#
+# if __name__ == "__main__":
+#     print("App: Launched with the ConcreteCreator1.")
+#     client_code(ConcreteCreator1())
+#     print("\n")
+#
+#     print("App: Launched with the ConcreteCreator2.")
+#     client_code(ConcreteCreator2())
+
+class Parrot:
+    def __init__(self):
+        self._voltage = 100000
+
+    @property
+    def voltage(self):
+        """Get the current voltage."""
+        return self._voltage
+
+if __name__ == '__main__':
+    obj = Parrot
+    print(type(obj))
+    obj = Parrot()
+    print(type(obj))
+    # obj.voltage = 100
+    print(type(obj.voltage))
 
 
-if __name__ == "__main__":
-    print("App: Launched with the ConcreteCreator1.")
-    client_code(ConcreteCreator1())
-    print("\n")
-
-    print("App: Launched with the ConcreteCreator2.")
-    client_code(ConcreteCreator2())

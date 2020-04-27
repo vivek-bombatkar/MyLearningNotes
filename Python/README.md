@@ -1164,4 +1164,6 @@ In Python, single-quoted strings and double-quoted strings are the same.
 - Don't compare boolean values to True or False using ==:
 - 
 
-
+## Built in functions
+> https://docs.python.org/3/library/functions.html#property
+- TODO
