@@ -1082,8 +1082,15 @@ def handle(*, country: int,
 
 
 ## DESIGN PATTERNS in PYTHON
-> https://refactoring.guru/design-patterns/python   
--  chcek video guides
+> https://refactoring.guru/design-patterns/python     
+
+Design patterns are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.
+
+| Creational patterns | Structural patterns | Behavioral patterns |
+| --- | --- | --- |
+| provide object creation mechanisms that increase flexibility and reuse of existing code. | explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient. | take care of effective communication and the assignment of responsibilities between objects. |  
+
+
 
 - ***1. Creational Patterns***
 
