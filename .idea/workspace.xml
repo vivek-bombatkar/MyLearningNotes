@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd72c10d-34b6-46f6-acf5-1b8e7c38ef9b" name="Default" comment="keep learning...">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -467,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587964882041</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="keep learning...">
+      <created>1587965500887</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1587965500887</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,10 +497,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state x="311" y="135" key="#Inspections/0.0.1368.912@0.0.1368.912" timestamp="1587962009084" />
-    <state x="311" y="21" key="CommitChangelistDialog2" timestamp="1587964880570">
+    <state x="311" y="21" key="CommitChangelistDialog2" timestamp="1587965499726">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="311" y="21" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1587964880570" />
+    <state x="311" y="21" key="CommitChangelistDialog2/0.0.1368.912@0.0.1368.912" timestamp="1587965499726" />
     <state width="1348" height="224" key="GridCell.Tab.0.bottom" timestamp="1587963325665">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
@@ -512,10 +517,10 @@
       <screen x="0" y="0" width="1368" height="912" />
     </state>
     <state width="1348" height="224" key="GridCell.Tab.0.right/0.0.1368.912@0.0.1368.912" timestamp="1587963325665" />
-    <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1587964883923">
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2" timestamp="1587965502815">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
-    <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1587964883923" />
+    <state x="277" y="189" key="Vcs.Push.Dialog.v2/0.0.1368.912@0.0.1368.912" timestamp="1587965502815" />
     <state x="370" y="245" key="git4idea.merge.GitPullDialog" timestamp="1587723267744">
       <screen x="0" y="0" width="1368" height="912" />
     </state>
