@@ -1,6 +1,6 @@
 
 # End-2-End ML course / Books / etc     
-- [PythonDataScienceHandbook] (https://jakevdp.github.io/PythonDataScienceHandbook/)   
+- [PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)   
 - [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf)
 - [cognitiveclass](https://cognitiveclass.ai/courses/machine-learning-with-python/)    
 - [data-flair.training](https://data-flair.training/blogs/machine-learning-tutorial/)
