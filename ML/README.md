@@ -9,10 +9,18 @@
 - [ML from Azure]()
 - [ML from IBM]()
 
-
-
 # Online Tools for hosting model 
 - [Google colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=rTX3heEtu0b2)
+- [Kaggle](kaggle.com)
+- [notebooks azure](https://notebooks.azure.com/)
+- [studio azureml - No Code ML](https://studio.azureml.net/)
+
+# MLOps
+- [Azure evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
+  - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
+- [GCP devops](https://cloud.google.com/devops)
+  - https://cloud.google.com/solutions/devops/devops-process-work-visibility-in-value-stream
+  
 
 # Random Links 
 - http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
