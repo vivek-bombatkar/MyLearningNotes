@@ -19,6 +19,7 @@
 - [Azure evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
   - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
   - https://github.com/microsoft/MLOps
+  - https://medium.com/@theadisoni/mlops-in-azure-f6e7c006fe0e
 - [GCP devops](https://cloud.google.com/devops)
   - https://cloud.google.com/solutions/devops/devops-process-work-visibility-in-value-stream
   - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
