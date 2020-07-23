@@ -7,6 +7,7 @@
 - [ML from AWS]()
 - [ML from GCP](https://developers.google.com/machine-learning/crash-course)
 - [ML from Azure]()
+- [Microsoft data-science-for-beginners](https://docs.microsoft.com/en-us/azure/machine-learning/studio/data-science-for-beginners-the-5-questions-data-science-answers)
 - [ML from IBM]()
 
 # Online Tools for hosting model 
@@ -35,7 +36,6 @@
   - https://medium.com/ai%C2%B3-theory-practice-business/top-6-cheat-sheets-novice-machine-engineers-need-5ea43d1be3de  
   - https://medium.com/ai%C2%B3-theory-practice-business/the-engineers-guide-to-machine-learning-30a3d54bea4e  
 - [WEKA](https://www.cs.waikato.ac.nz/ml/index.html)  
-
 - PCA, Principal Component Analtsis  
   - https://www.youtube.com/watch?v=8LwCPpNtggM  
   - http://setosa.io/ev/principal-component-analysis/  
