@@ -1,5 +1,19 @@
 
-# End-2-End ML course / Books / etc     
+# My Machine Learning Notes...
+
+This repo is collection of my notes while ML learning journy and working on ML projects.
+Please comment if you have any suggestion, find a correction or want to appreciate :-)  
+
+> Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar), [Kaggle](https://www.kaggle.com/competitions) 
+
+
+- [1. Collection of End-2-End ML Course / Books.](#10)
+- [2. Online Tools for hosting model, mostly free.](#20)
+- [3. MLOps (Devops for ML) theory concepts and toolkits.](#30)
+- [4. Random Notes and Links on ML good-read.](#40)
+
+
+# <a name="10"></a>1. Collection of best End-2-End ML Course / Books.
 - [PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)   
 - [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf)
 - [cognitiveclass](https://cognitiveclass.ai/courses/machine-learning-with-python/)    
@@ -7,16 +21,16 @@
 - [ML from AWS]()
 - [ML from GCP](https://developers.google.com/machine-learning/crash-course)
 - [ML from Azure]()
-- [Microsoft data-science-for-beginners](https://docs.microsoft.com/en-us/azure/machine-learning/studio/data-science-for-beginners-the-5-questions-data-science-answers)
+- [Data-science-for-beginners from Azure](https://docs.microsoft.com/en-us/azure/machine-learning/studio/data-science-for-beginners-the-5-questions-data-science-answers)
 - [ML from IBM]()
 
-# Online Tools for hosting model 
+# <a name="20"></a>2. Online Tools for hosting model, mostly free.
 - [Google colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=rTX3heEtu0b2)
 - [Kaggle](kaggle.com)
 - [notebooks azure](https://notebooks.azure.com/)
 - [studio azureml - No Code ML](https://studio.azureml.net/)
 
-# MLOps
+# <a name="30"></a>3. MLOps (DevOps for ML) theory concepts and toolkits.
 - [Azure evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
   - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
   - https://github.com/microsoft/MLOps
@@ -26,10 +40,9 @@
   - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
 - [IBM refarch-ml-ops](https://github.com/ibm-cloud-architecture/refarch-ml-ops/blob/master/README.md)
   
+    
 
-  
-
-# Random Links 
+# <a name="40"></a>4. Random Notes and Links on ML good-read.
 - http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
 - [All Articals from him](https://medium.com/@cdossman)  
   - https://medium.com/ai%C2%B3-theory-practice-business/best-method-to-learn-essential-machine-learning-skills-fast-533e30f3023d  
