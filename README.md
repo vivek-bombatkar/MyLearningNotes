@@ -1,9 +1,11 @@
 # Because its never late to start taking notes and make it 'public'...  
 
 
-This file contains random technical notes, please follow individual folders for specific technology.   
+- This repository contains my random (but important) technical notes, which I found useful.
+- Please do follow individual sub-folders for more details specific technology.
+- Notes so far include topics like Hadoop, Spark, Machine Learning, Java, Python, Unit testing, Clean Code, Py project management,  
 
-> Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar)  
+> Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar), [Kaggle](https://www.kaggle.com/competitions) 
 
 
 # get HDFS file size 
