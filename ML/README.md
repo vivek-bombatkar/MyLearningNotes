@@ -31,6 +31,8 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [studio azureml - No Code ML](https://studio.azureml.net/)
 
 # <a name="30"></a>3. MLOps (DevOps for ML) theory concepts and toolkits.
+- DevOps: CI + CD
+- MLOps: CI + CD + CT + CM + CV
 - [Azure evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
   - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
   - https://github.com/microsoft/MLOps
@@ -42,7 +44,10 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   
     
 
-# <a name="40"></a>4. Random Notes and Links on ML good-read.
+# <a name="40"></a>4. Random Notes and Links on ML good-read.\
+- Azure Functions for Regression Model that need no Training (NO CT Continuous Training needed)
+  - 
+
 - http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
 - [All Articals from him](https://medium.com/@cdossman)  
   - https://medium.com/ai%C2%B3-theory-practice-business/best-method-to-learn-essential-machine-learning-skills-fast-533e30f3023d  
