@@ -44,7 +44,8 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   
     
 
-# <a name="40"></a>4. Random Notes and Links on ML good-read.\
+# <a name="40"></a>4. Random Notes and Links on ML good-read.
+
 - Azure Functions for Regression Model that need no Training (NO CT Continuous Training needed)
   - 
 
