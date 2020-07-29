@@ -46,7 +46,10 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 
 # <a name="40"></a>4. Random Notes and Links on ML good-read.
 
-- Azure Functions for Regression Model that need no Training (NO CT Continuous Training needed)
+- [todo]Azure Functions for Regression Model that need no Training (NO CT Continuous Training needed)
+- Storing the ML models. [towardsdatascience.com/guide-to-file-formats-for-machine-learning](https://towardsdatascience.com/guide-to-file-formats-for-machine-learning-columnar-training-inferencing-and-the-feature-store-2e0c3d18d4f9)
+  - Whats in there, actually get stored?
+  - storage format
   - 
 
 - http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
