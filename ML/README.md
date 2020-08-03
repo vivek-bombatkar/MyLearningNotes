@@ -49,12 +49,14 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [todo]Azure Functions for Regression Model that need no Training (NO CT Continuous Training needed)
 - Storing the ML models. [towardsdatascience.com/guide-to-file-formats-for-machine-learning](https://towardsdatascience.com/guide-to-file-formats-for-machine-learning-columnar-training-inferencing-and-the-feature-store-2e0c3d18d4f9)
   - Whats in there, actually get stored?
-  - storage format  
+  - storage File formats: .pb, .onnx, .pkl, .mlmodel, .zip, .pmml, .pt
     - TensorFlow saves models as protocol buffer files, with a .pb file extension. 
     - Keras saves models natively as .h5 file. 
     - Scikit-Learn saves models as pickled python objects, with a .pkl file extension. 
     - An older format for model serving based on XML, predictive model markup language (.pmml), is still usable on some frameworks, such as Scikit-Learn.
-  - 
+    - SparkML models that can be saved in MLeap file format and served in real-time using a MLleap model server (files are packaged in .zip format)
+    -  YAML that is used to package models as part of the MLFlow framework
+    
 
 - http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
 - [All Articals from him](https://medium.com/@cdossman)  
