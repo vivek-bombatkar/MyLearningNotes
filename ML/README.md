@@ -60,7 +60,9 @@ Please comment if you have any suggestion, find a correction or want to apprecia
  ![img](https://miro.medium.com/max/783/0*0MZyp6CdafGNrnUr.png)
  ![img](https://miro.medium.com/max/875/0*phrNmrrcyoX-lnIE.png)
     
+-[project structure for doing and sharing data science work](https://drivendata.github.io/cookiecutter-data-science/)
 
+  
 - http://queirozf.com/entries/matplotlib-pylab-pyplot-etc-what-s-the-different-between-these
 - [All Articals from him](https://medium.com/@cdossman)  
   - https://medium.com/ai%C2%B3-theory-practice-business/best-method-to-learn-essential-machine-learning-skills-fast-533e30f3023d  
