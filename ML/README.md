@@ -41,6 +41,8 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   - https://cloud.google.com/solutions/devops/devops-process-work-visibility-in-value-stream
   - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
 - [IBM refarch-ml-ops](https://github.com/ibm-cloud-architecture/refarch-ml-ops/blob/master/README.md)
+- [build-release-ci-cd](https://github.com/classicboyir/build-release-ci-cd)
+![img](https://github.com/classicboyir/build-release-ci-cd/raw/master/assets/MLOpsArchFlow.jpg)
   
     
 
