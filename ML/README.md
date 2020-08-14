@@ -31,9 +31,10 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [studio azureml - No Code ML](https://studio.azureml.net/)
 
 # <a name="30"></a>3. MLOps (DevOps for ML) theory concepts and toolkits.
-- DevOps: CI + CD
-- MLOps: CI + CD + CT + CM + CV
-- [Azure evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
+- ***DevOps vs MLOps***
+  - DevOps: CI + CD
+  - MLOps: CI + CD + CT + CM + CV
+- [Azure MLOps:  evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
   - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
     - customer value metrics
       ![img](https://docs.microsoft.com/en-us/learn/azure-devops/assess-your-development-process/media/4-vsm-whiteboard2.png)
@@ -41,7 +42,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
       ![img](https://github.com/microsoft/MLOps/raw/master/media/ml-lifecycle.png)
   - https://github.com/microsoft/MLOps
   - https://medium.com/@theadisoni/mlops-in-azure-f6e7c006fe0e
-- [GCP devops](https://cloud.google.com/devops)
+- [GCP MLOps: devops](https://cloud.google.com/devops)
   - https://cloud.google.com/solutions/devops/devops-process-work-visibility-in-value-stream
   - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
     - MLOps level 0: Manual process
@@ -53,7 +54,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
       
     
     
-- [IBM refarch-ml-ops](https://github.com/ibm-cloud-architecture/refarch-ml-ops/blob/master/README.md)
+- [IBM MLOps: refarch-ml-ops](https://github.com/ibm-cloud-architecture/refarch-ml-ops/blob/master/README.md)
   - ML Ops steps and persona
   - ![img](https://github.com/ibm-cloud-architecture/refarch-ml-ops/raw/master/images/MLOpsArch0.5.png)
 
