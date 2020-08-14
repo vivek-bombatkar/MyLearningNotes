@@ -64,6 +64,9 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [team-data-science-process tasks-by-roles](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/roles-tasks)
   - ![img](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png)
   
+- [altexsoft MLOps](https://www.altexsoft.com/blog/mlops-methods-tools/)
+  - ![img](https://content.altexsoft.com/media/2020/07/word-image-3.png)
+  
     
 
 # <a name="40"></a>4. Random Notes and Links on ML good-read.
@@ -98,3 +101,5 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - Correlation and Pearson vs Spearman.  
   - https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/regression/supporting-topics/basics/a-comparison-of-the-pearson-and-spearman-correlation-methods/
 
+- [Cross_Industry_Standard_Process_for_Data_Mining](https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining)
+  - ![img](https://github.com/awslabs/amazon-sagemaker-mlops-workshop/raw/master/imgs/crisp.png)
