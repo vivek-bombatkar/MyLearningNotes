@@ -43,6 +43,9 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [IBM refarch-ml-ops](https://github.com/ibm-cloud-architecture/refarch-ml-ops/blob/master/README.md)
 - [build-release-ci-cd](https://github.com/classicboyir/build-release-ci-cd)
 ![img](https://github.com/classicboyir/build-release-ci-cd/raw/master/assets/MLOpsArchFlow.jpg)
+
+- [team-data-science-process tasks-by-roles](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/roles-tasks)
+![img](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/media/overview/tdsp-tasks-by-roles.png)
   
     
 
