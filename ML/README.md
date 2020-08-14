@@ -40,7 +40,15 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [GCP devops](https://cloud.google.com/devops)
   - https://cloud.google.com/solutions/devops/devops-process-work-visibility-in-value-stream
   - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
-
+    - MLOps level 0: Manual process
+      - ![img](https://cloud.google.com/solutions/images/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning-2-manual-ml.svg)
+     - MLOps level 1: ML pipeline automation
+      - ![img](https://cloud.google.com/solutions/images/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning-3-ml-automation-ct.svg)
+     - MLOps level 2: CI/CD pipeline automation
+      - ![img](https://cloud.google.com/solutions/images/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning-4-ml-automation-ci-cd.svg)
+      
+    
+    
 - [IBM refarch-ml-ops](https://github.com/ibm-cloud-architecture/refarch-ml-ops/blob/master/README.md)
   - ML Ops steps and persona
   - ![img](https://github.com/ibm-cloud-architecture/refarch-ml-ops/raw/master/images/MLOpsArch0.5.png)
