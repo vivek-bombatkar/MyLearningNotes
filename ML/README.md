@@ -35,6 +35,10 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - MLOps: CI + CD + CT + CM + CV
 - [Azure evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
   - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
+    - customer value metrics
+      ![img](https://docs.microsoft.com/en-us/learn/azure-devops/assess-your-development-process/media/4-vsm-whiteboard2.png)
+     - Azure ML DSK pipeline
+      ![img](https://github.com/microsoft/MLOps/raw/master/media/ml-lifecycle.png)
   - https://github.com/microsoft/MLOps
   - https://medium.com/@theadisoni/mlops-in-azure-f6e7c006fe0e
 - [GCP devops](https://cloud.google.com/devops)
