@@ -14,17 +14,18 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 
 
 # <a name="10"></a>1. Collection of best End-2-End ML Course / Books.
-- [PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)   
-- [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf)
-- [ML from GCP](https://developers.google.com/machine-learning/crash-course)
-- [ML from AWS](https://www.aws.training/LearningLibrary?filters=classification%3A30&filters=language%3A1&filters=classification%3A7&tab=view_all)
-- [ML from Azure](https://docs.microsoft.com/en-us/learn/browse/?roles=data-scientist&products=azure)
+- [ML from Google](https://developers.google.com/machine-learning/crash-course)
+- [ML from AmazonWebServices](https://www.aws.training/LearningLibrary?filters=classification%3A30&filters=language%3A1&filters=classification%3A7&tab=view_all)
+- [ML from MicrosoftAzure](https://docs.microsoft.com/en-us/learn/browse/?roles=data-scientist&products=azure)
   - [Data-science-for-beginners from Azure](https://docs.microsoft.com/en-us/azure/machine-learning/studio/data-science-for-beginners-the-5-questions-data-science-answers)
 - [ML from IBM](https://www.ibm.com/de-de/analytics/machine-learning)
   - [ML for Dummies](https://www.ibm.com/downloads/cas/GB8ZMQZ3)
 - [data-flair - machine-learning-tutorial](https://data-flair.training/blogs/machine-learning-tutorial/)
 - [cognitiveclass - machine-learning-with-python](https://cognitiveclass.ai/courses/machine-learning-with-python/)    
-  
+
+- [PythonDataScienceHandbook](https://jakevdp.github.io/PythonDataScienceHandbook/)   
+- [Hands-On Machine Learning with Scikit-Learn and TensorFlow](http://index-of.es/Varios-2/Hands%20on%20Machine%20Learning%20with%20Scikit%20Learn%20and%20Tensorflow.pdf)
+
 
 # <a name="20"></a>2. Online Tools for hosting ML model, mostly free.
 - [Google colab](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=rTX3heEtu0b2)
