@@ -6,7 +6,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 
 > Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar), [Kaggle](https://www.kaggle.com/competitions) 
 
-
+# Index
 - [1. Collection of End-2-End ML Course / Books.](#10)
 - [2. Online Tools for hosting model, mostly free.](#20)
 - [3. MLOps (Devops for ML) theory concepts and toolkits.](#30)
