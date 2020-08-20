@@ -36,7 +36,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 # <a name="30"></a>3. MLOps (DevOps for ML) theory concepts and toolkits.
 - ***DevOps vs MLOps***
   - DevOps: CI + CD
-  - MLOps: CI + CD + CT + CM + CV
+  - MLOps: CI + CD + [ CT + CM + CV ]
 - [Azure MLOps:  evolve-your-devops-practices](https://docs.microsoft.com/en-us/learn/paths/evolve-your-devops-practices/)
   - https://docs.microsoft.com/en-us/learn/modules/assess-your-development-process/4-assess-process-efficiency?source=learn
     - customer value metrics
