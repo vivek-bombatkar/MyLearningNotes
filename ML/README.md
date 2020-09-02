@@ -106,3 +106,4 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 
 - [Cross_Industry_Standard_Process_for_Data_Mining](https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining)
   - ![img](https://github.com/awslabs/amazon-sagemaker-mlops-workshop/raw/master/imgs/crisp.png)
+- [ml-system-design-pattern](https://github.com/mercari/ml-system-design-pattern)
