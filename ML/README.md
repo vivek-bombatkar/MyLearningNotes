@@ -45,6 +45,11 @@ Please comment if you have any suggestion, find a correction or want to apprecia
       ![img](https://github.com/microsoft/MLOps/raw/master/media/ml-lifecycle.png)
   - https://github.com/microsoft/MLOps
   - https://medium.com/@theadisoni/mlops-in-azure-f6e7c006fe0e
+  - [MLOps framework to upscale an Azure Machine Learning lifecycle](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-technical-paper)
+  - [What is MLOps?](https://docs.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment)
+  
+  
+  
 - [GCP MLOps: devops](https://cloud.google.com/devops)
   - https://cloud.google.com/solutions/devops/devops-process-work-visibility-in-value-stream
   - https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
