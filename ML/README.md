@@ -47,6 +47,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   - https://medium.com/@theadisoni/mlops-in-azure-f6e7c006fe0e
   - [MLOps framework to upscale an Azure Machine Learning lifecycle](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-technical-paper)
     - ![img](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/media/mlops-conceptual-model.png)
+  - [Machine Learning Operations maturity model - five levels of technical capability](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mlops/mlops-maturity-model)
   - [What is MLOps?](https://docs.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment)
   
   
