@@ -118,4 +118,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - Design Thinking in Data Science
   - [a-design-thinking-mindset-for-data-science](https://towardsdatascience.com/a-design-thinking-mindset-for-data-science-f94f1e27f90)
     - ![img](https://miro.medium.com/max/875/0*BToFTW9JaZzv3tqj)
+  - [powering-data-science-with-design-thinking](https://faculty.ai/blog/powering-data-science-with-design-thinking/)
+    - ![img](https://faculty.ai/wp-content/uploads/2019/11/design-thinking-101-768x777.png)
+    - ![img](https://faculty.ai/wp-content/uploads/2019/11/diverge-converge.png)
     
