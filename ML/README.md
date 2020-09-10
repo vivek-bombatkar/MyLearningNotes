@@ -114,7 +114,10 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 
 - [Cross_Industry_Standard_Process_for_Data_Mining](https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining)
   - ![img](https://github.com/awslabs/amazon-sagemaker-mlops-workshop/raw/master/imgs/crisp.png)
-- [ml-system-design-pattern](https://github.com/mercari/ml-system-design-pattern)
+- ML Design Patterns & Anti Patterns
+  - [ml-system-design-pattern](https://github.com/mercari/ml-system-design-pattern)
+  - [machine-learning-design-patterns](https://medium.com/@lakshmanok/machine-learning-design-patterns-58e6ecb013d7)
+  - [Paper - Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)
 - Design Thinking in Data Science
   - [a-design-thinking-mindset-for-data-science](https://towardsdatascience.com/a-design-thinking-mindset-for-data-science-f94f1e27f90)
     - ![img](https://miro.medium.com/max/875/0*BToFTW9JaZzv3tqj)
