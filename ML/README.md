@@ -124,4 +124,5 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   - [powering-data-science-with-design-thinking](https://faculty.ai/blog/powering-data-science-with-design-thinking/)
     - ![img](https://faculty.ai/wp-content/uploads/2019/11/design-thinking-101-768x777.png)
     - ![img](https://faculty.ai/wp-content/uploads/2019/11/diverge-converge.png)
+  - [Ahsan Ijaz blog on ML](https://ahsanijaz.github.io/2018-09-04-less_travel/)
     
