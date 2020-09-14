@@ -118,6 +118,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   - [ml-system-design-pattern](https://github.com/mercari/ml-system-design-pattern)
   - [machine-learning-design-patterns](https://medium.com/@lakshmanok/machine-learning-design-patterns-58e6ecb013d7)
   - [Paper - Machine Learning Architecture and Design Patterns](http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf)
+    - ![img](https://image.slidesharecdn.com/iwesep19mlpatterns-en-20191214-public-191214085940/95/studying-software-engineering-patterns-for-designing-machine-learning-systems-15-638.jpg?cb=1576314019)
 - Design Thinking in Data Science
   - [a-design-thinking-mindset-for-data-science](https://towardsdatascience.com/a-design-thinking-mindset-for-data-science-f94f1e27f90)
     - ![img](https://miro.medium.com/max/875/0*BToFTW9JaZzv3tqj)
