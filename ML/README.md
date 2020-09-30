@@ -10,6 +10,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [1. Collection of End-2-End ML Course / Books.](#10)
 - [2. Online Tools for hosting model, mostly free.](#20)
 - [3. MLOps (Devops for ML) theory concepts and toolkits.](#30)
+- [3.1 ML Patterns and Anti-Patterns ](#31)
 - [4. Random Notes and Links on ML good-read.](#40)
 
 
@@ -78,7 +79,60 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [altexsoft MLOps](https://www.altexsoft.com/blog/mlops-methods-tools/)
   - ![img](https://content.altexsoft.com/media/2020/07/word-image-3.png)
   
-    
+# <a name="10"></a>3.1 ML Patterns and Anti-Patterns.
+- https://medium.com/@lakshmanok/machine-learning-design-patterns-58e6ecb013d7
+  - Transform: Moving an ML model to production is much easier if you keep inputs, features, and transforms separate
+  - Checkpoints: Saving the intermediate weights of your model during training provides resilience, generalization, and tuneability
+  - Virtual epochs: Base machine learning model training and evaluation on total number of examples, not on epochs or steps
+  - Keyed predictions: Export your model so that it passes through client keys
+  - Repeatable sampling: use the hash of a well distributed column to split your data into training, validation, and testing
+
+- https://github.com/mercari/ml-system-design-pattern
+  -  Serving patterns : The serving patterns are a series of system designs for using machine learning models in production workflow.
+  - QA patterns: Pattens to evaluate model as well as prediction server.
+  - Training patterns: Patterns to construct training pipeline.
+  - Operation patterns: The operation patterns contain configuration, logging, monitoring and alerting system designs for machine learning system.
+  - Lifecycle patterns: The lifecycle patterns contain composition of several patterns to realize actual ML system with operation.
+
+- http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf
+  - Patterns
+    - Data Lake: The data ranging from structured data to unstructured data should be stored as “raw” as possible and the centralized data repository should allow parallel analyses of different kinds and with different frameworks.
+    - Distinguish Business Logic from ML Models : Separate the business logic and the inference engine, loosely coupling the business logic and ML-specific dataflows.
+    - Microservice Architecture : Data scientists working with or providing ML frameworks can make these frameworks available through microservices
+    - Data-AlgorithmServingEvaluator : Separate the following like MVC for ML: data (data source and data preparator), algorithm(s), serving, and evaluator.
+    - Event-driven ML Microservices: Construct pipelines by chaining together multiple microservices, each of which listens for the arrival of some data and performs its designated task
+    - Lambda Architecture: The batch layer keeps producing views at every set batch interval while the speed layer creates the relevant real-time/speed views. The serving layer orchestrates the query by querying both the batch and speed layer, merges it
+    - Parameter-Server Abstraction : Distribute both data and workloads over worker nodes, while the server nodes maintain globally shared parameters, which are represented as vectors and matrices
+    - Daisy Architecture: Utilize Kanban, scaling, and microservice to realize pull-based, automated, on-demand, and iterative processes.
+    - Gateway Routing Architecture: Install a gateway before a set of applications, services, or deployments and use application layer routing requests to the appropriate instance.
+    - Kappa Architecture: Support both real-time data processing and continuous reprocessing with a single stream processing engine.
+    - Closed-Loop Intelligence : Connect machine learning to the user and close the loop. Design clear interactions along with implicit and direct outputs.
+    - Federated Learning : Employ Federated Learning, which enables mobile phones to collaboratively learn a shared prediction model while keeping all the training data on the device.
+    - ML Versioning: Record the ML model structure, training data, and training system to ensure a reproducible training process
+    - Wrap Black-Box Packages into Common APIs: Wrap black-box packages into common APIs to make supporting infrastructure more reusable and to reduce the cost of changing packages
+    - Test Infrastructure Independently from ML: Ensure that the infrastructure is testable and the learning parts of the system are encapsulated so that everything around it can be tested.
+    - Handshake (Hand Buzzer): Create a handshake normalization process, regularly check for significant changes, and send ALERTS
+    - Isolate and Validate Output of Model : Encapsulate ML models within rule-base safeguards and use redundant and diverse architecture that mitigates and absorbs the low robustness of ML models
+    - Canary Model: Run the canary inference pipeline in parallel with the primary inference pipeline to monitor prediction differences
+    - Decouple Training Pipeline from Production Pipeline: Physically isolate different workloads to different machines. Then optimize the machine configurations and the network usage
+    - Descriptive Data Type for Rich Information: Design a robust system, where the model parameter knows if it is a log-odds multiplier or a decision threshold, and a prediction knows information about the model.
+    - Design Holistically about Data Collection and Feature Extraction: Avoid pipeline jungles by thinking holistically about data collection and feature extraction that can dramatically reduce ongoing costs.
+    - Reexamine Experimental Branches Periodically: Reexamine each experimental branch periodically to see what can be removed to eliminate glue code and pipeline jungles.
+    - Reuse Code between Training Pipeline and Serving Pipeline: Reuse code between training pipeline and serving pipeline by preparing objects that store results in an understandable way for humans.
+    - Separation of Concerns and Modularization of ML Components : Decouple at different levels of complexity from simplest to most complex.
+    - Secure Aggregation : Encrypt data from each mobile device in Federated learning and calculate totals and averages without individual examination.
+  - Anti-patterns
+    - Big Ass Script Architecture : When all code is placed in one big ass script, it becomes difficult to reuse in future analysis, understand how it works, and debug.
+    - Abstraction Debt: For distributed learning, widely accepted abstractions are lacking
+    - Dead Experimental Codepaths: The code-paths accumulated by individual changing can create a growing debt due to the increasing difficulties of maintaining backward compatibility
+    - Glue Code: Glue code is costly in the long term because it tends to freeze a system to the peculiarities of a specific package.
+    - Multiple Language Smell : Using multiple languages increases the cost of effective testing and can increase the difficulty of transferring ownership to other individuals.
+    - Pipeline Jungles : The system to prepare data in an ML-friendly format may become a pipeline jungle, and managing these pipelines is difficult and costly
+    - Plain-OldData Type Smell : The rich information used and produced by ML systems is often encoded with plain data types like raw floats and integers
+    - Undeclared Consumers: Undeclared consumers are dangerous because they create a hidden tight coupling of model MA to other parts of the stack.
+
+- https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf
+  
 
 # <a name="40"></a>4. Random Notes and Links on ML good-read.
 
