@@ -79,7 +79,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [altexsoft MLOps](https://www.altexsoft.com/blog/mlops-methods-tools/)
   - ![img](https://content.altexsoft.com/media/2020/07/word-image-3.png)
   
-# <a name="10"></a>3.1 ML Patterns and Anti-Patterns.
+# <a name="31"></a>3.1 ML Patterns and Anti-Patterns.
 - https://medium.com/@lakshmanok/machine-learning-design-patterns-58e6ecb013d7
   - Transform: Moving an ML model to production is much easier if you keep inputs, features, and transforms separate
   - Checkpoints: Saving the intermediate weights of your model during training provides resilience, generalization, and tuneability
