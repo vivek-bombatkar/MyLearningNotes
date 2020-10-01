@@ -147,6 +147,9 @@ Please comment if you have any suggestion, find a correction or want to apprecia
     - An older format for model serving based on XML, predictive model markup language (.pmml), is still usable on some frameworks, such as Scikit-Learn.
     - SparkML models that can be saved in MLeap file format and served in real-time using a MLleap model server (files are packaged in .zip format)
     -  YAML that is used to package models as part of the MLFlow framework
+  - https://mlinproduction.com/ml-metadata/
+    - What Metadata should you capture during training?
+      - Data, Model, MODEL TYPE, FEATURE PREPROCESSING STEPS, HYPERPARAMETERS, Metrics, Context
  ![img](https://miro.medium.com/max/875/0*H7CB1kGuukCv2rcK.png)
  ![img](https://miro.medium.com/max/783/0*0MZyp6CdafGNrnUr.png)
  ![img](https://miro.medium.com/max/875/0*phrNmrrcyoX-lnIE.png)
