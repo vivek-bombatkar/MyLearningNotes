@@ -80,19 +80,6 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   - ![img](https://content.altexsoft.com/media/2020/07/word-image-3.png)
   
 # <a name="31"></a>3.1 ML Patterns and Anti-Patterns.
-- https://medium.com/@lakshmanok/machine-learning-design-patterns-58e6ecb013d7
-  - Transform: Moving an ML model to production is much easier if you keep inputs, features, and transforms separate
-  - Checkpoints: Saving the intermediate weights of your model during training provides resilience, generalization, and tuneability
-  - Virtual epochs: Base machine learning model training and evaluation on total number of examples, not on epochs or steps
-  - Keyed predictions: Export your model so that it passes through client keys
-  - Repeatable sampling: use the hash of a well distributed column to split your data into training, validation, and testing
-
-- https://github.com/mercari/ml-system-design-pattern
-  -  Serving patterns : The serving patterns are a series of system designs for using machine learning models in production workflow.
-  - QA patterns: Pattens to evaluate model as well as prediction server.
-  - Training patterns: Patterns to construct training pipeline.
-  - Operation patterns: The operation patterns contain configuration, logging, monitoring and alerting system designs for machine learning system.
-  - Lifecycle patterns: The lifecycle patterns contain composition of several patterns to realize actual ML system with operation.
 
 - http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf
   - Patterns
@@ -130,6 +117,20 @@ Please comment if you have any suggestion, find a correction or want to apprecia
     - Pipeline Jungles : The system to prepare data in an ML-friendly format may become a pipeline jungle, and managing these pipelines is difficult and costly
     - Plain-OldData Type Smell : The rich information used and produced by ML systems is often encoded with plain data types like raw floats and integers
     - Undeclared Consumers: Undeclared consumers are dangerous because they create a hidden tight coupling of model MA to other parts of the stack.
+
+- https://medium.com/@lakshmanok/machine-learning-design-patterns-58e6ecb013d7
+  - Transform: Moving an ML model to production is much easier if you keep inputs, features, and transforms separate
+  - Checkpoints: Saving the intermediate weights of your model during training provides resilience, generalization, and tuneability
+  - Virtual epochs: Base machine learning model training and evaluation on total number of examples, not on epochs or steps
+  - Keyed predictions: Export your model so that it passes through client keys
+  - Repeatable sampling: use the hash of a well distributed column to split your data into training, validation, and testing
+
+- https://github.com/mercari/ml-system-design-pattern
+  -  Serving patterns : The serving patterns are a series of system designs for using machine learning models in production workflow.
+  - QA patterns: Pattens to evaluate model as well as prediction server.
+  - Training patterns: Patterns to construct training pipeline.
+  - Operation patterns: The operation patterns contain configuration, logging, monitoring and alerting system designs for machine learning system.
+  - Lifecycle patterns: The lifecycle patterns contain composition of several patterns to realize actual ML system with operation.
 
 - https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf
   
