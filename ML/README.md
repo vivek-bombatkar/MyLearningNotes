@@ -14,7 +14,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [4. Random Notes and Links on ML good-read.](#40)
 
 
-# <a name="10"></a>1. Collection of best End-2-End ML Course / Books.
+# <a name="10"></a>1. Best End-2-End ML Course / Books.
 - [ML from Google](https://developers.google.com/machine-learning/crash-course)
 - [ML from AmazonWebServices](https://www.aws.training/LearningLibrary?filters=classification%3A30&filters=language%3A1&filters=classification%3A7&tab=view_all)
 - [ML from MicrosoftAzure](https://docs.microsoft.com/en-us/learn/browse/?roles=data-scientist&products=azure)
