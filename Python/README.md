@@ -1183,4 +1183,8 @@ if __name__ == '__main__':
    hello()  
 ```
 
-
+## ABC, abstractmethod, abstractproperty
+- https://github.com/vivek-bombatkar/MyLearningNotes/blob/master/Python/design-patterns/all_in_one.py
+``` python
+from abc import ABC, abstractmethod, abstractproperty
+```
