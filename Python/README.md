@@ -1167,3 +1167,20 @@ In Python, single-quoted strings and double-quoted strings are the same.
 ## Built in functions
 > https://docs.python.org/3/library/functions.html#property
 - TODO
+
+
+## Click Package  
+- Python click module is used to create command-line (CLI) applications. 
+```python
+import click
+
+@click.command()
+@click.option('-a', '--arg1', required=True, help='argument # 1')
+def hello():
+   click.echo("hello ")
+   
+if __name__ == '__main__':
+   hello()  
+```
+
+
