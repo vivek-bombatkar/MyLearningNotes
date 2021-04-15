@@ -78,7 +78,10 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   
 - [altexsoft MLOps](https://www.altexsoft.com/blog/mlops-methods-tools/)
   - ![img](https://content.altexsoft.com/media/2020/07/word-image-3.png)
-  
+ 
+
+
+
 # <a name="31"></a>3.1 ML Patterns and Anti-Patterns.
 
 - http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2019/12/IEEE_Software_19__ML_Patterns.pdf
@@ -184,4 +187,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
     - ![img](https://faculty.ai/wp-content/uploads/2019/11/design-thinking-101-768x777.png)
     - ![img](https://faculty.ai/wp-content/uploads/2019/11/diverge-converge.png)
   - [Ahsan Ijaz blog on ML](https://ahsanijaz.github.io/2018-09-04-less_travel/)
+
+- [ml-ops-machine-learning-as-an-engineering-discipline](https://towardsdatascience.com/ml-ops-machine-learning-as-an-engineering-discipline-b86ca4874a3f) 
+  - ![img](https://miro.medium.com/max/1250/1*hlukfeyP-I209WBEMsBSEA.png)
     
