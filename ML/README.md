@@ -194,6 +194,6 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - Azure ML git repos
   - [The cookiecutter template using Azure Machine Learning](https://github.com/microsoft/DistributedDeepLearning)
   - [azureml-template](https://github.com/Azure/azureml-template)
-  - [azureml-examples](https://github.com/Azure/azureml-examples
+  - [azureml-examples](https://github.com/Azure/azureml-examples)
   - [ml-template-azure](https://github.com/machine-learning-apps/ml-template-azure)
 
