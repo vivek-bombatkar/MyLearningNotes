@@ -191,4 +191,9 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [ml-ops-machine-learning-as-an-engineering-discipline](https://towardsdatascience.com/ml-ops-machine-learning-as-an-engineering-discipline-b86ca4874a3f) 
   - ![img](https://miro.medium.com/max/1250/1*hlukfeyP-I209WBEMsBSEA.png)
     
-- [The cookiecutter template using Azure Machine Learning](https://github.com/microsoft/DistributedDeepLearning)
+- Azure ML git repos
+  - [The cookiecutter template using Azure Machine Learning](https://github.com/microsoft/DistributedDeepLearning)
+  - [azureml-template](https://github.com/Azure/azureml-template)
+  - [azureml-examples](https://github.com/Azure/azureml-examples
+  - [ml-template-azure](https://github.com/machine-learning-apps/ml-template-azure)
+
