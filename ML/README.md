@@ -191,3 +191,4 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [ml-ops-machine-learning-as-an-engineering-discipline](https://towardsdatascience.com/ml-ops-machine-learning-as-an-engineering-discipline-b86ca4874a3f) 
   - ![img](https://miro.medium.com/max/1250/1*hlukfeyP-I209WBEMsBSEA.png)
     
+- [The cookiecutter template using Azure Machine Learning](https://github.com/microsoft/DistributedDeepLearning)
