@@ -200,3 +200,4 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - Unit Test for ML
   - [AI SUmmer: unit-test-deep-learning](https://theaisummer.com/unit-test-deep-learning/) 
   - [oreilly: Test-Driven Machine Learning](https://www.oreilly.com/library/view/thoughtful-machine-learning/9781449374075/ch01.html)
+  - [Mocking of Unit Tests for Machine Learning](https://tech.comtravo.com/testing/Testing_Machine_Learning_Models_with_Unittest/)
