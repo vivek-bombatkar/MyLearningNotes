@@ -7,14 +7,14 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 > Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar), [Kaggle](https://www.kaggle.com/competitions) 
 
 # Index
-- [1. Collection of End-2-End ML Course / Books.](#10)
+- [1. Collection of Best End-2-End ML Course / Books.](#10)
 - [2. Online Tools for hosting model, mostly free.](#20)
 - [3. MLOps (Devops for ML) theory concepts and toolkits.](#30)
 - [3.1 ML Patterns and Anti-Patterns ](#31)
 - [4. Random Notes and Links on ML good-read.](#40)
 
 
-# <a name="10"></a>1. Best End-2-End ML Course / Books.
+# <a name="10"></a>1. Collection of Best End-2-End ML Course / Books.
 - [ML from Google](https://developers.google.com/machine-learning/crash-course)
 - [ML from AmazonWebServices](https://www.aws.training/LearningLibrary?filters=classification%3A30&filters=language%3A1&filters=classification%3A7&tab=view_all)
 - [ML from MicrosoftAzure](https://docs.microsoft.com/en-us/learn/browse/?roles=data-scientist&products=azure)
@@ -196,4 +196,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
   - [azureml-template](https://github.com/Azure/azureml-template)
   - [azureml-examples](https://github.com/Azure/azureml-examples)
   - [ml-template-azure](https://github.com/machine-learning-apps/ml-template-azure)
-
+  
+- Unit Test for ML
+  - [AI SUmmer: unit-test-deep-learning](https://theaisummer.com/unit-test-deep-learning/) 
+  - [oreilly: Test-Driven Machine Learning](https://www.oreilly.com/library/view/thoughtful-machine-learning/9781449374075/ch01.html)
