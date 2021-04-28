@@ -79,7 +79,7 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [altexsoft MLOps](https://www.altexsoft.com/blog/mlops-methods-tools/)
   - ![img](https://content.altexsoft.com/media/2020/07/word-image-3.png)
  
-
+- [ml-ops.org](https://ml-ops.org/content/mlops-principles)
 
 
 # <a name="31"></a>3.1 ML Patterns and Anti-Patterns.
@@ -191,11 +191,12 @@ Please comment if you have any suggestion, find a correction or want to apprecia
 - [ml-ops-machine-learning-as-an-engineering-discipline](https://towardsdatascience.com/ml-ops-machine-learning-as-an-engineering-discipline-b86ca4874a3f) 
   - ![img](https://miro.medium.com/max/1250/1*hlukfeyP-I209WBEMsBSEA.png)
     
-- Azure ML git repos
+- ML git repos
   - [The cookiecutter template using Azure Machine Learning](https://github.com/microsoft/DistributedDeepLearning)
   - [azureml-template](https://github.com/Azure/azureml-template)
   - [azureml-examples](https://github.com/Azure/azureml-examples)
   - [ml-template-azure](https://github.com/machine-learning-apps/ml-template-azure)
+  - [cookiecutter-data-science](https://drivendata.github.io/cookiecutter-data-science/)
   
 - Unit Test for ML
   - [AI SUmmer: unit-test-deep-learning](https://theaisummer.com/unit-test-deep-learning/) 
