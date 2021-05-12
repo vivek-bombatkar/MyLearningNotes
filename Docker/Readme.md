@@ -33,8 +33,8 @@
 ### VMs vs Containers
 Source : https://akfpartners.com/growth-blog/vms-vs-containers
 
-- [img](https://akfpartners.com//uploads/blog/VM_Image.PNG)
-- [img](https://akfpartners.com//uploads/blog/virtual_vs_container_benefits.PNG)
+- <img src="https://akfpartners.com//uploads/blog/VM_Image.PNG">
+- <img src="https://akfpartners.com//uploads/blog/virtual_vs_container_benefits.PNG">
 
 
 
