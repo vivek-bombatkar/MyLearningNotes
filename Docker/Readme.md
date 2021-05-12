@@ -211,6 +211,7 @@ docker rmi $(docker images -a -q)
 
 > CMD — set executable for container
 
+> ENTRYPOINT - set the starting script 
 
 ## Common issues 
 
