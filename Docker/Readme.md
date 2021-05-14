@@ -3,23 +3,7 @@
 > Follow me on,  [LinkedIn](https://www.linkedin.com/in/vivek-bombatkar/), [Github](https://github.com/vivek-bombatkar)  
 
 
-
-### Useful links 
-> Docker toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/#what-you-get-and-how-it-works  
-> https://www.youtube.com/watch?v=99d0O2AitLk  
-> https://www.youtube.com/watch?v=YFl2mCHdv24  
-> https://www.youtube.com/watch?v=WvmF-WsmzfQ  
-> https://runnable.com/docker/python/dockerize-your-python-application  
-> https://github.com/buildkite/python-docker-example  
-> https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17  
-> https://serversforhackers.com/s/docker-in-development  
-> https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/  
-> https://medium.com/@chadlagore/conda-environments-with-docker-82cdc9d25754  
-> https://www.youtube.com/watch?v=JBtWxj9l7zM  
-> 
-
-
-### Docker In the simple illustration 
+# 1. Docker In the simple illustration 
 
 <img src="https://github.com/vivek-bombatkar/MyLearningNotes/raw/master/Docker/docker_concept.JPG" />
 
@@ -30,7 +14,7 @@
 
 
 
-### VMs vs Containers
+# 2. VMs vs Containers
 Source : https://akfpartners.com/growth-blog/vms-vs-containers
 
 - <img src="https://akfpartners.com//uploads/blog/VM_Image.PNG">
@@ -38,7 +22,7 @@ Source : https://akfpartners.com/growth-blog/vms-vs-containers
 
 
 
-## Below steps to build and execute very basic docker container
+# 3. Below steps to build and execute very basic docker container
 
 
 ### 1. list all running docker images
@@ -140,7 +124,7 @@ docker rmi $(docker images -a -q)
 ```
 
 
-## Notes on docker
+# 4. Notes 
 
 > ***docker***
 
@@ -222,7 +206,7 @@ docker rmi $(docker images -a -q)
 
 > ENTRYPOINT - set the starting script 
 
-## Common issues 
+# 5. Common issues 
 
 ### failed: Forbidden path outside the build context:
 - So this fails :  ``` COPY ../tmp/ /tmp ```  
@@ -243,4 +227,18 @@ docker run  vkbomb/gfk-spark-submit:v2 src/algorithm_2.py
 ```
 And Then  
 ``` COPY /app /src/ ```
+
+
+
+
+# 6. Useful links 
+> [docker-a-beginners-guide-to-dockerfile-with-a-sample-project](https://medium.com/bb-tutorials-and-thoughts/docker-a-beginners-guide-to-dockerfile-with-a-sample-project-6c1ac1f17490)
+> [Docker toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/#what-you-get-and-how-it-works)  
+> https://runnable.com/docker/python/dockerize-your-python-application  
+> https://github.com/buildkite/python-docker-example  
+> https://amaysim.engineering/the-3-musketeers-how-make-docker-and-compose-enable-us-to-release-many-times-a-day-e92ca816ef17  
+> https://serversforhackers.com/s/docker-in-development  
+> https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/  
+> https://medium.com/@chadlagore/conda-environments-with-docker-82cdc9d25754  
+
 
