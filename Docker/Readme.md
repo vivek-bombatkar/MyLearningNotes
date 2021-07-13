@@ -27,6 +27,10 @@ Source : https://akfpartners.com/growth-blog/vms-vs-containers
 
 ### 1. list all running docker images
 
+```
+$ docker image ls
+```
+
 ``` 
 $ docker ps -a
 
