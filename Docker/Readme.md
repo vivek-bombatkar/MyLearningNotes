@@ -25,7 +25,7 @@ Source : https://akfpartners.com/growth-blog/vms-vs-containers
 # 3. Below steps to build and execute very basic docker container
 
 
-### 1. list all running docker images
+### a. list all running docker images
 
 - List all local images 
 ```
@@ -40,7 +40,7 @@ CONTAINER ID        IMAGE                                             COMMAND   
 ```
 
 
-### 2. create Dockerfile and dummy script
+### b. create Dockerfile and dummy script
 
 ***Dockerfile***
 ```
@@ -56,7 +56,7 @@ CMD [ "python", "./dummy_script.py" ]
 print("Hello Vivek!)
 ```
 
-### 3. build docker images
+### c. build docker images
 
 ```
 $ docker build -t my_test_docker .
@@ -84,7 +84,7 @@ CONTAINER ID        IMAGE                                             COMMAND   
 e36dd51ad184        my_test_docker                                    "python ./dummy_scri…"   3 minutes ago       Exited (0) 3 minutes ago                       kind_heyrovsky
 ```
 
-### 4. run docker image as container
+### d. run docker image as container
 
 ```
 $ docker run my_test_docker
@@ -93,7 +93,7 @@ Hello Vivek!
 
 ```
 
-### 5. Killing 'docker image' vs 'docker container'
+### e. Killing 'docker image' vs 'docker container'
 
 #### delete container
 ```
@@ -239,6 +239,7 @@ And Then
 
 
 # 6. Useful links 
+> [Good hands on learning resource - kodekloud](https://www.kodekloud.com/p/docker-labs)
 > [Docker for Beginners: Full Free Course!](https://www.youtube.com/watch?v=zJ6WbK9zFpI&t=14s)
 > [docker-a-beginners-guide-to-dockerfile-with-a-sample-project](https://medium.com/bb-tutorials-and-thoughts/docker-a-beginners-guide-to-dockerfile-with-a-sample-project-6c1ac1f17490)
 > [Docker toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/#what-you-get-and-how-it-works)  
