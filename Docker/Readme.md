@@ -27,15 +27,18 @@ Source : https://akfpartners.com/growth-blog/vms-vs-containers
 
 ### 1. list all running docker images
 
+- List all local images 
 ```
 $ docker image ls
 ```
 
+- See all local  Running Containers
 ``` 
 $ docker ps -a
 
 CONTAINER ID        IMAGE                                             COMMAND                  CREATED             STATUS                     PORTS               NAMES
 ```
+
 
 ### 2. create Dockerfile and dummy script
 
