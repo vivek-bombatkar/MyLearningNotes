@@ -239,6 +239,7 @@ And Then
 
 
 # 6. Useful links 
+> [Docker for Beginners: Full Free Course!](https://www.youtube.com/watch?v=zJ6WbK9zFpI&t=14s)
 > [docker-a-beginners-guide-to-dockerfile-with-a-sample-project](https://medium.com/bb-tutorials-and-thoughts/docker-a-beginners-guide-to-dockerfile-with-a-sample-project-6c1ac1f17490)
 > [Docker toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/#what-you-get-and-how-it-works)  
 > https://runnable.com/docker/python/dockerize-your-python-application  
