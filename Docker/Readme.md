@@ -133,7 +133,8 @@ docker rmi $(docker images -a -q)
 
 # 4. Notes 
 
-> **From kodekloud.com**
+> **From [kodekloud](https://www.kodekloud.com/p/docker-labs)**
+
 
 - Build a new smaller docker image by modifying the same Dockerfile and name it webapp-color and tag it lite.
 ```
@@ -155,6 +156,22 @@ $ docker run -d ubuntu sleep 1000
 - Number of networks 
 ```$ docker network ls```
 
+- Run a container named alpine-2 using the alpine image and attach it to the none network.
+```
+$ docker run  --name alpine-2 --network=none alpine 
+```
+
+- ```$ docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db --network wp-mysql-network mysql:5.6```
+
+- Run a mysql container named mysql-db using the mysql image. Set database password to db_pass123
+```
+$ docker run -d -e MYSQL_ROOT_PASSWORD=db_pass123 --name mysql-db  mysql
+```
+
+- mount local folder with using -v option
+```
+$ docker run -v /opt/data:/var/lib/mysql -d --name mysql-db -e MYSQL_ROOT_PASSWORD=db_pass123 mysql
+```
 
 
 
