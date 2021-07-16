@@ -133,7 +133,31 @@ docker rmi $(docker images -a -q)
 
 # 4. Notes 
 
-> ***docker***
+> **From kodekloud.com**
+
+- Build a new smaller docker image by modifying the same Dockerfile and name it webapp-color and tag it lite.
+```
+# Modify Dockerfile to use python:3.6-alpine image and then build using 
+docker build -t webapp-color:lite 
+```
+
+- Run an instance of the new image webapp-color:lite and publish port 8080 on the container to 8383 on the host.
+```
+$ docker run -p 8383:8080 webapp-color:lite
+# To run the container in the background, add the -d flag.
+```
+
+- Run an instance of the ubuntu image to run the sleep 1000 command at startup.
+```
+$ docker run -d ubuntu sleep 1000
+```
+
+- Number of networks 
+```$ docker network ls```
+
+
+
+
 
 
 > **Container**
