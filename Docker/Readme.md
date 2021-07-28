@@ -282,6 +282,7 @@ And Then
 # 6. Useful links 
 > [Good hands on learning resource - kodekloud](https://www.kodekloud.com/p/docker-labs)  
 > [Docker for Beginners: Full Free Course!](https://www.youtube.com/watch?v=zJ6WbK9zFpI&t=14s)  
+> [Docker compase](https://docs.docker.com/compose/gettingstarted/)
 > [docker-a-beginners-guide-to-dockerfile-with-a-sample-project](https://medium.com/bb-tutorials-and-thoughts/docker-a-beginners-guide-to-dockerfile-with-a-sample-project-6c1ac1f17490)  
 > [Docker toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/#what-you-get-and-how-it-works)    
 > https://runnable.com/docker/python/dockerize-your-python-application    
@@ -289,5 +290,6 @@ And Then
 > https://serversforhackers.com/s/docker-in-development  
 > https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/  
 > https://medium.com/@chadlagore/conda-environments-with-docker-82cdc9d25754  
+> https://snyk.io/blog/10-docker-image-security-best-practices/
 
 
