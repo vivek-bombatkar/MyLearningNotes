@@ -1,4 +1,12 @@
 
+1. Interview conducted on Empathy could be Biased.
+2. Do not validate the interview notes with interviewe.
+3. Get feedback on the solution proposed instead.
+4. Cluster data points collected from various interviews.
+5. 
+
+
+
 
 
 
