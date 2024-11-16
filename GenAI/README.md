@@ -1,4 +1,8 @@
 
+# Reference
+- https://github.com/vivek-bombatkar/generative-ai-for-beginners?tab=readme-ov-file
+
+
 # The Prompting / Prompt Engineering
 - https://www.promptingguide.ai/
 - https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions
